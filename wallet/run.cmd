@@ -1,0 +1,1 @@
+cli_wallet -s ws://192.144.171.138:8003 -r 127.0.0.1:5698 --chain-id="da68a9c5f2fd9ed48e626ea301db1c77505523884ba0dd409e779246c6ea26cf" 
