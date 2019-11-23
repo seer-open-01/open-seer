@@ -1,0 +1,3 @@
+@echo off
+cd frameworks\runtime-src\proj.android-studio
+cocos compile -m release -p android --android-studio --ap android-10

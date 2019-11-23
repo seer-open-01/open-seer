@@ -1,0 +1,242 @@
+{
+  "ID": "e2db96c9-ec0c-46b4-88ef-656c448e7eb4",
+  "Version": "2.3.4",
+  "Name": "Item",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 67,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Horn/Images/horn_6.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -460.0,
+            "RightMargin": -460.0,
+            "TopMargin": -2.0,
+            "BottomMargin": -2.0,
+            "Tag": 68,
+            "ActionTag": -1848144054,
+            "Size": {
+              "X": 920.0,
+              "Y": 4.0
+            },
+            "Name": "line",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Horn/Images/horn_7.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -370.5463,
+              "Y": 13.9998
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -445.5463,
+            "RightMargin": 295.5463,
+            "TopMargin": -27.9998,
+            "BottomMargin": -0.0002,
+            "Tag": 44,
+            "ActionTag": 384920294,
+            "Size": {
+              "X": 150.0,
+              "Y": 28.0
+            },
+            "Name": "pic",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 21,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -371.5462,
+              "Y": 11.9998
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 190,
+              "G": 92,
+              "B": 30
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -439.0462,
+            "RightMargin": 304.0462,
+            "TopMargin": -27.4998,
+            "BottomMargin": -3.5002,
+            "Tag": 69,
+            "ActionTag": -203528296,
+            "Size": {
+              "X": 135.0,
+              "Y": 31.0
+            },
+            "Name": "label_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 18,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -288.0,
+              "Y": 10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 190,
+              "G": 92,
+              "B": 30
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -288.0,
+            "RightMargin": -435.0,
+            "TopMargin": -22.5,
+            "BottomMargin": -2.5,
+            "Tag": 45,
+            "ActionTag": -2004540298,
+            "Size": {
+              "X": 723.0,
+              "Y": 25.0
+            },
+            "Name": "label_2",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "Images/horn_6.png",
+        "Images/horn_7.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

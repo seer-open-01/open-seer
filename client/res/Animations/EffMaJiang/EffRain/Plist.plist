@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Animations/EffMaJiang/EffRain/01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{640,860},{115,123}}</string>
+				<key>offset</key>
+				<string>{6,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{755,860},{115,123}}</string>
+				<key>offset</key>
+				<string>{6,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,877},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,877},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,877},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,743},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{384,871},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{500,743},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{512,871},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{504,0},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{504,128},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{504,256},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{607,505},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{628,732},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{607,633},{119,99}}</string>
+				<key>offset</key>
+				<string>{-5,10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{726,633},{99,62}}</string>
+				<key>offset</key>
+				<string>{-13,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/glow_0007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,508},{235,235}}</string>
+				<key>offset</key>
+				<string>{1,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/smoke.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,508},{372,369}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{512,512}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/yan_09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{504,508}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{512,512}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffRain/yan_18.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{504,384},{128,121}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

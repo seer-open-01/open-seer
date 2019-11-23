@@ -1,0 +1,495 @@
+{
+  "ID": "0a44d42e-92cf-48dc-99e4-a6d214e900ac",
+  "Version": "2.3.4",
+  "Name": "ChatWindow",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 54,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 5,
+            "ActionTag": 995168445,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BTN_Close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1060.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.8281,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1060.0,
+            "RightMargin": 220.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 24,
+            "ActionTag": -1596572107,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Mask",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/ComWindow/ChatWindow/ChatWindow_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 340,
+            "Scale9Height": 496,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1060.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8281,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.3172,
+              "Y": 0.7806
+            },
+            "LeftMargin": 857.0,
+            "RightMargin": 17.0,
+            "TopMargin": 79.0,
+            "BottomMargin": 79.0,
+            "Tag": 4,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/Com_Opacity.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/Com_Opacity.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/Com_Opacity.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 54,
+                "Scale9Height": 54,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 839,
+                "ActionTag": 400257083,
+                "Size": {
+                  "X": 406.0,
+                  "Y": 562.0
+                },
+                "Name": "BTN_Cut",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 300,
+                  "Height": 500
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0616,
+                  "Y": 0.0712
+                },
+                "PreSize": {
+                  "X": 0.7389,
+                  "Y": 0.8897
+                },
+                "LeftMargin": 25.0,
+                "RightMargin": 81.0,
+                "TopMargin": 22.0,
+                "BottomMargin": 40.0,
+                "Tag": 9,
+                "ActionTag": 88154933,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 500.0
+                },
+                "Name": "TextView",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 300,
+                  "Height": 500
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0616,
+                  "Y": 0.0712
+                },
+                "PreSize": {
+                  "X": 0.7389,
+                  "Y": 0.8897
+                },
+                "LeftMargin": 25.0,
+                "RightMargin": 81.0,
+                "TopMargin": 22.0,
+                "BottomMargin": 40.0,
+                "Tag": 194,
+                "ActionTag": -1079782111,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 500.0
+                },
+                "Name": "FaceView",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_4.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_4.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_4.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 367.0,
+                  "Y": 413.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9039,
+                  "Y": 0.7349
+                },
+                "PreSize": {
+                  "X": 0.1872,
+                  "Y": 0.4733
+                },
+                "LeftMargin": 329.0,
+                "RightMargin": 1.0,
+                "TopMargin": 16.0,
+                "BottomMargin": 280.0,
+                "Tag": 67,
+                "ActionTag": 1701208297,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 266.0
+                },
+                "Name": "CB_Face",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_6.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_6.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_6.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_5.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_5.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 367.0,
+                  "Y": 157.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9039,
+                  "Y": 0.2794
+                },
+                "PreSize": {
+                  "X": 0.1872,
+                  "Y": 0.4733
+                },
+                "LeftMargin": 329.0,
+                "RightMargin": 1.0,
+                "TopMargin": 272.0,
+                "BottomMargin": 24.0,
+                "Tag": 68,
+                "ActionTag": -1784407155,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 266.0
+                },
+                "Name": "CB_Text",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 1801226086,
+            "Size": {
+              "X": 406.0,
+              "Y": 562.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Opacity.png",
+        "ChatWindow_1.png",
+        "ChatWindow_3.png",
+        "ChatWindow_4.png",
+        "ChatWindow_5.png",
+        "ChatWindow_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

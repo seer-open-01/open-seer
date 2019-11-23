@@ -1,0 +1,29 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="ae913076-ac66-4597-b14e-7a62fbcd0f44" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi01.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi02.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi03.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi04.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi05.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi06.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi07.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi08.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi09.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi10.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi11.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi12.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi13.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi14.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi15.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi16.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi17.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi18.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi19.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZLiZi20.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffShunZi/DDZShunZi.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

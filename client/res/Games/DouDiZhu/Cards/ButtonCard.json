@@ -1,0 +1,147 @@
+{
+  "ID": "166f27f7-0852-4b9b-88b9-1b9138b2e426",
+  "Version": "2.3.4",
+  "Name": "ButtonCard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Poker/101.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Poker/101.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Poker/101.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 120,
+            "Scale9Height": 186,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 3,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/DouDiZhu/Poker/Tag_PokerLord.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 21,
+                "Scale9Width": 58,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0,
+                  "Y": 165.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.7933
+                },
+                "PreSize": {
+                  "X": 0.64,
+                  "Y": 0.4423
+                },
+                "LeftMargin": 52.0,
+                "RightMargin": 2.0,
+                "TopMargin": -3.0,
+                "BottomMargin": 119.0,
+                "Tag": 24945,
+                "ActionTag": -1737184980,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 92.0
+                },
+                "Name": "SP_Mark",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 54162851,
+            "Size": {
+              "X": 150.0,
+              "Y": 208.0
+            },
+            "Name": "SP_Value",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 150.0,
+          "Y": 208.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Poker/101.png",
+        "../Poker/Tag_PokerLord.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

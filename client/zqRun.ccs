@@ -1,0 +1,264 @@
+<Solution>
+  <PropertyGroup Name="zqRun" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Animations">
+          <Folder Name="EffGameCom">
+            <Folder Name="EffFZB">
+              <Image Name="BKLG_01.png" />
+              <Image Name="BKLG_02.png" />
+              <Image Name="BKLG_03.png" />
+              <Image Name="BKLG_04.png" />
+              <Image Name="BKLG_05.png" />
+              <Image Name="BKLG_06.png" />
+              <Image Name="BKLG_07.png" />
+              <Image Name="BKLG_08.png" />
+              <Image Name="BKLG_09.png" />
+              <Image Name="BKLG_10.png" />
+              <Image Name="BKLG_11.png" />
+              <Image Name="BKLG_12.png" />
+              <Image Name="BKLG_13.png" />
+              <Image Name="BKLG_14.png" />
+              <Project Name="EffFZB.csd" Type="Node" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Com_Coin.png" />
+            <Image Name="Com_FZ .png" />
+            <Image Name="Com_GameCoin.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Games">
+          <Folder Name="Com">
+            <Folder Name="Box">
+              <Project Name="Box.csd" Type="Node" />
+              <Image Name="PIC_BoxClose.png" />
+              <Image Name="PIC_BoxOpen.png" />
+              <Image Name="PIC_RewardTitel.png" />
+            </Folder>
+            <Folder Name="ConsumeTip">
+              <Project Name="ConsumeTip.csd" Type="Node" />
+              <Image Name="IMG_BG.png" />
+            </Folder>
+            <Folder Name="Font">
+              <Fnt Name="coin_num.fnt" />
+              <Fnt Name="jiaf_num.fnt" />
+              <Fnt Name="jianf_num.fnt" />
+              <Fnt Name="top_num.fnt" />
+            </Folder>
+            <Folder Name="Head">
+              <Project Name="GameHead.csd" Type="Node" />
+              <Image Name="HeadBG.png" />
+              <Image Name="HeadDefaultImg.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="Run">
+            <Folder Name="Cards">
+              <Project Name="ButtonCard.csd" Type="Layer" />
+              <Project Name="Card.csd" Type="Layer" />
+              <Project Name="HandButtonCards.csd" Type="Node" />
+              <Project Name="HandCards.csd" Type="Node" />
+              <Project Name="LeftHandCards.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Clock">
+              <Project Name="Clock.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Font">
+              <Fnt Name="num_clock.fnt" />
+              <Fnt Name="num_game_multiple.fnt" />
+              <Fnt Name="num_left_cards.fnt" />
+            </Folder>
+            <Folder Name="Image">
+              <Image Name="BG_Bean.png" />
+              <Image Name="BG_Player.png" />
+              <Image Name="BG_Room.png" />
+              <Image Name="BG_RoomInfo.png" />
+              <Image Name="BG_Score.png" />
+              <Image Name="Btn_Begin_0.png" />
+              <Image Name="Btn_Begin_1.png" />
+              <Image Name="Btn_Begin_2.png" />
+              <Image Name="BTN_CancelTrust.png" />
+              <Image Name="BTN_ChangeN.png" />
+              <Image Name="BTN_ChangeP.png" />
+              <Image Name="BTN_ChargeN.png" />
+              <Image Name="BTN_ChargeP.png" />
+              <Image Name="Btn_Invite_0.png" />
+              <Image Name="Btn_Invite_1.png" />
+              <Image Name="Btn_Leave_1.png" />
+              <Image Name="Btn_Leave_2.png" />
+              <Image Name="BTN_MsgN.png" />
+              <Image Name="BTN_MsgP.png" />
+              <Image Name="Btn_Next_1.png" />
+              <Image Name="Btn_Next_2.png" />
+              <Image Name="Btn_NoPlay_0.png" />
+              <Image Name="Btn_NoPlay_1.png" />
+              <Image Name="Btn_Pass_0.png" />
+              <Image Name="Btn_Pass_1.png" />
+              <Image Name="Btn_Play_0.png" />
+              <Image Name="Btn_Play_1.png" />
+              <Image Name="Btn_Ready_0.png" />
+              <Image Name="Btn_Ready_1.png" />
+              <Image Name="BTN_ReadyN.png" />
+              <Image Name="BTN_ReadyP.png" />
+              <Image Name="Btn_Tip_0.png" />
+              <Image Name="Btn_Tip_1.png" />
+              <Image Name="Btn_Tuo_0.png" />
+              <Image Name="Btn_Tuo_1.png" />
+              <Image Name="BTN_VoiceD.png" />
+              <Image Name="BTN_VoiceN.png" />
+              <Image Name="BTN_VoiceP.png" />
+              <Image Name="IMG_BaoDan.png" />
+              <Image Name="IMG_ChatArrow.png" />
+              <Image Name="IMG_ChatBg.png" />
+              <Image Name="IMG_Clock.png" />
+              <Image Name="IMG_Dealer.png" />
+              <Image Name="IMG_DF.png" />
+              <Image Name="IMG_Double.png" />
+              <Image Name="IMG_HaveReady.png" />
+              <Image Name="IMG_Max_1.png" />
+              <Image Name="IMG_Max_2.png" />
+              <Image Name="IMG_Mod_1.png" />
+              <Image Name="IMG_Mod_2.png" />
+              <Image Name="IMG_Offline.png" />
+              <Image Name="IMG_Tip_1.png" />
+              <Image Name="IMG_Tip_2.png" />
+              <Image Name="IMG_Tip_3.png" />
+              <Image Name="IMG_Trust.png" />
+              <Image Name="IMG_WaitOthers.png" />
+              <Image Name="IMG_ZanLi.png" />
+              <Image Name="MatchWindow_1.png" />
+              <Image Name="MatchWindow_2.png" />
+              <Image Name="MatchWindow_3.png" />
+              <Image Name="MatchWindow_4.png" />
+              <Image Name="MatchWindow_5.png" />
+              <Image Name="MatchWindow_6.png" />
+              <Image Name="Settlement_1.png" />
+              <Image Name="Settlement_2.png" />
+              <Image Name="Settlement_5.png" />
+              <Image Name="Settlement_6.png" />
+              <Image Name="Settlement_7.png" />
+              <Image Name="Settlement_BTNNextRoundN.png" />
+              <Image Name="Settlement_BTNNextRoundP.png" />
+              <Image Name="Settlement_BTNShareN.png" />
+              <Image Name="Settlement_BTNShareP.png" />
+              <Image Name="TXT_Tip_5.png" />
+            </Folder>
+            <Folder Name="MatchWindow">
+              <Project Name="MatchWindow.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="PlayCardsBtns">
+              <Project Name="PlayCardsBtns.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Players">
+              <Project Name="Player_1.csd" Type="Node" />
+              <Project Name="Player_2.csd" Type="Node" />
+              <Project Name="Player_3.csd" Type="Node" />
+              <Project Name="Player_4.csd" Type="Node" />
+              <Project Name="UserInfoMain.csd" Type="Node" />
+              <Project Name="UserInfoOther.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Poker">
+              <Image Name="100.png" />
+              <Image Name="101.png" />
+              <Image Name="102.png" />
+              <Image Name="103.png" />
+              <Image Name="104.png" />
+              <Image Name="105.png" />
+              <Image Name="106.png" />
+              <Image Name="107.png" />
+              <Image Name="108.png" />
+              <Image Name="109.png" />
+              <Image Name="110.png" />
+              <Image Name="111.png" />
+              <Image Name="112.png" />
+              <Image Name="113.png" />
+              <Image Name="201.png" />
+              <Image Name="202.png" />
+              <Image Name="203.png" />
+              <Image Name="204.png" />
+              <Image Name="205.png" />
+              <Image Name="206.png" />
+              <Image Name="207.png" />
+              <Image Name="208.png" />
+              <Image Name="209.png" />
+              <Image Name="210.png" />
+              <Image Name="211.png" />
+              <Image Name="212.png" />
+              <Image Name="213.png" />
+              <Image Name="301.png" />
+              <Image Name="302.png" />
+              <Image Name="303.png" />
+              <Image Name="304.png" />
+              <Image Name="305.png" />
+              <Image Name="306.png" />
+              <Image Name="307.png" />
+              <Image Name="308.png" />
+              <Image Name="309.png" />
+              <Image Name="310.png" />
+              <Image Name="311.png" />
+              <Image Name="312.png" />
+              <Image Name="313.png" />
+              <Image Name="401.png" />
+              <Image Name="402.png" />
+              <Image Name="403.png" />
+              <Image Name="404.png" />
+              <Image Name="405.png" />
+              <Image Name="406.png" />
+              <Image Name="407.png" />
+              <Image Name="408.png" />
+              <Image Name="409.png" />
+              <Image Name="410.png" />
+              <Image Name="411.png" />
+              <Image Name="412.png" />
+              <Image Name="413.png" />
+              <Image Name="514.png" />
+              <Image Name="614.png" />
+              <Image Name="t_100.png" />
+              <Image Name="Tag_PokerLord.png" />
+            </Folder>
+            <Folder Name="PreBegin">
+              <Project Name="PreBegin.csd" Type="Node" />
+            </Folder>
+            <Folder Name="RoomInfo">
+              <Project Name="RoomInfo.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Settlement">
+              <Project Name="SettlementRound.csd" Type="Layer" />
+              <Project Name="SettlementRoundPlayerInfo.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="TableTip">
+              <Project Name="TableTip.csd" Type="Node" />
+            </Folder>
+            <Project Name="RunWindow.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

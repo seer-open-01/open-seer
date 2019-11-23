@@ -1,0 +1,135 @@
+{
+  "ID": "551a4d13-aeec-407d-84df-29460e01e026",
+  "Version": "2.3.4",
+  "Name": "Chips_8",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 18,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_8N.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -23.0,
+            "RightMargin": -23.0,
+            "TopMargin": -23.0,
+            "BottomMargin": -23.0,
+            "Tag": 31,
+            "ActionTag": 990516669,
+            "Size": {
+              "X": 106.0,
+              "Y": 116.0
+            },
+            "Name": "BG_Chip",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 15,
+            "LabelText": "10000",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineSize": 2,
+            "OutlineColor": {
+              "R": 59,
+              "G": 163,
+              "B": 67
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.2725,
+              "Y": 2.7613
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -21.7725,
+            "RightMargin": -21.2275,
+            "TopMargin": -13.2613,
+            "BottomMargin": -7.7387,
+            "Tag": 32,
+            "ActionTag": -1959086950,
+            "Size": {
+              "X": 43.0,
+              "Y": 21.0
+            },
+            "Name": "TXT_Value",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/YaHei.ttf",
+        "../Image/Chips_8N.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

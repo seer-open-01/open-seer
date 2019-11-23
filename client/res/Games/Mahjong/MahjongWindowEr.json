@@ -1,0 +1,1265 @@
+{
+  "ID": "9acf3f54-11b9-4ffb-b680-6f39c142714b",
+  "Version": "2.3.4",
+  "Name": "MahjongWindowEr",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Room_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 211,
+            "Scale9OriginY": 118,
+            "Scale9Width": 858,
+            "Scale9Height": 484,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 34,
+            "ActionTag": 840930647,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "IMG_RoomBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 740.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5781,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 740.0,
+            "RightMargin": 540.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 400.0,
+            "Tag": 20453,
+            "ActionTag": 211178322,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_PublicCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_ExitGameP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_ExitGameN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 42,
+            "Scale9Height": 50,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 52.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0406,
+              "Y": 0.9444
+            },
+            "PreSize": {
+              "X": 0.0562,
+              "Y": 0.1
+            },
+            "LeftMargin": 16.0,
+            "RightMargin": 1192.0,
+            "TopMargin": 4.0,
+            "BottomMargin": 644.0,
+            "Tag": 40,
+            "ActionTag": -1685364641,
+            "Size": {
+              "X": 72.0,
+              "Y": 72.0
+            },
+            "Name": "Btn_ExitGame",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 400.0,
+            "Tag": 3360,
+            "ActionTag": 1592466451,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Direction",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 520.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4063,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 520.0,
+            "RightMargin": 760.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 400.0,
+            "Tag": 375,
+            "ActionTag": -1220150737,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_DirectionOrder",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 270.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.375
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 450.0,
+            "BottomMargin": 270.0,
+            "Tag": 61,
+            "ActionTag": 1613159779,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_BaseScore",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1000.0,
+              "Y": 665.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.7813,
+              "Y": 0.9236
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1000.0,
+            "RightMargin": 280.0,
+            "TopMargin": 55.0,
+            "BottomMargin": 665.0,
+            "Tag": 2641,
+            "ActionTag": -1752027183,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Player_2",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 80.0,
+              "Y": 260.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0625,
+              "Y": 0.3611
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 80.0,
+            "RightMargin": 1200.0,
+            "TopMargin": 460.0,
+            "BottomMargin": 260.0,
+            "Tag": 2639,
+            "ActionTag": 1658287389,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Player_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 260.0,
+              "Y": 650.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2031,
+              "Y": 0.9028
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 260.0,
+            "RightMargin": 1020.0,
+            "TopMargin": 70.0,
+            "BottomMargin": 650.0,
+            "Tag": 38,
+            "ActionTag": 1605743872,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_TaskBox",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "牌局号：66666666666",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 95,
+              "G": 16,
+              "B": 3
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 100.0,
+              "Y": 696.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 253,
+              "G": 245,
+              "B": 196
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0781,
+              "Y": 0.9667
+            },
+            "PreSize": {
+              "X": 0.193,
+              "Y": 0.0514
+            },
+            "LeftMargin": 100.0,
+            "RightMargin": 933.0,
+            "TopMargin": 5.5,
+            "BottomMargin": 677.5,
+            "Tag": 299,
+            "ActionTag": -713763190,
+            "Size": {
+              "X": 247.0,
+              "Y": 37.0
+            },
+            "Name": "Label_RoundID",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "牌局号:123456789",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Right",
+            "OutlineColor": {
+              "R": 95,
+              "G": 16,
+              "B": 3
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1271.5,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 253,
+              "G": 245,
+              "B": 196
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9934,
+              "Y": 0.8611
+            },
+            "PreSize": {
+              "X": 0.1578,
+              "Y": 0.0514
+            },
+            "LeftMargin": 1069.5,
+            "RightMargin": 8.5,
+            "TopMargin": 81.5,
+            "BottomMargin": 601.5,
+            "Tag": 48,
+            "ActionTag": 214795304,
+            "Size": {
+              "X": 202.0,
+              "Y": 37.0
+            },
+            "Name": "Label_Round",
+            "ctype": "TextObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1100.0,
+              "Y": 220.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.8594,
+              "Y": 0.3056
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1100.0,
+            "RightMargin": 180.0,
+            "TopMargin": 500.0,
+            "BottomMargin": 220.0,
+            "Tag": 24404,
+            "ActionTag": 1153066986,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HangupTasks",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1389
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 620.0,
+            "BottomMargin": 100.0,
+            "Tag": 6196,
+            "ActionTag": -1504484648,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Multiple",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/TrusteeshipCancel_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/TrusteeshipCancel_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/TrusteeshipCancel_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 1250,
+            "Scale9Height": 102,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 124.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1722
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.3444
+            },
+            "TopMargin": 472.0,
+            "Tag": 263,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/TrusteeshipCancel_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 62.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.1906,
+                  "Y": 0.4194
+                },
+                "LeftMargin": 518.0,
+                "RightMargin": 518.0,
+                "TopMargin": 134.0,
+                "BottomMargin": 10.0,
+                "Tag": 264,
+                "ActionTag": 875035343,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "SP_Hint",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1241634767,
+            "Size": {
+              "X": 1280.0,
+              "Y": 248.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_TrusteeshipCancel",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/BTN_MsgD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/BTN_MsgP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/BTN_MsgN.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 44,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1235.0,
+              "Y": 66.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9648,
+              "Y": 0.0917
+            },
+            "PreSize": {
+              "X": 0.0578,
+              "Y": 0.1056
+            },
+            "LeftMargin": 1198.0,
+            "RightMargin": 8.0,
+            "TopMargin": 616.0,
+            "BottomMargin": 28.0,
+            "Tag": 164,
+            "ActionTag": 1385509012,
+            "Size": {
+              "X": 74.0,
+              "Y": 76.0
+            },
+            "Name": "ND_ChatBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/BTN_VoiceD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/BTN_VoiceP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/BTN_VoiceN.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 44,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 2000.0,
+              "Y": 200.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.5625,
+              "Y": 0.2778
+            },
+            "PreSize": {
+              "X": 0.0578,
+              "Y": 0.1056
+            },
+            "LeftMargin": 1963.0,
+            "RightMargin": -757.0,
+            "TopMargin": 482.0,
+            "BottomMargin": 162.0,
+            "Tag": 165,
+            "ActionTag": -1126484996,
+            "Size": {
+              "X": 74.0,
+              "Y": 76.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_VChatBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1190.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.9297,
+              "Y": 0.9444
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1190.0,
+            "RightMargin": 90.0,
+            "TopMargin": 40.0,
+            "BottomMargin": 680.0,
+            "Tag": 38,
+            "ActionTag": -2047527341,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_RoomMenu",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 126.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.175
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 594.0,
+            "BottomMargin": 126.0,
+            "Tag": 240,
+            "ActionTag": -192428220,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HuTipNode",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 26,
+            "ButtonText": "GM",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 24.0,
+              "Y": 18.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0188,
+              "Y": 0.025
+            },
+            "PreSize": {
+              "X": 0.0359,
+              "Y": 0.05
+            },
+            "LeftMargin": 1.0,
+            "RightMargin": 1233.0,
+            "TopMargin": 684.0,
+            "Tag": 49,
+            "ActionTag": 363320638,
+            "Size": {
+              "X": 46.0,
+              "Y": 36.0
+            },
+            "Name": "Btn_Cheat",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Tip_0.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Tip_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Tip_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 52,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1235.5,
+              "Y": 246.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9652,
+              "Y": 0.3417
+            },
+            "PreSize": {
+              "X": 0.0594,
+              "Y": 0.1028
+            },
+            "LeftMargin": 1197.5,
+            "RightMargin": 6.5,
+            "TopMargin": 437.0,
+            "BottomMargin": 209.0,
+            "Tag": 52,
+            "ActionTag": 1829382154,
+            "Size": {
+              "X": 76.0,
+              "Y": 74.0
+            },
+            "Name": "Btn_Tip",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Bill_0.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Bill_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Bill_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 52,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1235.5,
+              "Y": 156.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9652,
+              "Y": 0.2167
+            },
+            "PreSize": {
+              "X": 0.0594,
+              "Y": 0.1028
+            },
+            "LeftMargin": 1197.5,
+            "RightMargin": 6.5,
+            "TopMargin": 527.0,
+            "BottomMargin": 119.0,
+            "Tag": 53,
+            "ActionTag": -1458731312,
+            "Size": {
+              "X": 76.0,
+              "Y": 74.0
+            },
+            "Name": "Btn_Bill",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Next_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Next_2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Btn_Next_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 214,
+            "Scale9Height": 82,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 66.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0917
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.1444
+            },
+            "LeftMargin": 518.0,
+            "RightMargin": 518.0,
+            "TopMargin": 602.0,
+            "BottomMargin": 14.0,
+            "Tag": 91,
+            "ActionTag": 852735528,
+            "Size": {
+              "X": 244.0,
+              "Y": 104.0
+            },
+            "VisibleForFrame": false,
+            "Name": "BTN_Next",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/IMG_End_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 372.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5167
+            },
+            "PreSize": {
+              "X": 0.2859,
+              "Y": 0.1389
+            },
+            "LeftMargin": 457.0,
+            "RightMargin": 457.0,
+            "TopMargin": 298.0,
+            "BottomMargin": 322.0,
+            "Tag": 137,
+            "ActionTag": -330491981,
+            "Size": {
+              "X": 366.0,
+              "Y": 100.0
+            },
+            "VisibleForFrame": false,
+            "Name": "IMG_End",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_ExitGameN.png",
+        "../../Common/Images/BTN_ExitGameP.png",
+        "../../Default/Button_Disable.png",
+        "../../Default/Button_Normal.png",
+        "../../Default/Button_Press.png",
+        "../../Fonts/YaHei.ttf",
+        "Images/Btn_Bill_0.png",
+        "Images/Btn_Bill_1.png",
+        "Images/BTN_MsgD.png",
+        "Images/BTN_MsgN.png",
+        "Images/BTN_MsgP.png",
+        "Images/Btn_Next_1.png",
+        "Images/Btn_Next_2.png",
+        "Images/Btn_Tip_0.png",
+        "Images/Btn_Tip_1.png",
+        "Images/BTN_VoiceD.png",
+        "Images/BTN_VoiceN.png",
+        "Images/BTN_VoiceP.png",
+        "Images/IMG_End_1.png",
+        "Images/Room_1.png",
+        "Images/TrusteeshipCancel_1.png",
+        "Images/TrusteeshipCancel_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

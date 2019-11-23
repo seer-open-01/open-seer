@@ -1,0 +1,399 @@
+{
+  "ID": "70cd4d58-85d6-40df-9ce0-e60c744c518d",
+  "Version": "2.3.4",
+  "Name": "FlowerCardsSouth",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 219,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/61.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -21.0,
+            "RightMargin": -21.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 220,
+            "ActionTag": 2023610317,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/62.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 40.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 19.0,
+            "RightMargin": -61.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 221,
+            "ActionTag": 1837840755,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/63.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 80.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 59.0,
+            "RightMargin": -101.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 222,
+            "ActionTag": 1942172442,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/64.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 99.0,
+            "RightMargin": -141.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 223,
+            "ActionTag": -1395745799,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/65.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 139.0,
+            "RightMargin": -181.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 224,
+            "ActionTag": 1928423579,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/66.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 200.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 179.0,
+            "RightMargin": -221.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 225,
+            "ActionTag": 632536659,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/67.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 219.0,
+            "RightMargin": -261.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 226,
+            "ActionTag": -1417651522,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/TableCards/South/68.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 259.0,
+            "RightMargin": -301.0,
+            "TopMargin": -30.0,
+            "BottomMargin": -30.0,
+            "Tag": 227,
+            "ActionTag": -7945305,
+            "Size": {
+              "X": 42.0,
+              "Y": 60.0
+            },
+            "Name": "8",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../CardsImages/TableCards/South/61.png",
+        "../CardsImages/TableCards/South/62.png",
+        "../CardsImages/TableCards/South/63.png",
+        "../CardsImages/TableCards/South/64.png",
+        "../CardsImages/TableCards/South/65.png",
+        "../CardsImages/TableCards/South/66.png",
+        "../CardsImages/TableCards/South/67.png",
+        "../CardsImages/TableCards/South/68.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

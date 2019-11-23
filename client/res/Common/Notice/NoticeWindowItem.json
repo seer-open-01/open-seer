@@ -1,0 +1,209 @@
+{
+  "ID": "41e9c70a-66d8-4665-94eb-4498fe896b4f",
+  "Version": "2.3.4",
+  "Name": "NoticeWindowItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 142,
+        "Children": [
+          {
+            "IsCustomSize": true,
+            "FontSize": 24,
+            "LabelText": "fdklaflafjla",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 450.0,
+              "Y": 35.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 157,
+              "G": 81,
+              "B": 34
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -900.0,
+            "TopMargin": -70.0,
+            "Tag": 24,
+            "ActionTag": -1128538206,
+            "Size": {
+              "X": 900.0,
+              "Y": 70.0
+            },
+            "Name": "ND_Text",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "15:00",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 157,
+              "G": 81,
+              "B": 34
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 38.0,
+              "Y": 55.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 157,
+              "G": 81,
+              "B": 34
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 8.5,
+            "RightMargin": -67.5,
+            "TopMargin": -72.5,
+            "BottomMargin": 37.5,
+            "Tag": 16,
+            "ActionTag": -194825840,
+            "Size": {
+              "X": 59.0,
+              "Y": 35.0
+            },
+            "Name": "ND_Time",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "【系统】",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 157,
+              "G": 81,
+              "B": 34
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 110.0,
+              "Y": 55.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 157,
+              "G": 81,
+              "B": 34
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 66.5,
+            "RightMargin": -153.5,
+            "TopMargin": -72.5,
+            "BottomMargin": 37.5,
+            "Tag": 17,
+            "ActionTag": -2042389938,
+            "Size": {
+              "X": 87.0,
+              "Y": 35.0
+            },
+            "Name": "ND_System",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

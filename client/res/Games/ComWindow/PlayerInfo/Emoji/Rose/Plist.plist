@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{178,175},{110,79}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{110,80}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{164,0},{146,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{147,90}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{418,0},{90,81}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{92,84}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{254,0},{91,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{94,85}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{249,146},{26,30}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{29,32}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{254,91},{86,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{87,53}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{91,181},{87,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{90,60}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{181,164}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{184,165}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,0},{91,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{94,85}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{418,81},{91,79}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,82}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288,144},{38,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{38,40}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{164,146},{85,29}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,31}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,181},{91,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,76}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/Rose/rose9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{340,91},{90,76}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{93,78}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{512,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,77 @@
+{
+  "ID": "789ab613-df67-4525-b195-bb26f1fb1842",
+  "Version": "2.3.4",
+  "Name": "Piece",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 107,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Piece/r_0.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -45.0,
+            "RightMargin": -45.0,
+            "TopMargin": -45.0,
+            "BottomMargin": -45.0,
+            "Tag": 108,
+            "ActionTag": -1236008652,
+            "Size": {
+              "X": 90.0,
+              "Y": 90.0
+            },
+            "Name": "ND_Piece",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "r_0.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

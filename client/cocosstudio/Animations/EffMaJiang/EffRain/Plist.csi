@@ -1,0 +1,28 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="4f78f1db-73f2-43fa-91d6-98053b207640" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffMaJiang/EffRain/01.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/02.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/03.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/04.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/05.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/06.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/07.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/08.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/09.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/10.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/11.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/12.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/13.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/14.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/15.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/16.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/glow_0007.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/smoke.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/yan_09.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffRain/yan_18.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

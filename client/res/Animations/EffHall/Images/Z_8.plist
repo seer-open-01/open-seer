@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Animations/EffHall/Images/R_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{220,0},{47,36}}</string>
+				<key>offset</key>
+				<string>{-1,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{50,40}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{233,47},{16,18}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{18,20}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72,141},{148,54}}</string>
+				<key>offset</key>
+				<string>{-2,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,58}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{142,195},{45,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,58}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{130,141}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{140,148}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,141},{113,72}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{118,74}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{220,63},{25,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{26,26}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{187,195},{53,46}}</string>
+				<key>offset</key>
+				<string>{-1,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{56,48}</string>
+			</dict>
+			<key>Animations/EffHall/Images/R_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72,195},{61,70}}</string>
+				<key>offset</key>
+				<string>{3,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{72,72}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Z_8.png</string>
+			<key>realTextureFileName</key>
+			<string>Z_8.png</string>
+			<key>size</key>
+			<string>{256,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

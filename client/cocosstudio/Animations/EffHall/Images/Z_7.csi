@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Z_7" Type="Plist" ID="5d11a544-c8c5-46b2-9922-b970a084e52a" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffHall/Images/PX_1.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_10.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_11.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_12.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_13.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_14.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_15.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_2.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_3.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_4.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_5.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_6.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_7.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_8.png" />
+      <FilePathData Path="Animations/EffHall/Images/PX_9.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

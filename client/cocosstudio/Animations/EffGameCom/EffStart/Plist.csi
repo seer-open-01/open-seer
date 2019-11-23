@@ -1,0 +1,14 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="3c397953-e1ad-442c-9a3e-971d76d50982" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffGameCom/EffStart/Shi.png" />
+      <FilePathData Path="Animations/EffGameCom/EffStart/star1.png" />
+      <FilePathData Path="Animations/EffGameCom/EffStart/star2.png" />
+      <FilePathData Path="Animations/EffGameCom/EffStart/star3.png" />
+      <FilePathData Path="Animations/EffGameCom/EffStart/star4.png" />
+      <FilePathData Path="Animations/EffGameCom/EffStart/star5.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

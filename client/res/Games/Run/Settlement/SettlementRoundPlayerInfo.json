@@ -1,0 +1,889 @@
+{
+  "ID": "4d1e0805-c93f-45c8-966d-0390890a9d8c",
+  "Version": "2.3.4",
+  "Name": "SettlementRoundPlayerInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 39382,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/Settlement_2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 471,
+            "Scale9OriginY": 41,
+            "Scale9Width": 302,
+            "Scale9Height": 18,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 620.0,
+              "Y": 51.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0032,
+              "Y": 0.9804
+            },
+            "LeftMargin": -2.0,
+            "RightMargin": -2.0,
+            "TopMargin": 1.0,
+            "BottomMargin": 1.0,
+            "Tag": 39386,
+            "ActionTag": -1164608619,
+            "Size": {
+              "X": 1244.0,
+              "Y": 100.0
+            },
+            "Name": "BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Head/GameHead.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 76.9999,
+              "Y": 51.0
+            },
+            "Scale": {
+              "ScaleX": 1.2,
+              "ScaleY": 1.2
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0621,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 76.9999,
+            "RightMargin": 1163.0001,
+            "TopMargin": 51.0,
+            "BottomMargin": 51.0,
+            "Tag": 39406,
+            "ActionTag": 1767592547,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HeadPic",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_FZ .png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 110.0,
+              "Y": 24.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0887,
+              "Y": 0.2353
+            },
+            "PreSize": {
+              "X": 0.0403,
+              "Y": 0.3529
+            },
+            "LeftMargin": 85.0,
+            "RightMargin": 1105.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 6.0,
+            "Tag": 96,
+            "ActionTag": 346696342,
+            "Size": {
+              "X": 50.0,
+              "Y": 36.0
+            },
+            "Name": "ND_FZ",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "紫琼麻将呦   ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {},
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 144.9353,
+              "Y": 80.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 122,
+              "G": 74,
+              "B": 50
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1169,
+              "Y": 0.7843
+            },
+            "PreSize": {
+              "X": 0.0903,
+              "Y": 0.2745
+            },
+            "LeftMargin": 144.9353,
+            "RightMargin": 983.0647,
+            "TopMargin": 8.0,
+            "BottomMargin": 66.0,
+            "Tag": 39411,
+            "ActionTag": 1427246824,
+            "Size": {
+              "X": 112.0,
+              "Y": 28.0
+            },
+            "Name": "ND_Name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "ID:888888888",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 274.4992,
+              "Y": 80.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 122,
+              "G": 74,
+              "B": 50
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2214,
+              "Y": 0.7843
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.3039
+            },
+            "LeftMargin": 274.4992,
+            "RightMargin": 834.5008,
+            "TopMargin": 6.5,
+            "BottomMargin": 64.5,
+            "Tag": 39412,
+            "ActionTag": 905367498,
+            "Size": {
+              "X": 131.0,
+              "Y": 31.0
+            },
+            "Name": "ND_ID",
+            "ctype": "TextObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 142.0,
+              "Y": 10.0
+            },
+            "Scale": {
+              "ScaleX": 0.28,
+              "ScaleY": 0.28
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.1145,
+              "Y": 0.098
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 142.0,
+            "RightMargin": 1098.0,
+            "TopMargin": 92.0,
+            "BottomMargin": 10.0,
+            "Tag": 237,
+            "ActionTag": -622243517,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HandCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "炸弹倍数",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 856.0053,
+              "Y": 74.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 122,
+              "G": 74,
+              "B": 50
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6903,
+              "Y": 0.7255
+            },
+            "PreSize": {
+              "X": 0.0831,
+              "Y": 0.3431
+            },
+            "LeftMargin": 804.5053,
+            "RightMargin": 332.4947,
+            "TopMargin": 10.5,
+            "BottomMargin": 56.5,
+            "Tag": 112,
+            "ActionTag": 885111428,
+            "Size": {
+              "X": 103.0,
+              "Y": 35.0
+            },
+            "Name": "ND_Multiple",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "999999",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 856.0047,
+              "Y": 26.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 122,
+              "G": 74,
+              "B": 50
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6903,
+              "Y": 0.2549
+            },
+            "PreSize": {
+              "X": 0.0653,
+              "Y": 0.3431
+            },
+            "LeftMargin": 815.5047,
+            "RightMargin": 343.4953,
+            "TopMargin": 58.5,
+            "BottomMargin": 8.5,
+            "Tag": 114,
+            "ActionTag": 1837261742,
+            "Size": {
+              "X": 81.0,
+              "Y": 35.0
+            },
+            "Name": "TXT_Multiple",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "底分",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 966.0012,
+              "Y": 74.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 122,
+              "G": 74,
+              "B": 50
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.779,
+              "Y": 0.7255
+            },
+            "PreSize": {
+              "X": 0.0427,
+              "Y": 0.3431
+            },
+            "LeftMargin": 939.5012,
+            "RightMargin": 247.4988,
+            "TopMargin": 10.5,
+            "BottomMargin": 56.5,
+            "Tag": 111,
+            "ActionTag": 780317831,
+            "Size": {
+              "X": 53.0,
+              "Y": 35.0
+            },
+            "Name": "ND_Base",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "999999",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 966.0048,
+              "Y": 26.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 122,
+              "G": 74,
+              "B": 50
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.779,
+              "Y": 0.2549
+            },
+            "PreSize": {
+              "X": 0.0653,
+              "Y": 0.3431
+            },
+            "LeftMargin": 925.5048,
+            "RightMargin": 233.4952,
+            "TopMargin": 58.5,
+            "BottomMargin": 8.5,
+            "Tag": 113,
+            "ActionTag": 643229215,
+            "Size": {
+              "X": 81.0,
+              "Y": 35.0
+            },
+            "Name": "TXT_Base",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Coin.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1048.0,
+              "Y": 51.0
+            },
+            "Scale": {
+              "ScaleX": 0.86,
+              "ScaleY": 0.86
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8452,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0403,
+              "Y": 0.5098
+            },
+            "LeftMargin": 1023.0,
+            "RightMargin": 167.0,
+            "TopMargin": 25.0,
+            "BottomMargin": 25.0,
+            "Tag": 297,
+            "ActionTag": 1900784521,
+            "Size": {
+              "X": 64.0,
+              "Y": 56.0
+            },
+            "Name": "ND_Bean",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "J9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/jiaf_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1084.08,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 0.86,
+              "ScaleY": 0.86
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8743,
+              "Y": 0.4902
+            },
+            "PreSize": {
+              "X": 0.1548,
+              "Y": 0.3137
+            },
+            "LeftMargin": 1084.08,
+            "RightMargin": -36.08,
+            "TopMargin": 36.0,
+            "BottomMargin": 34.0,
+            "Tag": 300,
+            "ActionTag": 798303794,
+            "Size": {
+              "X": 192.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_AddBean",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "J9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/jianf_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1084.08,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 0.86,
+              "ScaleY": 0.86
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8743,
+              "Y": 0.4902
+            },
+            "PreSize": {
+              "X": 0.1548,
+              "Y": 0.3137
+            },
+            "LeftMargin": 1084.08,
+            "RightMargin": -36.08,
+            "TopMargin": 36.0,
+            "BottomMargin": 34.0,
+            "Tag": 301,
+            "ActionTag": -974965970,
+            "Size": {
+              "X": 192.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_MinusBean",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_Double.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 690.0078,
+              "Y": 51.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5565,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0403,
+              "Y": 0.549
+            },
+            "LeftMargin": 665.0078,
+            "RightMargin": 524.9922,
+            "TopMargin": 23.0,
+            "BottomMargin": 23.0,
+            "Tag": 497,
+            "ActionTag": 1006227475,
+            "Size": {
+              "X": 50.0,
+              "Y": 56.0
+            },
+            "Name": "ND_ZD",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "x9",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Run/Font/num_game_multiple.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 756.0035,
+              "Y": 51.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6097,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0419,
+              "Y": 0.3431
+            },
+            "LeftMargin": 730.0035,
+            "RightMargin": 457.9965,
+            "TopMargin": 33.5,
+            "BottomMargin": 33.5,
+            "Tag": 498,
+            "ActionTag": 2026729946,
+            "Size": {
+              "X": 52.0,
+              "Y": 35.0
+            },
+            "Name": "Fnt_ZD",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "剩余16张  ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 46.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 232,
+              "G": 109,
+              "B": 9
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4839,
+              "Y": 0.451
+            },
+            "PreSize": {
+              "X": 0.104,
+              "Y": 0.4118
+            },
+            "LeftMargin": 535.5,
+            "RightMargin": 575.5,
+            "TopMargin": 35.0,
+            "BottomMargin": 25.0,
+            "Tag": 760,
+            "ActionTag": -74663678,
+            "Size": {
+              "X": 129.0,
+              "Y": 42.0
+            },
+            "Name": "TXT_Left",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 467.9999,
+              "Y": 46.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 232,
+              "G": 109,
+              "B": 9
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3774,
+              "Y": 0.451
+            },
+            "PreSize": {
+              "X": 0.0565,
+              "Y": 0.4118
+            },
+            "LeftMargin": 432.9999,
+            "RightMargin": 737.0001,
+            "TopMargin": 35.0,
+            "BottomMargin": 25.0,
+            "Tag": 72,
+            "ActionTag": 1546135612,
+            "Size": {
+              "X": 70.0,
+              "Y": 42.0
+            },
+            "Name": "TXT_Result",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1240.0,
+          "Y": 102.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Coin.png",
+        "../../../Common/Images/Com_FZ .png",
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Font/jiaf_num.fnt",
+        "../../Com/Font/jiaf_num_0.png",
+        "../../Com/Font/jianf_num.fnt",
+        "../../Com/Font/jianf_num_0.png",
+        "../../Com/Head/GameHead.json",
+        "../Font/num_game_multiple.fnt",
+        "../Font/num_game_multiple_0.png",
+        "../Image/IMG_Double.png",
+        "../Image/Settlement_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

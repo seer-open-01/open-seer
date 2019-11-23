@@ -1,0 +1,124 @@
+{
+  "ID": "51549a64-6c0e-4f1a-be4c-0895e44ce872",
+  "Version": "2.3.4",
+  "Name": "SpecialCardSouth",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 739,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/SpecialCards/South/41.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -31.0,
+            "RightMargin": -31.0,
+            "TopMargin": -45.0,
+            "BottomMargin": -45.0,
+            "Tag": 741,
+            "ActionTag": -455848264,
+            "Size": {
+              "X": 62.0,
+              "Y": 90.0
+            },
+            "Name": "Sprite",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/Light_User_Down.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 2.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -30.0,
+            "RightMargin": -30.0,
+            "TopMargin": -44.0,
+            "BottomMargin": -40.0,
+            "Tag": 4396,
+            "ActionTag": -404477762,
+            "Size": {
+              "X": 60.0,
+              "Y": 84.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Light",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../CardsImages/Light_User_Down.png",
+        "../CardsImages/SpecialCards/South/41.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

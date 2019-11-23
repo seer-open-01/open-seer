@@ -1,0 +1,202 @@
+{
+  "ID": "a04969af-e929-43e8-942b-d78cf13ede76",
+  "Version": "2.3.4",
+  "Name": "Update",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 40,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9577,
+              "Y": 359.9677
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -0.0423,
+            "RightMargin": 0.0422,
+            "TopMargin": 0.0323,
+            "BottomMargin": -0.0323,
+            "Tag": 41,
+            "ActionTag": 1398365981,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackGroundData": {
+              "Type": "Normal",
+              "Path": "Login/Images/BAR_2.png",
+              "Plist": ""
+            },
+            "ProgressBarData": {
+              "Type": "Normal",
+              "Path": "Login/Images/BAR_1.png",
+              "Plist": ""
+            },
+            "BallNormalData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "BallPressedData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "BallDisabledData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PercentInfo": 100,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 634.6809,
+              "Y": 132.6563
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4958,
+              "Y": 0.1842
+            },
+            "PreSize": {
+              "X": 0.6094,
+              "Y": 0.0889
+            },
+            "LeftMargin": 244.6809,
+            "RightMargin": 255.3191,
+            "TopMargin": 555.3437,
+            "BottomMargin": 100.6563,
+            "Tag": 8,
+            "ActionTag": -627894116,
+            "Size": {
+              "X": 780.0,
+              "Y": 64.0
+            },
+            "Name": "PGBAR_Loading",
+            "ctype": "SliderObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 18,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 272.0,
+              "Y": 90.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2125,
+              "Y": 0.125
+            },
+            "PreSize": {
+              "X": 0.5625,
+              "Y": 0.0347
+            },
+            "LeftMargin": 272.0,
+            "RightMargin": 288.0,
+            "TopMargin": 617.5,
+            "BottomMargin": 77.5,
+            "Tag": 51,
+            "ActionTag": -1035825110,
+            "Size": {
+              "X": 720.0,
+              "Y": 25.0
+            },
+            "Name": "TXT_Loading",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Common/Images/Com_Bg.png",
+        "../Common/Images/Com_Opacity.png",
+        "../Fonts/YaHei.ttf",
+        "../Login/Images/BAR_1.png",
+        "../Login/Images/BAR_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,872 @@
+{
+  "ID": "4f35950b-1bce-4d22-9229-3f2295bf683f",
+  "Version": "2.3.4",
+  "Name": "Right",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 955,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/Btn_Enter_0.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/Btn_Enter_1.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/Btn_Enter_0.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 52,
+            "Scale9Height": 182,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 790.0,
+              "Y": 248.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0792,
+              "Y": 0.5254
+            },
+            "PreSize": {
+              "X": 0.112,
+              "Y": 0.4322
+            },
+            "LeftMargin": 749.0,
+            "RightMargin": -99.0,
+            "TopMargin": 122.0,
+            "BottomMargin": 146.0,
+            "Tag": 407,
+            "ActionTag": -706179834,
+            "Size": {
+              "X": 82.0,
+              "Y": 204.0
+            },
+            "Name": "BTN_Chess",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "InnerNodeSize": {
+              "Width": 734,
+              "Height": 472
+            },
+            "ScrollDirectionType": "Horizontal",
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 987,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_MJN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_MJN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_MJN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 192,
+                "Scale9Height": 218,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 364.8855,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 0.98,
+                  "ScaleY": 0.98
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4971,
+                  "Y": 0.7415
+                },
+                "PreSize": {
+                  "X": 0.3025,
+                  "Y": 0.5085
+                },
+                "LeftMargin": 253.8855,
+                "RightMargin": 258.1145,
+                "TopMargin": 2.0,
+                "BottomMargin": 230.0,
+                "Tag": 989,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffHall/MaJiang.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 111.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 111.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 84,
+                    "ActionTag": -1294582620,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1386982144,
+                "Size": {
+                  "X": 222.0,
+                  "Y": 240.0
+                },
+                "Name": "Game_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 190,
+                "Scale9Height": 218,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 620.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 0.98,
+                  "ScaleY": 0.98
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8447,
+                  "Y": 0.7415
+                },
+                "PreSize": {
+                  "X": 0.2997,
+                  "Y": 0.5085
+                },
+                "LeftMargin": 510.0,
+                "RightMargin": 4.0,
+                "TopMargin": 2.0,
+                "BottomMargin": 230.0,
+                "Tag": 993,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffHall/NiuNiu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 111.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5045,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 109.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 94,
+                    "ActionTag": -607906054,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1976995208,
+                "Size": {
+                  "X": 220.0,
+                  "Y": 240.0
+                },
+                "Name": "Game_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSZN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSZN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSZN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 192,
+                "Scale9Height": 218,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 106.0,
+                  "Y": 105.0
+                },
+                "Scale": {
+                  "ScaleX": 0.98,
+                  "ScaleY": 0.98
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1444,
+                  "Y": 0.2225
+                },
+                "PreSize": {
+                  "X": 0.3025,
+                  "Y": 0.5085
+                },
+                "LeftMargin": -5.0,
+                "RightMargin": 517.0,
+                "TopMargin": 247.0,
+                "BottomMargin": -15.0,
+                "Tag": 995,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffHall/PinSanZhang.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 111.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 111.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 104,
+                    "ActionTag": -1987749098,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1529275336,
+                "Size": {
+                  "X": 222.0,
+                  "Y": 240.0
+                },
+                "Name": "Game_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_DDZN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_DDZN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_DDZN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 192,
+                "Scale9Height": 218,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 364.8855,
+                  "Y": 105.0
+                },
+                "Scale": {
+                  "ScaleX": 0.98,
+                  "ScaleY": 0.98
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4971,
+                  "Y": 0.2225
+                },
+                "PreSize": {
+                  "X": 0.3025,
+                  "Y": 0.5085
+                },
+                "LeftMargin": 253.8855,
+                "RightMargin": 258.1145,
+                "TopMargin": 247.0,
+                "BottomMargin": -15.0,
+                "Tag": 991,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffHall/DouDiZhu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 111.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 111.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 114,
+                    "ActionTag": -372130253,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1147721260,
+                "Size": {
+                  "X": 222.0,
+                  "Y": 240.0
+                },
+                "Name": "Game_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_PSN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 190,
+                "Scale9Height": 218,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 620.0,
+                  "Y": 105.0
+                },
+                "Scale": {
+                  "ScaleX": 0.98,
+                  "ScaleY": 0.98
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8447,
+                  "Y": 0.2225
+                },
+                "PreSize": {
+                  "X": 0.2997,
+                  "Y": 0.5085
+                },
+                "LeftMargin": 510.0,
+                "RightMargin": 4.0,
+                "TopMargin": 247.0,
+                "BottomMargin": -15.0,
+                "Tag": 55,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffHall/Run.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 111.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5045,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 109.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 124,
+                    "ActionTag": -310350392,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 336231314,
+                "Size": {
+                  "X": 220.0,
+                  "Y": 240.0
+                },
+                "Name": "Game_5",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_XQN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_XQN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/BTN_XQN.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 192,
+                "Scale9Height": 218,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 106.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 0.98,
+                  "ScaleY": 0.98
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1444,
+                  "Y": 0.7415
+                },
+                "PreSize": {
+                  "X": 0.3025,
+                  "Y": 0.5085
+                },
+                "LeftMargin": -5.0,
+                "RightMargin": 517.0,
+                "TopMargin": 2.0,
+                "BottomMargin": 230.0,
+                "Tag": 997,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffHall/XZMJ.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 111.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 111.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 134,
+                    "ActionTag": -171768469,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1994417998,
+                "Size": {
+                  "X": 222.0,
+                  "Y": 240.0
+                },
+                "Name": "Game_6",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -42567961,
+            "Size": {
+              "X": 732.0,
+              "Y": 472.0
+            },
+            "Name": "SV_Games",
+            "ctype": "ScrollViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 732.0,
+          "Y": 472.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Animations/EffHall/DouDiZhu.json",
+        "../../Animations/EffHall/MaJiang.json",
+        "../../Animations/EffHall/NiuNiu.json",
+        "../../Animations/EffHall/PinSanZhang.json",
+        "../../Animations/EffHall/Run.json",
+        "../../Animations/EffHall/XZMJ.json",
+        "../Image/Plist.plist",
+        "../Image/Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

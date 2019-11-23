@@ -1,0 +1,307 @@
+{
+  "ID": "ffb12e37-46ab-4066-a903-5b18fea48d2f",
+  "Version": "2.3.4",
+  "Name": "Agreement",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 29,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing1000x652.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 970,
+            "Scale9Height": 622,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7813,
+              "Y": 0.9056
+            },
+            "LeftMargin": 140.0,
+            "RightMargin": 140.0,
+            "TopMargin": 34.0,
+            "BottomMargin": 34.0,
+            "Tag": 30,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Login/Agreement/IMG_Title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 60,
+                "Scale9OriginY": 14,
+                "Scale9Width": 62,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 580.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8896
+                },
+                "PreSize": {
+                  "X": 0.182,
+                  "Y": 0.0675
+                },
+                "LeftMargin": 409.0,
+                "RightMargin": 409.0,
+                "TopMargin": 50.0,
+                "BottomMargin": 558.0,
+                "Tag": 33,
+                "ActionTag": 393477022,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 44.0
+                },
+                "Name": "IMG_Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Login/Agreement/IMG_Bord.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 21,
+                "Scale9OriginY": 14,
+                "Scale9Width": 22,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 281.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.431
+                },
+                "PreSize": {
+                  "X": 0.93,
+                  "Y": 0.7055
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": 35.0,
+                "TopMargin": 141.0,
+                "BottomMargin": 51.0,
+                "Tag": 34,
+                "ActionTag": -1981469784,
+                "Size": {
+                  "X": 930.0,
+                  "Y": 460.0
+                },
+                "Name": "IMG_Bord",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 990.0,
+                  "Y": 610.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.99,
+                  "Y": 0.9356
+                },
+                "PreSize": {
+                  "X": 0.066,
+                  "Y": 0.1135
+                },
+                "LeftMargin": 957.0,
+                "RightMargin": -23.0,
+                "TopMargin": 5.0,
+                "BottomMargin": 573.0,
+                "Tag": 31,
+                "ActionTag": 2039973077,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "ND_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 916,
+                  "Height": 440
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 42.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.042,
+                  "Y": 0.092
+                },
+                "PreSize": {
+                  "X": 0.916,
+                  "Y": 0.6748
+                },
+                "LeftMargin": 42.0,
+                "RightMargin": 42.0,
+                "TopMargin": 152.0,
+                "BottomMargin": 60.0,
+                "Tag": 32,
+                "ActionTag": 759535083,
+                "Size": {
+                  "X": 916.0,
+                  "Y": 440.0
+                },
+                "Name": "ND_ScrollView",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": 715473949,
+            "Size": {
+              "X": 1000.0,
+              "Y": 652.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Common/Images/BTN_CloseN.png",
+        "../Common/Images/BTN_CloseP.png",
+        "../Common/Images/PopupWing1000x652.png",
+        "../Default/Button_Disable.png",
+        "Agreement/IMG_Bord.png",
+        "Agreement/IMG_Title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

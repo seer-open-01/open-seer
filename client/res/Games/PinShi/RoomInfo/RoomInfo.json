@@ -1,0 +1,350 @@
+{
+  "ID": "e0a36730-8bdf-4dab-866b-9e7700f272bf",
+  "Version": "2.3.4",
+  "Name": "RoomInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 149,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/BG_RoomInfo.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -25.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -335.0,
+            "RightMargin": -335.0,
+            "TopMargin": -1.0004,
+            "BottomMargin": -52.9996,
+            "Tag": 150,
+            "ActionTag": -316730947,
+            "Size": {
+              "X": 670.0,
+              "Y": 54.0
+            },
+            "Name": "BG_RoomInfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_RoomInfo_DF.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -250.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -287.0,
+            "RightMargin": 213.0,
+            "TopMargin": 3.0,
+            "BottomMargin": -37.0,
+            "Tag": 152,
+            "ActionTag": 407182288,
+            "Size": {
+              "X": 74.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Ante",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "20w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/top_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -198.0,
+              "Y": -24.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -198.0,
+            "RightMargin": 142.0,
+            "TopMargin": 8.0001,
+            "BottomMargin": -40.0001,
+            "Tag": 156,
+            "ActionTag": 1049603579,
+            "Size": {
+              "X": 56.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Ante",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_RoomInfo_KPQZ.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -62.0,
+            "RightMargin": -62.0,
+            "TopMargin": 3.0,
+            "BottomMargin": -37.0,
+            "Tag": 68,
+            "ActionTag": 1172494029,
+            "Size": {
+              "X": 124.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Rob_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_RoomInfo_ZYQZ.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -62.0,
+            "RightMargin": -62.0,
+            "TopMargin": 3.0,
+            "BottomMargin": -37.0,
+            "Tag": 69,
+            "ActionTag": -1906187766,
+            "Size": {
+              "X": 124.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Rob_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_RoomInfo_PTMS.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 118.0,
+            "RightMargin": -242.0,
+            "TopMargin": 3.0,
+            "BottomMargin": -37.0,
+            "Tag": 70,
+            "ActionTag": -1021208445,
+            "Size": {
+              "X": 124.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Mod_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_RoomInfo_DZMS.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 87.0,
+            "RightMargin": -273.0,
+            "TopMargin": 3.0,
+            "BottomMargin": -37.0,
+            "Tag": 71,
+            "ActionTag": -1505149286,
+            "Size": {
+              "X": 186.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Mod_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Com/Font/top_num.fnt",
+        "../../Com/Font/top_num_0.png",
+        "../Image/BG_RoomInfo.png",
+        "../Image/IMG_RoomInfo_DF.png",
+        "../Image/IMG_RoomInfo_DZMS.png",
+        "../Image/IMG_RoomInfo_KPQZ.png",
+        "../Image/IMG_RoomInfo_PTMS.png",
+        "../Image/IMG_RoomInfo_ZYQZ.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

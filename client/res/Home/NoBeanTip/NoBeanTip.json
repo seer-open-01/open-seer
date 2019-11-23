@@ -1,0 +1,414 @@
+{
+  "ID": "441416fa-0572-41c1-b94d-86f791f552f1",
+  "Version": "2.3.4",
+  "Name": "NoBeanTip",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 430,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing668x438.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 638,
+            "Scale9Height": 408,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5219,
+              "Y": 0.6083
+            },
+            "LeftMargin": 306.0,
+            "RightMargin": 306.0,
+            "TopMargin": 141.0,
+            "BottomMargin": 141.0,
+            "Tag": 176,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/IMG_Title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 60,
+                "Scale9OriginY": 14,
+                "Scale9Width": 62,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 334.0,
+                  "Y": 386.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8813
+                },
+                "PreSize": {
+                  "X": 0.2725,
+                  "Y": 0.1005
+                },
+                "LeftMargin": 243.0,
+                "RightMargin": 243.0,
+                "TopMargin": 30.0,
+                "BottomMargin": 364.0,
+                "Tag": 48,
+                "ActionTag": 238810204,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 44.0
+                },
+                "Name": "IMG_Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/Btn_Bank_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/Btn_Bank_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/Btn_Bank_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 176,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 510.0,
+                  "Y": 78.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7635,
+                  "Y": 0.1781
+                },
+                "PreSize": {
+                  "X": 0.3084,
+                  "Y": 0.1918
+                },
+                "LeftMargin": 407.0,
+                "RightMargin": 55.0,
+                "TopMargin": 318.0,
+                "BottomMargin": 36.0,
+                "Tag": 440,
+                "ActionTag": -286150743,
+                "Size": {
+                  "X": 206.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Bank",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/Btn_Charge_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/Btn_Charge_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/NoBeanTip/Image/Btn_Charge_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 176,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 78.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2395,
+                  "Y": 0.1781
+                },
+                "PreSize": {
+                  "X": 0.3084,
+                  "Y": 0.1918
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 405.0,
+                "TopMargin": 318.0,
+                "BottomMargin": 36.0,
+                "Tag": 128,
+                "ActionTag": 1614503877,
+                "Size": {
+                  "X": 206.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Charge",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 28,
+                "LabelText": "",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {},
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 338.0,
+                  "Y": 226.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 232,
+                  "G": 122,
+                  "B": 46
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.506,
+                  "Y": 0.516
+                },
+                "PreSize": {
+                  "X": 0.7725,
+                  "Y": 0.2671
+                },
+                "LeftMargin": 80.0,
+                "RightMargin": 72.0,
+                "TopMargin": 153.5,
+                "BottomMargin": 167.5,
+                "Tag": 447,
+                "ActionTag": 1555326154,
+                "Size": {
+                  "X": 516.0,
+                  "Y": 117.0
+                },
+                "Name": "ND_Tip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 657.0009,
+                  "Y": 402.0017
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9835,
+                  "Y": 0.9178
+                },
+                "PreSize": {
+                  "X": 0.0988,
+                  "Y": 0.1689
+                },
+                "LeftMargin": 624.0009,
+                "RightMargin": -22.0009,
+                "TopMargin": -1.0017,
+                "BottomMargin": 365.0017,
+                "Tag": 272,
+                "ActionTag": 2054773509,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "ND_Close",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -485058357,
+            "Size": {
+              "X": 668.0,
+              "Y": 438.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_CloseN.png",
+        "../../Common/Images/BTN_CloseP.png",
+        "../../Common/Images/PopupWing668x438.png",
+        "../../Fonts/YaHei.ttf",
+        "Image/Btn_Bank_1.png",
+        "Image/Btn_Bank_2.png",
+        "Image/Btn_Charge_1.png",
+        "Image/Btn_Charge_2.png",
+        "Image/IMG_Title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

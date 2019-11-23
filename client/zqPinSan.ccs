@@ -1,0 +1,333 @@
+<Solution>
+  <PropertyGroup Name="zqPinSan" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Animations">
+          <Folder Name="EffPinSan">
+            <Folder Name="EffBiPai">
+              <Project Name="EffHuaHen.csd" Type="Node" />
+              <Project Name="EffShanDian.csd" Type="Node" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+              <Image Name="PSDian1.png" />
+              <Image Name="PSDian2.png" />
+              <Image Name="PSDian3.png" />
+              <Image Name="PSDian4.png" />
+              <Image Name="PSJianHen.png" />
+            </Folder>
+            <Folder Name="EffBTN">
+              <Project Name="BTNGenZhu.csd" Type="Node" />
+              <Project Name="BTNJiaZhu.csd" Type="Node" />
+              <Image Name="BTNQuan.png" />
+              <Image Name="PSGuangQuan.png" />
+            </Folder>
+            <Folder Name="EffQuanBi">
+              <Project Name="EffQuanBi.csd" Type="Node" />
+              <Image Name="QuanBi_01.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="Btn_Begin_0.png" />
+            <Image Name="Btn_Begin_1.png" />
+            <Image Name="Btn_Begin_2.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Btn_Invite_0.png" />
+            <Image Name="Btn_Invite_1.png" />
+            <Image Name="Com_Coin.png" />
+            <Image Name="Com_FZ .png" />
+            <Image Name="Com_GameCoin.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Games">
+          <Folder Name="Com">
+            <Folder Name="Box">
+              <Project Name="Box.csd" Type="Node" />
+              <Image Name="PIC_BoxClose.png" />
+              <Image Name="PIC_BoxOpen.png" />
+              <Image Name="PIC_RewardTitel.png" />
+            </Folder>
+            <Folder Name="Font">
+              <Fnt Name="coin_num.fnt" />
+              <Fnt Name="jiaf_num.fnt" />
+              <Fnt Name="jianf_num.fnt" />
+              <Fnt Name="top_num.fnt" />
+            </Folder>
+            <Folder Name="Head">
+              <Project Name="GameHead.csd" Type="Node" />
+              <Image Name="HeadBG.png" />
+              <Image Name="HeadDefaultImg.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="PinSan">
+            <Folder Name="AddAntePanel">
+              <Project Name="AddAntePanel.csd" Type="Node" />
+            </Folder>
+            <Folder Name="CardsPattern">
+              <Project Name="CardsPattern.csd" Type="Node" />
+            </Folder>
+            <Folder Name="CardsStatus">
+              <Project Name="CardsStatus.csd" Type="Node" />
+            </Folder>
+            <Folder Name="ChipsPanel">
+              <Project Name="Chips_1.csd" Type="Node" />
+              <Project Name="Chips_10.csd" Type="Node" />
+              <Project Name="Chips_2.csd" Type="Node" />
+              <Project Name="Chips_3.csd" Type="Node" />
+              <Project Name="Chips_4.csd" Type="Node" />
+              <Project Name="Chips_5.csd" Type="Node" />
+              <Project Name="Chips_6.csd" Type="Node" />
+              <Project Name="Chips_8.csd" Type="Node" />
+              <Project Name="ChipsPanel.csd" Type="Node" />
+            </Folder>
+            <Folder Name="CompareAnimation">
+              <Project Name="CompareAnimation.csd" Type="Node" />
+            </Folder>
+            <Folder Name="ComparePanel">
+              <Project Name="ComparePanel.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="Font">
+              <Fnt Name="num_game_clock.fnt" />
+              <Fnt Name="num_player_bean.fnt" />
+              <Fnt Name="num_roomInfo.fnt" />
+              <Fnt Name="num_total_chips.fnt" />
+            </Folder>
+            <Folder Name="HandCards">
+              <Project Name="HandCards.csd" Type="Node" />
+              <Project Name="HandCardsOther.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Image">
+              <Folder Name="Fnt">
+                <Fnt Name="Settlement_AddBeanFnt.fnt" />
+                <Fnt Name="Settlement_MinusBeanFnt.fnt" />
+              </Folder>
+              <Image Name="BG_Ante.png" />
+              <Image Name="BG_Bean.png" />
+              <Image Name="BG_Player.png" />
+              <Image Name="BG_PlayerAnte.png" />
+              <Image Name="BG_RoomInfo.png" />
+              <Image Name="BG_Table.png" />
+              <Image Name="BG_TotalAnte.png" />
+              <Image Name="BiMen.png" />
+              <Image Name="BiMen_1.png" />
+              <Image Name="BiMen_2.png" />
+              <Image Name="BiMen_3.png" />
+              <Image Name="BTN_AddD.png" />
+              <Image Name="BTN_AddN.png" />
+              <Image Name="BTN_AddP.png" />
+              <Image Name="BTN_AutoFollowD.png" />
+              <Image Name="BTN_AutoFollowN.png" />
+              <Image Name="BTN_AutoFollowP.png" />
+              <Image Name="BTN_CancelFollowD.png" />
+              <Image Name="BTN_CancelFollowN.png" />
+              <Image Name="BTN_CancelFollowP.png" />
+              <Image Name="BTN_ChangeD.png" />
+              <Image Name="BTN_ChangeN.png" />
+              <Image Name="BTN_ChangeP.png" />
+              <Image Name="BTN_ChargeN.png" />
+              <Image Name="BTN_ChargeP.png" />
+              <Image Name="BTN_ClickToSee.png" />
+              <Image Name="BTN_CompareD.png" />
+              <Image Name="BTN_CompareN.png" />
+              <Image Name="BTN_CompareP.png" />
+              <Image Name="BTN_DisCardD.png" />
+              <Image Name="BTN_DisCardN.png" />
+              <Image Name="BTN_DisCardP.png" />
+              <Image Name="BTN_FollowD.png" />
+              <Image Name="BTN_FollowN.png" />
+              <Image Name="BTN_FollowP.png" />
+              <Image Name="BTN_MsgD.png" />
+              <Image Name="BTN_MsgN.png" />
+              <Image Name="BTN_MsgP.png" />
+              <Image Name="BTN_PatternN.png" />
+              <Image Name="BTN_PatternP.png" />
+              <Image Name="BTN_ReadyN.png" />
+              <Image Name="BTN_ReadyP.png" />
+              <Image Name="BTN_VoiceD.png" />
+              <Image Name="BTN_VoiceN.png" />
+              <Image Name="BTN_VoiceP.png" />
+              <Image Name="Chips_10D.png" />
+              <Image Name="Chips_10N.png" />
+              <Image Name="Chips_10P.png" />
+              <Image Name="Chips_1N.png" />
+              <Image Name="Chips_2D.png" />
+              <Image Name="Chips_2N.png" />
+              <Image Name="Chips_2P.png" />
+              <Image Name="Chips_3D.png" />
+              <Image Name="Chips_3N.png" />
+              <Image Name="Chips_3P.png" />
+              <Image Name="Chips_4D.png" />
+              <Image Name="Chips_4N.png" />
+              <Image Name="Chips_4P.png" />
+              <Image Name="Chips_5D.png" />
+              <Image Name="Chips_5N.png" />
+              <Image Name="Chips_5P.png" />
+              <Image Name="Chips_6D.png" />
+              <Image Name="Chips_6N.png" />
+              <Image Name="Chips_6P.png" />
+              <Image Name="Chips_8D.png" />
+              <Image Name="Chips_8N.png" />
+              <Image Name="Chips_8P.png" />
+              <Image Name="CompareAnimation_1.png" />
+              <Image Name="CompareAnimation_2.png" />
+              <Image Name="CompareAnimation_3.png" />
+              <Image Name="CompareAnimation_4.png" />
+              <Image Name="CompareAnimation_5.png" />
+              <Image Name="CompareAnimation_6.png" />
+              <Image Name="IMG_AddAnte.png" />
+              <Image Name="IMG_CardStatus_Dis.png" />
+              <Image Name="IMG_CardStatus_HaveSee.png" />
+              <Image Name="IMG_CardStatus_Lose.png" />
+              <Image Name="IMG_CardStatus_NoSee.png" />
+              <Image Name="IMG_ChatArrow.png" />
+              <Image Name="IMG_ChatBg.png" />
+              <Image Name="IMG_Clock_Bg.png" />
+              <Image Name="IMG_Clock_Effect.png" />
+              <Image Name="IMG_ComparePlayer.png" />
+              <Image Name="IMG_CompareTxt.png" />
+              <Image Name="IMG_Dealer.png" />
+              <Image Name="IMG_FollowAnte.png" />
+              <Image Name="IMG_HaveReady.png" />
+              <Image Name="IMG_LightCircle.png" />
+              <Image Name="IMG_Matching.png" />
+              <Image Name="IMG_Offline.png" />
+              <Image Name="IMG_Pattern_BZ.png" />
+              <Image Name="IMG_Pattern_DZ.png" />
+              <Image Name="IMG_Pattern_SP.png" />
+              <Image Name="IMG_Pattern_SZ.png" />
+              <Image Name="IMG_Pattern_TH.png" />
+              <Image Name="IMG_Pattern_THS.png" />
+              <Image Name="IMG_RedWaring.png" />
+              <Image Name="IMG_RoomInfo_DF.png" />
+              <Image Name="IMG_RoomInfo_FD.png" />
+              <Image Name="IMG_RoomInfo_Round.png" />
+              <Image Name="IMG_WaitOthers.png" />
+              <Image Name="IMG_Watching.png" />
+              <Image Name="IMG_Whatching_Other.png" />
+              <Image Name="IMG_ZanLi.png" />
+              <Image Name="RoomInfo_1.png" />
+              <Image Name="RoomInfo_2.png" />
+              <Image Name="RoomInfo_3.png" />
+              <Image Name="RoomInfo_4.png" />
+              <Image Name="RoomInfo_5.png" />
+              <Image Name="Settlement_1.png" />
+              <Image Name="Settlement_2.png" />
+              <Image Name="Settlement_3.png" />
+              <Image Name="Settlement_4.png" />
+              <Image Name="Settlement_5.png" />
+              <Image Name="Settlement_BTNNextRoundN.png" />
+              <Image Name="Settlement_BTNNextRoundP.png" />
+              <Image Name="Settlement_BTNShareN.png" />
+              <Image Name="Settlement_BTNShareP.png" />
+            </Folder>
+            <Folder Name="PlayBtn">
+              <Project Name="PlayBtn.csd" Type="Node" />
+            </Folder>
+            <Folder Name="PlayCardAnimation">
+              <Project Name="PlayCardAnimation.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Player">
+              <Project Name="Player_1.csd" Type="Node" />
+              <Project Name="Player_2.csd" Type="Node" />
+              <Project Name="Player_3.csd" Type="Node" />
+              <Project Name="Player_4.csd" Type="Node" />
+              <Project Name="Player_5.csd" Type="Node" />
+              <Project Name="Player_6.csd" Type="Node" />
+              <Project Name="UserInfoMain.csd" Type="Node" />
+              <Project Name="UserInfoOther.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Pokers">
+              <Image Name="100.png" />
+              <Image Name="101.png" />
+              <Image Name="102.png" />
+              <Image Name="103.png" />
+              <Image Name="104.png" />
+              <Image Name="105.png" />
+              <Image Name="106.png" />
+              <Image Name="107.png" />
+              <Image Name="108.png" />
+              <Image Name="109.png" />
+              <Image Name="110.png" />
+              <Image Name="111.png" />
+              <Image Name="112.png" />
+              <Image Name="113.png" />
+              <Image Name="201.png" />
+              <Image Name="202.png" />
+              <Image Name="203.png" />
+              <Image Name="204.png" />
+              <Image Name="205.png" />
+              <Image Name="206.png" />
+              <Image Name="207.png" />
+              <Image Name="208.png" />
+              <Image Name="209.png" />
+              <Image Name="210.png" />
+              <Image Name="211.png" />
+              <Image Name="212.png" />
+              <Image Name="213.png" />
+              <Image Name="301.png" />
+              <Image Name="302.png" />
+              <Image Name="303.png" />
+              <Image Name="304.png" />
+              <Image Name="305.png" />
+              <Image Name="306.png" />
+              <Image Name="307.png" />
+              <Image Name="308.png" />
+              <Image Name="309.png" />
+              <Image Name="310.png" />
+              <Image Name="311.png" />
+              <Image Name="312.png" />
+              <Image Name="313.png" />
+              <Image Name="401.png" />
+              <Image Name="402.png" />
+              <Image Name="403.png" />
+              <Image Name="404.png" />
+              <Image Name="405.png" />
+              <Image Name="406.png" />
+              <Image Name="407.png" />
+              <Image Name="408.png" />
+              <Image Name="409.png" />
+              <Image Name="410.png" />
+              <Image Name="411.png" />
+              <Image Name="412.png" />
+              <Image Name="413.png" />
+              <Image Name="99.png" />
+            </Folder>
+            <Folder Name="PreBegin">
+              <Project Name="PreBegin.csd" Type="Node" />
+            </Folder>
+            <Folder Name="RoomInfo">
+              <Project Name="RoomInfo.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Settlement">
+              <Project Name="RoundSettlement.csd" Type="Layer" />
+              <Project Name="RoundSettlementPlayerInfo.csd" Type="Node" />
+            </Folder>
+            <Project Name="PinSanWindow.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

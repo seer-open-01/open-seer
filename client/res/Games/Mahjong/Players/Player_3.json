@@ -1,0 +1,1583 @@
+{
+  "ID": "8e318ad8-5de0-48e4-9584-8f4dd5018f59",
+  "Version": "2.3.4",
+  "Name": "Player_3",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 11831,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Player_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 44,
+            "Scale9OriginY": 51,
+            "Scale9Width": 46,
+            "Scale9Height": 54,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -30.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -67.0,
+            "RightMargin": -67.0,
+            "TopMargin": -48.0,
+            "BottomMargin": -108.0,
+            "Tag": 12084,
+            "ActionTag": 1220973815,
+            "Size": {
+              "X": 134.0,
+              "Y": 156.0
+            },
+            "Name": "IMG_Bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Head/GameHead.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 12085,
+            "ActionTag": 751881288,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HeadPic",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "海南棋牌欢迎",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 230,
+              "G": 230,
+              "B": 250
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -60.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -61.5,
+            "RightMargin": -61.5,
+            "TopMargin": 46.0,
+            "BottomMargin": -74.0,
+            "Tag": 12091,
+            "ActionTag": -1819811328,
+            "Size": {
+              "X": 123.0,
+              "Y": 28.0
+            },
+            "Name": "TXT_Name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_GameCoin.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 36,
+            "Scale9OriginY": 13,
+            "Scale9Width": 50,
+            "Scale9Height": 4,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -85.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -61.0,
+            "RightMargin": -61.0,
+            "TopMargin": 70.0,
+            "BottomMargin": -100.0,
+            "Tag": 12092,
+            "ActionTag": -403905137,
+            "Size": {
+              "X": 122.0,
+              "Y": 30.0
+            },
+            "Name": "IMG_BeanBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "LabelText": "9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/coin_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 8.0,
+              "Y": -90.9998
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -40.0,
+            "RightMargin": -56.0,
+            "TopMargin": 74.9998,
+            "BottomMargin": -106.9998,
+            "Tag": 12093,
+            "ActionTag": -657235318,
+            "Size": {
+              "X": 96.0,
+              "Y": 32.0
+            },
+            "Name": "FNT_Bean",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "2",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Fnt/Mahjong_PlayerShangGa_Fnt_0.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -29.0,
+              "Y": 45.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -89.0,
+            "RightMargin": -31.0,
+            "TopMargin": -61.0,
+            "BottomMargin": 29.0,
+            "Tag": 134,
+            "ActionTag": 1736363337,
+            "Size": {
+              "X": 120.0,
+              "Y": 32.0
+            },
+            "Name": "FNT_Multiple",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/DQ_Tag_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -26.0,
+              "Y": 30.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -56.0,
+            "RightMargin": -4.0,
+            "TopMargin": -57.0,
+            "BottomMargin": 3.0,
+            "Tag": 1019,
+            "ActionTag": 2028934786,
+            "Size": {
+              "X": 60.0,
+              "Y": 54.0
+            },
+            "Name": "ND_DQ",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -220.0,
+              "Y": -60.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -220.0,
+            "RightMargin": 220.0,
+            "TopMargin": 60.0,
+            "BottomMargin": -60.0,
+            "Tag": 12121,
+            "ActionTag": 764171344,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_FlowerCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -140.0,
+              "Y": -130.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -140.0,
+            "RightMargin": 140.0,
+            "TopMargin": 130.0,
+            "BottomMargin": -130.0,
+            "Tag": 12094,
+            "ActionTag": -741725792,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_TableCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -140.0,
+              "Y": 15.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -140.0,
+            "RightMargin": 140.0,
+            "TopMargin": -15.0,
+            "BottomMargin": 15.0,
+            "Tag": 12132,
+            "ActionTag": 1218424433,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HandCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -140.0,
+              "Y": 5.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -140.0,
+            "RightMargin": 140.0,
+            "TopMargin": -5.0,
+            "BottomMargin": 5.0,
+            "Tag": 12149,
+            "ActionTag": 1254261091,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_UserCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/CardsImages/HandCards/South/19.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 29,
+            "Scale9OriginY": 41,
+            "Scale9Width": 32,
+            "Scale9Height": 44,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -360.0,
+              "Y": -100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -405.0,
+            "RightMargin": 315.0,
+            "TopMargin": 37.0,
+            "BottomMargin": -163.0,
+            "Tag": 27095,
+            "ActionTag": 1537997531,
+            "Size": {
+              "X": 90.0,
+              "Y": 126.0
+            },
+            "Name": "IMG_PlayedCard",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Status_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -360.0,
+              "Y": -100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -420.0,
+            "RightMargin": 300.0,
+            "TopMargin": 81.0,
+            "BottomMargin": -119.0,
+            "Tag": 163,
+            "ActionTag": 1081827692,
+            "Size": {
+              "X": 120.0,
+              "Y": 38.0
+            },
+            "Name": "IMG_Status",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Player_3.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 36,
+            "Scale9OriginY": 13,
+            "Scale9Width": 38,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -130.0,
+              "Y": -60.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -185.0,
+            "RightMargin": 75.0,
+            "TopMargin": 39.0,
+            "BottomMargin": -81.0,
+            "Tag": 12090,
+            "ActionTag": 711615990,
+            "Size": {
+              "X": 110.0,
+              "Y": 42.0
+            },
+            "Name": "IMG_Ready",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Player_7.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 13,
+            "Scale9Width": 14,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 40.0,
+              "Y": 30.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 20.0,
+            "RightMargin": -60.0,
+            "TopMargin": -51.0,
+            "BottomMargin": 9.0,
+            "Tag": 24648,
+            "ActionTag": -529709454,
+            "Size": {
+              "X": 40.0,
+              "Y": 42.0
+            },
+            "Name": "IMG_Dealer",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_FZ .png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 32.0,
+              "Y": -24.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 7.0,
+            "RightMargin": -57.0,
+            "TopMargin": 6.0,
+            "BottomMargin": -42.0,
+            "Tag": 127,
+            "ActionTag": -783938902,
+            "Size": {
+              "X": 50.0,
+              "Y": 36.0
+            },
+            "Name": "IMG_FZ",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Player_4.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 23,
+            "Scale9OriginY": 23,
+            "Scale9Width": 24,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -35.0,
+            "RightMargin": -35.0,
+            "TopMargin": -35.0,
+            "BottomMargin": -35.0,
+            "Tag": 23263,
+            "ActionTag": 1964293134,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "VisibleForFrame": false,
+            "Name": "IMG_Offline",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Player_Out.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 23,
+            "Scale9OriginY": 23,
+            "Scale9Width": 24,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -35.0,
+            "RightMargin": -35.0,
+            "TopMargin": -35.0,
+            "BottomMargin": -35.0,
+            "Tag": 117,
+            "ActionTag": -714829733,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "VisibleForFrame": false,
+            "Name": "IMG_Out",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Player_5.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 85,
+            "Scale9OriginY": 22,
+            "Scale9Width": 88,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -160.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -289.0,
+            "RightMargin": 31.0,
+            "TopMargin": -34.0,
+            "BottomMargin": -34.0,
+            "Tag": 12176,
+            "Children": [
+              {
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/Player_6.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 253.0,
+                  "Y": 28.0
+                },
+                "Scale": {
+                  "ScaleX": -1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9806,
+                  "Y": 0.4118
+                },
+                "PreSize": {
+                  "X": 0.1163,
+                  "Y": 0.3235
+                },
+                "LeftMargin": 238.0,
+                "RightMargin": -10.0,
+                "TopMargin": 29.0,
+                "BottomMargin": 17.0,
+                "Tag": 12177,
+                "ActionTag": 24514389,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 22.0
+                },
+                "Name": "IMG_ChatArrow",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 2048261473,
+            "Size": {
+              "X": 258.0,
+              "Y": 68.0
+            },
+            "Name": "IMG_ChatBG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "你在说什么呢，我怎么听\n不懂啊。你在说什么呢",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -160.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -271.5,
+            "RightMargin": 48.5,
+            "TopMargin": -28.0,
+            "BottomMargin": -28.0,
+            "Tag": 12178,
+            "ActionTag": 1576874701,
+            "Size": {
+              "X": 223.0,
+              "Y": 56.0
+            },
+            "Name": "TXT_ChatMsg",
+            "ctype": "TextObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 12179,
+            "ActionTag": 56759607,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_GiftPos",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -360.0,
+              "Y": -100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -360.0,
+            "RightMargin": 360.0,
+            "TopMargin": 100.0,
+            "BottomMargin": -100.0,
+            "Tag": 215,
+            "ActionTag": -1466273271,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_EffectPos",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -126.0,
+              "Y": -100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -126.0,
+            "RightMargin": 126.0,
+            "TopMargin": 100.0,
+            "BottomMargin": -100.0,
+            "Tag": 1027,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/Hu_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -57.0,
+                "RightMargin": -57.0,
+                "TopMargin": -16.0,
+                "BottomMargin": -16.0,
+                "Tag": 1028,
+                "ActionTag": -550304246,
+                "Size": {
+                  "X": 114.0,
+                  "Y": 32.0
+                },
+                "Name": "ND_Bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "LabelText": "1z",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/Fnt/num_h.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -32.5,
+                "RightMargin": -32.5,
+                "TopMargin": -16.0,
+                "BottomMargin": -16.0,
+                "Tag": 1029,
+                "ActionTag": -1793722886,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Order",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/CardsImages/Arrow_Left.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": -1.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": -69.0,
+                "TopMargin": -16.0,
+                "BottomMargin": -18.0,
+                "Tag": 1030,
+                "ActionTag": -2093798946,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 34.0
+                },
+                "VisibleForFrame": false,
+                "Name": "3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/CardsImages/Arrow_Up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": -1.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": -69.0,
+                "TopMargin": -16.0,
+                "BottomMargin": -18.0,
+                "Tag": 1031,
+                "ActionTag": -1505140961,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 34.0
+                },
+                "VisibleForFrame": false,
+                "Name": "2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/CardsImages/Arrow_Right.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": -1.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": -69.0,
+                "TopMargin": -16.0,
+                "BottomMargin": -18.0,
+                "Tag": 1032,
+                "ActionTag": -68578909,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 34.0
+                },
+                "Name": "1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/CardsImages/Arrow_Down.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": -1.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": -69.0,
+                "TopMargin": -16.0,
+                "BottomMargin": -18.0,
+                "Tag": 1033,
+                "ActionTag": 1321485578,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 34.0
+                },
+                "VisibleForFrame": false,
+                "Name": "0",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1453002737,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Hu",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/IMG_MinusScore.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -124.0,
+              "Y": -162.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -238.0,
+            "RightMargin": 10.0,
+            "TopMargin": 120.0,
+            "BottomMargin": -204.0,
+            "Tag": 225,
+            "Children": [
+              {
+                "LabelText": "J66666w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/Fnt/num_minus.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 116.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5088,
+                  "Y": 0.5952
+                },
+                "PreSize": {
+                  "X": 0.7719,
+                  "Y": 0.381
+                },
+                "LeftMargin": 28.0,
+                "RightMargin": 24.0,
+                "TopMargin": 18.0,
+                "BottomMargin": 34.0,
+                "Tag": 226,
+                "ActionTag": 1690845684,
+                "Size": {
+                  "X": 176.0,
+                  "Y": 32.0
+                },
+                "Name": "FNT_MinusScore",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1309214917,
+            "Size": {
+              "X": 228.0,
+              "Y": 84.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_MinusScore",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/IMG_AddScore.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -124.0,
+              "Y": -162.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -238.0,
+            "RightMargin": 10.0,
+            "TopMargin": 120.0,
+            "BottomMargin": -204.0,
+            "Tag": 227,
+            "Children": [
+              {
+                "LabelText": "J66666w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/Fnt/num_add.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 116.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5088,
+                  "Y": 0.5952
+                },
+                "PreSize": {
+                  "X": 0.7719,
+                  "Y": 0.381
+                },
+                "LeftMargin": 28.0,
+                "RightMargin": 24.0,
+                "TopMargin": 18.0,
+                "BottomMargin": 34.0,
+                "Tag": 228,
+                "ActionTag": 1200618038,
+                "Size": {
+                  "X": 176.0,
+                  "Y": 32.0
+                },
+                "Name": "FNT_AddScore",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1619248489,
+            "Size": {
+              "X": 228.0,
+              "Y": 84.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_AddScore",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": -30.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "TopMargin": 30.0,
+            "BottomMargin": -30.0,
+            "Tag": 294,
+            "ActionTag": -700595855,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Clock",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -670.0,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -670.0,
+            "RightMargin": 670.0,
+            "TopMargin": -8.0,
+            "BottomMargin": 8.0,
+            "Tag": 364,
+            "ActionTag": 1304760155,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Dian",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_FZ .png",
+        "../../../Common/Images/Com_GameCoin.png",
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Font/coin_num.fnt",
+        "../../Com/Font/coin_num_0.png",
+        "../../Com/Head/GameHead.json",
+        "../CardsImages/Arrow_Down.png",
+        "../CardsImages/Arrow_Left.png",
+        "../CardsImages/Arrow_Right.png",
+        "../CardsImages/Arrow_Up.png",
+        "../CardsImages/HandCards/South/19.png",
+        "../Images/DQ_Tag_2.png",
+        "../Images/Fnt/Mahjong_PlayerShangGa_Fnt_0.fnt",
+        "../Images/Fnt/Mahjong_PlayerShangGa_Fnt_0_0.png",
+        "../Images/Fnt/num_add.fnt",
+        "../Images/Fnt/num_add_0.png",
+        "../Images/Fnt/num_h.fnt",
+        "../Images/Fnt/num_h_0.png",
+        "../Images/Fnt/num_minus.fnt",
+        "../Images/Fnt/num_minus_0.png",
+        "../Images/Hu_1.png",
+        "../Images/IMG_AddScore.png",
+        "../Images/IMG_MinusScore.png",
+        "../Images/Player_1.png",
+        "../Images/Player_3.png",
+        "../Images/Player_4.png",
+        "../Images/Player_5.png",
+        "../Images/Player_6.png",
+        "../Images/Player_7.png",
+        "../Images/Player_Out.png",
+        "../Images/Status_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

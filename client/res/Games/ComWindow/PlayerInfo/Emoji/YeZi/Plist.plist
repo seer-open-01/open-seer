@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeTi01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,245},{220,218}}</string>
+				<key>offset</key>
+				<string>{1,8}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeTi03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{219,245}}</string>
+				<key>offset</key>
+				<string>{3,-8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{264,270}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi00.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{218,245},{89,84}}</string>
+				<key>offset</key>
+				<string>{0,-3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{366,418},{69,78}}</string>
+				<key>offset</key>
+				<string>{-10,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{302,0},{86,50}}</string>
+				<key>offset</key>
+				<string>{-1,-20}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{298,334},{69,84}}</string>
+				<key>offset</key>
+				<string>{-10,-3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{296,422},{89,70}}</string>
+				<key>offset</key>
+				<string>{0,-10}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{218,422},{78,80}}</string>
+				<key>offset</key>
+				<string>{-5,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{219,0},{69,72}}</string>
+				<key>offset</key>
+				<string>{-10,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{218,334},{88,80}}</string>
+				<key>offset</key>
+				<string>{0,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{219,69},{79,48}}</string>
+				<key>offset</key>
+				<string>{-5,-21}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{302,86},{88,48}}</string>
+				<key>offset</key>
+				<string>{0,-21}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{435,0},{88,57}}</string>
+				<key>offset</key>
+				<string>{0,-16}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/YeZi/YeZi11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367,0},{88,54}}</string>
+				<key>offset</key>
+				<string>{0,-18}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,39 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="cd171af2-2b0d-4666-835a-ccd6fc7b2112" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="RoomCard/Image/BTN_0.png" />
+      <FilePathData Path="RoomCard/Image/BTN_0_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_1.png" />
+      <FilePathData Path="RoomCard/Image/BTN_1_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_2.png" />
+      <FilePathData Path="RoomCard/Image/BTN_2_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_3.png" />
+      <FilePathData Path="RoomCard/Image/BTN_3_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_4.png" />
+      <FilePathData Path="RoomCard/Image/BTN_4_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_5.png" />
+      <FilePathData Path="RoomCard/Image/BTN_5_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_6.png" />
+      <FilePathData Path="RoomCard/Image/BTN_6_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_7.png" />
+      <FilePathData Path="RoomCard/Image/BTN_7_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_8.png" />
+      <FilePathData Path="RoomCard/Image/BTN_8_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_9.png" />
+      <FilePathData Path="RoomCard/Image/BTN_9_x.png" />
+      <FilePathData Path="RoomCard/Image/BTN_Add.png" />
+      <FilePathData Path="RoomCard/Image/BTN_Del.png" />
+      <FilePathData Path="RoomCard/Image/BTN_Del_x.png" />
+      <FilePathData Path="RoomCard/Image/Btn_Horn_1.png" />
+      <FilePathData Path="RoomCard/Image/Btn_Horn_2.png" />
+      <FilePathData Path="RoomCard/Image/BTN_Reset.png" />
+      <FilePathData Path="RoomCard/Image/BTN_Reset_x.png" />
+      <FilePathData Path="RoomCard/Image/Img_RoomCard__4.png" />
+      <FilePathData Path="RoomCard/Image/Img_RoomCard__5.png" />
+      <FilePathData Path="RoomCard/Image/Img_RoomCard_3.png" />
+      <FilePathData Path="RoomCard/Image/Img_RoomCard__8.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

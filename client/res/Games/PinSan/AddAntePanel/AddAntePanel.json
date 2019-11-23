@@ -1,0 +1,736 @@
+{
+  "ID": "833a9070-1958-4119-8e28-07037c261815",
+  "Version": "2.3.4",
+  "Name": "AddAntePanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 334,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.5684,
+              "Y": 0.3802
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -638.4316,
+            "RightMargin": -641.5684,
+            "TopMargin": -360.3802,
+            "BottomMargin": -359.6198,
+            "Tag": 336,
+            "ActionTag": 1380512425,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 0,
+            "Name": "BTN_Close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BG_Ante.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BG_Ante.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BG_Ante.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 466,
+            "Scale9Height": 158,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -9.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -248.0,
+            "RightMargin": -248.0,
+            "TopMargin": -80.9999,
+            "BottomMargin": -99.0001,
+            "Tag": 337,
+            "ActionTag": -236714969,
+            "Size": {
+              "X": 496.0,
+              "Y": 180.0
+            },
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_3D.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_2P.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_2N.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 94,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -179.9999,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -232.9999,
+            "RightMargin": 126.9999,
+            "TopMargin": -58.0,
+            "BottomMargin": -58.0,
+            "Tag": 340,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "10000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.0,
+                  "Y": 64.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5094,
+                  "Y": 0.5517
+                },
+                "PreSize": {
+                  "X": 0.6132,
+                  "Y": 0.319
+                },
+                "LeftMargin": 21.5,
+                "RightMargin": 19.5,
+                "TopMargin": 33.5,
+                "BottomMargin": 45.5,
+                "Tag": 342,
+                "ActionTag": -1698615638,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 37.0
+                },
+                "Name": "TXT_Value",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -2101013176,
+            "Size": {
+              "X": 106.0,
+              "Y": 116.0
+            },
+            "Name": "BTN_Ante_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_3D.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_3P.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_3N.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 94,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -60.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -113.0,
+            "RightMargin": 7.0,
+            "TopMargin": -58.0,
+            "BottomMargin": -58.0,
+            "Tag": 341,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "20000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.0,
+                  "Y": 62.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5094,
+                  "Y": 0.5345
+                },
+                "PreSize": {
+                  "X": 0.6132,
+                  "Y": 0.319
+                },
+                "LeftMargin": 21.5,
+                "RightMargin": 19.5,
+                "TopMargin": 35.5,
+                "BottomMargin": 43.5,
+                "Tag": 343,
+                "ActionTag": -693382521,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 37.0
+                },
+                "Name": "TXT_Value",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1481234327,
+            "Size": {
+              "X": 106.0,
+              "Y": 116.0
+            },
+            "Name": "BTN_Ante_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_3D.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_4P.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_4N.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 94,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 7.0,
+            "RightMargin": -113.0,
+            "TopMargin": -58.0,
+            "BottomMargin": -58.0,
+            "Tag": 338,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "30000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.0,
+                  "Y": 62.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5094,
+                  "Y": 0.5345
+                },
+                "PreSize": {
+                  "X": 0.6132,
+                  "Y": 0.319
+                },
+                "LeftMargin": 21.5,
+                "RightMargin": 19.5,
+                "TopMargin": 35.5,
+                "BottomMargin": 43.5,
+                "Tag": 344,
+                "ActionTag": -1644460354,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 37.0
+                },
+                "Name": "TXT_Value",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -967428140,
+            "Size": {
+              "X": 106.0,
+              "Y": 116.0
+            },
+            "Name": "BTN_Ante_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_3D.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_5P.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Chips_5N.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 94,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 127.0,
+            "RightMargin": -233.0,
+            "TopMargin": -58.0,
+            "BottomMargin": -58.0,
+            "Tag": 339,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "20000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.0,
+                  "Y": 62.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5094,
+                  "Y": 0.5345
+                },
+                "PreSize": {
+                  "X": 0.6132,
+                  "Y": 0.319
+                },
+                "LeftMargin": 21.5,
+                "RightMargin": 19.5,
+                "TopMargin": 35.5,
+                "BottomMargin": 43.5,
+                "Tag": 345,
+                "ActionTag": 852820084,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 37.0
+                },
+                "Name": "TXT_Value",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1802766096,
+            "Size": {
+              "X": 106.0,
+              "Y": 116.0
+            },
+            "Name": "BTN_Ante_5",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/Button_Disable.png",
+        "../../../Default/Button_Normal.png",
+        "../../../Default/Button_Press.png",
+        "../../../Fonts/YaHei.ttf",
+        "../Image/BG_Ante.png",
+        "../Image/Chips_2N.png",
+        "../Image/Chips_2P.png",
+        "../Image/Chips_3D.png",
+        "../Image/Chips_3N.png",
+        "../Image/Chips_3P.png",
+        "../Image/Chips_4N.png",
+        "../Image/Chips_4P.png",
+        "../Image/Chips_5N.png",
+        "../Image/Chips_5P.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

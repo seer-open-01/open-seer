@@ -1,0 +1,524 @@
+{
+  "ID": "85a9c58a-499b-424b-b783-d7cd2fac0ca1",
+  "Version": "2.3.4",
+  "Name": "RoundSettlementPlayerInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 40,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Settlement_4.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 67,
+            "Scale9OriginY": 161,
+            "Scale9Width": 70,
+            "Scale9Height": 166,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -102.0,
+            "RightMargin": -102.0,
+            "TopMargin": -244.0,
+            "BottomMargin": -244.0,
+            "Tag": 41,
+            "ActionTag": 68635498,
+            "Size": {
+              "X": 204.0,
+              "Y": 488.0
+            },
+            "Name": "IMG_BgLose",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Settlement_5.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 67,
+            "Scale9OriginY": 161,
+            "Scale9Width": 70,
+            "Scale9Height": 166,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -102.0,
+            "RightMargin": -102.0,
+            "TopMargin": -244.0,
+            "BottomMargin": -244.0,
+            "Tag": 42,
+            "ActionTag": -739719203,
+            "Size": {
+              "X": 204.0,
+              "Y": 488.0
+            },
+            "Name": "IMG_BgWin",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 29,
+            "LabelText": "海南棋牌乐",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 210.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 189,
+              "G": 78,
+              "B": 13
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -74.0,
+            "RightMargin": -74.0,
+            "TopMargin": -230.0,
+            "BottomMargin": 190.0,
+            "Tag": 43,
+            "ActionTag": -241336511,
+            "Size": {
+              "X": 148.0,
+              "Y": 40.0
+            },
+            "Name": "TXT_Name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Head/GameHead.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 80.0
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "TopMargin": -80.0,
+            "BottomMargin": 80.0,
+            "Tag": 45,
+            "ActionTag": -289495724,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HeadPic",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_FZ .png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 35.0,
+            "RightMargin": -85.0,
+            "TopMargin": -38.0,
+            "BottomMargin": 2.0,
+            "Tag": 148,
+            "ActionTag": -540189513,
+            "Size": {
+              "X": 50.0,
+              "Y": 36.0
+            },
+            "Name": "ND_FZ",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "J9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/jianf_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -40.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -96.0,
+            "RightMargin": -96.0,
+            "TopMargin": 24.0,
+            "BottomMargin": -56.0,
+            "Tag": 52,
+            "ActionTag": -1800041615,
+            "Size": {
+              "X": 192.0,
+              "Y": 32.0
+            },
+            "Name": "FNT_BeanMinus",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "J9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/jiaf_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -40.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -96.0,
+            "RightMargin": -96.0,
+            "TopMargin": 24.0,
+            "BottomMargin": -56.0,
+            "Tag": 53,
+            "ActionTag": -102098720,
+            "Size": {
+              "X": 192.0,
+              "Y": 32.0
+            },
+            "Name": "FNT_BeanPlus",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Pokers/100.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 56,
+            "Scale9Width": 46,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -40.0,
+              "Y": -150.0
+            },
+            "Scale": {
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -105.0,
+            "RightMargin": -25.0,
+            "TopMargin": 65.0,
+            "BottomMargin": -235.0,
+            "Tag": 75,
+            "ActionTag": 1159423207,
+            "Size": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Name": "IMG_Cards1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Pokers/100.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 56,
+            "Scale9Width": 46,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -150.0
+            },
+            "Scale": {
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -65.0,
+            "RightMargin": -65.0,
+            "TopMargin": 65.0,
+            "BottomMargin": -235.0,
+            "Tag": 76,
+            "ActionTag": -301051568,
+            "Size": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Name": "IMG_Cards2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Pokers/100.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 56,
+            "Scale9Width": 46,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 40.0,
+              "Y": -150.0
+            },
+            "Scale": {
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -25.0,
+            "RightMargin": -105.0,
+            "TopMargin": 65.0,
+            "BottomMargin": -235.0,
+            "Tag": 77,
+            "ActionTag": 1694648770,
+            "Size": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Name": "IMG_Cards3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": -180.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "TopMargin": 180.0,
+            "BottomMargin": -180.0,
+            "Tag": 69,
+            "ActionTag": 1985718051,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Pattern",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_FZ .png",
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Font/jiaf_num.fnt",
+        "../../Com/Font/jiaf_num_0.png",
+        "../../Com/Font/jianf_num.fnt",
+        "../../Com/Font/jianf_num_0.png",
+        "../../Com/Head/GameHead.json",
+        "../Image/Settlement_4.png",
+        "../Image/Settlement_5.png",
+        "../Pokers/100.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

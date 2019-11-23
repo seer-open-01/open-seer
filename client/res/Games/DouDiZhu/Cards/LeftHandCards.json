@@ -1,0 +1,121 @@
+{
+  "ID": "5fa43f30-be92-4f80-bf68-e9351e6b7ca1",
+  "Version": "2.3.4",
+  "Name": "LeftHandCards",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 8042,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Poker/100.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.48,
+              "ScaleY": 0.48
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -75.0,
+            "RightMargin": -75.0,
+            "TopMargin": -104.0,
+            "BottomMargin": -104.0,
+            "Tag": 8043,
+            "ActionTag": 1673768654,
+            "Size": {
+              "X": 150.0,
+              "Y": 208.0
+            },
+            "Name": "BG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "20",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Font/num_left_cards.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -34.0,
+            "RightMargin": -34.0,
+            "TopMargin": -24.0,
+            "BottomMargin": -8.0,
+            "Tag": 22992,
+            "ActionTag": 609024558,
+            "Size": {
+              "X": 68.0,
+              "Y": 32.0
+            },
+            "Name": "ND_Num",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/num_left_cards.fnt",
+        "../Font/num_left_cards_0.png",
+        "../Poker/100.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

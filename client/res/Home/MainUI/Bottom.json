@@ -1,0 +1,854 @@
+{
+  "ID": "549e9cb6-bb78-4117-809b-ec8e0865aa3f",
+  "Version": "2.3.4",
+  "Name": "Bottom",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 203,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Image/IMG_Bottom_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 30.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3261
+            },
+            "PreSize": {
+              "X": 0.9063,
+              "Y": 0.6087
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 60.0,
+            "TopMargin": 33.9999,
+            "BottomMargin": 2.0001,
+            "Tag": 204,
+            "ActionTag": 1465981744,
+            "Size": {
+              "X": 1160.0,
+              "Y": 56.0
+            },
+            "Name": "Bg_Bottom",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_TaskP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_TaskN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 92,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 330.0,
+              "Y": 55.9992
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2578,
+              "Y": 0.6087
+            },
+            "PreSize": {
+              "X": 0.0953,
+              "Y": 0.6087
+            },
+            "LeftMargin": 269.0,
+            "RightMargin": 889.0,
+            "TopMargin": 8.0008,
+            "BottomMargin": 27.9992,
+            "Tag": 220,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/IMG_Dot.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.6133,
+                  "Y": 40.5503
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4477,
+                  "Y": 0.7241
+                },
+                "PreSize": {
+                  "X": 0.2459,
+                  "Y": 0.5357
+                },
+                "LeftMargin": 39.6133,
+                "RightMargin": 52.3867,
+                "TopMargin": 0.4497,
+                "BottomMargin": 25.5503,
+                "Tag": 255,
+                "ActionTag": 132291537,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 30.0
+                },
+                "Name": "sign_task",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1481161155,
+            "Size": {
+              "X": 122.0,
+              "Y": 56.0
+            },
+            "Name": "BTN_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_RecordP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_RecordN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 92,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 55.9992
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 0.6087
+            },
+            "PreSize": {
+              "X": 0.0953,
+              "Y": 0.6087
+            },
+            "LeftMargin": 419.0,
+            "RightMargin": 739.0,
+            "TopMargin": 8.0008,
+            "BottomMargin": 27.9992,
+            "Tag": 221,
+            "ActionTag": -1213989592,
+            "Size": {
+              "X": 122.0,
+              "Y": 56.0
+            },
+            "Name": "BTN_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_MailP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_MailN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 92,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 630.0,
+              "Y": 55.9992
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4922,
+              "Y": 0.6087
+            },
+            "PreSize": {
+              "X": 0.0953,
+              "Y": 0.6087
+            },
+            "LeftMargin": 569.0,
+            "RightMargin": 589.0,
+            "TopMargin": 8.0008,
+            "BottomMargin": 27.9992,
+            "Tag": 222,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/IMG_Dot.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.9455,
+                  "Y": 40.3671
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4668,
+                  "Y": 0.7208
+                },
+                "PreSize": {
+                  "X": 0.2459,
+                  "Y": 0.5357
+                },
+                "LeftMargin": 41.9455,
+                "RightMargin": 50.0545,
+                "TopMargin": 0.6329,
+                "BottomMargin": 25.3671,
+                "Tag": 254,
+                "ActionTag": -454284282,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 30.0
+                },
+                "Name": "sign_mail",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2029897817,
+            "Size": {
+              "X": 122.0,
+              "Y": 56.0
+            },
+            "Name": "BTN_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_HelpN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_HelpP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_HelpN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 92,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 780.0,
+              "Y": 55.9992
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6094,
+              "Y": 0.6087
+            },
+            "PreSize": {
+              "X": 0.0953,
+              "Y": 0.6087
+            },
+            "LeftMargin": 719.0,
+            "RightMargin": 439.0,
+            "TopMargin": 8.0008,
+            "BottomMargin": 27.9992,
+            "Tag": 328,
+            "ActionTag": 1300382466,
+            "Size": {
+              "X": 122.0,
+              "Y": 56.0
+            },
+            "Name": "BTN_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_HelpN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_HelpP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_HelpN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 92,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 725.9946,
+              "Y": -200.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5672,
+              "Y": -2.1739
+            },
+            "PreSize": {
+              "X": 0.0953,
+              "Y": 0.6087
+            },
+            "LeftMargin": 664.9946,
+            "RightMargin": 493.0054,
+            "TopMargin": 264.0,
+            "BottomMargin": -228.0,
+            "Tag": 223,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Home/Image/IMG_Dot.png",
+                  "Plist": "Home/Image/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.9999,
+                  "Y": 41.9999
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3934,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.2459,
+                  "Y": 0.5357
+                },
+                "LeftMargin": 32.9999,
+                "RightMargin": 59.0001,
+                "TopMargin": -0.9999,
+                "BottomMargin": 26.9999,
+                "Tag": 447,
+                "ActionTag": -1184479755,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 30.0
+                },
+                "VisibleForFrame": false,
+                "Name": "sign_friend",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1174532939,
+            "Size": {
+              "X": 122.0,
+              "Y": 56.0
+            },
+            "VisibleForFrame": false,
+            "Name": "BTN_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_BellN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_BellP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_BellN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 92,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 56.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 0.6087
+            },
+            "PreSize": {
+              "X": 0.0953,
+              "Y": 0.6087
+            },
+            "LeftMargin": 119.0,
+            "RightMargin": 1039.0,
+            "TopMargin": 8.0,
+            "BottomMargin": 28.0,
+            "Tag": 224,
+            "ActionTag": -27658769,
+            "Size": {
+              "X": 122.0,
+              "Y": 56.0
+            },
+            "Name": "BTN_6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_TuiN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_TuiP.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_TuiN.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 86,
+            "Scale9Height": 102,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 952.998,
+              "Y": 80.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7445,
+              "Y": 0.8696
+            },
+            "PreSize": {
+              "X": 0.0906,
+              "Y": 1.3478
+            },
+            "LeftMargin": 894.998,
+            "RightMargin": 269.002,
+            "TopMargin": -50.0,
+            "BottomMargin": 18.0,
+            "Tag": 219,
+            "ActionTag": 1887249582,
+            "Size": {
+              "X": 116.0,
+              "Y": 124.0
+            },
+            "Name": "BTN_7",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -15,
+            "Scale9OriginY": -11,
+            "Scale9Width": 30,
+            "Scale9Height": 22,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1080.0,
+              "Y": 62.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8438,
+              "Y": 0.6739
+            },
+            "PreSize": {
+              "X": 0.0781,
+              "Y": 0.913
+            },
+            "LeftMargin": 1030.0,
+            "RightMargin": 150.0,
+            "TopMargin": -12.0,
+            "BottomMargin": 20.0,
+            "Tag": 239,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Animations/EffHall/Shop.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 50.0,
+                  "Y": 42.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 42.0,
+                "BottomMargin": 42.0,
+                "Tag": 162,
+                "ActionTag": 1942416270,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "eff_shop",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 642804653,
+            "Size": {
+              "X": 100.0,
+              "Y": 84.0
+            },
+            "Name": "BTN_0",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 92.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Animations/EffHall/Shop.json",
+        "../../Default/Button_Disable.png",
+        "../Image/IMG_Bottom_Bg.png",
+        "../Image/Plist.plist",
+        "../Image/Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

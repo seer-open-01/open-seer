@@ -1,0 +1,167 @@
+{
+  "ID": "c9ebb5e3-53af-4d43-9332-ac85868d1f59",
+  "Version": "2.3.4",
+  "Name": "HandCardsOther",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 219,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Pokers/100.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 56,
+            "Scale9Width": 46,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -51.9999,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -116.9999,
+            "RightMargin": -13.0001,
+            "TopMargin": -85.0,
+            "BottomMargin": -85.0,
+            "Tag": 220,
+            "ActionTag": 638897586,
+            "Size": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Name": "ND_Cards_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Pokers/100.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 56,
+            "Scale9Width": 46,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -65.0,
+            "RightMargin": -65.0,
+            "TopMargin": -85.0,
+            "BottomMargin": -85.0,
+            "Tag": 222,
+            "ActionTag": -1109680279,
+            "Size": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Name": "ND_Cards_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Pokers/100.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 56,
+            "Scale9Width": 46,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 52.0,
+              "Y": 0.0017
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -13.0,
+            "RightMargin": -117.0,
+            "TopMargin": -85.0017,
+            "BottomMargin": -84.9983,
+            "Tag": 223,
+            "ActionTag": 1581446470,
+            "Size": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Name": "ND_Cards_3",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Pokers/100.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,48 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="eb4eec55-5ce8-4fc0-b344-de445c074dd4" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Home/Image/BTN_Add.png" />
+      <FilePathData Path="Home/Image/BTN_DDZN.png" />
+      <FilePathData Path="Home/Image/BTN_HelpN.png" />
+      <FilePathData Path="Home/Image/BTN_HelpP.png" />
+      <FilePathData Path="Home/Image/BTN_Horn.png" />
+      <FilePathData Path="Home/Image/BTN_MailN.png" />
+      <FilePathData Path="Home/Image/BTN_MailP.png" />
+      <FilePathData Path="Home/Image/BTN_MJN.png" />
+      <FilePathData Path="Home/Image/BTN_PSN.png" />
+      <FilePathData Path="Home/Image/BTN_PSZN.png" />
+      <FilePathData Path="Home/Image/BTN_RankList.png" />
+      <FilePathData Path="Home/Image/BTN_RecordN.png" />
+      <FilePathData Path="Home/Image/BTN_RecordP.png" />
+      <FilePathData Path="Home/Image/BTN_SetN.png" />
+      <FilePathData Path="Home/Image/BTN_SetP.png" />
+      <FilePathData Path="Home/Image/BTN_ShareN.png" />
+      <FilePathData Path="Home/Image/BTN_ShareP.png" />
+      <FilePathData Path="Home/Image/BTN_TaskN.png" />
+      <FilePathData Path="Home/Image/BTN_TaskP.png" />
+      <FilePathData Path="Home/Image/BTN_TGYN.png" />
+      <FilePathData Path="Home/Image/BTN_TGYP.png" />
+      <FilePathData Path="Home/Image/BTN_WheelN.png" />
+      <FilePathData Path="Home/Image/BTN_WheelP.png" />
+      <FilePathData Path="Home/Image/BTN_XQN.png" />
+      <FilePathData Path="Home/Image/IMG_Dot.png" />
+      <FilePathData Path="Home/Image/IMG_Head_Name.png" />
+      <FilePathData Path="Home/Image/BTN_BindN.png" />
+      <FilePathData Path="Home/Image/BTN_BindP.png" />
+      <FilePathData Path="Home/Image/BTN_TuiN.png" />
+      <FilePathData Path="Home/Image/BTN_TuiP.png" />
+      <FilePathData Path="Home/Image/BTN_ChessN.png" />
+      <FilePathData Path="Home/Image/BTN_ChessP.png" />
+      <FilePathData Path="Home/Image/BTN_BellP.png" />
+      <FilePathData Path="Home/Image/BTN_BellN.png" />
+      <FilePathData Path="Home/Image/Btn_Chess_0.png" />
+      <FilePathData Path="Home/Image/Btn_Chess_1.png" />
+      <FilePathData Path="Home/Image/Btn_Enter_0.png" />
+      <FilePathData Path="Home/Image/Btn_Enter_1.png" />
+      <FilePathData Path="Home/Image/Btn_L_0.png" />
+      <FilePathData Path="Home/Image/Btn_L_1.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

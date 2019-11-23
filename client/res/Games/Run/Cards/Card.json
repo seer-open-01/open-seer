@@ -1,0 +1,72 @@
+{
+  "ID": "28f91ba9-9dd9-4dc3-9500-3f54055f3c6d",
+  "Version": "2.3.4",
+  "Name": "Card",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Poker/101.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.3067,
+              "Y": 0.2212
+            },
+            "RightMargin": 104.0,
+            "TopMargin": 162.0,
+            "Tag": 6,
+            "ActionTag": -1937314283,
+            "Size": {
+              "X": 150.0,
+              "Y": 208.0
+            },
+            "Name": "SP_Value",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 150.0,
+          "Y": 208.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Poker/101.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,150 @@
+{
+  "ID": "cb424f45-8839-42b0-8bd8-03056da48810",
+  "Version": "2.3.4",
+  "Name": "ChipsPanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 42,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 44,
+            "ActionTag": -1647887297,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Chips",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BG_TotalAnte.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.0,
+              "Y": -60.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -103.0,
+            "RightMargin": -101.0,
+            "TopMargin": 32.0,
+            "BottomMargin": -88.0,
+            "Tag": 43,
+            "ActionTag": 450349190,
+            "Size": {
+              "X": 204.0,
+              "Y": 56.0
+            },
+            "Name": "BG_TotalChips",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Fonts/hall_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 14.0,
+              "Y": -62.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -87.0,
+            "TopMargin": 46.0,
+            "BottomMargin": -78.0,
+            "Tag": 45,
+            "ActionTag": 1772868749,
+            "Size": {
+              "X": 146.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Ante",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/hall_num.fnt",
+        "../../../Fonts/hall_num_0.png",
+        "../Image/BG_TotalAnte.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

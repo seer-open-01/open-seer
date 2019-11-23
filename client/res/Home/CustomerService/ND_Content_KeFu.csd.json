@@ -1,0 +1,566 @@
+{
+  "ID": "1c0e05ca-fc3d-4df6-b490-1bae09f0e5ef",
+  "Version": "2.3.4",
+  "Name": "ND_Content_KeFu.csd",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 159,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -110.6799,
+              "Y": -66.8984
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": -0.1604,
+              "Y": -0.1672
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -110.6799,
+            "RightMargin": 800.6799,
+            "TopMargin": 466.8984,
+            "BottomMargin": -66.8984,
+            "Tag": 160,
+            "Children": [
+              {
+                "FontSize": 35,
+                "LabelText": "如有问题，请通过以下方式与官方联系",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 450.858,
+                  "Y": 400.3839
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 152.358,
+                "RightMargin": -749.358,
+                "TopMargin": -424.8839,
+                "BottomMargin": 375.8839,
+                "Tag": 161,
+                "ActionTag": 1599429872,
+                "Size": {
+                  "X": 597.0,
+                  "Y": 49.0
+                },
+                "Name": "TEXT_Tip1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/IMG_TextBg.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/IMG_TextBg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/IMG_TextBg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 2,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 450.0,
+                  "Y": 315.9995
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 131.0,
+                "RightMargin": -769.0,
+                "TopMargin": -341.9995,
+                "BottomMargin": 289.9995,
+                "Tag": 163,
+                "ActionTag": 358090227,
+                "Size": {
+                  "X": 638.0,
+                  "Y": 52.0
+                },
+                "Name": "BTN_WeChat",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/IMG_TextBg.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/IMG_TextBg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/IMG_TextBg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 2,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 450.0,
+                  "Y": 215.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 131.0,
+                "RightMargin": -769.0,
+                "TopMargin": -241.9996,
+                "BottomMargin": 189.9996,
+                "Tag": 166,
+                "ActionTag": 971212100,
+                "Size": {
+                  "X": 638.0,
+                  "Y": 52.0
+                },
+                "Name": "BTN_GZH",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "官方微信:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 357.9998,
+                  "Y": 315.9997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 220.9998,
+                "RightMargin": -357.9998,
+                "TopMargin": -338.4997,
+                "BottomMargin": 293.4997,
+                "Tag": 164,
+                "ActionTag": -45214633,
+                "Size": {
+                  "X": 137.0,
+                  "Y": 45.0
+                },
+                "Name": "TEXT_WX",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "hnqp8888888888888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.9995,
+                  "Y": 313.9997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 366.9995,
+                "RightMargin": -784.9995,
+                "TopMargin": -336.4997,
+                "BottomMargin": 291.4997,
+                "Tag": 165,
+                "ActionTag": -217432609,
+                "Size": {
+                  "X": 418.0,
+                  "Y": 45.0
+                },
+                "Name": "ND_WeChat",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "官方公众号:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.9998,
+                  "Y": 215.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 220.9998,
+                "RightMargin": -389.9998,
+                "TopMargin": -238.4996,
+                "BottomMargin": 193.4996,
+                "Tag": 167,
+                "ActionTag": -2004696725,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 45.0
+                },
+                "Name": "TEXT_GZH",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "hnqp888888888888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 399.9995,
+                  "Y": 215.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 399.9995,
+                "RightMargin": -833.9995,
+                "TopMargin": -238.4996,
+                "BottomMargin": 193.4996,
+                "Tag": 168,
+                "ActionTag": 1827632861,
+                "Size": {
+                  "X": 434.0,
+                  "Y": 45.0
+                },
+                "Name": "ND_GZH",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "提示：点击可复制号码",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 448.9997,
+                  "Y": 110.9985
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 272.9997,
+                "RightMargin": -624.9997,
+                "TopMargin": -135.4985,
+                "BottomMargin": 86.4985,
+                "Tag": 169,
+                "ActionTag": -363590676,
+                "Size": {
+                  "X": 352.0,
+                  "Y": 49.0
+                },
+                "Name": "TEXT_Tip2",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1230947362,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Node",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 690.0,
+          "Y": 400.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "image/IMG_TextBg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

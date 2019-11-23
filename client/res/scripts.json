@@ -1,0 +1,141 @@
+[
+  "src/WSProto.js",
+  "src/WebSocket.js",
+  "src/WebSocketForGame.js",
+  "src/Date.js",
+  "src/Cache.js",
+  "src/Resource.js",
+  "src/WeChat.js",
+  "src/IDCardUtil.js",
+  "src/ServerDate.js",
+  "src/SynServerTime.js",
+
+  "src/procedure/Login.js",
+  "src/procedure/Home.js",
+  "src/procedure/RoomList.js",
+  "src/procedure/RoomCard.js",
+
+  "src/config/GameTypeConfig.js",
+  "src/config/MatchListConfig.js",
+  "src/config/RunTextConfig.js",
+
+  "src/ui/common/NoticeWindow.js",
+  "src/ui/common/HintMsg.js",
+  "src/ui/common/HeadPic.js",
+  "src/ui/common/LoadingWindow.js",
+  "src/ui/common/RadioGroup.js",
+  "src/ui/common/KeyBoard.js",
+  "src/ui/common/NoBeanTip.js",
+  "src/ui/common/TaskItem.js",
+  "src/ui/common/TaskWin.js",
+  "src/ui/common/RewardWin.js",
+
+  "src/ui/login/LoginWindow.js",
+  "src/ui/login/AgreementWindow.js",
+
+  "src/games/basic/controller/GameControllerBasic.js",
+  "src/games/basic/data/GameDataBasic.js",
+  "src/games/basic/logic/GameLogicBasic.js",
+  "src/games/basic/procedure/GameProcedureBasic.js",
+  "src/games/basic/ui/GameWindowBasic.js",
+  "src/games/basic/ui/GamePlayerBasic.js",
+  "src/games/basic/ui/GameHeadPic.js",
+  "src/games/basic/ui/TreasureBox.js",
+
+  "src/games/com/GameString.js",
+  "src/games/com/ChatWindow.js",
+  "src/games/com/ChatWindowSub.js",
+  "src/games/com/GameSetting.js",
+  "src/games/com/GamePatternHint.js",
+  "src/games/com/GamePlayerInfo.js",
+
+  "src/games/com/controller/GameEffectController.js",
+  "src/games/com/controller/GameGiftEffectController.js",
+  "src/games/com/controller/GameChatEmojiController.js",
+  "src/games/com/controller/GameRoomBtnCtrl.js",
+  "src/games/com/controller/TellVolume.js",
+  "src/games/com/controller/VoiceVolume.js",
+  "src/games/com/controller/SystemInfo.js",
+  "src/games/com/controller/ConsumeTip.js",
+  "src/games/com/controller/PlayerClock.js",
+
+  "src/games/mahjong/data/GameDataMahjong.js",
+  "src/games/mahjong/Mahjong.js",
+
+  "src/games/douDiZhu/data/GameDataDouDiZhu.js",
+  "src/games/douDiZhu/DouDiZhu.js",
+
+  "src/games/pinSan/data/GameDataPinSan.js",
+  "src/games/pinSan/PinSan.js",
+
+  "src/games/pinShi/data/GameDataPinShi.js",
+  "src/games/pinShi/PinShi.js",
+
+  "src/games/chess/data/DataChess.js",
+  "src/games/chess/Chess.js",
+
+  "src/games/run/data/DataRun.js",
+  "src/games/run/Run.js",
+
+  "src/ui/home/HomeWindow.js",
+  "src/ui/home/HomeTop.js",
+  "src/ui/home/HomeLeft.js",
+  "src/ui/home/HomeBottom.js",
+  "src/ui/home/HomeRight.js",
+  "src/ui/home/InfoWin.js",
+
+  "src/ui/home/banner/Banner.js",
+  "src/ui/home/bank/BankWin.js",
+  "src/ui/home/keFu/KeFuWindow.js",
+  "src/ui/home/help/HelpWin.js",
+  "src/ui/home/wheel/WheelWin.js",
+
+  "src/ui/home/mail/ContentWin.js",
+  "src/ui/home/mail/ContentWin_2.js",
+  "src/ui/home/mail/MailItem.js",
+  "src/ui/home/mail/MailWin.js",
+  "src/ui/home/mail/RewardItem.js",
+
+  "src/ui/home/mall/MallWin.js",
+  "src/ui/home/mall/BillWin.js",
+
+  "src/ui/home/report/ReportCards.js",
+  "src/ui/home/report/ReportItem.js",
+  "src/ui/home/report/ReportPattern.js",
+  "src/ui/home/report/ReportPlayer.js",
+  "src/ui/home/report/ReportWin.js",
+  "src/ui/home/report/ReportDetailsWin.js",
+  "src/ui/home/report/ReportDetailsPlayer.js",
+  "src/ui/home/report/ReportDetailsItem.js",
+
+  "src/ui/home/rank/RankInfoWin.js",
+  "src/ui/home/rank/RankItem.js",
+  "src/ui/home/rank/RankWin.js",
+
+  "src/ui/home/room/HallJoinWin.js",
+  "src/ui/home/room/HallCreateWin.js",
+  "src/ui/home/room/SetBaseWin.js",
+  "src/ui/home/room/CreateOpts.js",
+
+  "src/ui/home/extend/ExtendWin.js",
+  "src/ui/home/extend/CashOut.js",
+  "src/ui/home/extend/CashRecord.js",
+
+  "src/ui/home/realName/RealNameWindow.js",
+  "src/ui/home/setting/SettingWin.js",
+  "src/ui/home/share/ShareWin.js",
+  "src/ui/home/invite/InvitationWindow.js",
+  "src/ui/home/bind/BindWin.js",
+  "src/ui/home/bind/Account.js",
+  "src/ui/home/horn/HornWindow.js",
+
+  "src/ui/roomCard/RoomCardWindow.js",
+  "src/ui/roomCard/JoinWindow.js",
+  "src/ui/roomCard/ChessReportItem.js",
+  "src/ui/roomCard/ChessReportWin.js",
+
+  "src/ui/roomList/RoomListWindow.js",
+  "src/ui/roomList/RoomListLeft.js",
+  "src/ui/roomList/RoomListRight.js",
+  "src/ui/roomList/RoomListItem.js"
+]

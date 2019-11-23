@@ -1,0 +1,254 @@
+<Solution>
+  <PropertyGroup Name="zqMain" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Animations">
+          <Folder Name="EffHall">
+            <Folder Name="Images">
+              <Image Name="Chess_1.png" />
+              <Image Name="Chess_2.png" />
+              <Image Name="Chess_3.png" />
+              <Image Name="Chess_4.png" />
+              <Image Name="DDZ_1.png" />
+              <Image Name="DDZ_2.png" />
+              <Image Name="DDZ_3.png" />
+              <Image Name="DDZ_4.png" />
+              <Image Name="DDZ_5.png" />
+              <Image Name="DDZ_6.png" />
+              <Image Name="DDZ_7.png" />
+              <Image Name="DDZ_8.png" />
+              <Image Name="MJ_1.png" />
+              <Image Name="MJ_2.png" />
+              <Image Name="MJ_3.png" />
+              <Image Name="MJ_4.png" />
+              <Image Name="MJ_5.png" />
+              <Image Name="MJ_6.png" />
+              <Image Name="MJ_7.png" />
+              <Image Name="MJ_8.png" />
+              <Image Name="More_1.png" />
+              <Image Name="More_2.png" />
+              <Image Name="More_3.png" />
+              <Image Name="More_4.png" />
+              <Image Name="More_5.png" />
+              <Image Name="More_6.png" />
+              <Image Name="More_7.png" />
+              <Image Name="NN_1.png" />
+              <Image Name="NN_2.png" />
+              <Image Name="NN_3.png" />
+              <Image Name="NN_4.png" />
+              <Image Name="NN_5.png" />
+              <Image Name="NN_6.png" />
+              <Image Name="NN_7.png" />
+              <Image Name="NN_8.png" />
+              <Image Name="PS_1.png" />
+              <Image Name="PS_2.png" />
+              <Image Name="PS_3.png" />
+              <Image Name="PS_4.png" />
+              <Image Name="PX_1.png" />
+              <Image Name="PX_10.png" />
+              <Image Name="PX_11.png" />
+              <Image Name="PX_12.png" />
+              <Image Name="PX_13.png" />
+              <Image Name="PX_14.png" />
+              <Image Name="PX_15.png" />
+              <Image Name="PX_2.png" />
+              <Image Name="PX_3.png" />
+              <Image Name="PX_4.png" />
+              <Image Name="PX_5.png" />
+              <Image Name="PX_6.png" />
+              <Image Name="PX_7.png" />
+              <Image Name="PX_8.png" />
+              <Image Name="PX_9.png" />
+              <Image Name="R_0.png" />
+              <Image Name="R_1.png" />
+              <Image Name="R_2.png" />
+              <Image Name="R_3.png" />
+              <Image Name="R_4.png" />
+              <Image Name="R_5.png" />
+              <Image Name="R_6.png" />
+              <Image Name="R_7.png" />
+              <Image Name="R_8.png" />
+              <Image Name="SC_1.png" />
+              <Image Name="SC_2.png" />
+              <Image Name="SC_3.png" />
+              <Image Name="SS_1.png" />
+              <Image Name="SS_2.png" />
+              <PlistParticleFile Name="xing01.plist" />
+              <Image Name="XZ_10.png" />
+              <Image Name="XZ_11.png" />
+              <Image Name="XZ_12.png" />
+              <Image Name="XZ_2.png" />
+              <Image Name="XZ_3.png" />
+              <Image Name="XZ_4.png" />
+              <Image Name="XZ_5.png" />
+              <Image Name="XZ_6.png" />
+              <Image Name="XZ_7.png" />
+              <Image Name="XZ_8.png" />
+              <Image Name="XZ_9.png" />
+              <PlistInfo Name="Z_1.csi" Type="Plist" />
+              <PlistInfo Name="Z_10.csi" Type="Plist" />
+              <PlistInfo Name="Z_2.csi" Type="Plist" />
+              <PlistInfo Name="Z_3.csi" Type="Plist" />
+              <PlistInfo Name="Z_4.csi" Type="Plist" />
+              <PlistInfo Name="Z_5.csi" Type="Plist" />
+              <PlistInfo Name="Z_6.csi" Type="Plist" />
+              <PlistInfo Name="Z_7.csi" Type="Plist" />
+              <PlistInfo Name="Z_8.csi" Type="Plist" />
+              <PlistInfo Name="Z_9.csi" Type="Plist" />
+            </Folder>
+            <Project Name="Chess.csd" Type="Node" />
+            <Project Name="DouDiZhu.csd" Type="Node" />
+            <Project Name="EffPangXie.csd" Type="Node" />
+            <Project Name="MaJiang.csd" Type="Node" />
+            <Project Name="MoreGame.csd" Type="Node" />
+            <Project Name="NiuNiu.csd" Type="Node" />
+            <Project Name="PinSanZhang.csd" Type="Node" />
+            <Project Name="Run.csd" Type="Node" />
+            <Project Name="Shop.csd" Type="Node" />
+            <Project Name="XZMJ.csd" Type="Node" />
+          </Folder>
+          <Image Name="effLine.png" />
+        </Folder>
+        <Folder Name="Common">
+          <Folder Name="Hint">
+            <Project Name="Hint.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="Com_Bg.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="IMG_Gold.png" />
+            <Image Name="IMG_PFC.png" />
+            <Image Name="IMG_Seer1.png" />
+            <Image Name="IMG_Seer2.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Home">
+          <Folder Name="Font">
+            <Fnt Name="hall_num.fnt" />
+          </Folder>
+          <Folder Name="Image">
+            <Image Name="BTN_Add.png" />
+            <Image Name="BTN_BellN.png" />
+            <Image Name="BTN_BellP.png" />
+            <Image Name="BTN_BindN.png" />
+            <Image Name="BTN_BindP.png" />
+            <Image Name="Btn_Chess_0.png" />
+            <Image Name="Btn_Chess_1.png" />
+            <Image Name="BTN_ChessN.png" />
+            <Image Name="BTN_ChessP.png" />
+            <Image Name="BTN_DDZN.png" />
+            <Image Name="Btn_Enter_0.png" />
+            <Image Name="Btn_Enter_1.png" />
+            <Image Name="BTN_HelpN.png" />
+            <Image Name="BTN_HelpP.png" />
+            <Image Name="BTN_Horn.png" />
+            <Image Name="Btn_L_0.png" />
+            <Image Name="Btn_L_1.png" />
+            <Image Name="BTN_MailN.png" />
+            <Image Name="BTN_MailP.png" />
+            <Image Name="BTN_MJN.png" />
+            <Image Name="BTN_PSN.png" />
+            <Image Name="BTN_PSZN.png" />
+            <Image Name="BTN_RankList.png" />
+            <Image Name="BTN_RecordN.png" />
+            <Image Name="BTN_RecordP.png" />
+            <Image Name="BTN_SetN.png" />
+            <Image Name="BTN_SetP.png" />
+            <Image Name="BTN_ShareN.png" />
+            <Image Name="BTN_ShareP.png" />
+            <Image Name="BTN_TaskN.png" />
+            <Image Name="BTN_TaskP.png" />
+            <Image Name="BTN_TGYN.png" />
+            <Image Name="BTN_TGYP.png" />
+            <Image Name="BTN_TuiN.png" />
+            <Image Name="BTN_TuiP.png" />
+            <Image Name="BTN_WheelN.png" />
+            <Image Name="BTN_WheelP.png" />
+            <Image Name="BTN_XQN.png" />
+            <Image Name="IMG_Bottom_Bg.png" />
+            <Image Name="IMG_Dot.png" />
+            <Image Name="IMG_Head_Name.png" />
+            <PlistInfo Name="Plist.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="MainUI">
+            <Project Name="Bottom.csd" Type="Layer" />
+            <Project Name="HeadPic.csd" Type="Layer" />
+            <Project Name="Left.csd" Type="Layer" />
+            <Project Name="Right.csd" Type="Layer" />
+            <Project Name="Top.csd" Type="Layer" />
+          </Folder>
+          <Project Name="Home.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="Loading">
+          <Project Name="Loading.csd" Type="Layer" />
+          <Image Name="Loading_1.png" />
+          <Image Name="Loading_2.png" />
+          <Image Name="Loading_3.png" />
+        </Folder>
+        <Folder Name="Login">
+          <Folder Name="Agreement">
+            <Image Name="1.png" />
+            <Image Name="10.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="IMG_Bord.png" />
+            <Image Name="IMG_Title.png" />
+          </Folder>
+          <Folder Name="Images">
+            <Image Name="BAR_1.png" />
+            <Image Name="BAR_2.png" />
+            <Image Name="BAR_3.png" />
+            <Image Name="BTN_LoginN.png" />
+            <Image Name="BTN_LoginP.png" />
+            <Image Name="IMG_Check.png" />
+            <Image Name="IMG_CheckBox.png" />
+            <Image Name="IMG_light.png" />
+            <Image Name="IMG_Logo.png" />
+            <Image Name="IMG_Tip.png" />
+            <Image Name="TXT_Agr.png" />
+          </Folder>
+          <Project Name="Agreement.csd" Type="Layer" />
+          <Project Name="Login.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="ResLoading">
+          <Project Name="ResLoading.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="Update">
+          <Project Name="Update.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="Welcome">
+          <Folder Name="Images">
+            <Image Name="IMG_1.png" />
+          </Folder>
+          <Project Name="Welcome.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

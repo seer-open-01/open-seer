@@ -1,0 +1,27 @@
+[
+  "src/games/run/logic/LogicRun.js",
+  "src/games/run/audio/AudioRun.js",
+  "src/games/run/data/RunHelper.js",
+  "src/games/run/ui/WindowRun.js",
+
+  "src/games/run/ui/cards/Card.js",
+  "src/games/run/ui/cards/HandCards.js",
+  "src/games/run/ui/cards/HandCardsExt.js",
+  "src/games/run/ui/cards/HandButtonCard.js",
+  "src/games/run/ui/cards/HandButtonCards.js",
+  "src/games/run/ui/cards/PlayerLeftCards.js",
+
+  "src/games/run/ui/player/RunUserInfo.js",
+  "src/games/run/ui/player/RunPlayer.js",
+
+  "src/games/run/ui/settlement/Settlement.js",
+  "src/games/run/ui/settlement/PlayerInfo.js",
+
+  "src/games/run/control/MatchWindow.js",
+  "src/games/run/control/PlayCardsBtns.js",
+  "src/games/run/control/RoomInfo.js",
+  "src/games/run/control/TableTip.js",
+  "src/games/run/control/PreBegin.js",
+  "src/games/run/control/Clock.js"
+
+]

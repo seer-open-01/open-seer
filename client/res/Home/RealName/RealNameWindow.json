@@ -1,0 +1,657 @@
+{
+  "ID": "0c1bc35a-5d1e-4353-b51a-98b1b257c5db",
+  "Version": "2.3.4",
+  "Name": "RealNameWindow",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 25,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 234,
+            "ActionTag": 6858010,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing668x438.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 220,
+            "Scale9OriginY": 144,
+            "Scale9Width": 228,
+            "Scale9Height": 150,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5219,
+              "Y": 0.6083
+            },
+            "LeftMargin": 306.0,
+            "RightMargin": 306.0,
+            "TopMargin": 141.0,
+            "BottomMargin": 141.0,
+            "Tag": 235,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RealName/IMG_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 334.0,
+                  "Y": 380.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8676
+                },
+                "PreSize": {
+                  "X": 0.2725,
+                  "Y": 0.1005
+                },
+                "LeftMargin": 243.0,
+                "RightMargin": 243.0,
+                "TopMargin": 36.0,
+                "BottomMargin": 358.0,
+                "Tag": 43,
+                "ActionTag": 1431983283,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 44.0
+                },
+                "Name": "SP_Title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RealName/IMG_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 21,
+                "Scale9OriginY": 21,
+                "Scale9Width": 342,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3144,
+                  "Y": 0.5936
+                },
+                "PreSize": {
+                  "X": 0.5749,
+                  "Y": 0.1187
+                },
+                "LeftMargin": 210.0,
+                "RightMargin": 74.0,
+                "TopMargin": 152.0,
+                "BottomMargin": 234.0,
+                "Tag": 87,
+                "ActionTag": -1593250546,
+                "Size": {
+                  "X": 384.0,
+                  "Y": 52.0
+                },
+                "Name": "IMG_NameBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RealName/IMG_2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 21,
+                "Scale9OriginY": 21,
+                "Scale9Width": 342,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 180.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3144,
+                  "Y": 0.411
+                },
+                "PreSize": {
+                  "X": 0.5749,
+                  "Y": 0.1187
+                },
+                "LeftMargin": 210.0,
+                "RightMargin": 74.0,
+                "TopMargin": 232.0,
+                "BottomMargin": 154.0,
+                "Tag": 88,
+                "ActionTag": 1670330353,
+                "Size": {
+                  "X": 384.0,
+                  "Y": 52.0
+                },
+                "Name": "IMG_IdBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CancelP.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CancelP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CancelN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 184.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2754,
+                  "Y": 0.1826
+                },
+                "PreSize": {
+                  "X": 0.3653,
+                  "Y": 0.2374
+                },
+                "LeftMargin": 62.0,
+                "RightMargin": 362.0,
+                "TopMargin": 306.0,
+                "BottomMargin": 28.0,
+                "Tag": 13,
+                "ActionTag": -962781735,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_Cancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 484.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7246,
+                  "Y": 0.1826
+                },
+                "PreSize": {
+                  "X": 0.3653,
+                  "Y": 0.2374
+                },
+                "LeftMargin": 362.0,
+                "RightMargin": 62.0,
+                "TopMargin": 306.0,
+                "BottomMargin": 28.0,
+                "Tag": 42,
+                "ActionTag": -106022671,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_Confirm",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "身份证号：",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 180.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2994,
+                  "Y": 0.411
+                },
+                "PreSize": {
+                  "X": 0.2096,
+                  "Y": 0.0959
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 468.0,
+                "TopMargin": 237.0,
+                "BottomMargin": 159.0,
+                "Tag": 71,
+                "ActionTag": 55716110,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_Name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "真实姓名：",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2994,
+                  "Y": 0.5936
+                },
+                "PreSize": {
+                  "X": 0.2096,
+                  "Y": 0.0959
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 468.0,
+                "TopMargin": 157.0,
+                "BottomMargin": 239.0,
+                "Tag": 57,
+                "ActionTag": -245284924,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_Id",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "FontSize": 30,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "请输入身份证号码",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 20,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 220.0,
+                  "Y": 180.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 186,
+                  "G": 97,
+                  "B": 36
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3293,
+                  "Y": 0.411
+                },
+                "PreSize": {
+                  "X": 0.5389,
+                  "Y": 0.0776
+                },
+                "LeftMargin": 220.0,
+                "RightMargin": 88.0,
+                "TopMargin": 241.0,
+                "BottomMargin": 163.0,
+                "Tag": 73,
+                "ActionTag": 623107854,
+                "Size": {
+                  "X": 360.0,
+                  "Y": 34.0
+                },
+                "Name": "TF_ID",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "FontSize": 30,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "请输入姓名",
+                "MaxLengthText": 16,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 220.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 186,
+                  "G": 97,
+                  "B": 36
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3293,
+                  "Y": 0.5936
+                },
+                "PreSize": {
+                  "X": 0.5389,
+                  "Y": 0.0776
+                },
+                "LeftMargin": 220.0,
+                "RightMargin": 88.0,
+                "TopMargin": 161.0,
+                "BottomMargin": 243.0,
+                "Tag": 72,
+                "ActionTag": -1530153303,
+                "Size": {
+                  "X": 360.0,
+                  "Y": 34.0
+                },
+                "Name": "TF_Name",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": -2080357766,
+            "Size": {
+              "X": 668.0,
+              "Y": 438.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_CancelN.png",
+        "../../Common/Images/BTN_CancelP.png",
+        "../../Common/Images/BTN_ConfirmN.png",
+        "../../Common/Images/BTN_ConfirmP.png",
+        "../../Common/Images/Com_Opacity.png",
+        "../../Common/Images/PopupWing668x438.png",
+        "../../Fonts/YaHei.ttf",
+        "IMG_1.png",
+        "IMG_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

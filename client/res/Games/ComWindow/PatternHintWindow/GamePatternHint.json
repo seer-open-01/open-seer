@@ -1,0 +1,314 @@
+{
+  "ID": "17e44884-c803-40d1-9b1d-c03553ead692",
+  "Version": "2.3.4",
+  "Name": "GamePatternHint",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 219,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 54,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 231,
+            "ActionTag": 453582923,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 54,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 780.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6094,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7813,
+              "Y": 1.0
+            },
+            "LeftMargin": 280.0,
+            "Tag": 221,
+            "ActionTag": -1093303299,
+            "Size": {
+              "X": 1000.0,
+              "Y": 720.0
+            },
+            "Name": "ND_Close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/ComWindow/PatternHintWindow/BG_Pattern.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 236,
+            "Scale9Height": 690,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 140.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1094,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.2078,
+              "Y": 1.0
+            },
+            "LeftMargin": 7.0,
+            "RightMargin": 1007.0,
+            "Tag": 271,
+            "Children": [
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 261,
+                  "Height": 680
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 129.0,
+                  "Y": 331.9986
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.485,
+                  "Y": 0.4611
+                },
+                "PreSize": {
+                  "X": 0.9323,
+                  "Y": 0.8611
+                },
+                "LeftMargin": 5.0,
+                "RightMargin": 13.0,
+                "TopMargin": 78.0014,
+                "BottomMargin": 21.9986,
+                "Tag": 272,
+                "ActionTag": -655477471,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 620.0
+                },
+                "Name": "SV_Content",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": 1756892251,
+            "Size": {
+              "X": 266.0,
+              "Y": 720.0
+            },
+            "Name": "IMG_Content",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 120.0,
+              "Y": 672.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 0.9333
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1160.0,
+            "TopMargin": 48.0,
+            "BottomMargin": 672.0,
+            "Tag": 15,
+            "ActionTag": -660763558,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Tittle",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Opacity.png",
+        "BG_Pattern.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

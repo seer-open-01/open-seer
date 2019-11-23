@@ -1,0 +1,196 @@
+{
+  "ID": "65e34e41-39d2-454e-978a-6fe050707abf",
+  "Version": "2.3.4",
+  "Name": "UserCardsWest",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2633,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Cards/SpecialCardsWest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0007,
+              "Y": 17.9989
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0007,
+            "RightMargin": 0.0007,
+            "TopMargin": -17.9989,
+            "BottomMargin": 17.9989,
+            "Tag": 2634,
+            "ActionTag": 1102733581,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Cards/SpecialCardsWest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0007,
+              "Y": -92.001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0007,
+            "RightMargin": 0.0007,
+            "TopMargin": 92.001,
+            "BottomMargin": -92.001,
+            "Tag": 2640,
+            "ActionTag": -1124303647,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Cards/SpecialCardsWest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0007,
+              "Y": -202.0007
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0007,
+            "RightMargin": 0.0007,
+            "TopMargin": 202.0007,
+            "BottomMargin": -202.0007,
+            "Tag": 2666,
+            "ActionTag": -539785709,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "3",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Cards/SpecialCardsWest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0007,
+              "Y": -312.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0007,
+            "RightMargin": 0.0007,
+            "TopMargin": 312.0002,
+            "BottomMargin": -312.0002,
+            "Tag": 2672,
+            "ActionTag": 1289280960,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "4",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "SpecialCardsWest.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

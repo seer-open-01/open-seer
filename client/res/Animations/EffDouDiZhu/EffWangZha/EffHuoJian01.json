@@ -1,0 +1,3048 @@
+{
+  "ID": "e764a728-8cb7-4330-a6cf-d64eac32d27c",
+  "Version": "2.3.4",
+  "Name": "EffHuoJian01",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 90,
+        "Speed": 1.0,
+        "ActivedAnimationName": "animation0",
+        "Timelines": [
+          {
+            "ActionTag": -845167589,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -94.9,
+                "Y": -105.7,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -94.9,
+                "Y": -75.7,
+                "FrameIndex": 14,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -94.9,
+                "Y": -5.7,
+                "FrameIndex": 26,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -94.9,
+                "Y": 700.0,
+                "FrameIndex": 50,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -94.9,
+                "Y": 2400.0,
+                "FrameIndex": 90,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -845167589,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -845167589,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo01.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -845167589,
+            "Property": "BlendFunc",
+            "Frames": [
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -845167589,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 0,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1401985304,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 97.65,
+                "Y": -107.5,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 97.65,
+                "Y": -77.5,
+                "FrameIndex": 14,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 97.65,
+                "Y": -7.5,
+                "FrameIndex": 26,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 97.65,
+                "Y": 700.0,
+                "FrameIndex": 50,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 97.65,
+                "Y": 2400.0,
+                "FrameIndex": 90,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1401985304,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1401985304,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo01.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1401985304,
+            "Property": "BlendFunc",
+            "Frames": [
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1401985304,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 0,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1545792521,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -1.6,
+                "Y": -134.4,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.6,
+                "Y": -104.4,
+                "FrameIndex": 14,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.6,
+                "Y": -30.0,
+                "FrameIndex": 26,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.6,
+                "Y": 670.0,
+                "FrameIndex": 50,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.6,
+                "Y": 2360.0,
+                "FrameIndex": 90,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1545792521,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.5,
+                "Y": 1.5,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 2.5,
+                "Y": 2.0,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 2.5,
+                "Y": 3.5,
+                "FrameIndex": 29,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1545792521,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo01.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1545792521,
+            "Property": "BlendFunc",
+            "Frames": [
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1545792521,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2129468463,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -1.7,
+                "Y": -100.0,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.7,
+                "Y": -70.0,
+                "FrameIndex": 14,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.7,
+                "Y": 0.0,
+                "FrameIndex": 26,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.7,
+                "Y": 700.0,
+                "FrameIndex": 50,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -1.7,
+                "Y": 2400.0,
+                "FrameIndex": 90,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2129468463,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.8,
+                "Y": 1.5,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 3.0,
+                "Y": 2.0,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 3.0,
+                "Y": 3.0,
+                "FrameIndex": 29,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2129468463,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo01.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo06.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo03.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo02.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo04.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo05.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo08.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2129468463,
+            "Property": "BlendFunc",
+            "Frames": [
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 2,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 11,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 14,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 17,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 23,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 26,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 29,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 32,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 35,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 38,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 41,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 44,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 47,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 53,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 56,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 59,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 62,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 65,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 68,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 71,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 74,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 77,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 80,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 83,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 86,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2129468463,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 280018765,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 5,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 30.0,
+                "FrameIndex": 14,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 100.0,
+                "FrameIndex": 26,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 800.0,
+                "FrameIndex": 50,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 2500.0,
+                "FrameIndex": 90,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1647206731,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.454,
+                "Y": 0.364,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.75,
+                "Y": 0.6,
+                "FrameIndex": 4,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.9,
+                "Y": 0.8,
+                "FrameIndex": 7,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 0.9,
+                "FrameIndex": 19,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.5,
+                "Y": 1.2,
+                "FrameIndex": 45,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1647206731,
+            "Property": "AnchorPoint",
+            "Frames": [
+              {
+                "X": 0.4957,
+                "Y": 0.2736,
+                "FrameIndex": 19,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1647206731,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 2,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 14,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 0,
+                "FrameIndex": 45,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 90,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 35,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -5.5,
+              "Y": -159.41
+            },
+            "Scale": {
+              "ScaleX": 0.58,
+              "ScaleY": 0.58
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -5.5,
+            "RightMargin": 5.5,
+            "TopMargin": 159.41,
+            "BottomMargin": -159.41,
+            "Tag": 125,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.4966,
+                  "ScaleY": 0.8815
+                },
+                "Position": {
+                  "X": -94.9,
+                  "Y": -40.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -133.1382,
+                "RightMargin": 56.1382,
+                "TopMargin": 23.873,
+                "BottomMargin": -165.873,
+                "Tag": 37,
+                "ActionTag": -845167589,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 142.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5093,
+                  "ScaleY": 0.8773
+                },
+                "Position": {
+                  "X": 97.65,
+                  "Y": -42.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 58.4339,
+                "RightMargin": -135.4339,
+                "TopMargin": 25.0766,
+                "BottomMargin": -167.0766,
+                "Tag": 38,
+                "ActionTag": -1401985304,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 142.0
+                },
+                "Name": "Sprite_2_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.501,
+                  "ScaleY": 0.8623
+                },
+                "Position": {
+                  "X": -1.6,
+                  "Y": -67.2
+                },
+                "Scale": {
+                  "ScaleX": 2.5,
+                  "ScaleY": 2.9375
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -40.177,
+                "RightMargin": -36.823,
+                "TopMargin": 47.6466,
+                "BottomMargin": -189.6466,
+                "Tag": 39,
+                "ActionTag": 1545792521,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 142.0
+                },
+                "Name": "Sprite_2_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZpenghuo07.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.501,
+                  "ScaleY": 0.8623
+                },
+                "Position": {
+                  "X": -1.7,
+                  "Y": -35.0
+                },
+                "Scale": {
+                  "ScaleX": 3.0,
+                  "ScaleY": 2.625
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -40.277,
+                "RightMargin": -36.723,
+                "TopMargin": 15.4466,
+                "BottomMargin": -157.4466,
+                "Tag": 40,
+                "ActionTag": -2129468463,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 142.0
+                },
+                "Name": "Sprite_2_1_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZHuoJian.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 65.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -121.0,
+                "RightMargin": -121.0,
+                "TopMargin": -227.0,
+                "BottomMargin": -97.0,
+                "Tag": 36,
+                "ActionTag": 280018765,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 324.0
+                },
+                "Name": "DDZHuoJian_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Animations/EffDouDiZhu/EffWangZha/DDZSmoke.png",
+                  "Plist": "Animations/EffDouDiZhu/EffWangZha/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.4957,
+                  "ScaleY": 0.2736
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -333.3834
+                },
+                "Scale": {
+                  "ScaleX": 1.0192,
+                  "ScaleY": 0.9115
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -253.7984,
+                "RightMargin": -258.2016,
+                "TopMargin": 147.425,
+                "BottomMargin": -403.425,
+                "Tag": 41,
+                "ActionTag": -1647206731,
+                "Size": {
+                  "X": 512.0,
+                  "Y": 256.0
+                },
+                "Alpha": 205,
+                "Name": "blast_0054_6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1777876725,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Node_1",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Plist.plist",
+        "Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

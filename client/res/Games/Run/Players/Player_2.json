@@ -1,0 +1,637 @@
+{
+  "ID": "e9ab3594-e703-42c5-ba3a-fab078f4ac95",
+  "Version": "2.3.4",
+  "Name": "Player_2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 544,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -690.0,
+              "Y": -116.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -690.0,
+            "RightMargin": 690.0,
+            "TopMargin": 116.0,
+            "BottomMargin": -116.0,
+            "Tag": 2668,
+            "ActionTag": 1757322393,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_OutCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -114.0,
+              "Y": 38.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -114.0,
+            "RightMargin": 114.0,
+            "TopMargin": -38.0,
+            "BottomMargin": 38.0,
+            "Tag": 2739,
+            "ActionTag": -921647312,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_LeftCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Players/UserInfoOther.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 562,
+            "ActionTag": 1391316960,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_UserInfo",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_Dealer.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 68.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -50.0,
+            "RightMargin": -50.0,
+            "TopMargin": -97.0,
+            "BottomMargin": 39.0,
+            "Tag": 99,
+            "ActionTag": 2145113103,
+            "Size": {
+              "X": 100.0,
+              "Y": 58.0
+            },
+            "Name": "ND_Dealer",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_HaveReady.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 43,
+            "Scale9OriginY": 16,
+            "Scale9Width": 24,
+            "Scale9Height": 10,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -150.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -205.0,
+            "RightMargin": 95.0,
+            "TopMargin": -21.0,
+            "BottomMargin": -21.0,
+            "Tag": 561,
+            "ActionTag": 1310639559,
+            "Size": {
+              "X": 110.0,
+              "Y": 42.0
+            },
+            "Name": "ND_Ready",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_BaoDan.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -15.8015,
+              "Y": 71.5374
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -61.8015,
+            "RightMargin": -30.1985,
+            "TopMargin": -95.5374,
+            "BottomMargin": 47.5374,
+            "Tag": 135,
+            "ActionTag": -147841433,
+            "Size": {
+              "X": 92.0,
+              "Y": 48.0
+            },
+            "Name": "ND_BaoDan",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_Double.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -34.0,
+              "Y": 3.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": 9.0,
+            "TopMargin": -31.0,
+            "BottomMargin": -25.0,
+            "Tag": 109,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "2",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 22.0,
+                  "Y": 26.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.44,
+                  "Y": 0.4643
+                },
+                "PreSize": {
+                  "X": 0.26,
+                  "Y": 0.5
+                },
+                "LeftMargin": 15.5,
+                "RightMargin": 21.5,
+                "TopMargin": 16.0,
+                "BottomMargin": 12.0,
+                "Tag": 215,
+                "ActionTag": 69864388,
+                "Size": {
+                  "X": 13.0,
+                  "Y": 28.0
+                },
+                "Name": "num",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 586071234,
+            "Size": {
+              "X": 50.0,
+              "Y": 56.0
+            },
+            "Name": "ND_Double",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/TXT_Tip_5.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -150.0,
+              "Y": -50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -219.0,
+            "RightMargin": 81.0,
+            "TopMargin": 23.0,
+            "BottomMargin": -77.0,
+            "Tag": 416,
+            "ActionTag": 1339946586,
+            "Size": {
+              "X": 138.0,
+              "Y": 54.0
+            },
+            "Name": "ND_Tip",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -260.0,
+              "Y": 30.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -260.0,
+            "RightMargin": 260.0,
+            "TopMargin": -30.0,
+            "BottomMargin": 30.0,
+            "Tag": 1915,
+            "ActionTag": -1847606261,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_ClockPos",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 549,
+            "ActionTag": -640078941,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_GiftPos",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_ChatBg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 18,
+            "Scale9OriginY": 22,
+            "Scale9Width": 222,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -176.0,
+              "Y": -44.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -305.0,
+            "RightMargin": 47.0,
+            "TopMargin": 10.0,
+            "BottomMargin": -78.0,
+            "Tag": 1105,
+            "Children": [
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Run/Image/IMG_ChatArrow.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 252.125,
+                  "Y": 36.45
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9772,
+                  "Y": 0.536
+                },
+                "PreSize": {
+                  "X": 0.1163,
+                  "Y": 0.3235
+                },
+                "LeftMargin": 237.125,
+                "RightMargin": -9.125,
+                "TopMargin": 20.55,
+                "BottomMargin": 25.45,
+                "Tag": 1106,
+                "ActionTag": -754665626,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 22.0
+                },
+                "Name": "IMG_ChatArrow",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -205910720,
+            "Size": {
+              "X": 258.0,
+              "Y": 68.0
+            },
+            "Name": "IMG_ChatBG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "不要吵了不要吵了，专心玩游戏吧",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 39,
+              "G": 67,
+              "B": 157
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -176.0,
+              "Y": -44.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -301.0,
+            "RightMargin": 51.0,
+            "TopMargin": 17.0,
+            "BottomMargin": -71.0,
+            "Tag": 1104,
+            "ActionTag": -1574663339,
+            "Size": {
+              "X": 250.0,
+              "Y": 54.0
+            },
+            "Name": "TXT_ChatMsg",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/YaHei.ttf",
+        "../Image/IMG_BaoDan.png",
+        "../Image/IMG_ChatArrow.png",
+        "../Image/IMG_ChatBg.png",
+        "../Image/IMG_Dealer.png",
+        "../Image/IMG_Double.png",
+        "../Image/IMG_HaveReady.png",
+        "../Image/TXT_Tip_5.png",
+        "UserInfoOther.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

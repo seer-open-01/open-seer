@@ -1,0 +1,697 @@
+{
+  "ID": "12138da9-cc31-4b60-83d2-cf71859f0af8",
+  "Version": "2.3.4",
+  "Name": "ReportWin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 43,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 500,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/PopupWing1000x652.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -12.4796,
+                  "Y": 0.714
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -512.4796,
+                "RightMargin": -487.5204,
+                "TopMargin": -326.714,
+                "BottomMargin": -325.286,
+                "Tag": 44,
+                "ActionTag": -575647688,
+                "Size": {
+                  "X": 1000.0,
+                  "Y": 652.0
+                },
+                "Name": "ND_Bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Report_Img_4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 260.9583
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -50.0,
+                "RightMargin": -50.0,
+                "TopMargin": -285.9583,
+                "BottomMargin": 235.9583,
+                "Tag": 664,
+                "ActionTag": 536173679,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 50.0
+                },
+                "Name": "ND_Tittle",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Report_Img_7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -12.4774,
+                  "Y": 260.7172
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -199.4774,
+                "RightMargin": -174.5226,
+                "TopMargin": -289.7172,
+                "BottomMargin": 231.7172,
+                "Tag": 663,
+                "ActionTag": 1163769578,
+                "Size": {
+                  "X": 374.0,
+                  "Y": 58.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ND_Bg_Tab",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 38,
+                "LabelText": "您目前还没战绩哦......",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -12.4791,
+                  "Y": 0.7165
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 232,
+                  "G": 122,
+                  "B": 46
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -196.9791,
+                "RightMargin": -172.0209,
+                "TopMargin": -27.2165,
+                "BottomMargin": -25.7835,
+                "Tag": 8575,
+                "ActionTag": 888780061,
+                "Size": {
+                  "X": 369.0,
+                  "Y": 53.0
+                },
+                "Name": "TXT_NoReport",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 960,
+                  "Height": 510
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -490.2776,
+                  "Y": -303.289
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -490.2776,
+                "RightMargin": -469.7224,
+                "TopMargin": -206.711,
+                "BottomMargin": -303.289,
+                "Tag": 682,
+                "ActionTag": 1858182301,
+                "Size": {
+                  "X": 960.0,
+                  "Y": 510.0
+                },
+                "Name": "ND_SV",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 480.4231,
+                  "Y": 290.621
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 447.4231,
+                "RightMargin": -513.4231,
+                "TopMargin": -327.621,
+                "BottomMargin": 253.621,
+                "Tag": 45,
+                "ActionTag": -1777919937,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "Btn_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Bean_2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Bean_2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Bean_2.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Bean_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Bean_1.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -102.2631,
+                  "Y": 261.187
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -200.2631,
+                "RightMargin": 4.2631,
+                "TopMargin": -290.187,
+                "BottomMargin": 232.187,
+                "Tag": 683,
+                "ActionTag": -618547678,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 58.0
+                },
+                "VisibleForFrame": false,
+                "Name": "CheckBox_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Card_2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Card_2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Card_2.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Card_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Report/Image/Btn_Card_1.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 75.1442,
+                  "Y": 261.187
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -22.8558,
+                "RightMargin": -173.1442,
+                "TopMargin": -290.187,
+                "BottomMargin": 232.187,
+                "Tag": 684,
+                "ActionTag": -114874938,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 58.0
+                },
+                "VisibleForFrame": false,
+                "Name": "CheckBox_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/Com_Mask.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/Com_Mask.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/Com_Mask.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 34,
+                "Scale9Height": 42,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -10.4803,
+                  "Y": -47.2876
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -490.4803,
+                "RightMargin": -469.5197,
+                "TopMargin": -207.7124,
+                "BottomMargin": -302.2876,
+                "Tag": 51,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Report/Image/Loading_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 480.0,
+                      "Y": 255.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1563,
+                      "Y": 0.2941
+                    },
+                    "LeftMargin": 405.0,
+                    "RightMargin": 405.0,
+                    "TopMargin": 180.0,
+                    "BottomMargin": 180.0,
+                    "Tag": 52,
+                    "ActionTag": 1503170972,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 150.0
+                    },
+                    "Name": "Loading_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Report/Image/Loading_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 480.0,
+                      "Y": 255.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1187,
+                      "Y": 0.2235
+                    },
+                    "LeftMargin": 423.0,
+                    "RightMargin": 423.0,
+                    "TopMargin": 198.0,
+                    "BottomMargin": 198.0,
+                    "Tag": 53,
+                    "ActionTag": 635157798,
+                    "Size": {
+                      "X": 114.0,
+                      "Y": 114.0
+                    },
+                    "Name": "Loading_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1101414826,
+                "Size": {
+                  "X": 960.0,
+                  "Y": 510.0
+                },
+                "Name": "ND_Loading",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1250106376,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_CloseN.png",
+        "../../Common/Images/BTN_CloseP.png",
+        "../../Common/Images/Com_Mask.png",
+        "../../Common/Images/PopupWing1000x652.png",
+        "../../Fonts/YaHei.ttf",
+        "Image/Btn_Bean_1.png",
+        "Image/Btn_Bean_2.png",
+        "Image/Btn_Card_1.png",
+        "Image/Btn_Card_2.png",
+        "Image/Loading_1.png",
+        "Image/Loading_2.png",
+        "Image/Report_Img_4.png",
+        "Image/Report_Img_7.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

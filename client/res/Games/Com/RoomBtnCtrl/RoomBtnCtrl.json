@@ -1,0 +1,672 @@
+{
+  "ID": "d14ee71d-00ba-4d1b-aaa2-57a8b777bf61",
+  "Version": "2.3.4",
+  "Name": "RoomBtnCtrl",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 93.0,
+              "Y": -694.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 93.0,
+            "RightMargin": -293.0,
+            "TopMargin": -56.0,
+            "BottomMargin": -694.0,
+            "Tag": 9,
+            "Children": [
+              {
+                "FontSize": 24,
+                "ButtonText": "",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "B": 0
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_SetN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_SetP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_SetN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 118,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 570.4643
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3,
+                  "Y": 0.7606
+                },
+                "PreSize": {
+                  "X": 0.74,
+                  "Y": 0.0987
+                },
+                "LeftMargin": 186.0,
+                "RightMargin": -134.0,
+                "TopMargin": 142.5357,
+                "BottomMargin": 533.4643,
+                "Tag": 8,
+                "ActionTag": -1187262292,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Setting",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "ButtonText": "",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_BankN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_BankP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_BankN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 118,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 449.0015
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3,
+                  "Y": 0.5987
+                },
+                "PreSize": {
+                  "X": 0.74,
+                  "Y": 0.0987
+                },
+                "LeftMargin": 186.0,
+                "RightMargin": -134.0,
+                "TopMargin": 263.9985,
+                "BottomMargin": 412.0015,
+                "Tag": 9,
+                "ActionTag": 903141165,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Bank",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "ButtonText": "",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_RuleN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_RuleP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_RuleN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 118,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 329.0013
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3,
+                  "Y": 0.4387
+                },
+                "PreSize": {
+                  "X": 0.74,
+                  "Y": 0.0987
+                },
+                "LeftMargin": 186.0,
+                "RightMargin": -134.0,
+                "TopMargin": 383.9987,
+                "BottomMargin": 292.0013,
+                "Tag": 33,
+                "ActionTag": 1195572238,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Rule",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "ButtonText": "",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_QuitN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_QuitP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_QuitN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 118,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 209.0017
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3,
+                  "Y": 0.2787
+                },
+                "PreSize": {
+                  "X": 0.74,
+                  "Y": 0.0987
+                },
+                "LeftMargin": 186.0,
+                "RightMargin": -134.0,
+                "TopMargin": 503.9983,
+                "BottomMargin": 172.0017,
+                "Tag": 10,
+                "ActionTag": -1961070913,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Quit",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "ButtonText": "",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_TrustN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_TrustP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/RoomBtnCtrl/BTN_TrustN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 118,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 89.0018
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3,
+                  "Y": 0.1187
+                },
+                "PreSize": {
+                  "X": 0.74,
+                  "Y": 0.0987
+                },
+                "LeftMargin": 186.0,
+                "RightMargin": -134.0,
+                "TopMargin": 623.9982,
+                "BottomMargin": 52.0018,
+                "Tag": 388,
+                "ActionTag": 1210344340,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Trust",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1295201784,
+            "Size": {
+              "X": 200.0,
+              "Y": 750.0
+            },
+            "Name": "ND_Menu",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 48,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Default",
+              "Path": "",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/RoomBtnCtrl/BTN_SwitchP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/RoomBtnCtrl/BTN_SwitchN.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 36,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -38.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -71.0,
+            "RightMargin": 5.0,
+            "TopMargin": -34.0,
+            "BottomMargin": -34.0,
+            "Tag": 6,
+            "ActionTag": -691049001,
+            "Size": {
+              "X": 66.0,
+              "Y": 68.0
+            },
+            "Name": "BTN_Switch",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1189.9977,
+              "Y": -666.6257
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -1189.9977,
+            "RightMargin": 79.9977,
+            "TopMargin": -55.3743,
+            "BottomMargin": -666.6257,
+            "Tag": 15,
+            "ActionTag": 1036303215,
+            "Size": {
+              "X": 1110.0,
+              "Y": 722.0
+            },
+            "Alpha": 0,
+            "Name": "BTN_Close",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Mask.png",
+        "../../../Default/Button_Disable.png",
+        "../../../Default/Button_Normal.png",
+        "../../../Default/Button_Press.png",
+        "BTN_BankN.png",
+        "BTN_BankP.png",
+        "BTN_QuitN.png",
+        "BTN_QuitP.png",
+        "BTN_RuleN.png",
+        "BTN_RuleP.png",
+        "BTN_SetN.png",
+        "BTN_SetP.png",
+        "BTN_SwitchN.png",
+        "BTN_SwitchP.png",
+        "BTN_TrustN.png",
+        "BTN_TrustP.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

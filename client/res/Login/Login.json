@@ -1,0 +1,550 @@
+{
+  "ID": "b2749764-d2ea-40d6-a943-3290f5d46d68",
+  "Version": "2.3.4",
+  "Name": "Login",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 14,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.6823,
+              "Y": 360.4943
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4998,
+              "Y": 0.5007
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -0.3177,
+            "RightMargin": 0.3176,
+            "TopMargin": -0.4943,
+            "BottomMargin": 0.4943,
+            "Tag": 15,
+            "ActionTag": 824073484,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_Logo.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1030.0,
+              "Y": 610.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8047,
+              "Y": 0.8472
+            },
+            "PreSize": {
+              "X": 0.3594,
+              "Y": 0.25
+            },
+            "LeftMargin": 800.0,
+            "RightMargin": 20.0,
+            "TopMargin": 20.0,
+            "BottomMargin": 520.0,
+            "Tag": 308,
+            "ActionTag": 1765967697,
+            "Size": {
+              "X": 460.0,
+              "Y": 180.0
+            },
+            "Name": "SP_Logo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/BTN_LoginN.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/BTN_LoginP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/BTN_LoginN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 182,
+            "Scale9Height": 68,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 180.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.25
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.125
+            },
+            "LeftMargin": 534.0,
+            "RightMargin": 534.0,
+            "TopMargin": 495.0,
+            "BottomMargin": 135.0,
+            "Tag": 17,
+            "ActionTag": -550470245,
+            "Size": {
+              "X": 212.0,
+              "Y": 90.0
+            },
+            "Name": "ND_Login",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 18,
+            "LabelText": "9.9.9.9(20170825)",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Right",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1267.7802,
+              "Y": 51.1242
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 150,
+              "G": 117,
+              "B": 80
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9905,
+              "Y": 0.071
+            },
+            "PreSize": {
+              "X": 0.3406,
+              "Y": 0.0278
+            },
+            "LeftMargin": 831.7802,
+            "RightMargin": 12.2198,
+            "TopMargin": 658.8758,
+            "BottomMargin": 41.1242,
+            "Tag": 18,
+            "ActionTag": -1196966050,
+            "Size": {
+              "X": 436.0,
+              "Y": 20.0
+            },
+            "Name": "ND_Version",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 48,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "请输入OPENID",
+            "MaxLengthEnable": true,
+            "MaxLengthText": 48,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 653.4697,
+              "Y": 407.5753
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5105,
+              "Y": 0.5661
+            },
+            "PreSize": {
+              "X": 0.3125,
+              "Y": 0.0667
+            },
+            "LeftMargin": 453.4697,
+            "RightMargin": 426.5303,
+            "TopMargin": 288.4247,
+            "BottomMargin": 383.5753,
+            "Tag": 19,
+            "ActionTag": -643605432,
+            "Size": {
+              "X": 400.0,
+              "Y": 48.0
+            },
+            "Name": "ND_Input",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "Scale9OriginX": -15,
+            "Scale9OriginY": -11,
+            "Scale9Width": 30,
+            "Scale9Height": 22,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 637.406,
+              "Y": 196.1046
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.498,
+              "Y": 0.2724
+            },
+            "PreSize": {
+              "X": 0.293,
+              "Y": 0.1653
+            },
+            "LeftMargin": 449.906,
+            "RightMargin": 455.094,
+            "TopMargin": 464.3954,
+            "BottomMargin": 136.6046,
+            "Tag": 3354,
+            "ActionTag": -1386465815,
+            "Size": {
+              "X": 375.0,
+              "Y": 119.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_AnonymousLogin",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/TXT_Agr.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/TXT_Agr.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/TXT_Agr.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 412,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9998,
+              "Y": 100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1389
+            },
+            "PreSize": {
+              "X": 0.3438,
+              "Y": 0.0722
+            },
+            "LeftMargin": 419.9998,
+            "RightMargin": 420.0002,
+            "TopMargin": 594.0,
+            "BottomMargin": 74.0,
+            "Tag": 568,
+            "ActionTag": 653471626,
+            "Size": {
+              "X": 440.0,
+              "Y": 52.0
+            },
+            "Name": "ND_AgreementContent",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "CheckedState": true,
+            "NormalBackFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_CheckBox.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_CheckBox.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_CheckBox.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_Check.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_Check.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 524.3673,
+              "Y": 100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4097,
+              "Y": 0.1389
+            },
+            "PreSize": {
+              "X": 0.0281,
+              "Y": 0.0472
+            },
+            "LeftMargin": 506.3673,
+            "RightMargin": 737.6327,
+            "TopMargin": 603.0,
+            "BottomMargin": 83.0,
+            "Tag": 16,
+            "ActionTag": -2007412579,
+            "Size": {
+              "X": 36.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Agreement",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Login/Images/IMG_Tip.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 638.9623,
+              "Y": 19.6522
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4992,
+              "Y": 0.0273
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.0556
+            },
+            "LeftMargin": -1.0377,
+            "RightMargin": 1.0377,
+            "TopMargin": 680.3478,
+            "BottomMargin": -0.3478,
+            "Tag": 97,
+            "ActionTag": -159792671,
+            "Size": {
+              "X": 1280.0,
+              "Y": 40.0
+            },
+            "Name": "IMG_Tip",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Common/Images/Com_Bg.png",
+        "../Fonts/YaHei.ttf",
+        "Images/BTN_LoginN.png",
+        "Images/BTN_LoginP.png",
+        "Images/IMG_Check.png",
+        "Images/IMG_CheckBox.png",
+        "Images/IMG_Logo.png",
+        "Images/IMG_Tip.png",
+        "Images/TXT_Agr.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

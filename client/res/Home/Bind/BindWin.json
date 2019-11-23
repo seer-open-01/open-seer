@@ -1,0 +1,371 @@
+{
+  "ID": "0086ec82-fce1-49db-82ce-356cbda9bda5",
+  "Version": "2.3.4",
+  "Name": "BindWin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing846x552.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6609,
+              "Y": 0.7667
+            },
+            "LeftMargin": 217.0,
+            "RightMargin": 217.0,
+            "TopMargin": 84.0,
+            "BottomMargin": 84.0,
+            "Tag": 3,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 124.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2246
+                },
+                "PreSize": {
+                  "X": 0.2695,
+                  "Y": 0.1739
+                },
+                "LeftMargin": 309.0,
+                "RightMargin": 309.0,
+                "TopMargin": 379.9999,
+                "BottomMargin": 76.0001,
+                "Tag": 41,
+                "ActionTag": -372418702,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 96.0
+                },
+                "Name": "Btn_Sure",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Bind/IMG_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 10,
+                "Scale9Width": 12,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 223.0,
+                  "Y": 311.058
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2636,
+                  "Y": 0.5635
+                },
+                "PreSize": {
+                  "X": 0.4728,
+                  "Y": 0.1087
+                },
+                "LeftMargin": 223.0,
+                "RightMargin": 223.0,
+                "TopMargin": 210.942,
+                "BottomMargin": 281.058,
+                "Tag": 43,
+                "ActionTag": 1842539142,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "ND_Bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "温馨提示：代理ID绑定后将不能更改",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 43.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 232,
+                  "G": 122,
+                  "B": 46
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0779
+                },
+                "PreSize": {
+                  "X": 0.344,
+                  "Y": 0.0453
+                },
+                "LeftMargin": 277.5,
+                "RightMargin": 277.5,
+                "TopMargin": 496.5,
+                "BottomMargin": 30.5,
+                "Tag": 44,
+                "ActionTag": 1980513451,
+                "Size": {
+                  "X": 291.0,
+                  "Y": 25.0
+                },
+                "Name": "ND_Tip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 35,
+                "LabelText": "您的上级ID：123456",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 308.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 232,
+                  "G": 122,
+                  "B": 46
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.558
+                },
+                "PreSize": {
+                  "X": 0.4255,
+                  "Y": 0.0888
+                },
+                "LeftMargin": 243.0,
+                "RightMargin": 243.0,
+                "TopMargin": 219.5,
+                "BottomMargin": 283.5,
+                "Tag": 15,
+                "ActionTag": 420270247,
+                "Size": {
+                  "X": 360.0,
+                  "Y": 49.0
+                },
+                "Name": "ND_PreUid",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Bind/IMG_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 480.0
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8696
+                },
+                "PreSize": {
+                  "X": 0.2151,
+                  "Y": 0.087
+                },
+                "LeftMargin": 332.0,
+                "RightMargin": 332.0,
+                "TopMargin": 48.0,
+                "BottomMargin": 456.0,
+                "Tag": 80,
+                "ActionTag": -408224899,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 48.0
+                },
+                "Name": "ND_Title",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1230912055,
+            "Size": {
+              "X": 846.0,
+              "Y": 552.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_ConfirmN.png",
+        "../../Common/Images/BTN_ConfirmP.png",
+        "../../Common/Images/PopupWing846x552.png",
+        "../../Default/Button_Disable.png",
+        "../../Fonts/YaHei.ttf",
+        "IMG_1.png",
+        "IMG_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

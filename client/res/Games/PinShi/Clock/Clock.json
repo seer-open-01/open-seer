@@ -1,0 +1,121 @@
+{
+  "ID": "7102d0ab-9617-40dc-b0bc-c385189a7d01",
+  "Version": "2.3.4",
+  "Name": "Clock",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 41,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/BG_Clock.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.0,
+            "RightMargin": -63.0,
+            "TopMargin": -50.0,
+            "BottomMargin": -50.0,
+            "Tag": 42,
+            "ActionTag": 1457459673,
+            "Size": {
+              "X": 126.0,
+              "Y": 100.0
+            },
+            "Name": "BG_Clock",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "99",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Font/num_pinshi_clock.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -3.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -30.0,
+            "RightMargin": -30.0,
+            "TopMargin": -13.0,
+            "BottomMargin": -19.0,
+            "Tag": 43,
+            "ActionTag": 2111094894,
+            "Size": {
+              "X": 60.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Clock",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/num_pinshi_clock.fnt",
+        "../Font/num_pinshi_clock_0.png",
+        "../Image/BG_Clock.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

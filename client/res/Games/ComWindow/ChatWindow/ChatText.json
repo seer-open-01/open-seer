@@ -1,0 +1,205 @@
+{
+  "ID": "7cf25c14-d50c-497d-9505-79fc75d04f79",
+  "Version": "2.3.4",
+  "Name": "ChatText",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 449,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 54,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -290.0,
+            "BottomMargin": -70.0,
+            "Tag": 450,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/ChatWindow/ChatWindow_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 6,
+                "Scale9Height": 6,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 401,
+                "ActionTag": -1926110983,
+                "Size": {
+                  "X": 290.0,
+                  "Y": 70.0
+                },
+                "Name": "IMG_Bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 23,
+                "LabelText": "怎么又断线了啊，网络怎么这么差劲",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 5.0,
+                  "Y": 35.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 134,
+                  "B": 94
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0172,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.9655,
+                  "Y": 0.9143
+                },
+                "LeftMargin": 5.0,
+                "RightMargin": 5.0,
+                "TopMargin": 3.0,
+                "BottomMargin": 3.0,
+                "Tag": 451,
+                "ActionTag": 674931232,
+                "Size": {
+                  "X": 280.0,
+                  "Y": 64.0
+                },
+                "Name": "TXT_Content",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1818647646,
+            "Size": {
+              "X": 290.0,
+              "Y": 70.0
+            },
+            "Name": "BTN_Text",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Opacity.png",
+        "../../../Fonts/YaHei.ttf",
+        "ChatWindow_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,1760 @@
+{
+  "ID": "b38fcc85-2ad0-4f24-834f-8641fd017070",
+  "Version": "2.3.4",
+  "Name": "Settlement",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 618,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 21,
+            "Scale9OriginY": 21,
+            "Scale9Width": 22,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 619,
+            "ActionTag": 1371479530,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Bg_Settlement",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 446.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6194
+            },
+            "PreSize": {
+              "X": 0.5172,
+              "Y": 0.4056
+            },
+            "LeftMargin": 309.0,
+            "RightMargin": 309.0,
+            "TopMargin": 128.0,
+            "BottomMargin": 300.0,
+            "Tag": 39,
+            "ActionTag": 210982672,
+            "Size": {
+              "X": 662.0,
+              "Y": 292.0
+            },
+            "Name": "ND_Draw",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Fail.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 446.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6194
+            },
+            "PreSize": {
+              "X": 0.5172,
+              "Y": 0.4056
+            },
+            "LeftMargin": 309.0,
+            "RightMargin": 309.0,
+            "TopMargin": 128.0,
+            "BottomMargin": 300.0,
+            "Tag": 40,
+            "ActionTag": -45255901,
+            "Size": {
+              "X": 662.0,
+              "Y": 292.0
+            },
+            "Name": "ND_Fail",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Victory.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 446.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6194
+            },
+            "PreSize": {
+              "X": 0.5172,
+              "Y": 0.4056
+            },
+            "LeftMargin": 309.0,
+            "RightMargin": 309.0,
+            "TopMargin": 128.0,
+            "BottomMargin": 300.0,
+            "Tag": 41,
+            "ActionTag": -438715951,
+            "Size": {
+              "X": 662.0,
+              "Y": 292.0
+            },
+            "Name": "ND_Victory",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/Settlement_BTNShareN.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/Settlement_BTNShareP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/Settlement_BTNShareN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 214,
+            "Scale9Height": 82,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.0,
+              "Y": 200.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3125,
+              "Y": 0.2778
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.1444
+            },
+            "LeftMargin": 278.0,
+            "RightMargin": 758.0,
+            "TopMargin": 468.0,
+            "BottomMargin": 148.0,
+            "Tag": 98,
+            "ActionTag": 2078164894,
+            "Size": {
+              "X": 244.0,
+              "Y": 104.0
+            },
+            "Name": "BTN_Share",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/Settlement_BTNNextRoundN.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/Settlement_BTNNextRoundP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/Settlement_BTNNextRoundN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 214,
+            "Scale9Height": 82,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 840.0,
+              "Y": 200.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6563,
+              "Y": 0.2778
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.1444
+            },
+            "LeftMargin": 718.0,
+            "RightMargin": 318.0,
+            "TopMargin": 468.0,
+            "BottomMargin": 148.0,
+            "Tag": 99,
+            "Children": [
+              {
+                "FontSize": 33,
+                "LabelText": "99",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 3,
+                "OutlineColor": {
+                  "R": 33,
+                  "G": 133,
+                  "B": 70
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 189.6285,
+                  "Y": 53.8091
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 241,
+                  "B": 235
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7772,
+                  "Y": 0.5174
+                },
+                "PreSize": {
+                  "X": 0.1598,
+                  "Y": 0.5
+                },
+                "LeftMargin": 170.1285,
+                "RightMargin": 34.8715,
+                "TopMargin": 24.1909,
+                "BottomMargin": 27.8091,
+                "Tag": 100,
+                "ActionTag": -1855731822,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 52.0
+                },
+                "Name": "Time",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1019709405,
+            "Size": {
+              "X": 244.0,
+              "Y": 104.0
+            },
+            "Name": "BTN_Next",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 164.0,
+              "Y": 184.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.1281,
+              "Y": 0.2556
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 164.0,
+            "RightMargin": 1116.0,
+            "TopMargin": 536.0,
+            "BottomMargin": 184.0,
+            "Tag": 141,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_MinusScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 371,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_minus.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.5,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.511,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -3.5,
+                    "RightMargin": -8.5,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 372,
+                    "ActionTag": -2101932921,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Minus",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1738232940,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Minus",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_AddScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 373,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_add.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5088,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -4.0,
+                    "RightMargin": -8.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 374,
+                    "ActionTag": 1067073899,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Add",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -252339730,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Add",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -423330247,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1200.0,
+              "Y": 420.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.9375,
+              "Y": 0.5833
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1200.0,
+            "RightMargin": 80.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 420.0,
+            "Tag": 142,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_MinusScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 367,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_minus.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.5,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.511,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -3.5,
+                    "RightMargin": -8.5,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 368,
+                    "ActionTag": -1392109729,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Minus",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1496735987,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Minus",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_AddScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 369,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_add.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5088,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -4.0,
+                    "RightMargin": -8.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 370,
+                    "ActionTag": -929912131,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Add",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1219481900,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Add",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1278451847,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player2",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1180.0,
+              "Y": 636.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.9219,
+              "Y": 0.8833
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1180.0,
+            "RightMargin": 100.0,
+            "TopMargin": 84.0,
+            "BottomMargin": 636.0,
+            "Tag": 143,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_MinusScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 363,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_minus.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.5,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.511,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -3.5,
+                    "RightMargin": -8.5,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 364,
+                    "ActionTag": 1612234089,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Minus",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -2097357829,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Minus",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_AddScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 365,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_add.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5088,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -4.0,
+                    "RightMargin": -8.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 366,
+                    "ActionTag": 259841144,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Add",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -990712561,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Add",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1014117435,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player3",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 556.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4344,
+              "Y": 0.9444
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 556.0,
+            "RightMargin": 724.0,
+            "TopMargin": 40.0,
+            "BottomMargin": 680.0,
+            "Tag": 144,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_MinusScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 359,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_minus.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.5,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.511,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -3.5,
+                    "RightMargin": -8.5,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 360,
+                    "ActionTag": 233852938,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Minus",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -96125575,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Minus",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_AddScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 361,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_add.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5088,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -4.0,
+                    "RightMargin": -8.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 362,
+                    "ActionTag": 2097457035,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Add",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -2057677552,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Add",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1168438352,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player4",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 90.0,
+              "Y": 648.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0703,
+              "Y": 0.9
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 90.0,
+            "RightMargin": 1190.0,
+            "TopMargin": 72.0,
+            "BottomMargin": 648.0,
+            "Tag": 145,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_MinusScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 375,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_minus.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.5,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.511,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -3.5,
+                    "RightMargin": -8.5,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 376,
+                    "ActionTag": -514807567,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Minus",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1754761824,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Minus",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_AddScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 377,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_add.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5088,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -4.0,
+                    "RightMargin": -8.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 378,
+                    "ActionTag": 1986328997,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Add",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1309937294,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Add",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1217346795,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player5",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 80.0,
+              "Y": 410.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0625,
+              "Y": 0.5694
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 80.0,
+            "RightMargin": 1200.0,
+            "TopMargin": 310.0,
+            "BottomMargin": 410.0,
+            "Tag": 146,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_MinusScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 355,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_minus.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.5,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.511,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -3.5,
+                    "RightMargin": -8.5,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 356,
+                    "ActionTag": -1955314698,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Minus",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -603173843,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Minus",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_AddScore.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -42.0,
+                "BottomMargin": -42.0,
+                "Tag": 357,
+                "Children": [
+                  {
+                    "LabelText": "J123456789",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "Games/PinShi/Font/num_add.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5088,
+                      "Y": 0.5952
+                    },
+                    "PreSize": {
+                      "X": 1.0526,
+                      "Y": 0.381
+                    },
+                    "LeftMargin": -4.0,
+                    "RightMargin": -8.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 34.0,
+                    "Tag": 358,
+                    "ActionTag": 938513372,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 32.0
+                    },
+                    "Name": "FNT_Add",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 921516909,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 84.0
+                },
+                "Name": "ND_Add",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -77997874,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player6",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Default",
+              "Path": "Default/Sprite.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1090.0,
+              "Y": 136.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8516,
+              "Y": 0.1889
+            },
+            "PreSize": {
+              "X": 0.0359,
+              "Y": 0.0639
+            },
+            "LeftMargin": 1067.0,
+            "RightMargin": 167.0,
+            "TopMargin": 561.0,
+            "BottomMargin": 113.0,
+            "Tag": 85,
+            "ActionTag": 263239169,
+            "Size": {
+              "X": 46.0,
+              "Y": 46.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Qr_Code_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Mask.png",
+        "../../../Default/Sprite.png",
+        "../../../Fonts/YaHei.ttf",
+        "../Font/num_add.fnt",
+        "../Font/num_add_0.png",
+        "../Font/num_minus.fnt",
+        "../Font/num_minus_0.png",
+        "../Image/IMG_AddScore.png",
+        "../Image/IMG_Draw.png",
+        "../Image/IMG_Fail.png",
+        "../Image/IMG_MinusScore.png",
+        "../Image/IMG_Victory.png",
+        "../Image/Settlement_BTNNextRoundN.png",
+        "../Image/Settlement_BTNNextRoundP.png",
+        "../Image/Settlement_BTNShareN.png",
+        "../Image/Settlement_BTNShareP.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

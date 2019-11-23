@@ -1,0 +1,48 @@
+<Solution>
+  <PropertyGroup Name="zqGameEffect" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Animations">
+          <Folder Name="EffGameCom">
+            <Folder Name="EffStart">
+              <Project Name="EffStart.csd" Type="Node" />
+              <Image Name="Kai.png" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+              <Image Name="Shi.png" />
+              <Image Name="star1.png" />
+              <Image Name="star2.png" />
+              <Image Name="star3.png" />
+              <Image Name="star4.png" />
+              <Image Name="star5.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelD.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseD.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmD.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

@@ -1,0 +1,16 @@
+
+[
+  "src/games/chess/logic/LogicChess.js",
+  "src/games/chess/ui/WindowChess.js",
+
+  "src/games/chess/data/ChessHelper.js",
+  "src/games/chess/data/ChessRule.js",
+  "src/games/chess/audio/AudioChess.js",
+  "src/games/chess/ui/player/ChessPlayer.js",
+  "src/games/chess/ui/ctrl/ChessBoard.js",
+  "src/games/chess/ui/ctrl/ChessPiece.js",
+  "src/games/chess/ui/ctrl/ChessPrepare.js",
+  "src/games/chess/ui/ctrl/ChessTableTip.js",
+  "src/games/chess/ui/ctrl/SetBaseWin.js",
+  "src/games/chess/ui/ctrl/SettlementWin.js"
+]

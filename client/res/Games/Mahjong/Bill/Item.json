@@ -1,0 +1,354 @@
+{
+  "ID": "f8509dc2-e761-41a1-8f35-49e79d230a0e",
+  "Version": "2.3.4",
+  "Name": "Item",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 363,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Bill_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 328.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -646.0,
+            "TopMargin": -2.0,
+            "BottomMargin": -2.0,
+            "Tag": 135,
+            "ActionTag": 940962052,
+            "Size": {
+              "X": 636.0,
+              "Y": 4.0
+            },
+            "Name": "ND_BG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Bill_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.4285,
+              "ScaleY": 0.4361
+            },
+            "Position": {
+              "X": 454.9216,
+              "Y": 16.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 441.2103,
+            "RightMargin": -473.2103,
+            "TopMargin": -34.0452,
+            "BottomMargin": 2.0452,
+            "Tag": 417,
+            "ActionTag": -809659075,
+            "Size": {
+              "X": 32.0,
+              "Y": 32.0
+            },
+            "Name": "ND_Icon",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 22,
+            "LabelText": "点炮（清一色 杠上炮 夹心五 门清)",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 18.0,
+              "Y": 16.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 59,
+              "B": 6
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 18.0,
+            "RightMargin": -362.0,
+            "TopMargin": -29.5,
+            "BottomMargin": 2.5,
+            "Tag": 140,
+            "ActionTag": 844645706,
+            "Size": {
+              "X": 344.0,
+              "Y": 27.0
+            },
+            "Name": "Label_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 22,
+            "LabelText": "999倍",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 374.0001,
+              "Y": 16.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 59,
+              "B": 6
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 374.0001,
+            "RightMargin": -434.0001,
+            "TopMargin": -29.5,
+            "BottomMargin": 2.5,
+            "Tag": 74,
+            "ActionTag": -1206529802,
+            "Size": {
+              "X": 60.0,
+              "Y": 27.0
+            },
+            "Name": "Label_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "x300000万",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 473.0003,
+              "Y": 16.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 59,
+              "B": 6
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 473.0003,
+            "RightMargin": -576.0004,
+            "TopMargin": -31.5,
+            "BottomMargin": 0.5,
+            "Tag": 416,
+            "ActionTag": 481415425,
+            "Size": {
+              "X": 103.0,
+              "Y": 31.0
+            },
+            "Name": "Label_3",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": " 对家 ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 584.0,
+              "Y": 16.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 59,
+              "B": 6
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 584.0,
+            "RightMargin": -638.0,
+            "TopMargin": -31.5,
+            "BottomMargin": 0.5,
+            "Tag": 75,
+            "ActionTag": -571617219,
+            "Size": {
+              "X": 54.0,
+              "Y": 31.0
+            },
+            "Name": "Label_4",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/YaHei.ttf",
+        "../Images/Bill_2.png",
+        "../Images/Bill_3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

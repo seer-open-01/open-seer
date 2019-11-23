@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Z_5" Type="Plist" ID="6c28ec55-4f73-47dc-9932-d22293e6e880" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffHall/Images/PS_1.png" />
+      <FilePathData Path="Animations/EffHall/Images/PS_2.png" />
+      <FilePathData Path="Animations/EffHall/Images/PS_3.png" />
+      <FilePathData Path="Animations/EffHall/Images/PS_4.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

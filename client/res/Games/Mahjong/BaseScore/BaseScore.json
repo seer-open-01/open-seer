@@ -1,0 +1,198 @@
+{
+  "ID": "b74362fe-1f0c-4545-bfb5-fc423a45b947",
+  "Version": "2.3.4",
+  "Name": "BaseScore",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 40,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 27,
+            "Children": [
+              {
+                "LabelText": "d999wz99w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/Fnt/num_base.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 45.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -144.0,
+                "RightMargin": -144.0,
+                "TopMargin": -61.0,
+                "BottomMargin": 29.0,
+                "Tag": 42,
+                "ActionTag": 517230092,
+                "Size": {
+                  "X": 288.0,
+                  "Y": 32.0
+                },
+                "Name": "FNT_Base",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1231494571,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 28,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 23,
+                "LabelText": "有番 庄闲 连庄 自由上噶 流局算分 花胡 叫令\n无字牌 不可吃",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 32.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 4,
+                  "G": 61,
+                  "B": 53
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -230.0,
+                "RightMargin": -230.0,
+                "TopMargin": -32.0,
+                "BottomMargin": -32.0,
+                "Tag": 26,
+                "ActionTag": -1142795477,
+                "Size": {
+                  "X": 460.0,
+                  "Y": 64.0
+                },
+                "Name": "txt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 70073657,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_2",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/YaHei.ttf",
+        "../Images/Fnt/num_base.fnt",
+        "../Images/Fnt/num_base_0.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

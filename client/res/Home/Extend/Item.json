@@ -1,0 +1,239 @@
+{
+  "ID": "f847bc15-2748-4431-9337-a3d1b71a2f81",
+  "Version": "2.3.4",
+  "Name": "Item",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 363,
+        "Children": [
+          {
+            "FontSize": 26,
+            "LabelText": "2019.02.02   15:22:30",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 252.9829,
+              "Y": 20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 59,
+              "B": 6
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 134.4829,
+            "RightMargin": -371.4829,
+            "TopMargin": -38.0,
+            "BottomMargin": 2.0,
+            "Tag": 415,
+            "ActionTag": 1640519400,
+            "Size": {
+              "X": 237.0,
+              "Y": 36.0
+            },
+            "Name": "ND_Time",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Coin.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.752,
+              "Y": 27.3575
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 507.752,
+            "RightMargin": -571.752,
+            "TopMargin": -55.3575,
+            "BottomMargin": -0.6425,
+            "Tag": 417,
+            "ActionTag": -809659075,
+            "Size": {
+              "X": 64.0,
+              "Y": 56.0
+            },
+            "Name": "ND_Icon",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "x300000万",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 562.9614,
+              "Y": 20.0034
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 59,
+              "B": 6
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 562.9614,
+            "RightMargin": -683.9614,
+            "TopMargin": -38.0034,
+            "BottomMargin": 2.0034,
+            "Tag": 416,
+            "ActionTag": 481415425,
+            "Size": {
+              "X": 121.0,
+              "Y": 36.0
+            },
+            "Name": "ND_Bean",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Mall/Image/Mall_13.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 402.9771,
+              "Y": -0.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -1.0229,
+            "RightMargin": -806.9771,
+            "TopMargin": -2.9999,
+            "BottomMargin": -3.0001,
+            "Tag": 431,
+            "ActionTag": 953872393,
+            "Size": {
+              "X": 808.0,
+              "Y": 6.0
+            },
+            "Name": "ND_Line",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/Com_Coin.png",
+        "../../Fonts/YaHei.ttf",
+        "../Mall/Image/Mall_13.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

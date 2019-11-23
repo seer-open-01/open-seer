@@ -1,0 +1,671 @@
+{
+  "ID": "1d8c9825-b1f0-4892-9d7a-3d5daeb8901b",
+  "Version": "2.3.4",
+  "Name": "ListItem2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 33,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "RoomList/Image/Item_Bg2.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "RoomList/Image/Item_Bg2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "RoomList/Image/Item_Bg2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 220,
+            "Scale9Height": 248,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -125.0,
+            "RightMargin": -125.0,
+            "TopMargin": -135.0,
+            "BottomMargin": -135.0,
+            "Tag": 34,
+            "Children": [
+              {
+                "LabelText": "d5000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Font/num_base.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0,
+                  "Y": 236.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8741
+                },
+                "PreSize": {
+                  "X": 0.704,
+                  "Y": 0.1185
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 37.0,
+                "TopMargin": 18.0,
+                "BottomMargin": 220.0,
+                "Tag": 40,
+                "ActionTag": -1287942978,
+                "Size": {
+                  "X": 176.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Base",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "看牌抢庄\n顺子 顺子 顺子 顺子 顺子...",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 208,
+                  "G": 101,
+                  "B": 33
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6963
+                },
+                "PreSize": {
+                  "X": 0.784,
+                  "Y": 0.163
+                },
+                "LeftMargin": 27.0,
+                "RightMargin": 27.0,
+                "TopMargin": 60.0,
+                "BottomMargin": 166.0,
+                "Tag": 233,
+                "ActionTag": 605281853,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 44.0
+                },
+                "Name": "ND_Rule",
+                "ctype": "TextObjectData"
+              },
+              {
+                "LabelText": "c5000wz",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Font/num_enter.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0,
+                  "Y": 46.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1704
+                },
+                "PreSize": {
+                  "X": 0.796,
+                  "Y": 0.1185
+                },
+                "LeftMargin": 25.5,
+                "RightMargin": 25.5,
+                "TopMargin": 208.0,
+                "BottomMargin": 30.0,
+                "Tag": 49,
+                "ActionTag": -1621155185,
+                "Size": {
+                  "X": 174.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Enter",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Image/Item_Lock2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0,
+                  "Y": 136.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5037
+                },
+                "PreSize": {
+                  "X": 0.52,
+                  "Y": 0.1852
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 60.0,
+                "TopMargin": 109.0,
+                "BottomMargin": 111.0,
+                "Tag": 124,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "123456",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 79.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 252,
+                      "B": 218
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6077,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4846,
+                      "Y": 0.56
+                    },
+                    "LeftMargin": 47.5,
+                    "RightMargin": 19.5,
+                    "TopMargin": 11.0,
+                    "BottomMargin": 11.0,
+                    "Tag": 242,
+                    "ActionTag": 1072332415,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 28.0
+                    },
+                    "Name": "rid",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 821582818,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 50.0
+                },
+                "Name": "ND_Lock",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 125.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3333
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 125.0,
+                "RightMargin": 125.0,
+                "TopMargin": 180.0,
+                "BottomMargin": 90.0,
+                "Tag": 243,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "RoomList/Image/Item_People2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -75.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -85.0,
+                    "RightMargin": 65.0,
+                    "TopMargin": -13.0,
+                    "BottomMargin": -13.0,
+                    "Tag": 138,
+                    "ActionTag": 477469823,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 26.0
+                    },
+                    "Name": "ND_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "RoomList/Image/Item_People2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -45.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.0,
+                    "RightMargin": 35.0,
+                    "TopMargin": -13.0,
+                    "BottomMargin": -13.0,
+                    "Tag": 137,
+                    "ActionTag": 615986389,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 26.0
+                    },
+                    "Name": "ND_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "RoomList/Image/Item_People1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -15.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -25.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": -13.0,
+                    "BottomMargin": -13.0,
+                    "Tag": 136,
+                    "ActionTag": 85190470,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 26.0
+                    },
+                    "Name": "ND_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "RoomList/Image/Item_People1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 15.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": -25.0,
+                    "TopMargin": -13.0,
+                    "BottomMargin": -13.0,
+                    "Tag": 135,
+                    "ActionTag": -843567257,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 26.0
+                    },
+                    "Name": "ND_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "RoomList/Image/Item_People1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 45.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 35.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": -13.0,
+                    "BottomMargin": -13.0,
+                    "Tag": 134,
+                    "ActionTag": -189666313,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 26.0
+                    },
+                    "Name": "ND_5",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "RoomList/Image/Item_People1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 65.0,
+                    "RightMargin": -85.0,
+                    "TopMargin": -13.0,
+                    "BottomMargin": -13.0,
+                    "Tag": 133,
+                    "ActionTag": -1514260600,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 26.0
+                    },
+                    "Name": "ND_6",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1213680612,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_People",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -692117953,
+            "Size": {
+              "X": 250.0,
+              "Y": 270.0
+            },
+            "Name": "BTN_Enter",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Fonts/YaHei.ttf",
+        "Font/num_base.fnt",
+        "Font/num_base_0.png",
+        "Font/num_enter.fnt",
+        "Font/num_enter_0.png",
+        "Image/Item_Bg2.png",
+        "Image/Item_Lock2.png",
+        "Image/Item_People1.png",
+        "Image/Item_People2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

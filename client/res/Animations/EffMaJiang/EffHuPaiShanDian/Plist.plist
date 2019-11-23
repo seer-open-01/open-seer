@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{788,0},{257,616}}</string>
+				<key>offset</key>
+				<string>{3,86}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{792,788}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,792},{792,788}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1249,0},{669,768}}</string>
+				<key>offset</key>
+				<string>{3,10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,1584},{241,688}}</string>
+				<key>offset</key>
+				<string>{-5,50}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,1825},{189,624}}</string>
+				<key>offset</key>
+				<string>{-5,34}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{788,768},{521,686}}</string>
+				<key>offset</key>
+				<string>{75,-27}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{624,1825},{111,625}}</string>
+				<key>offset</key>
+				<string>{8,35}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1249,1454},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1309,768},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1830,768},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1885,1404},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1918,0},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2351,636},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+			<key>Animations/EffMaJiang/EffHuPaiShanDian/a15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2439,0},{521,636}}</string>
+				<key>offset</key>
+				<string>{75,-52}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,788}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{4096,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>4096</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

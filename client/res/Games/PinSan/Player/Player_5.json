@@ -1,0 +1,585 @@
+{
+  "ID": "fe4bd14e-3b25-4a21-abd3-ef9c5a504edc",
+  "Version": "2.3.4",
+  "Name": "Player_5",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Player/UserInfoOther.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 215,
+            "ActionTag": 1186337457,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_UserInfo",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_Whatching_Other.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 23,
+            "Scale9OriginY": 23,
+            "Scale9Width": 24,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.1344,
+              "Y": 28.2178
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -35.1344,
+            "RightMargin": -34.8656,
+            "TopMargin": -63.2178,
+            "BottomMargin": -6.7822,
+            "Tag": 294,
+            "ActionTag": -1475224733,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "IMG_Spectating",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 75,
+            "ActionTag": 745232113,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_GiftPos",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_HaveReady.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 146.724,
+              "Y": -0.0007
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 91.724,
+            "RightMargin": -201.724,
+            "TopMargin": -20.9993,
+            "BottomMargin": -21.0007,
+            "Tag": 181,
+            "ActionTag": -276560906,
+            "Size": {
+              "X": 110.0,
+              "Y": 42.0
+            },
+            "Name": "ND_Ready",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 160.0,
+              "Y": 20.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 160.0,
+            "RightMargin": -160.0,
+            "TopMargin": -20.0,
+            "BottomMargin": 20.0,
+            "Tag": 348,
+            "ActionTag": -1972351011,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HandCards",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_AddAnte.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.1166,
+              "Y": 73.6604
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -40.8834,
+            "RightMargin": -43.1166,
+            "TopMargin": -98.6604,
+            "BottomMargin": 48.6604,
+            "Tag": 283,
+            "ActionTag": 315709012,
+            "Size": {
+              "X": 84.0,
+              "Y": 50.0
+            },
+            "Name": "ND_AddAnte",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_FollowAnte.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.1166,
+              "Y": 73.6604
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -40.8834,
+            "RightMargin": -43.1166,
+            "TopMargin": -98.6604,
+            "BottomMargin": 48.6604,
+            "Tag": 284,
+            "ActionTag": 91627569,
+            "Size": {
+              "X": 84.0,
+              "Y": 50.0
+            },
+            "Name": "ND_FollowAnte",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BG_PlayerAnte.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 147.0,
+              "Y": -56.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 74.0,
+            "RightMargin": -220.0,
+            "TopMargin": 34.0,
+            "BottomMargin": -78.0,
+            "Tag": 61,
+            "Children": [
+              {
+                "LabelText": "9999.99w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/Font/coin_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 88.0,
+                  "Y": 16.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6027,
+                  "Y": 0.3636
+                },
+                "PreSize": {
+                  "X": 0.6575,
+                  "Y": 0.7273
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 10.0,
+                "TopMargin": 12.0,
+                "Tag": 62,
+                "ActionTag": -1183726697,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Ante",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1758731550,
+            "Size": {
+              "X": 146.0,
+              "Y": 44.0
+            },
+            "Name": "ND_PlayerAnte",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_ChatBg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 85,
+            "Scale9OriginY": 22,
+            "Scale9Width": 88,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 140.2917,
+              "Y": -110.8237
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 11.2917,
+            "RightMargin": -269.2917,
+            "TopMargin": 76.8237,
+            "BottomMargin": -144.8237,
+            "Tag": 394,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/IMG_ChatArrow.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 5.0886,
+                  "Y": 47.03
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0197,
+                  "Y": 0.6916
+                },
+                "PreSize": {
+                  "X": 0.1163,
+                  "Y": 0.3235
+                },
+                "LeftMargin": -9.9114,
+                "RightMargin": 237.9114,
+                "TopMargin": 9.97,
+                "BottomMargin": 36.03,
+                "Tag": 395,
+                "ActionTag": -1016625214,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 22.0
+                },
+                "Name": "IMG_ChatArrow",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2087501732,
+            "Size": {
+              "X": 258.0,
+              "Y": 68.0
+            },
+            "Name": "IMG_ChatBG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "你在说什么呢，我怎么听\n不懂啊。你在说什么呢",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 140.2917,
+              "Y": -110.8236
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 28.7917,
+            "RightMargin": -251.7917,
+            "TopMargin": 82.8236,
+            "BottomMargin": -138.8236,
+            "Tag": 396,
+            "ActionTag": -1240458399,
+            "Size": {
+              "X": 223.0,
+              "Y": 56.0
+            },
+            "Name": "TXT_ChatMsg",
+            "ctype": "TextObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 310,
+            "ActionTag": 429856125,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Clock",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Font/coin_num.fnt",
+        "../../Com/Font/coin_num_0.png",
+        "../Image/BG_PlayerAnte.png",
+        "../Image/IMG_AddAnte.png",
+        "../Image/IMG_ChatArrow.png",
+        "../Image/IMG_ChatBg.png",
+        "../Image/IMG_FollowAnte.png",
+        "../Image/IMG_HaveReady.png",
+        "../Image/IMG_Whatching_Other.png",
+        "UserInfoOther.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

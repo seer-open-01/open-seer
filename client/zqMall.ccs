@@ -1,0 +1,106 @@
+<Solution>
+  <PropertyGroup Name="zqMall" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelD.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseD.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmD.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Home">
+          <Folder Name="Mall">
+            <Folder Name="Img">
+              <Folder Name="Apple">
+                <Image Name="Apple_1.png" />
+                <Image Name="Apple_2.png" />
+                <Image Name="Apple_3.png" />
+                <Image Name="Apple_4.png" />
+              </Folder>
+              <Folder Name="Fnt">
+                <Fnt Name="Mall_ButtonNumberFnt.fnt" />
+                <Fnt Name="Mall_ConvertNumFnt.fnt" />
+                <Fnt Name="Mall_GiveFnt.fnt" />
+                <Fnt Name="Mall_RechargeFnt.fnt" />
+                <Fnt Name="Mall_RoomCardFnt.fnt" />
+              </Folder>
+              <Folder Name="Pay">
+                <Image Name="IMG_1.png" />
+                <Image Name="IMG_2.png" />
+                <Image Name="IMG_3.png" />
+                <Image Name="IMG_4.png" />
+                <Image Name="IMG_5.png" />
+                <Image Name="IMG_6.png" />
+                <Image Name="IMG_7.png" />
+                <Image Name="IMG_8.png" />
+                <Image Name="IMG_9.png" />
+              </Folder>
+              <Image Name="BTN_KeFuN.png" />
+              <Image Name="BTN_KeFuP.png" />
+              <Image Name="BTN_MinusD.png" />
+              <Image Name="BTN_MinusN.png" />
+              <Image Name="BTN_MinusP.png" />
+              <Image Name="BTN_PlusD.png" />
+              <Image Name="BTN_PlusN.png" />
+              <Image Name="BTN_PlusP.png" />
+              <Image Name="IMG_1.png" />
+              <Image Name="IMG_101.png" />
+              <Image Name="IMG_102.png" />
+              <Image Name="IMG_103.png" />
+              <Image Name="IMG_104.png" />
+              <Image Name="IMG_105.png" />
+              <Image Name="IMG_106.png" />
+              <Image Name="IMG_107.png" />
+              <Image Name="IMG_108.png" />
+              <Image Name="IMG_109.png" />
+              <Image Name="IMG_110.png" />
+              <Image Name="IMG_2.png" />
+              <Image Name="IMG_21.png" />
+              <Image Name="IMG_22.png" />
+              <Image Name="IMG_23.png" />
+              <Image Name="IMG_24.png" />
+              <Image Name="IMG_25.png" />
+              <Image Name="IMG_3.png" />
+              <Image Name="IMG_4.png" />
+              <Image Name="IMG_5.png" />
+              <Image Name="IMG_6.png" />
+              <Image Name="IMG_7.png" />
+              <Image Name="IMG_8.png" />
+              <Image Name="IMG_9.png" />
+              <Image Name="PIC_Box.png" />
+              <Image Name="PIC_Gou.png" />
+              <Image Name="PIC_Tip.png" />
+            </Folder>
+            <Project Name="Mall.csd" Type="Layer" />
+            <Project Name="MallItem.csd" Type="Node" />
+            <Project Name="NewMall.csd" Type="Layer" />
+            <Project Name="PayMethodSel.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

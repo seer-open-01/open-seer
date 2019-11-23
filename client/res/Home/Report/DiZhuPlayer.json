@@ -1,0 +1,183 @@
+{
+  "ID": "fc97898c-bdd6-4d9b-8abe-ecea74d8c13f",
+  "Version": "2.3.4",
+  "Name": "DiZhuPlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5232,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Report/Image/Report_Img_6.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 22,
+            "Scale9OriginY": 23,
+            "Scale9Width": 24,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -100.0,
+              "Y": 26.0
+            },
+            "Scale": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -134.0,
+            "RightMargin": 66.0,
+            "TopMargin": -61.0,
+            "BottomMargin": -9.0,
+            "Tag": 5234,
+            "ActionTag": -1411448402,
+            "Size": {
+              "X": 68.0,
+              "Y": 70.0
+            },
+            "Name": "ND_Dealer",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "游戏玩家号\n+123456789",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 232,
+              "G": 122,
+              "B": 46
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -76.5,
+            "RightMargin": -76.5,
+            "TopMargin": -42.0,
+            "BottomMargin": -42.0,
+            "Tag": 5233,
+            "ActionTag": 2123161771,
+            "Size": {
+              "X": 153.0,
+              "Y": 84.0
+            },
+            "Name": "ND_Text",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_FZ .png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -100.0,
+              "Y": -17.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -125.0,
+            "RightMargin": 75.0,
+            "TopMargin": -1.0,
+            "BottomMargin": -35.0,
+            "Tag": 1537,
+            "ActionTag": 354139367,
+            "Size": {
+              "X": 50.0,
+              "Y": 36.0
+            },
+            "Name": "ND_FZ",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/Com_FZ .png",
+        "../../Fonts/YaHei.ttf",
+        "Image/Report_Img_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

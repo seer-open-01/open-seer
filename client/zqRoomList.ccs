@@ -1,0 +1,92 @@
+<Solution>
+  <PropertyGroup Name="zqRoomList" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Com_Bg.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="IMG_Gold.png" />
+            <Image Name="IMG_Seer1.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="RoomList">
+          <Folder Name="Font">
+            <Fnt Name="num_base.fnt" />
+            <Fnt Name="num_enter.fnt" />
+          </Folder>
+          <Folder Name="Image">
+            <Image Name="BTN_Add.png" />
+            <Image Name="BTN_CreateN.png" />
+            <Image Name="BTN_CreateP.png" />
+            <Image Name="BTN_EnterN.png" />
+            <Image Name="BTN_EnterP.png" />
+            <Image Name="BTN_GameType1N.png" />
+            <Image Name="BTN_GameType1P.png" />
+            <Image Name="BTN_GameType2N.png" />
+            <Image Name="BTN_GameType2P.png" />
+            <Image Name="BTN_GameType4N.png" />
+            <Image Name="BTN_GameType4P.png" />
+            <Image Name="BTN_GameType5N.png" />
+            <Image Name="BTN_GameType5P.png" />
+            <Image Name="BTN_GameType7N.png" />
+            <Image Name="BTN_GameType7P.png" />
+            <Image Name="BTN_GameType8N.png" />
+            <Image Name="BTN_GameType8P.png" />
+            <Image Name="BTN_HelpN.png" />
+            <Image Name="BTN_HelpP.png" />
+            <Image Name="BTN_LeftN.png" />
+            <Image Name="BTN_LeftP.png" />
+            <Image Name="BTN_RefreshN.png" />
+            <Image Name="BTN_RefreshP.png" />
+            <Image Name="BTN_RightN.png" />
+            <Image Name="BTN_RightP.png" />
+            <Image Name="IMG_BG1.png" />
+            <Image Name="IMG_BG2.png" />
+            <Image Name="IMG_BodyBg.png" />
+            <Image Name="IMG_HelpBg.png" />
+            <Image Name="IMG_No.png" />
+            <Image Name="IMG_TopBg.png" />
+            <Image Name="Item_Bg1.png" />
+            <Image Name="Item_Bg2.png" />
+            <Image Name="Item_Lock1.png" />
+            <Image Name="Item_Lock2.png" />
+            <Image Name="Item_Match1.png" />
+            <Image Name="Item_Match2.png" />
+            <Image Name="Item_Match3.png" />
+            <Image Name="Item_People1.png" />
+            <Image Name="Item_People2.png" />
+            <Image Name="Item_Status1.png" />
+            <Image Name="Item_Status2.png" />
+            <Image Name="Item_Status3.png" />
+          </Folder>
+          <Project Name="ListItem.csd" Type="Node" />
+          <Project Name="ListItem2.csd" Type="Node" />
+          <Project Name="RoomList.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

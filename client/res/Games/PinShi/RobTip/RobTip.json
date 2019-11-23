@@ -1,0 +1,305 @@
+{
+  "ID": "980033ae-7923-4dd7-aaae-6f0a5c3f4d1b",
+  "Version": "2.3.4",
+  "Name": "RobTip",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 17,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Rob.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -24.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -44.0,
+            "RightMargin": 4.0,
+            "TopMargin": -22.0,
+            "BottomMargin": -22.0,
+            "Tag": 18,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_Rob_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.0,
+                  "Y": 22.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.8,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.55,
+                  "Y": 1.0
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": -63.0,
+                "Tag": 20,
+                "ActionTag": -804020450,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 44.0
+                },
+                "Name": "Rob_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_Rob_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.0,
+                  "Y": 22.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.8,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.55,
+                  "Y": 1.0
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": -63.0,
+                "Tag": 21,
+                "ActionTag": -1696117791,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Rob_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_Rob_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.0,
+                  "Y": 22.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.8,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.55,
+                  "Y": 1.0
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": -63.0,
+                "Tag": 22,
+                "ActionTag": 1264829312,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Rob_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinShi/Image/IMG_Rob_4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.0,
+                  "Y": 22.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.8,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.55,
+                  "Y": 1.0
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": -63.0,
+                "Tag": 23,
+                "ActionTag": 851672020,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Rob_4",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 968141558,
+            "Size": {
+              "X": 40.0,
+              "Y": 44.0
+            },
+            "Name": "ND_Rob",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Rob_0.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -38.0,
+            "RightMargin": -38.0,
+            "TopMargin": -22.0,
+            "BottomMargin": -22.0,
+            "Tag": 19,
+            "ActionTag": -1200567212,
+            "Size": {
+              "X": 76.0,
+              "Y": 44.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_NoRob",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/IMG_Rob.png",
+        "../Image/IMG_Rob_0.png",
+        "../Image/IMG_Rob_1.png",
+        "../Image/IMG_Rob_2.png",
+        "../Image/IMG_Rob_3.png",
+        "../Image/IMG_Rob_4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

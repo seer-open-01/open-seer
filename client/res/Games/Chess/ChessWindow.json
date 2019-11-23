@@ -1,0 +1,1199 @@
+{
+  "ID": "b02b84d5-16b9-4caf-8f2d-812997736448",
+  "Version": "2.3.4",
+  "Name": "ChessWindow",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Chess_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": -1474364070,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Bg_Chess",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "房号:123456000",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 95,
+              "G": 16,
+              "B": 3
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 26,
+              "G": 26,
+              "B": 26
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 197.4455,
+              "Y": 651.1164
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 253,
+              "G": 245,
+              "B": 196
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1543,
+              "Y": 0.9043
+            },
+            "PreSize": {
+              "X": 0.1375,
+              "Y": 0.0514
+            },
+            "LeftMargin": 109.4455,
+            "RightMargin": 994.5545,
+            "TopMargin": 50.3836,
+            "BottomMargin": 632.6164,
+            "Tag": 50,
+            "ActionTag": -899273283,
+            "Size": {
+              "X": 176.0,
+              "Y": 37.0
+            },
+            "Name": "Label_Rid",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/BTN_VoiceD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/BTN_VoiceP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/BTN_VoiceN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 44,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1500.0,
+              "Y": 146.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.1719,
+              "Y": 0.2028
+            },
+            "PreSize": {
+              "X": 0.0578,
+              "Y": 0.1056
+            },
+            "LeftMargin": 1463.0,
+            "RightMargin": -257.0,
+            "TopMargin": 536.0,
+            "BottomMargin": 108.0,
+            "Tag": 3,
+            "ActionTag": -1548715300,
+            "Size": {
+              "X": 74.0,
+              "Y": 76.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_VChatBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/BTN_MsgN.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/BTN_MsgP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/BTN_MsgN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 44,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1230.0,
+              "Y": 56.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9609,
+              "Y": 0.0778
+            },
+            "PreSize": {
+              "X": 0.0578,
+              "Y": 0.1056
+            },
+            "LeftMargin": 1193.0,
+            "RightMargin": 13.0,
+            "TopMargin": 626.0,
+            "BottomMargin": 18.0,
+            "Tag": 4,
+            "ActionTag": 786488780,
+            "Size": {
+              "X": 74.0,
+              "Y": 76.0
+            },
+            "Name": "ND_ChatBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Prepare/Prepare.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 651.0,
+              "Y": 366.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5086,
+              "Y": 0.5083
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 651.0,
+            "RightMargin": 629.0,
+            "TopMargin": 354.0,
+            "BottomMargin": 366.0,
+            "Tag": 91,
+            "ActionTag": -2124302576,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Prepare",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_RoomInfo_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 200.3487,
+              "Y": 693.6682
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1565,
+              "Y": 0.9634
+            },
+            "PreSize": {
+              "X": 0.2188,
+              "Y": 0.075
+            },
+            "LeftMargin": 60.3487,
+            "RightMargin": 939.6513,
+            "TopMargin": -0.6682,
+            "BottomMargin": 666.6682,
+            "Tag": 99,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/IMG_RoomInfo_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.25,
+                  "Y": 34.3922
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.483,
+                  "Y": 0.6369
+                },
+                "PreSize": {
+                  "X": 0.2214,
+                  "Y": 0.6296
+                },
+                "LeftMargin": 104.25,
+                "RightMargin": 113.75,
+                "TopMargin": 2.6078,
+                "BottomMargin": 17.3922,
+                "Tag": 100,
+                "ActionTag": 164135192,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 34.0
+                },
+                "Name": "1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/IMG_RoomInfo_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 180.8482,
+                  "Y": 34.3922
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6459,
+                  "Y": 0.6369
+                },
+                "PreSize": {
+                  "X": 0.4357,
+                  "Y": 0.6296
+                },
+                "LeftMargin": 119.8482,
+                "RightMargin": 38.1518,
+                "TopMargin": 2.6078,
+                "BottomMargin": 17.3922,
+                "Tag": 101,
+                "ActionTag": 2127206856,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 34.0
+                },
+                "VisibleForFrame": false,
+                "Name": "2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -900527456,
+            "Size": {
+              "X": 280.0,
+              "Y": 54.0
+            },
+            "Name": "ND_RoomInfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 158.0,
+              "Y": 455.2124
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.1234,
+              "Y": 0.6322
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 158.0,
+            "RightMargin": 1122.0,
+            "TopMargin": 264.7876,
+            "BottomMargin": 455.2124,
+            "Tag": 102,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/IMG_Base_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -9.9998,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -140.9998,
+                "RightMargin": -121.0002,
+                "TopMargin": -25.0,
+                "BottomMargin": -25.0,
+                "Tag": 114,
+                "ActionTag": -1355415990,
+                "Size": {
+                  "X": 262.0,
+                  "Y": 50.0
+                },
+                "Name": "Img_Bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/Btn_SetBase_3.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/Btn_SetBase_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/Btn_SetBase_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 166,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -74.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -98.0,
+                "RightMargin": -98.0,
+                "TopMargin": 32.0,
+                "BottomMargin": -116.0,
+                "Tag": 115,
+                "ActionTag": 2062656099,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 84.0
+                },
+                "Name": "Btn_SetBase",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "LabelText": "999999.99w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Fonts/hall_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 25.6298,
+                  "Y": -4.6416
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -65.3702,
+                "RightMargin": -116.6298,
+                "TopMargin": -11.3584,
+                "BottomMargin": -20.6416,
+                "Tag": 116,
+                "ActionTag": -876437849,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Base",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/Btn_Help_0.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/Btn_Help_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/Btn_Help_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 18,
+                "Scale9Height": 26,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.5639,
+                  "Y": -0.4615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 116.5639,
+                "RightMargin": -164.5639,
+                "TopMargin": -23.5385,
+                "BottomMargin": -24.4615,
+                "Tag": 212,
+                "ActionTag": -3989399,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 48.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Btn_Help",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1377399365,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_SetBase",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Btn_GiveUp_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Btn_GiveUp_2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Btn_GiveUp_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 166,
+            "Scale9Height": 62,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 158.0,
+              "Y": 381.3313
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1234,
+              "Y": 0.5296
+            },
+            "PreSize": {
+              "X": 0.1531,
+              "Y": 0.1167
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1024.0,
+            "TopMargin": 296.6687,
+            "BottomMargin": 339.3313,
+            "Tag": 140,
+            "ActionTag": -1057654823,
+            "Size": {
+              "X": 196.0,
+              "Y": 84.0
+            },
+            "Name": "Btn_GiveUp",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_ExitGameP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_ExitGameN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 42,
+            "Scale9Height": 50,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 42.2199,
+              "Y": 676.0577
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.033,
+              "Y": 0.939
+            },
+            "PreSize": {
+              "X": 0.0562,
+              "Y": 0.1
+            },
+            "LeftMargin": 6.2199,
+            "RightMargin": 1201.7802,
+            "TopMargin": 7.9423,
+            "BottomMargin": 640.0577,
+            "Tag": 5,
+            "ActionTag": -1882303039,
+            "Size": {
+              "X": 72.0,
+              "Y": 72.0
+            },
+            "Name": "Btn_Exit",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Btn_Invite_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Btn_Invite_2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Btn_Invite_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 230,
+            "Scale9Height": 94,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1130.0,
+              "Y": 524.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8828,
+              "Y": 0.7278
+            },
+            "PreSize": {
+              "X": 0.2031,
+              "Y": 0.1611
+            },
+            "LeftMargin": 1000.0,
+            "RightMargin": 20.0,
+            "TopMargin": 138.0,
+            "BottomMargin": 466.0,
+            "Tag": 127,
+            "ActionTag": -1647212427,
+            "Size": {
+              "X": 260.0,
+              "Y": 116.0
+            },
+            "Name": "Btn_Invite",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Player/Player.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 158.0,
+              "Y": 144.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.1234,
+              "Y": 0.2
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 158.0,
+            "RightMargin": 1122.0,
+            "TopMargin": 576.0,
+            "BottomMargin": 144.0,
+            "Tag": 53,
+            "ActionTag": -1492520807,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player_1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Player/Player.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1130.0,
+              "Y": 524.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.8828,
+              "Y": 0.7278
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1130.0,
+            "RightMargin": 150.0,
+            "TopMargin": 196.0,
+            "BottomMargin": 524.0,
+            "Tag": 68,
+            "ActionTag": -1722696737,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Player_2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1192.0,
+              "Y": 682.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.9312,
+              "Y": 0.9472
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1192.0,
+            "RightMargin": 88.0,
+            "TopMargin": 38.0,
+            "BottomMargin": 682.0,
+            "Tag": 117,
+            "ActionTag": -252895282,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_RoomMenu",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1200.0,
+              "Y": 706.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.9375,
+              "Y": 0.9806
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1200.0,
+            "RightMargin": 80.0,
+            "TopMargin": 14.0,
+            "BottomMargin": 706.0,
+            "Tag": 240,
+            "ActionTag": 1158780727,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_SysInfo",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 650.0,
+              "Y": 300.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5078,
+              "Y": 0.4167
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 650.0,
+            "RightMargin": 630.0,
+            "TopMargin": 420.0,
+            "BottomMargin": 300.0,
+            "Tag": 216,
+            "ActionTag": 1442707621,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_TableTip",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1667.1007,
+              "Y": 309.2469
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 1.3024,
+              "Y": 0.4295
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1667.1007,
+            "RightMargin": -387.1007,
+            "TopMargin": 410.7531,
+            "BottomMargin": 309.2469,
+            "Tag": 105,
+            "ActionTag": 419513811,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_TaskBox",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_ExitGameN.png",
+        "../../Common/Images/BTN_ExitGameP.png",
+        "../../Default/Button_Disable.png",
+        "../../Fonts/hall_num.fnt",
+        "../../Fonts/hall_num_0.png",
+        "../../Fonts/YaHei.ttf",
+        "Image/Btn_GiveUp_1.png",
+        "Image/Btn_GiveUp_2.png",
+        "Image/Btn_Help_0.png",
+        "Image/Btn_Help_1.png",
+        "Image/Btn_Invite_1.png",
+        "Image/Btn_Invite_2.png",
+        "Image/BTN_MsgN.png",
+        "Image/BTN_MsgP.png",
+        "Image/Btn_SetBase_1.png",
+        "Image/Btn_SetBase_2.png",
+        "Image/Btn_SetBase_3.png",
+        "Image/BTN_VoiceD.png",
+        "Image/BTN_VoiceN.png",
+        "Image/BTN_VoiceP.png",
+        "Image/Chess_Bg.png",
+        "Image/IMG_Base_1.png",
+        "Image/IMG_RoomInfo_1.png",
+        "Image/IMG_RoomInfo_2.png",
+        "Image/IMG_RoomInfo_3.png",
+        "Player/Player.json",
+        "Prepare/Prepare.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

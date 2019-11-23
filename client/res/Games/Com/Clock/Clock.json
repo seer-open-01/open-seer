@@ -1,0 +1,167 @@
+{
+  "ID": "2b540f48-c926-4685-a340-65f7f789ba08",
+  "Version": "2.3.4",
+  "Name": "Clock",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 34,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Clock/IMG_Clock_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 32.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -36.0,
+            "RightMargin": -36.0,
+            "TopMargin": -68.0,
+            "BottomMargin": -4.0,
+            "Tag": 35,
+            "ActionTag": 1450095871,
+            "Size": {
+              "X": 72.0,
+              "Y": 72.0
+            },
+            "Name": "BG_Clock",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Clock/IMG_Clock_Effect.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -94.0,
+            "RightMargin": -94.0,
+            "TopMargin": -104.0,
+            "BottomMargin": -104.0,
+            "Tag": 36,
+            "ActionTag": 2064651859,
+            "Size": {
+              "X": 188.0,
+              "Y": 208.0
+            },
+            "Name": "ND_Frame",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "00",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Clock/num_game_clock.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 36.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -26.0,
+            "RightMargin": -26.0,
+            "TopMargin": -52.0,
+            "BottomMargin": 20.0,
+            "Tag": 37,
+            "ActionTag": -1687403518,
+            "Size": {
+              "X": 52.0,
+              "Y": 32.0
+            },
+            "Name": "FNT_Time",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "IMG_Clock_Bg.png",
+        "IMG_Clock_Effect.png",
+        "num_game_clock.fnt",
+        "num_game_clock_0.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

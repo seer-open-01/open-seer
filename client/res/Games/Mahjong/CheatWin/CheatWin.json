@@ -1,0 +1,330 @@
+{
+  "ID": "9ccacc42-07e5-402d-a608-12eda5da1c7b",
+  "Version": "2.3.4",
+  "Name": "CheatWin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 619,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 56,
+            "ActionTag": -545905357,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 103,
+            "Name": "BG",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "IsBounceEnabled": true,
+            "InnerNodeSize": {
+              "Width": 1200,
+              "Height": 520
+            },
+            "ScrollDirectionType": "Vertical",
+            "ClipAble": true,
+            "BackColorAlpha": 168,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 128,
+              "B": 0
+            },
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -21,
+            "Scale9OriginY": -21,
+            "Scale9Width": 42,
+            "Scale9Height": 42,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 50.0,
+              "Y": 150.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0391,
+              "Y": 0.2083
+            },
+            "PreSize": {
+              "X": 0.9375,
+              "Y": 0.7222
+            },
+            "LeftMargin": 50.0,
+            "RightMargin": 30.0,
+            "TopMargin": 50.0,
+            "BottomMargin": 150.0,
+            "Tag": 620,
+            "ActionTag": -1526522171,
+            "Size": {
+              "X": 1200.0,
+              "Y": 520.0
+            },
+            "Name": "CardView",
+            "ctype": "ScrollViewObjectData"
+          },
+          {
+            "FontSize": 60,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 0,
+              "G": 128,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_CancelP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_CancelN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 214,
+            "Scale9Height": 82,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 880.0,
+              "Y": 74.69
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6875,
+              "Y": 0.1037
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.1444
+            },
+            "LeftMargin": 758.0,
+            "RightMargin": 278.0,
+            "TopMargin": 593.31,
+            "BottomMargin": 22.69,
+            "Tag": 624,
+            "ActionTag": -143955621,
+            "Size": {
+              "X": 244.0,
+              "Y": 104.0
+            },
+            "Name": "Btn_Close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 60,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 0,
+              "G": 128,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_ConfirmP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_ConfirmN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 214,
+            "Scale9Height": 82,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.0,
+              "Y": 69.3793
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3125,
+              "Y": 0.0964
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.1444
+            },
+            "LeftMargin": 278.0,
+            "RightMargin": 758.0,
+            "TopMargin": 598.6207,
+            "BottomMargin": 17.3793,
+            "Tag": 625,
+            "ActionTag": -1644795689,
+            "Size": {
+              "X": 244.0,
+              "Y": 104.0
+            },
+            "Name": "Btn_Confirm",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/BTN_CancelN.png",
+        "../../../Common/Images/BTN_CancelP.png",
+        "../../../Common/Images/BTN_ConfirmN.png",
+        "../../../Common/Images/BTN_ConfirmP.png",
+        "../../../Common/Images/Com_Mask.png",
+        "../../../Default/Button_Disable.png",
+        "../../../Fonts/YaHei.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

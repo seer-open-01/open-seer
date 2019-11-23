@@ -1,0 +1,243 @@
+{
+  "ID": "63f76d6d-727c-48e5-b9f4-fc4cdd9f6582",
+  "Version": "2.3.4",
+  "Name": "DiZhuCards",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 92,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/BG_TopCards.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 67,
+            "Scale9OriginY": 24,
+            "Scale9Width": 54,
+            "Scale9Height": 26,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 94.0,
+              "Y": 36.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2937,
+              "Y": 0.4865
+            },
+            "PreSize": {
+              "X": 0.5875,
+              "Y": 1.0
+            },
+            "RightMargin": 132.0,
+            "TopMargin": 1.0,
+            "BottomMargin": -1.0,
+            "Tag": 524,
+            "ActionTag": 99357576,
+            "Size": {
+              "X": 188.0,
+              "Y": 74.0
+            },
+            "Name": "BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "LabelText": "x888b",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Font/num_game_multiple.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 191.0,
+              "Y": 36.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5969,
+              "Y": 0.4865
+            },
+            "PreSize": {
+              "X": 0.45,
+              "Y": 0.473
+            },
+            "LeftMargin": 191.0,
+            "RightMargin": -15.0,
+            "TopMargin": 20.5,
+            "BottomMargin": 18.5,
+            "Tag": 484,
+            "ActionTag": -59847736,
+            "Size": {
+              "X": 144.0,
+              "Y": 35.0
+            },
+            "Name": "Fnt_Multiple",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Cards/Card.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 15.0001,
+              "Y": 7.0
+            },
+            "Scale": {
+              "ScaleX": 0.28,
+              "ScaleY": 0.28
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.0946
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 2.8108
+            },
+            "LeftMargin": 15.0001,
+            "RightMargin": 154.9999,
+            "TopMargin": -141.0,
+            "BottomMargin": 7.0,
+            "Tag": 93,
+            "ActionTag": 181669142,
+            "Size": {
+              "X": 150.0,
+              "Y": 208.0
+            },
+            "Name": "Card_1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Cards/Card.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 73.0,
+              "Y": 7.0
+            },
+            "Scale": {
+              "ScaleX": 0.28,
+              "ScaleY": 0.28
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2281,
+              "Y": 0.0946
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 2.8108
+            },
+            "LeftMargin": 73.0,
+            "RightMargin": 97.0,
+            "TopMargin": -141.0,
+            "BottomMargin": 7.0,
+            "Tag": 118,
+            "ActionTag": 1928519401,
+            "Size": {
+              "X": 150.0,
+              "Y": 208.0
+            },
+            "Name": "Card_2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Cards/Card.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 130.0002,
+              "Y": 7.0
+            },
+            "Scale": {
+              "ScaleX": 0.28,
+              "ScaleY": 0.28
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4063,
+              "Y": 0.0946
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 2.8108
+            },
+            "LeftMargin": 130.0002,
+            "RightMargin": 39.9998,
+            "TopMargin": -141.0,
+            "BottomMargin": 7.0,
+            "Tag": 122,
+            "ActionTag": 1148283590,
+            "Size": {
+              "X": 150.0,
+              "Y": 208.0
+            },
+            "Name": "Card_3",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 320.0,
+          "Y": 74.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Font/num_game_multiple.fnt",
+        "../Font/num_game_multiple_0.png",
+        "../Image/BG_TopCards.png",
+        "Card.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,1389 @@
+{
+  "ID": "3c88ca6b-2b75-4440-9213-e7bc16f90327",
+  "Version": "2.3.4",
+  "Name": "UserInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 461,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "TopMargin": -0.0002,
+            "BottomMargin": 0.0002,
+            "Tag": 175,
+            "ActionTag": 2124795988,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 0,
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing846x552.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 220,
+            "Scale9OriginY": 144,
+            "Scale9Width": 406,
+            "Scale9Height": 264,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6609,
+              "Y": 0.7667
+            },
+            "LeftMargin": 217.0,
+            "RightMargin": 217.0,
+            "TopMargin": 84.0,
+            "BottomMargin": 84.0,
+            "Tag": 174,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_PlayerInfo_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 60,
+                "Scale9OriginY": 14,
+                "Scale9Width": 62,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 481.9985
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8732
+                },
+                "PreSize": {
+                  "X": 0.2151,
+                  "Y": 0.0797
+                },
+                "LeftMargin": 332.0,
+                "RightMargin": 332.0,
+                "TopMargin": 48.0015,
+                "BottomMargin": 459.9985,
+                "Tag": 176,
+                "ActionTag": 1684394109,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 44.0
+                },
+                "Name": "IMG_Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 826.0,
+                  "Y": 511.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9764,
+                  "Y": 0.9257
+                },
+                "PreSize": {
+                  "X": 0.078,
+                  "Y": 0.1341
+                },
+                "LeftMargin": 793.0,
+                "RightMargin": -13.0,
+                "TopMargin": 4.0,
+                "BottomMargin": 474.0,
+                "Tag": 215,
+                "ActionTag": -790428889,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_HeadPicDef.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.2,
+                  "Y": 292.42
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1574,
+                  "Y": 0.5297
+                },
+                "PreSize": {
+                  "X": 0.1986,
+                  "Y": 0.2971
+                },
+                "LeftMargin": 49.2,
+                "RightMargin": 628.8,
+                "TopMargin": 177.58,
+                "BottomMargin": 210.42,
+                "Tag": 177,
+                "ActionTag": -346153843,
+                "Size": {
+                  "X": 168.0,
+                  "Y": 164.0
+                },
+                "Name": "SP_HeadPic",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_HeadPicBoard.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 60,
+                "Scale9OriginY": 14,
+                "Scale9Width": 48,
+                "Scale9Height": 136,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.2026,
+                  "Y": 292.4205
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1574,
+                  "Y": 0.5297
+                },
+                "PreSize": {
+                  "X": 0.1986,
+                  "Y": 0.2971
+                },
+                "LeftMargin": 49.2026,
+                "RightMargin": 628.7974,
+                "TopMargin": 177.5795,
+                "BottomMargin": 210.4205,
+                "Tag": 178,
+                "ActionTag": 450382517,
+                "Size": {
+                  "X": 168.0,
+                  "Y": 164.0
+                },
+                "Name": "IMG_HeadPicBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_PlayerInfo_4.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 14,
+                "Scale9Width": 12,
+                "Scale9Height": 4,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 247.4089,
+                  "Y": 357.3218
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2924,
+                  "Y": 0.6473
+                },
+                "PreSize": {
+                  "X": 0.0378,
+                  "Y": 0.058
+                },
+                "LeftMargin": 231.4089,
+                "RightMargin": 582.5911,
+                "TopMargin": 178.6782,
+                "BottomMargin": 341.3218,
+                "Tag": 179,
+                "ActionTag": -1115721679,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 32.0
+                },
+                "Name": "IMG_Male",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_PlayerInfo_5.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 14,
+                "Scale9Width": 12,
+                "Scale9Height": 4,
+                "AnchorPoint": {
+                  "ScaleX": 0.4623,
+                  "ScaleY": 0.7217
+                },
+                "Position": {
+                  "X": 246.2029,
+                  "Y": 364.4162
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.291,
+                  "Y": 0.6602
+                },
+                "PreSize": {
+                  "X": 0.0378,
+                  "Y": 0.058
+                },
+                "LeftMargin": 231.4093,
+                "RightMargin": 582.5907,
+                "TopMargin": 178.6782,
+                "BottomMargin": 341.3218,
+                "Tag": 180,
+                "ActionTag": -1629331454,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 32.0
+                },
+                "Name": "IMG_Female",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "昵称昵称昵称...",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 280.0,
+                  "Y": 358.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.331,
+                  "Y": 0.6486
+                },
+                "PreSize": {
+                  "X": 0.2447,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 280.0,
+                "RightMargin": 359.0,
+                "TopMargin": 173.0,
+                "BottomMargin": 337.0,
+                "Tag": 181,
+                "ActionTag": 422682363,
+                "Size": {
+                  "X": 207.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_Name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "实名认证:  已认证",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 901.5385,
+                  "Y": 362.6774
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0656,
+                  "Y": 0.657
+                },
+                "PreSize": {
+                  "X": 0.2837,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 901.5385,
+                "RightMargin": -295.5386,
+                "TopMargin": 168.3226,
+                "BottomMargin": 341.6774,
+                "Tag": 183,
+                "ActionTag": 2032791342,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 42.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TXT_Authentication",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "ID:952711",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 280.0,
+                  "Y": 290.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.331,
+                  "Y": 0.5254
+                },
+                "PreSize": {
+                  "X": 0.1548,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 280.0,
+                "RightMargin": 435.0,
+                "TopMargin": 241.0,
+                "BottomMargin": 269.0,
+                "Tag": 184,
+                "ActionTag": -770811526,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_Id",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "IP:255.255.255.255",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 522.2004,
+                  "Y": 317.4155
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6173,
+                  "Y": 0.575
+                },
+                "PreSize": {
+                  "X": 0.2884,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 522.2004,
+                "RightMargin": 79.7996,
+                "TopMargin": 213.5845,
+                "BottomMargin": 296.4155,
+                "Tag": 185,
+                "ActionTag": 1263341270,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 42.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TXT_Ip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/IMG_PFC.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 14,
+                "Scale9Width": 258,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 401.1921,
+                  "Y": 253.1968
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4742,
+                  "Y": 0.4587
+                },
+                "PreSize": {
+                  "X": 0.3286,
+                  "Y": 0.1014
+                },
+                "LeftMargin": 262.1921,
+                "RightMargin": 305.8079,
+                "TopMargin": 270.8032,
+                "BottomMargin": 225.1968,
+                "Tag": 186,
+                "ActionTag": 1555596504,
+                "Size": {
+                  "X": 278.0,
+                  "Y": 56.0
+                },
+                "VisibleForFrame": false,
+                "Name": "IMG_CardBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "999999.9999",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Fonts/hall_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 417.1882,
+                  "Y": 251.6898
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4931,
+                  "Y": 0.456
+                },
+                "PreSize": {
+                  "X": 0.2246,
+                  "Y": 0.058
+                },
+                "LeftMargin": 322.1882,
+                "RightMargin": 333.8118,
+                "TopMargin": 284.3102,
+                "BottomMargin": 235.6898,
+                "Tag": 188,
+                "ActionTag": 832866965,
+                "Size": {
+                  "X": 190.0,
+                  "Y": 32.0
+                },
+                "VisibleForFrame": false,
+                "Name": "FNT_Card",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/IMG_Seer1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 14,
+                "Scale9Width": 246,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 412.2241,
+                  "Y": 226.1989
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4873,
+                  "Y": 0.4098
+                },
+                "PreSize": {
+                  "X": 0.3144,
+                  "Y": 0.1014
+                },
+                "LeftMargin": 279.2241,
+                "RightMargin": 300.7759,
+                "TopMargin": 297.8011,
+                "BottomMargin": 198.1989,
+                "Tag": 187,
+                "ActionTag": 1461027663,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 56.0
+                },
+                "Name": "IMG_BeanBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "999999.99w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Fonts/hall_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 426.9992,
+                  "Y": 223.7267
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5047,
+                  "Y": 0.4053
+                },
+                "PreSize": {
+                  "X": 0.2151,
+                  "Y": 0.058
+                },
+                "LeftMargin": 335.9992,
+                "RightMargin": 328.0008,
+                "TopMargin": 312.2733,
+                "BottomMargin": 207.7267,
+                "Tag": 189,
+                "ActionTag": 2109421713,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 32.0
+                },
+                "Name": "FNT_Bean",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "交友微信:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 92.2015,
+                  "Y": 160.4152
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.109,
+                  "Y": 0.2906
+                },
+                "PreSize": {
+                  "X": 0.1525,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 92.2015,
+                "RightMargin": 624.7985,
+                "TopMargin": 370.5848,
+                "BottomMargin": 139.4152,
+                "Tag": 190,
+                "ActionTag": -1480348350,
+                "Size": {
+                  "X": 129.0,
+                  "Y": 42.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TXT_WX",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_PlayerInfo_7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 502.2009,
+                  "Y": 160.4152
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5936,
+                  "Y": 0.2906
+                },
+                "PreSize": {
+                  "X": 0.6572,
+                  "Y": 0.0978
+                },
+                "LeftMargin": 224.2009,
+                "RightMargin": 65.7991,
+                "TopMargin": 364.5848,
+                "BottomMargin": 133.4152,
+                "Tag": 191,
+                "ActionTag": -559384030,
+                "Size": {
+                  "X": 556.0,
+                  "Y": 54.0
+                },
+                "VisibleForFrame": false,
+                "Name": "IMG_WXBg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "FontSize": 25,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "只能输入英文和数字，长度26个字符",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 26,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 508.2009,
+                  "Y": 160.4148
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6007,
+                  "Y": 0.2906
+                },
+                "PreSize": {
+                  "X": 0.6501,
+                  "Y": 0.0543
+                },
+                "LeftMargin": 233.2009,
+                "RightMargin": 62.7991,
+                "TopMargin": 376.5852,
+                "BottomMargin": 145.4148,
+                "Tag": 202,
+                "ActionTag": 1124114691,
+                "Size": {
+                  "X": 550.0,
+                  "Y": 30.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TF_WX",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_PlayerInfo_8.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.2025,
+                  "Y": 353.4208
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0865,
+                  "Y": 0.6403
+                },
+                "PreSize": {
+                  "X": 0.0449,
+                  "Y": 0.0797
+                },
+                "LeftMargin": 54.2025,
+                "RightMargin": 753.7975,
+                "TopMargin": 176.5792,
+                "BottomMargin": 331.4208,
+                "Tag": 192,
+                "ActionTag": -718554254,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "IMG_Authentication",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/IMG_PlayerInfo_9.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 194.2026,
+                  "Y": 247.4207
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2296,
+                  "Y": 0.4482
+                },
+                "PreSize": {
+                  "X": 0.052,
+                  "Y": 0.1413
+                },
+                "LeftMargin": 172.2026,
+                "RightMargin": 629.7974,
+                "TopMargin": 265.5793,
+                "BottomMargin": 208.4207,
+                "Tag": 193,
+                "ActionTag": -1157610101,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 78.0
+                },
+                "Name": "IMG_Bound",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/BTN_AuthenticationN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/BTN_AuthenticationP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/UserInfo/Image/BTN_AuthenticationN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 102,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1101.5381,
+                  "Y": 362.6759
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3021,
+                  "Y": 0.657
+                },
+                "PreSize": {
+                  "X": 0.156,
+                  "Y": 0.0942
+                },
+                "LeftMargin": 1035.5381,
+                "RightMargin": -321.5381,
+                "TopMargin": 163.3241,
+                "BottomMargin": 336.6759,
+                "Tag": 194,
+                "ActionTag": 352273712,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 52.0
+                },
+                "VisibleForFrame": false,
+                "Name": "BTN_Authentication",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ConfirmN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0001,
+                  "Y": 92.0009
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1667
+                },
+                "PreSize": {
+                  "X": 0.2884,
+                  "Y": 0.1884
+                },
+                "LeftMargin": 301.0001,
+                "RightMargin": 300.9999,
+                "TopMargin": 407.9991,
+                "BottomMargin": 40.0009,
+                "Tag": 195,
+                "ActionTag": 68624841,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_Confirm",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "SEER账户: seerseerseer",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 496.9996,
+                  "Y": 358.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5875,
+                  "Y": 0.6486
+                },
+                "PreSize": {
+                  "X": 0.3676,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 496.9996,
+                "RightMargin": 38.0004,
+                "TopMargin": 173.0,
+                "BottomMargin": 337.0,
+                "Tag": 78,
+                "ActionTag": 662750677,
+                "Size": {
+                  "X": 311.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_SeerAccount",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "SEER_ID: seerseerseer",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 496.9996,
+                  "Y": 290.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5875,
+                  "Y": 0.5254
+                },
+                "PreSize": {
+                  "X": 0.3522,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 496.9996,
+                "RightMargin": 51.0004,
+                "TopMargin": 241.0,
+                "BottomMargin": 269.0,
+                "Tag": 79,
+                "ActionTag": -718106023,
+                "Size": {
+                  "X": 298.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_SeerID",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1237622339,
+            "Size": {
+              "X": 846.0,
+              "Y": 552.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_CloseN.png",
+        "../../Common/Images/BTN_CloseP.png",
+        "../../Common/Images/BTN_ConfirmN.png",
+        "../../Common/Images/BTN_ConfirmP.png",
+        "../../Common/Images/Com_Mask.png",
+        "../../Common/Images/IMG_PFC.png",
+        "../../Common/Images/IMG_Seer1.png",
+        "../../Common/Images/PopupWing846x552.png",
+        "../../Fonts/hall_num.fnt",
+        "../../Fonts/hall_num_0.png",
+        "../../Fonts/YaHei.ttf",
+        "Image/BTN_AuthenticationN.png",
+        "Image/BTN_AuthenticationP.png",
+        "Image/IMG_HeadPicBoard.png",
+        "Image/IMG_HeadPicDef.png",
+        "Image/IMG_PlayerInfo_1.png",
+        "Image/IMG_PlayerInfo_4.png",
+        "Image/IMG_PlayerInfo_5.png",
+        "Image/IMG_PlayerInfo_7.png",
+        "Image/IMG_PlayerInfo_8.png",
+        "Image/IMG_PlayerInfo_9.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

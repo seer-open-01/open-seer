@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Animations/EffHall/Images/More_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,154},{210,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{210,58}</string>
+			</dict>
+			<key>Animations/EffHall/Images/More_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{154,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{154,128}</string>
+			</dict>
+			<key>Animations/EffHall/Images/More_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{210,186},{52,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{52,54}</string>
+			</dict>
+			<key>Animations/EffHall/Images/More_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{234,0},{48,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,54}</string>
+			</dict>
+			<key>Animations/EffHall/Images/More_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{210,122},{64,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{64,52}</string>
+			</dict>
+			<key>Animations/EffHall/Images/More_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,0},{106,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{106,122}</string>
+			</dict>
+			<key>Animations/EffHall/Images/More_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,212},{30,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{30,26}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Z_3.png</string>
+			<key>realTextureFileName</key>
+			<string>Z_3.png</string>
+			<key>size</key>
+			<string>{512,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

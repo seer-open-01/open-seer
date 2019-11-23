@@ -1,0 +1,742 @@
+<Solution>
+  <PropertyGroup Name="zqHomePopup" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Animations">
+          <Folder Name="EffHall">
+            <Folder Name="ZhuanPan">
+              <Image Name="Deng01.png" />
+              <Image Name="Deng02.png" />
+              <Project Name="EffDeng.csd" Type="Node" />
+              <Project Name="EffZhuanPan.csd" Type="Node" />
+              <Image Name="GuangHuan.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Common">
+          <Folder Name="Hint">
+            <Project Name="Hint.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Com_Bg.png" />
+            <Image Name="Com_Coin.png" />
+            <Image Name="Com_FZ .png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="IMG_Gold.png" />
+            <Image Name="IMG_PFC.png" />
+            <Image Name="IMG_Seer1.png" />
+            <Image Name="IMG_Seer2.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+            <Image Name="reward_1.png" />
+            <Image Name="reward_2.png" />
+            <Image Name="reward_3.png" />
+          </Folder>
+          <Folder Name="KeyNum">
+            <Image Name="BTN_0.png" />
+            <Image Name="BTN_0_x.png" />
+            <Image Name="BTN_1.png" />
+            <Image Name="BTN_1_x.png" />
+            <Image Name="BTN_2.png" />
+            <Image Name="BTN_2_x.png" />
+            <Image Name="BTN_3.png" />
+            <Image Name="BTN_3_x.png" />
+            <Image Name="BTN_4.png" />
+            <Image Name="BTN_4_x.png" />
+            <Image Name="BTN_5.png" />
+            <Image Name="BTN_5_x.png" />
+            <Image Name="BTN_6.png" />
+            <Image Name="BTN_6_x.png" />
+            <Image Name="BTN_7.png" />
+            <Image Name="BTN_7_x.png" />
+            <Image Name="BTN_8.png" />
+            <Image Name="BTN_8_x.png" />
+            <Image Name="BTN_9.png" />
+            <Image Name="BTN_9_x.png" />
+            <Image Name="BTN_Del.png" />
+            <Image Name="BTN_Del_x.png" />
+            <Image Name="BTN_Reset.png" />
+            <Image Name="BTN_Reset_x.png" />
+            <Image Name="Num_0.png" />
+            <Image Name="Num_1.png" />
+            <Image Name="Num_2.png" />
+            <Image Name="Num_3.png" />
+            <Image Name="Num_4.png" />
+            <Image Name="Num_5.png" />
+            <Image Name="Num_6.png" />
+            <Image Name="Num_7.png" />
+            <Image Name="Num_8.png" />
+            <Image Name="Num_9.png" />
+          </Folder>
+          <Folder Name="Notice">
+            <Folder Name="Images">
+              <Image Name="BaseBg.png" />
+              <Image Name="NoticeBg.png" />
+              <Image Name="Title.png" />
+            </Folder>
+            <Project Name="Notice.csd" Type="Layer" />
+            <Project Name="NoticeWindow.csd" Type="Layer" />
+            <Project Name="NoticeWindowItem.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Reward">
+            <Folder Name="Images">
+              <Image Name="GMglow.png" />
+              <Image Name="GMline01.png" />
+              <Image Name="GMline02.png" />
+              <Image Name="PIC_Bg.png" />
+              <Image Name="Pic_tip.png" />
+            </Folder>
+            <Project Name="RewardEff.csd" Type="Node" />
+            <Project Name="RewardItem.csd" Type="Node" />
+            <Project Name="RewardWin.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Task">
+            <Folder Name="Images">
+              <Image Name="Bar.png" />
+              <Image Name="Bar_Bg.png" />
+              <Image Name="Btn_Get_D.png" />
+              <Image Name="Btn_Get_N.png" />
+              <Image Name="Btn_Get_P.png" />
+              <Image Name="BTN_Go.png" />
+              <Image Name="BTN_GoP.png" />
+              <Image Name="BTN_No.png" />
+              <Image Name="Loading_1.png" />
+              <Image Name="Loading_2.png" />
+              <Image Name="PIC_Item_Bg.png" />
+              <Image Name="PIC_Reward_1.png" />
+              <Image Name="Title_Task.png" />
+            </Folder>
+            <Project Name="TaskItem.csd" Type="Node" />
+            <Project Name="TaskWindow.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Home">
+          <Folder Name="Bank">
+            <Folder Name="Font">
+              <Fnt Name="hall_num.fnt" />
+            </Folder>
+            <Folder Name="Image">
+              <Image Name="BTN_0.png" />
+              <Image Name="BTN_0_x.png" />
+              <Image Name="BTN_1.png" />
+              <Image Name="BTN_1_x.png" />
+              <Image Name="BTN_2.png" />
+              <Image Name="BTN_2_x.png" />
+              <Image Name="BTN_3.png" />
+              <Image Name="BTN_3_x.png" />
+              <Image Name="BTN_4.png" />
+              <Image Name="BTN_4_x.png" />
+              <Image Name="BTN_5.png" />
+              <Image Name="BTN_5_x.png" />
+              <Image Name="BTN_6.png" />
+              <Image Name="BTN_6_x.png" />
+              <Image Name="BTN_7.png" />
+              <Image Name="BTN_7_x.png" />
+              <Image Name="BTN_8.png" />
+              <Image Name="BTN_8_x.png" />
+              <Image Name="BTN_9.png" />
+              <Image Name="BTN_9_x.png" />
+              <Image Name="BTN_ChangeN.png" />
+              <Image Name="BTN_ChangeP.png" />
+              <Image Name="BTN_Del.png" />
+              <Image Name="BTN_Del_x.png" />
+              <Image Name="BTN_GetVerifyD.png" />
+              <Image Name="BTN_GetVerifyN.png" />
+              <Image Name="BTN_GetVerifyP.png" />
+              <Image Name="BTN_Reset.png" />
+              <Image Name="BTN_Reset_x.png" />
+              <Image Name="CheckBox_No.png" />
+              <Image Name="CheckBox_No_2.png" />
+              <Image Name="CheckBox_Select.png" />
+              <Image Name="CheckBox_Select2.png" />
+              <Image Name="IMG_BG_Cash.png" />
+              <Image Name="IMG_BG_Cash1.png" />
+              <Image Name="IMG_BG_Cash2.png" />
+              <Image Name="IMG_BG_Check.png" />
+              <Image Name="IMG_Line.png" />
+              <Image Name="IMG_Tittle.png" />
+              <Image Name="IMG_Tittle_Setting.png" />
+              <Image Name="IMG_TXT_Bean.png" />
+              <Image Name="IMG_TXT_CK.png" />
+              <Image Name="IMG_TXT_Get1.png" />
+              <Image Name="IMG_TXT_Get2.png" />
+              <Image Name="IMG_TXT_Save1.png" />
+              <Image Name="IMG_TXT_Save2.png" />
+            </Folder>
+            <Project Name="BankWindow.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Banner">
+            <Project Name="Banner.csd" Type="Layer" />
+            <Project Name="BannerPage1.csd" Type="Layer" />
+            <Project Name="BannerPage2.csd" Type="Layer" />
+            <Project Name="BannerPage3.csd" Type="Layer" />
+            <Image Name="btn_copy_0.png" />
+            <Image Name="btn_copy_1.png" />
+            <Image Name="IMG_BG.png" />
+            <Image Name="IMG_Dot_1.png" />
+            <Image Name="IMG_Dot_2.png" />
+            <Image Name="page1.png" />
+            <Image Name="page2.png" />
+            <Image Name="page3.png" />
+          </Folder>
+          <Folder Name="Bind">
+            <Project Name="Account.csd" Type="Layer" />
+            <Project Name="BindWin.csd" Type="Layer" />
+            <Image Name="Btn_Create_0.png" />
+            <Image Name="Btn_Create_1.png" />
+            <Image Name="IMG_1.png" />
+            <Image Name="IMG_2.png" />
+            <Image Name="IMG_3.png" />
+          </Folder>
+          <Folder Name="Extend">
+            <Folder Name="Image">
+              <Image Name="Extend_12.png" />
+              <Image Name="Extend_13.png" />
+              <Image Name="Extend_14.png" />
+              <Image Name="Extend_17.png" />
+              <Image Name="Extend_18.png" />
+              <Image Name="Extend_19.png" />
+              <Image Name="Extend_2.png" />
+              <Image Name="Extend_20.png" />
+              <Image Name="Extend_21.png" />
+              <Image Name="Extend_22.png" />
+              <Image Name="Extend_23.png" />
+              <Image Name="Extend_24.png" />
+              <Image Name="Extend_25.png" />
+              <Image Name="Extend_26.png" />
+              <Image Name="Extend_27.png" />
+              <Image Name="Extend_28.png" />
+              <Image Name="Extend_29.png" />
+              <Image Name="Extend_3.png" />
+              <Image Name="Extend_30.png" />
+              <Image Name="Extend_31.png" />
+              <Image Name="Extend_32.png" />
+              <Image Name="Extend_33.png" />
+              <Image Name="Extend_4.png" />
+              <Image Name="Extend_5.png" />
+              <Image Name="Extend_6.png" />
+              <Image Name="Extend_7.png" />
+              <Image Name="Extend_8.png" />
+              <Image Name="Extend_9.png" />
+              <Image Name="Level_1N.png" />
+              <Image Name="Level_1X.png" />
+              <Image Name="Level_2N.png" />
+              <Image Name="Level_2X.png" />
+              <Image Name="Level_3N.png" />
+              <Image Name="Level_3X.png" />
+              <Image Name="Level_4N.png" />
+              <Image Name="Level_4X.png" />
+              <Image Name="Record_1.png" />
+              <Image Name="Record_3.png" />
+              <Image Name="Record_4.png" />
+              <Image Name="Status_0.png" />
+              <Image Name="Status_1.png" />
+              <Image Name="TiBi_1.png" />
+              <Image Name="TiBi_2.png" />
+              <Image Name="TiBi_3.png" />
+              <Image Name="TiBi_4.png" />
+              <Image Name="TiBi_5.png" />
+              <Image Name="TiBi_6.png" />
+              <Image Name="TiBi_7.png" />
+              <Image Name="TiBi_8.png" />
+            </Folder>
+            <Project Name="Extend.csd" Type="Layer" />
+            <Project Name="Item.csd" Type="Node" />
+            <Project Name="Record.csd" Type="Layer" />
+            <Project Name="TiBi2.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Help">
+            <Folder Name="image">
+              <Image Name="BTN_DouDiZhuN.png" />
+              <Image Name="BTN_DouDiZhuP.png" />
+              <Image Name="BTN_MaJiangN.png" />
+              <Image Name="BTN_MaJiangP.png" />
+              <Image Name="BTN_NiuNiuN.png" />
+              <Image Name="BTN_NiuNiuP.png" />
+              <Image Name="BTN_PDK_D.png" />
+              <Image Name="BTN_PDK_N.png" />
+              <Image Name="BTN_PinSanN.png" />
+              <Image Name="BTN_PinSanP.png" />
+              <Image Name="BTN_ProblemN.png" />
+              <Image Name="BTN_ProblemP.png" />
+              <Image Name="BTN_XiangQiN.png" />
+              <Image Name="BTN_XiangQiP.png" />
+              <Image Name="BTN_XZN.png" />
+              <Image Name="BTN_XZP.png" />
+              <Image Name="IMG_101.png" />
+              <Image Name="IMG_201.png" />
+              <Image Name="IMG_202.png" />
+              <Image Name="IMG_203.png" />
+              <Image Name="IMG_301.png" />
+              <Image Name="IMG_302.png" />
+              <Image Name="IMG_401.png" />
+              <Image Name="IMG_402.png" />
+              <Image Name="IMG_501.png" />
+              <Image Name="IMG_601.png" />
+              <Image Name="IMG_602.png" />
+              <Image Name="IMG_701.png" />
+              <Image Name="IMG_702.png" />
+              <Image Name="IMG_801.png" />
+              <Image Name="IMG_802.png" />
+              <Image Name="IMG_803.png" />
+              <Image Name="IMG_ContentBg.png" />
+              <Image Name="IMG_HelpTitle.png" />
+            </Folder>
+            <Project Name="Help.csd" Type="Layer" />
+            <Project Name="ND_Content_001.csd" Type="Layer" />
+            <Project Name="ND_Content_002.csd" Type="Layer" />
+            <Project Name="ND_Content_003.csd" Type="Layer" />
+            <Project Name="ND_Content_004.csd" Type="Layer" />
+            <Project Name="ND_Content_005.csd" Type="Layer" />
+            <Project Name="ND_Content_006.csd" Type="Layer" />
+            <Project Name="ND_Content_008.csd" Type="Layer" />
+            <Project Name="ND_Content_009.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Horn">
+            <Folder Name="Images">
+              <Image Name="horn_1.png" />
+              <Image Name="horn_2.png" />
+              <Image Name="horn_3.png" />
+              <Image Name="horn_4.png" />
+              <Image Name="horn_5.png" />
+              <Image Name="horn_6.png" />
+              <Image Name="horn_7.png" />
+            </Folder>
+            <Project Name="HornWindow.csd" Type="Layer" />
+            <Project Name="Item.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Invitation">
+            <Folder Name="Images">
+              <Image Name="BTN_AcceptN.png" />
+              <Image Name="BTN_AcceptP.png" />
+              <Image Name="BTN_RefuseN.png" />
+              <Image Name="BTN_RefuseP.png" />
+              <Image Name="Des_1.png" />
+              <Image Name="Des_2.png" />
+              <Image Name="Des_4.png" />
+              <Image Name="Des_5.png" />
+              <Image Name="Label_1.png" />
+              <Image Name="Label_2.png" />
+              <Image Name="Label_3.png" />
+              <Image Name="Label_4.png" />
+              <Image Name="Tittle_1.png" />
+              <Image Name="Tittle_2.png" />
+              <Image Name="Tittle_4.png" />
+              <Image Name="Tittle_5.png" />
+            </Folder>
+            <Project Name="InvitationWindow.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Mail">
+            <Folder Name="Img">
+              <Image Name="Bg_Item_Time.png" />
+              <Image Name="Btn_Cancle_1.png" />
+              <Image Name="Btn_Cancle_2.png" />
+              <Image Name="Btn_Check_1.png" />
+              <Image Name="Btn_Check_2.png" />
+              <Image Name="Btn_Del_1.png" />
+              <Image Name="Btn_Del_2.png" />
+              <Image Name="Btn_Get_1.png" />
+              <Image Name="Btn_Get_2.png" />
+              <Image Name="Btn_Get_3.png" />
+              <Image Name="Loading_1.png" />
+              <Image Name="Loading_2.png" />
+              <Image Name="Pic_DiBan.png" />
+              <Image Name="Pic_Dot.png" />
+              <Image Name="Pic_MailClose.png" />
+              <Image Name="Pic_MailOpen.png" />
+              <Image Name="Pic_Pin_1.png" />
+              <Image Name="Pic_Pin_2.png" />
+              <Image Name="Pic_Txt_Get.png" />
+              <Image Name="Title_Mail.png" />
+              <Image Name="Title_MailInfo.png" />
+            </Folder>
+            <Project Name="MailContent_1.csd" Type="Layer" />
+            <Project Name="MailContent_2.csd" Type="Layer" />
+            <Project Name="MailItem.csd" Type="Node" />
+            <Project Name="MailWindow.csd" Type="Layer" />
+            <Project Name="RewardItem.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Mall">
+            <Folder Name="Image">
+              <Image Name="Bnt_Copy_0.png" />
+              <Image Name="Btn_Copy_1.png" />
+              <Image Name="Mall_1.png" />
+              <Image Name="Mall_10.png" />
+              <Image Name="Mall_11.png" />
+              <Image Name="Mall_12.png" />
+              <Image Name="Mall_13.png" />
+              <Image Name="Mall_15.png" />
+              <Image Name="Mall_2.png" />
+              <Image Name="Mall_3.png" />
+              <Image Name="Mall_5.png" />
+              <Image Name="Mall_6.png" />
+              <Image Name="Mall_7.png" />
+              <Image Name="Mall_8.png" />
+              <Image Name="Mall_9.png" />
+              <Image Name="Mall2_Bg.png" />
+            </Folder>
+            <Project Name="MallWin2.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="NoBeanTip">
+            <Folder Name="Image">
+              <Image Name="Btn_Bank_1.png" />
+              <Image Name="Btn_Bank_2.png" />
+              <Image Name="Btn_Charge_1.png" />
+              <Image Name="Btn_Charge_2.png" />
+              <Image Name="IMG_Title.png" />
+            </Folder>
+            <Project Name="NoBeanTip.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Rank">
+            <Folder Name="Images">
+              <Folder Name="Fnt">
+                <Fnt Name="Rank_RankingFnt.fnt" />
+              </Folder>
+              <Image Name="IMG_1.png" />
+              <Image Name="IMG_10.png" />
+              <Image Name="IMG_11.png" />
+              <Image Name="IMG_12.png" />
+              <Image Name="IMG_13.png" />
+              <Image Name="IMG_2.png" />
+              <Image Name="IMG_3.png" />
+              <Image Name="IMG_4.png" />
+              <Image Name="IMG_5.png" />
+              <Image Name="IMG_6.png" />
+              <Image Name="IMG_7.png" />
+              <Image Name="IMG_8.png" />
+              <Image Name="IMG_9.png" />
+              <Image Name="IMG_HeadPicBoard.png" />
+              <Image Name="IMG_HeadPicDef.png" />
+              <Image Name="IMG_PlayerInfo_4.png" />
+              <Image Name="IMG_PlayerInfo_5.png" />
+              <Image Name="Loading_1.png" />
+              <Image Name="Loading_2.png" />
+            </Folder>
+            <Project Name="RankItem.csd" Type="Layer" />
+            <Project Name="RankList.csd" Type="Layer" />
+            <Project Name="RankPlayerInfo.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="RealName">
+            <Image Name="IMG_1.png" />
+            <Image Name="IMG_2.png" />
+            <Project Name="RealNameWindow.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Report">
+            <Folder Name="Fnt">
+              <Fnt Name="ReportFnt.fnt" />
+            </Folder>
+            <Folder Name="Image">
+              <Folder Name="poker">
+                <Image Name="101.png" />
+                <Image Name="102.png" />
+                <Image Name="103.png" />
+                <Image Name="104.png" />
+                <Image Name="105.png" />
+                <Image Name="106.png" />
+                <Image Name="107.png" />
+                <Image Name="108.png" />
+                <Image Name="109.png" />
+                <Image Name="110.png" />
+                <Image Name="111.png" />
+                <Image Name="112.png" />
+                <Image Name="113.png" />
+                <Image Name="201.png" />
+                <Image Name="202.png" />
+                <Image Name="203.png" />
+                <Image Name="204.png" />
+                <Image Name="205.png" />
+                <Image Name="206.png" />
+                <Image Name="207.png" />
+                <Image Name="208.png" />
+                <Image Name="209.png" />
+                <Image Name="210.png" />
+                <Image Name="211.png" />
+                <Image Name="212.png" />
+                <Image Name="213.png" />
+                <Image Name="301.png" />
+                <Image Name="302.png" />
+                <Image Name="303.png" />
+                <Image Name="304.png" />
+                <Image Name="305.png" />
+                <Image Name="306.png" />
+                <Image Name="307.png" />
+                <Image Name="308.png" />
+                <Image Name="309.png" />
+                <Image Name="310.png" />
+                <Image Name="311.png" />
+                <Image Name="312.png" />
+                <Image Name="313.png" />
+                <Image Name="401.png" />
+                <Image Name="402.png" />
+                <Image Name="403.png" />
+                <Image Name="404.png" />
+                <Image Name="405.png" />
+                <Image Name="406.png" />
+                <Image Name="407.png" />
+                <Image Name="408.png" />
+                <Image Name="409.png" />
+                <Image Name="410.png" />
+                <Image Name="411.png" />
+                <Image Name="412.png" />
+                <Image Name="413.png" />
+                <Image Name="Report_Pattern_0.png" />
+                <Image Name="Report_Pattern_1.png" />
+                <Image Name="Report_Pattern_10.png" />
+                <Image Name="Report_Pattern_11.png" />
+                <Image Name="Report_Pattern_12.png" />
+                <Image Name="Report_Pattern_13.png" />
+                <Image Name="Report_Pattern_14.png" />
+                <Image Name="Report_Pattern_15.png" />
+                <Image Name="Report_Pattern_16.png" />
+                <Image Name="Report_Pattern_17.png" />
+                <Image Name="Report_Pattern_18.png" />
+                <Image Name="Report_Pattern_19.png" />
+                <Image Name="Report_Pattern_2.png" />
+                <Image Name="Report_Pattern_3.png" />
+                <Image Name="Report_Pattern_4.png" />
+                <Image Name="Report_Pattern_5.png" />
+                <Image Name="Report_Pattern_6.png" />
+                <Image Name="Report_Pattern_7.png" />
+                <Image Name="Report_Pattern_8.png" />
+                <Image Name="Report_Pattern_9.png" />
+              </Folder>
+              <Image Name="Btn_Bean_1.png" />
+              <Image Name="Btn_Bean_2.png" />
+              <Image Name="Btn_Card_1.png" />
+              <Image Name="Btn_Card_2.png" />
+              <Image Name="Btn_Check_1.png" />
+              <Image Name="Btn_Check_2.png" />
+              <Image Name="BTN_LookD.png" />
+              <Image Name="BTN_LookN.png" />
+              <Image Name="BTN_LookP.png" />
+              <Image Name="Loading_1.png" />
+              <Image Name="Loading_2.png" />
+              <Image Name="Report_Img_1.png" />
+              <Image Name="Report_Img_10.png" />
+              <Image Name="Report_Img_11.png" />
+              <Image Name="Report_Img_12.png" />
+              <Image Name="Report_Img_13.png" />
+              <Image Name="Report_Img_14.png" />
+              <Image Name="Report_Img_15.png" />
+              <Image Name="Report_Img_16.png" />
+              <Image Name="Report_Img_2.png" />
+              <Image Name="Report_Img_3.png" />
+              <Image Name="Report_Img_4.png" />
+              <Image Name="Report_Img_5.png" />
+              <Image Name="Report_Img_6.png" />
+              <Image Name="Report_Img_7.png" />
+              <Image Name="Report_Img_8.png" />
+              <Image Name="Report_Img_9.png" />
+            </Folder>
+            <Project Name="CardPattern.csd" Type="Node" />
+            <Project Name="DiZhuPlayer.csd" Type="Node" />
+            <Project Name="MaJiangPlayer.csd" Type="Node" />
+            <Project Name="PinSanCards.csd" Type="Node" />
+            <Project Name="PinSanPlayer.csd" Type="Node" />
+            <Project Name="PinShiCards.csd" Type="Node" />
+            <Project Name="PinShiPlayer.csd" Type="Node" />
+            <Project Name="ReportItem_1.csd" Type="Node" />
+            <Project Name="ReportItem_2.csd" Type="Node" />
+            <Project Name="ReportItem_3.csd" Type="Node" />
+            <Project Name="ReportItem_4.csd" Type="Node" />
+            <Project Name="ReportItem_5.csd" Type="Node" />
+            <Project Name="ReportItem_6.csd" Type="Node" />
+            <Project Name="ReportWin.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="RoomCard">
+            <Folder Name="Image">
+              <Image Name="Bg.png" />
+              <Image Name="Btn_Add_0.png" />
+              <Image Name="Btn_Add_1.png" />
+              <Image Name="Btn_Create_0.png" />
+              <Image Name="Btn_Create_1.png" />
+              <Image Name="Btn_Minus_0.png" />
+              <Image Name="Btn_Minus_1.png" />
+              <Image Name="Game1_0.png" />
+              <Image Name="Game1_1.png" />
+              <Image Name="Game2_0.png" />
+              <Image Name="Game2_1.png" />
+              <Image Name="Game3_0.png" />
+              <Image Name="Game3_1.png" />
+              <Image Name="Game4_0.png" />
+              <Image Name="Game4_1.png" />
+              <Image Name="Game5_0.png" />
+              <Image Name="Game5_1.png" />
+              <Image Name="Game6_0.png" />
+              <Image Name="Game6_1.png" />
+              <Image Name="Input_1.png" />
+              <Image Name="Input_2.png" />
+              <Image Name="Input_3.png" />
+              <Image Name="Left.png" />
+              <Image Name="Line.png" />
+              <Image Name="Sel1_0.png" />
+              <Image Name="Sel1_1.png" />
+              <Image Name="Sel2_0.png" />
+              <Image Name="Sel2_1.png" />
+              <Image Name="Set_1.png" />
+              <Image Name="Set_2.png" />
+              <Image Name="Set_3.png" />
+              <Image Name="Tip.png" />
+              <Image Name="Tittle_1.png" />
+              <Image Name="Tittle_2.png" />
+              <Image Name="Tittle_3.png" />
+            </Folder>
+            <Project Name="CreateWin.csd" Type="Layer" />
+            <Project Name="JoinWin.csd" Type="Layer" />
+            <Project Name="Option_1.csd" Type="Node" />
+            <Project Name="Option_2.csd" Type="Node" />
+            <Project Name="Option_3.csd" Type="Node" />
+            <Project Name="Option_4.csd" Type="Node" />
+            <Project Name="Option_5.csd" Type="Node" />
+            <Project Name="Option_6.csd" Type="Node" />
+            <Project Name="SetBase.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Setting">
+            <Folder Name="image">
+              <Image Name="BTN_ChangeN.png" />
+              <Image Name="BTN_ChangeP.png" />
+              <Image Name="BTN_ExitN.png" />
+              <Image Name="BTN_ExitP.png" />
+              <Image Name="IMG_LoadingBar.png" />
+              <Image Name="IMG_LoadingBg.png" />
+              <Image Name="IMG_MusicN.png" />
+              <Image Name="IMG_SetTitle.png" />
+              <Image Name="IMG_ShaiZi.png" />
+              <Image Name="IMG_SoundN.png" />
+              <Image Name="IMG_XieGang.png" />
+              <Image Name="TEXT_Music.png" />
+              <Image Name="TEXT_Sound.png" />
+            </Folder>
+            <Project Name="SettingWin.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Share">
+            <Folder Name="image">
+              <Image Name="BTN_CloseN.png" />
+              <Image Name="BTN_CloseP.png" />
+              <Image Name="BTN_HaoYouN.png" />
+              <Image Name="BTN_HaoYouP.png" />
+              <Image Name="BTN_WeiXinN.png" />
+              <Image Name="BTN_WeiXinP.png" />
+              <Image Name="PIC_Bg.png" />
+              <Image Name="PIC_Tip.png" />
+            </Folder>
+            <Project Name="Share.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="UserInfo">
+            <Folder Name="Image">
+              <Image Name="BTN_AuthenticationN.png" />
+              <Image Name="BTN_AuthenticationP.png" />
+              <Image Name="IMG_HeadPicBoard.png" />
+              <Image Name="IMG_HeadPicDef.png" />
+              <Image Name="IMG_PlayerInfo_1.png" />
+              <Image Name="IMG_PlayerInfo_4.png" />
+              <Image Name="IMG_PlayerInfo_5.png" />
+              <Image Name="IMG_PlayerInfo_7.png" />
+              <Image Name="IMG_PlayerInfo_8.png" />
+              <Image Name="IMG_PlayerInfo_9.png" />
+            </Folder>
+            <Project Name="UserInfo.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Wheel">
+            <Folder Name="Fnt">
+              <Image Name="BTN_0.png" />
+              <Image Name="BTN_0_x.png" />
+              <Image Name="BTN_1.png" />
+              <Image Name="BTN_1_x.png" />
+              <Image Name="BTN_2.png" />
+              <Image Name="BTN_2_x.png" />
+              <Image Name="BTN_3.png" />
+              <Image Name="BTN_3_x.png" />
+              <Image Name="BTN_4.png" />
+              <Image Name="BTN_4_x.png" />
+              <Image Name="BTN_5.png" />
+              <Image Name="BTN_5_x.png" />
+              <Image Name="BTN_6.png" />
+              <Image Name="BTN_6_x.png" />
+              <Image Name="BTN_7.png" />
+              <Image Name="BTN_7_x.png" />
+              <Image Name="BTN_8.png" />
+              <Image Name="BTN_8_x.png" />
+              <Image Name="BTN_9.png" />
+              <Image Name="BTN_9_x.png" />
+              <Image Name="BTN_Del.png" />
+              <Image Name="BTN_Del_x.png" />
+              <Image Name="BTN_Reset.png" />
+              <Image Name="BTN_Reset_x.png" />
+              <Fnt Name="fnt_num_match.fnt" />
+            </Folder>
+            <Image Name="Btn_Check_1.png" />
+            <Image Name="Btn_Check_2.png" />
+            <Image Name="Btn_Dh_0.png" />
+            <Image Name="Btn_Dh_1.png" />
+            <Image Name="img_wheel_0.png" />
+            <Image Name="img_wheel_1.png" />
+            <Image Name="img_wheel_10.png" />
+            <Image Name="img_wheel_11.png" />
+            <Image Name="img_wheel_12.png" />
+            <Image Name="img_wheel_2.png" />
+            <Image Name="img_wheel_3.png" />
+            <Image Name="img_wheel_4.png" />
+            <Image Name="img_wheel_5.png" />
+            <Image Name="img_wheel_6.png" />
+            <Image Name="img_wheel_7.png" />
+            <Image Name="img_wheel_8.png" />
+            <Image Name="img_wheel_9.png" />
+            <Image Name="Match_10.png" />
+            <Image Name="Match_8.png" />
+            <Image Name="sign_1.png" />
+            <Image Name="sign_2.png" />
+            <Image Name="sign_3.png" />
+            <Image Name="sign_4.png" />
+            <Image Name="sign_5.png" />
+            <Image Name="sign_6.png" />
+            <Image Name="sign_7.png" />
+            <Image Name="sign_8.png" />
+            <Image Name="sign_9.png" />
+            <Image Name="Weal_1.png" />
+            <Image Name="Weal_10.png" />
+            <Image Name="Weal_11.png" />
+            <Image Name="Weal_12.png" />
+            <Image Name="Weal_13.png" />
+            <Image Name="Weal_2.png" />
+            <Image Name="Weal_3.png" />
+            <Image Name="Weal_4.png" />
+            <Image Name="Weal_5.png" />
+            <Image Name="Weal_6.png" />
+            <Image Name="Weal_7.png" />
+            <Image Name="Weal_8.png" />
+            <Image Name="Weal_9.png" />
+            <Project Name="Wheel.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Folder Name="Tip">
+          <Folder Name="Image">
+            <Image Name="IMG_Title.png" />
+          </Folder>
+          <Project Name="Tip.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

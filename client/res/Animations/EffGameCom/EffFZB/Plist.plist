@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{146,130}}</string>
+				<key>offset</key>
+				<string>{-3,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{142,258},{142,128}}</string>
+				<key>offset</key>
+				<string>{1,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,156}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,260},{141,128}}</string>
+				<key>offset</key>
+				<string>{0,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{141,386},{134,128}}</string>
+				<key>offset</key>
+				<string>{4,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{133,514},{132,128}}</string>
+				<key>offset</key>
+				<string>{5,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,388},{133,128}}</string>
+				<key>offset</key>
+				<string>{5,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{275,386},{130,130}}</string>
+				<key>offset</key>
+				<string>{5,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,516},{128,126}}</string>
+				<key>offset</key>
+				<string>{4,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{284,258},{136,128}}</string>
+				<key>offset</key>
+				<string>{0,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,130},{142,130}}</string>
+				<key>offset</key>
+				<string>{-1,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,146}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{292,0},{144,130}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{142,130},{144,128}}</string>
+				<key>offset</key>
+				<string>{-4,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{286,130},{144,128}}</string>
+				<key>offset</key>
+				<string>{-4,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+			<key>Animations/EffGameCom/EffFZB/BKLG_14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{146,0},{146,130}}</string>
+				<key>offset</key>
+				<string>{-3,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,148}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{512,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

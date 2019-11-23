@@ -1,0 +1,1629 @@
+{
+  "ID": "49537cf3-8835-4375-ac41-333aca5a9ead",
+  "Version": "2.3.4",
+  "Name": "Wheel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 35,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Wheel/img_wheel_11.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 198.9601,
+                  "Y": 1.6622
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -188.0399,
+                "RightMargin": -585.9601,
+                "TopMargin": -293.6622,
+                "BottomMargin": -290.3378,
+                "Tag": 13,
+                "ActionTag": 1451002912,
+                "Size": {
+                  "X": 774.0,
+                  "Y": 584.0
+                },
+                "Name": "ND_BG",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "1.每天登陆即可获得\n            3次抽奖机会",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 379.5703,
+                  "Y": 68.3915
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 130,
+                  "G": 95,
+                  "B": 75
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 267.0703,
+                "RightMargin": -492.0703,
+                "TopMargin": -103.3915,
+                "BottomMargin": 33.3915,
+                "Tag": 36,
+                "ActionTag": -577370520,
+                "Size": {
+                  "X": 225.0,
+                  "Y": 70.0
+                },
+                "Name": "ND_Tip1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "2.每次抽奖将会消耗\n                   500SEER",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 333.1072,
+                  "Y": -58.9804
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 130,
+                  "G": 95,
+                  "B": 75
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 219.6072,
+                "RightMargin": -446.6072,
+                "TopMargin": 23.9804,
+                "BottomMargin": -93.9804,
+                "Tag": 37,
+                "ActionTag": 2025142008,
+                "Size": {
+                  "X": 227.0,
+                  "Y": 70.0
+                },
+                "Name": "ND_Tip2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "3.抽奖机会当日有效，0点重置。",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 281.5428,
+                  "Y": -161.5846
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 130,
+                  "G": 95,
+                  "B": 75
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 109.5428,
+                "RightMargin": -453.5428,
+                "TopMargin": 144.0846,
+                "BottomMargin": -179.0846,
+                "Tag": 38,
+                "ActionTag": -424436165,
+                "Size": {
+                  "X": 344.0,
+                  "Y": 35.0
+                },
+                "Name": "ND_Tip3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 528.9617,
+                  "Y": 187.6611
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 495.9617,
+                "RightMargin": -561.9617,
+                "TopMargin": -224.6611,
+                "BottomMargin": 150.6611,
+                "Tag": 34,
+                "ActionTag": -1403248648,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "Btn_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Wheel/img_wheel_10.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -275.0392,
+                  "Y": 1.6616
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -586.0392,
+                "RightMargin": -35.9608,
+                "TopMargin": -312.6616,
+                "BottomMargin": -309.3384,
+                "Tag": 16,
+                "ActionTag": -1734458042,
+                "Size": {
+                  "X": 622.0,
+                  "Y": 622.0
+                },
+                "Name": "ND_Wheel",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Animations/EffHall/ZhuanPan/EffDeng.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -275.0391,
+                  "Y": -2.34
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -275.0391,
+                "RightMargin": 275.0391,
+                "TopMargin": 2.34,
+                "BottomMargin": -2.34,
+                "Tag": 45,
+                "ActionTag": -1532373773,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Eff2",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Animations/EffHall/ZhuanPan/EffZhuanPan.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -275.0391,
+                  "Y": 1.6615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -275.0391,
+                "RightMargin": 275.0391,
+                "TopMargin": -1.6615,
+                "BottomMargin": 1.6615,
+                "Tag": 32,
+                "ActionTag": 703619738,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Eff1",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Wheel/img_wheel_5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": -279.04,
+                  "Y": 1.66
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -360.04,
+                "RightMargin": 198.04,
+                "TopMargin": -277.66,
+                "BottomMargin": 1.66,
+                "Tag": 15,
+                "ActionTag": 2105265208,
+                "Size": {
+                  "X": 162.0,
+                  "Y": 276.0
+                },
+                "Name": "ND_Pointer",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -275.0,
+                  "Y": -3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -275.0,
+                "RightMargin": 275.0,
+                "TopMargin": 3.0,
+                "BottomMargin": -3.0,
+                "Tag": 39,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "5.18万",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -39.0,
+                    "RightMargin": -39.0,
+                    "TopMargin": -170.0,
+                    "Tag": 40,
+                    "ActionTag": -2038002261,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 170.0
+                    },
+                    "Name": "1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "1800",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 30.0,
+                    "RotationSkewY": 30.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -15.0,
+                    "RightMargin": -15.0,
+                    "TopMargin": -170.0,
+                    "Tag": 41,
+                    "ActionTag": -1638763263,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 170.0
+                    },
+                    "Name": "2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "2800",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 60.0,
+                    "RotationSkewY": 60.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -170.0,
+                    "Tag": 42,
+                    "ActionTag": 1516007321,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 170.0
+                    },
+                    "Name": "3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "8900",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 90.0,
+                    "RotationSkewY": 90.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -170.0,
+                    "Tag": 43,
+                    "ActionTag": 1528506042,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 170.0
+                    },
+                    "Name": "4",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "9800",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 120.0,
+                    "RotationSkewY": 120.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -170.0,
+                    "Tag": 44,
+                    "ActionTag": -937494867,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 170.0
+                    },
+                    "Name": "5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "3800",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 150.0,
+                    "RotationSkewY": 150.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -170.0,
+                    "Tag": 45,
+                    "ActionTag": -1457764606,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 170.0
+                    },
+                    "Name": "6",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "4800",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -170.0,
+                    "Tag": 46,
+                    "ActionTag": 1849704414,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 170.0
+                    },
+                    "Name": "7",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "3.88万",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 210.0,
+                    "RotationSkewY": 210.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -34.0,
+                    "RightMargin": -34.0,
+                    "TopMargin": -170.0,
+                    "Tag": 47,
+                    "ActionTag": -1231223122,
+                    "Size": {
+                      "X": 68.0,
+                      "Y": 170.0
+                    },
+                    "Name": "8",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "1.08万",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 240.0,
+                    "RotationSkewY": 240.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -34.0,
+                    "RightMargin": -34.0,
+                    "TopMargin": -170.0,
+                    "Tag": 48,
+                    "ActionTag": -614377086,
+                    "Size": {
+                      "X": 68.0,
+                      "Y": 170.0
+                    },
+                    "Name": "9",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "7800",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 270.0,
+                    "RotationSkewY": 270.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -170.0,
+                    "Tag": 49,
+                    "ActionTag": -1659589271,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 170.0
+                    },
+                    "Name": "10",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "2.18万",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 300.0,
+                    "RotationSkewY": 300.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.0,
+                    "RightMargin": -33.0,
+                    "TopMargin": -170.0,
+                    "Tag": 50,
+                    "ActionTag": 1744733624,
+                    "Size": {
+                      "X": 66.0,
+                      "Y": 170.0
+                    },
+                    "Name": "11",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "1.18万",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 187,
+                      "G": 40,
+                      "B": 7
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 330.0,
+                    "RotationSkewY": 330.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -34.0,
+                    "RightMargin": -34.0,
+                    "TopMargin": -170.0,
+                    "Tag": 51,
+                    "ActionTag": 1774171033,
+                    "Size": {
+                      "X": 68.0,
+                      "Y": 170.0
+                    },
+                    "Name": "12",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1753067317,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Num",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Wheel/img_wheel_8.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Wheel/img_wheel_9.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Wheel/img_wheel_8.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 164,
+                "Scale9Height": 170,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -275.0425,
+                  "Y": 1.6606
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -372.0425,
+                "RightMargin": 178.0425,
+                "TopMargin": -97.6606,
+                "BottomMargin": -94.3394,
+                "Tag": 14,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Wheel/img_wheel_6.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 97.0,
+                      "Y": 96.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 17,
+                    "ActionTag": 115005111,
+                    "Size": {
+                      "X": 194.0,
+                      "Y": 192.0
+                    },
+                    "Name": "free",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Wheel/img_wheel_4.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 97.0,
+                      "Y": 96.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 18,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Home/Wheel/img_wheel_0.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.2828,
+                          "Y": 95.2082
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5221,
+                          "Y": 0.4959
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 4.2828,
+                        "RightMargin": -4.2828,
+                        "TopMargin": 0.7918,
+                        "BottomMargin": -0.7918,
+                        "Tag": 19,
+                        "ActionTag": -1835879163,
+                        "Size": {
+                          "X": 194.0,
+                          "Y": 192.0
+                        },
+                        "Name": "0",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Home/Wheel/img_wheel_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.2828,
+                          "Y": 95.2082
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5221,
+                          "Y": 0.4959
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 4.2828,
+                        "RightMargin": -4.2828,
+                        "TopMargin": 0.7918,
+                        "BottomMargin": -0.7918,
+                        "Tag": 22,
+                        "ActionTag": -1069600537,
+                        "Size": {
+                          "X": 194.0,
+                          "Y": 192.0
+                        },
+                        "Name": "1",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Home/Wheel/img_wheel_2.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.2828,
+                          "Y": 95.2082
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5221,
+                          "Y": 0.4959
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 4.2828,
+                        "RightMargin": -4.2828,
+                        "TopMargin": 0.7918,
+                        "BottomMargin": -0.7918,
+                        "Tag": 20,
+                        "ActionTag": -479700648,
+                        "Size": {
+                          "X": 194.0,
+                          "Y": 192.0
+                        },
+                        "Name": "2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Home/Wheel/img_wheel_3.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.2828,
+                          "Y": 95.2082
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5221,
+                          "Y": 0.4959
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 4.2828,
+                        "RightMargin": -4.2828,
+                        "TopMargin": 0.7918,
+                        "BottomMargin": -0.7918,
+                        "Tag": 21,
+                        "ActionTag": -996688210,
+                        "Size": {
+                          "X": 194.0,
+                          "Y": 192.0
+                        },
+                        "Name": "3",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 156436756,
+                    "Size": {
+                      "X": 194.0,
+                      "Y": 192.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "charge",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -2055295622,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 192.0
+                },
+                "Name": "Btn_Go",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -759756625,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Animations/EffHall/ZhuanPan/EffDeng.json",
+        "../../Animations/EffHall/ZhuanPan/EffZhuanPan.json",
+        "../../Common/Images/BTN_CloseN.png",
+        "../../Common/Images/BTN_CloseP.png",
+        "../../Fonts/YaHei.ttf",
+        "img_wheel_0.png",
+        "img_wheel_1.png",
+        "img_wheel_10.png",
+        "img_wheel_11.png",
+        "img_wheel_2.png",
+        "img_wheel_3.png",
+        "img_wheel_4.png",
+        "img_wheel_5.png",
+        "img_wheel_6.png",
+        "img_wheel_8.png",
+        "img_wheel_9.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,805 @@
+{
+  "ID": "4af4a5a8-d067-4ca3-a75d-0ed37af37fb9",
+  "Version": "2.3.4",
+  "Name": "RoundSettlement",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 32,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 33,
+            "ActionTag": -303342537,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BTN_Mask",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/Settlement_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 436,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 34,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "2018/888/88:88:88\n牌局号: 123456789\n房间: 888888888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 156.0,
+                  "Y": 52.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 105,
+                  "B": 42
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1219,
+                  "Y": 0.0722
+                },
+                "PreSize": {
+                  "X": 0.1539,
+                  "Y": 0.1375
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 1025.5,
+                "TopMargin": 618.5,
+                "BottomMargin": 2.5,
+                "Tag": 264,
+                "ActionTag": 1742212292,
+                "Size": {
+                  "X": 197.0,
+                  "Y": 99.0
+                },
+                "Name": "Label_RoundInfo",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 169,
+                "Scale9OriginY": 56,
+                "Scale9Width": 176,
+                "Scale9Height": 60,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 660.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9167
+                },
+                "PreSize": {
+                  "X": 0.4016,
+                  "Y": 0.2389
+                },
+                "LeftMargin": 383.0,
+                "RightMargin": 383.0,
+                "TopMargin": -26.0,
+                "BottomMargin": 574.0,
+                "Tag": 35,
+                "ActionTag": 862199610,
+                "Size": {
+                  "X": 514.0,
+                  "Y": 172.0
+                },
+                "Name": "IMG_WinTitle",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 169,
+                "Scale9OriginY": 56,
+                "Scale9Width": 176,
+                "Scale9Height": 60,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 660.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9167
+                },
+                "PreSize": {
+                  "X": 0.4016,
+                  "Y": 0.2389
+                },
+                "LeftMargin": 383.0,
+                "RightMargin": 383.0,
+                "TopMargin": -26.0,
+                "BottomMargin": 574.0,
+                "Tag": 36,
+                "ActionTag": 1540441927,
+                "Size": {
+                  "X": 514.0,
+                  "Y": 172.0
+                },
+                "Name": "IMG_LoseTitle",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_BTNShareN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_BTNShareP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_BTNShareN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 390.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3047,
+                  "Y": 0.0694
+                },
+                "PreSize": {
+                  "X": 0.1906,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 268.0,
+                "RightMargin": 768.0,
+                "TopMargin": 618.0,
+                "BottomMargin": -2.0,
+                "Tag": 37,
+                "ActionTag": 389699710,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_Share",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_BTNNextRoundN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_BTNNextRoundP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/Settlement_BTNNextRoundN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 890.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6953,
+                  "Y": 0.0694
+                },
+                "PreSize": {
+                  "X": 0.1906,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 768.0,
+                "RightMargin": 268.0,
+                "TopMargin": 618.0,
+                "BottomMargin": -2.0,
+                "Tag": 38,
+                "ActionTag": -582719278,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_NextRound",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 33,
+                "LabelText": "99",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 3,
+                "OutlineColor": {
+                  "R": 33,
+                  "G": 133,
+                  "B": 70
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 958.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 241,
+                  "B": 235
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7484,
+                  "Y": 0.0694
+                },
+                "PreSize": {
+                  "X": 0.0305,
+                  "Y": 0.0722
+                },
+                "LeftMargin": 938.5,
+                "RightMargin": 302.5,
+                "TopMargin": 644.0,
+                "BottomMargin": 24.0,
+                "Tag": 39,
+                "ActionTag": -1888514362,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 52.0
+                },
+                "Name": "TXT_CountDown",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Settlement/RoundSettlementPlayerInfo.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 124.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0969,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 124.0,
+                "RightMargin": 1156.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 360.0,
+                "Tag": 78,
+                "ActionTag": 103400236,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Player1",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Settlement/RoundSettlementPlayerInfo.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 332.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.2594,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 332.0,
+                "RightMargin": 948.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 360.0,
+                "Tag": 93,
+                "ActionTag": -921796038,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Player2",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Settlement/RoundSettlementPlayerInfo.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 540.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.4219,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 540.0,
+                "RightMargin": 740.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 360.0,
+                "Tag": 108,
+                "ActionTag": 160706924,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Player3",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Settlement/RoundSettlementPlayerInfo.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 748.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5844,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 748.0,
+                "RightMargin": 532.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 360.0,
+                "Tag": 123,
+                "ActionTag": 638707377,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Player4",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Settlement/RoundSettlementPlayerInfo.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 956.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7469,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 956.0,
+                "RightMargin": 324.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 360.0,
+                "Tag": 138,
+                "ActionTag": 1365845754,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Player5",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Settlement/RoundSettlementPlayerInfo.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1160.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.9063,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1160.0,
+                "RightMargin": 120.0,
+                "TopMargin": 360.0,
+                "BottomMargin": 360.0,
+                "Tag": 153,
+                "ActionTag": -1581334739,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Player6",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1080.0,
+                  "Y": 661.0
+                },
+                "Scale": {
+                  "ScaleX": 0.63,
+                  "ScaleY": 0.63
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8438,
+                  "Y": 0.9181
+                },
+                "PreSize": {
+                  "X": 0.0359,
+                  "Y": 0.0639
+                },
+                "LeftMargin": 1057.0,
+                "RightMargin": 177.0,
+                "TopMargin": 36.0,
+                "BottomMargin": 638.0,
+                "Tag": 132,
+                "ActionTag": -1434527589,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Qr_Code_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1693512601,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/Com_Mask.png",
+        "../../../Default/Sprite.png",
+        "../../../Fonts/YaHei.ttf",
+        "../Image/Settlement_1.png",
+        "../Image/Settlement_2.png",
+        "../Image/Settlement_3.png",
+        "../Image/Settlement_BTNNextRoundN.png",
+        "../Image/Settlement_BTNNextRoundP.png",
+        "../Image/Settlement_BTNShareN.png",
+        "../Image/Settlement_BTNShareP.png",
+        "RoundSettlementPlayerInfo.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

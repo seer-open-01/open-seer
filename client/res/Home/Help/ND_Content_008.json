@@ -1,0 +1,174 @@
+{
+  "ID": "df2badf5-dbc1-45bc-8a9b-e1cff45eaf35",
+  "Version": "2.3.4",
+  "Name": "ND_Content_008",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 283,
+        "Children": [
+          {
+            "IsBounceEnabled": true,
+            "InnerNodeSize": {
+              "Width": 700,
+              "Height": 3774
+            },
+            "ScrollDirectionType": "Vertical",
+            "ClipAble": true,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 284,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Help/image/IMG_701.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 3774.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.9971,
+                  "Y": 0.7052
+                },
+                "RightMargin": 2.0,
+                "BottomMargin": 1726.0,
+                "Tag": 383,
+                "ActionTag": 744585318,
+                "Size": {
+                  "X": 698.0,
+                  "Y": 2048.0
+                },
+                "Name": "IMG_Content1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Help/image/IMG_702.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 1.0,
+                  "Y": 1726.0011
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0014,
+                  "Y": 0.4573
+                },
+                "PreSize": {
+                  "X": 0.9971,
+                  "Y": 0.2948
+                },
+                "LeftMargin": 1.0,
+                "RightMargin": 1.0,
+                "TopMargin": 2047.9989,
+                "BottomMargin": 0.0011,
+                "Tag": 201,
+                "ActionTag": -826501953,
+                "Size": {
+                  "X": 698.0,
+                  "Y": 1726.0
+                },
+                "Name": "IMG_Content2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -932479933,
+            "Size": {
+              "X": 700.0,
+              "Y": 470.0
+            },
+            "Name": "SV_Content",
+            "ctype": "ScrollViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 700.0,
+          "Y": 470.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "image/IMG_701.png",
+        "image/IMG_702.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

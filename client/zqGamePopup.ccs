@@ -1,0 +1,268 @@
+<Solution>
+  <PropertyGroup Name="zqGamePopup" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="Btn_Confirm_1.png" />
+            <Image Name="Btn_Confirm_2.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="IMG_Gold.png" />
+            <Image Name="IMG_PFC.png" />
+            <Image Name="IMG_Seer1.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+            <Image Name="reward_1.png" />
+            <Image Name="reward_2.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Games">
+          <Folder Name="Com">
+            <Folder Name="Head">
+              <Project Name="GameHead.csd" Type="Node" />
+              <Image Name="HeadBG.png" />
+              <Image Name="HeadDefaultImg.png" />
+            </Folder>
+            <Folder Name="RoomBtnCtrl">
+              <Image Name="BG_RoomCtrl.png" />
+              <Image Name="BTN_BankN.png" />
+              <Image Name="BTN_BankP.png" />
+              <Image Name="BTN_QuitN.png" />
+              <Image Name="BTN_QuitP.png" />
+              <Image Name="BTN_RuleN.png" />
+              <Image Name="BTN_RuleP.png" />
+              <Image Name="BTN_SetN.png" />
+              <Image Name="BTN_SetP.png" />
+              <Image Name="BTN_SwitchN.png" />
+              <Image Name="BTN_SwitchP.png" />
+              <Image Name="BTN_TrustN.png" />
+              <Image Name="BTN_TrustP.png" />
+              <Project Name="RoomBtnCtrl.csd" Type="Node" />
+            </Folder>
+            <Folder Name="System">
+              <Image Name="ComSystemInfo_Batter.png" />
+              <Image Name="ComSystemInfo_BatterBG.png" />
+              <Project Name="GameSystem.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Tell">
+              <Project Name="Tell.csd" Type="Node" />
+              <Image Name="tell_1.png" />
+              <Image Name="tell_2.png" />
+              <Image Name="tell_3.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="ComWindow">
+            <Folder Name="ChatWindow">
+              <Folder Name="ChatFaceEmoji">
+                <Folder Name="1">
+                  <Image Name="1-1-1.png" />
+                  <Image Name="1-1-2.png" />
+                  <Image Name="1-1-3.png" />
+                  <Image Name="1-1-4.png" />
+                  <Image Name="1-1-5.png" />
+                  <Image Name="1-1-6.png" />
+                </Folder>
+                <Folder Name="10">
+                  <Image Name="4-1-1.png" />
+                  <Image Name="4-1-2.png" />
+                  <Image Name="4-1-3.png" />
+                  <Image Name="4-1-4.png" />
+                </Folder>
+                <Folder Name="11">
+                  <Image Name="4-2-1.png" />
+                  <Image Name="4-2-2.png" />
+                </Folder>
+                <Folder Name="12">
+                  <Image Name="4-3-1.png" />
+                  <Image Name="4-3-2.png" />
+                </Folder>
+                <Folder Name="13">
+                  <Image Name="5-1-1.png" />
+                  <Image Name="5-1-2.png" />
+                </Folder>
+                <Folder Name="14">
+                  <Image Name="5-2-1.png" />
+                  <Image Name="5-2-2.png" />
+                  <Image Name="5-2-3.png" />
+                  <Image Name="5-2-4.png" />
+                </Folder>
+                <Folder Name="15">
+                  <Image Name="5-3-1.png" />
+                  <Image Name="5-3-2.png" />
+                </Folder>
+                <Folder Name="2">
+                  <Image Name="1-2-1.png" />
+                  <Image Name="1-2-2.png" />
+                  <Image Name="1-2-3.png" />
+                  <Image Name="1-2-4.png" />
+                  <Image Name="1-2-5.png" />
+                  <Image Name="1-2-6.png" />
+                </Folder>
+                <Folder Name="3">
+                  <Image Name="1-3-1.png" />
+                  <Image Name="1-3-2.png" />
+                  <Image Name="1-3-3.png" />
+                  <Image Name="1-3-4.png" />
+                  <Image Name="1-3-5.png" />
+                  <Image Name="1-3-6.png" />
+                  <Image Name="1-3-7.png" />
+                </Folder>
+                <Folder Name="4">
+                  <Image Name="2-1-1.png" />
+                  <Image Name="2-1-2.png" />
+                  <Image Name="2-1-3.png" />
+                  <Image Name="2-1-4.png" />
+                  <Image Name="2-1-5.png" />
+                  <Image Name="2-1-6.png" />
+                  <Image Name="2-1-7.png" />
+                </Folder>
+                <Folder Name="5">
+                  <Image Name="2-2-1.png" />
+                  <Image Name="2-2-2.png" />
+                  <Image Name="2-2-3.png" />
+                  <Image Name="2-2-4.png" />
+                </Folder>
+                <Folder Name="6">
+                  <Image Name="2-3-1.png" />
+                  <Image Name="2-3-2.png" />
+                  <Image Name="2-3-3.png" />
+                  <Image Name="2-3-4.png" />
+                  <Image Name="2-3-5.png" />
+                  <Image Name="2-3-6.png" />
+                  <Image Name="2-3-7.png" />
+                </Folder>
+                <Folder Name="7">
+                  <Image Name="3-1-1.png" />
+                  <Image Name="3-1-2.png" />
+                  <Image Name="3-1-3.png" />
+                  <Image Name="3-1-4.png" />
+                </Folder>
+                <Folder Name="8">
+                  <Image Name="3-2-1.png" />
+                  <Image Name="3-2-2.png" />
+                  <Image Name="3-2-3.png" />
+                  <Image Name="3-2-4.png" />
+                  <Image Name="3-2-5.png" />
+                  <Image Name="3-2-6.png" />
+                </Folder>
+                <Folder Name="9">
+                  <Image Name="3-3-1.png" />
+                  <Image Name="3-3-2.png" />
+                  <Image Name="3-3-3.png" />
+                  <Image Name="3-3-4.png" />
+                </Folder>
+                <Project Name="Emoji_1.csd" Type="Node" />
+                <Project Name="Emoji_10.csd" Type="Node" />
+                <Project Name="Emoji_11.csd" Type="Node" />
+                <Project Name="Emoji_12.csd" Type="Node" />
+                <Project Name="Emoji_13.csd" Type="Node" />
+                <Project Name="Emoji_14.csd" Type="Node" />
+                <Project Name="Emoji_15.csd" Type="Node" />
+                <Project Name="Emoji_2.csd" Type="Node" />
+                <Project Name="Emoji_3.csd" Type="Node" />
+                <Project Name="Emoji_4.csd" Type="Node" />
+                <Project Name="Emoji_5.csd" Type="Node" />
+                <Project Name="Emoji_6.csd" Type="Node" />
+                <Project Name="Emoji_7.csd" Type="Node" />
+                <Project Name="Emoji_8.csd" Type="Node" />
+                <Project Name="Emoji_9.csd" Type="Node" />
+                <PlistInfo Name="EmojiPlist.csi" Type="Plist" />
+              </Folder>
+              <Folder Name="FaceImage">
+                <Image Name="1.png" />
+                <Image Name="10.png" />
+                <Image Name="11.png" />
+                <Image Name="12.png" />
+                <Image Name="13.png" />
+                <Image Name="14.png" />
+                <Image Name="15.png" />
+                <Image Name="2.png" />
+                <Image Name="3.png" />
+                <Image Name="4.png" />
+                <Image Name="5.png" />
+                <Image Name="6.png" />
+                <Image Name="7.png" />
+                <Image Name="8.png" />
+                <Image Name="9.png" />
+              </Folder>
+              <Project Name="ChatFace.csd" Type="Node" />
+              <Project Name="ChatText.csd" Type="Node" />
+              <Project Name="ChatWindow.csd" Type="Layer" />
+              <Image Name="ChatWindow_1.png" />
+              <Image Name="ChatWindow_2.png" />
+              <Image Name="ChatWindow_3.png" />
+              <Image Name="ChatWindow_4.png" />
+              <Image Name="ChatWindow_5.png" />
+              <Image Name="ChatWindow_6.png" />
+            </Folder>
+            <Folder Name="PatternHintWindow">
+              <Image Name="BG_Pattern.png" />
+              <Project Name="GamePatternHint.csd" Type="Layer" />
+              <Image Name="PSZ_Pattern_Content.png" />
+              <Image Name="PSZ_Pattern_Title.png" />
+            </Folder>
+            <Folder Name="PlayerInfo">
+              <Image Name="Btn_Kick_0.png" />
+              <Image Name="Btn_Kick_1.png" />
+              <Image Name="GameComPlayerInfo_BTNDaoJiuD.png" />
+              <Image Name="GameComPlayerInfo_BTNDaoJiuN.png" />
+              <Image Name="GameComPlayerInfo_BTNDaoJiuP.png" />
+              <Image Name="GameComPlayerInfo_BTNHuaD.png" />
+              <Image Name="GameComPlayerInfo_BTNHuaN.png" />
+              <Image Name="GameComPlayerInfo_BTNHuaP.png" />
+              <Image Name="GameComPlayerInfo_BTNQinZuiD.png" />
+              <Image Name="GameComPlayerInfo_BTNQinZuiN.png" />
+              <Image Name="GameComPlayerInfo_BTNQinZuiP.png" />
+              <Image Name="GameComPlayerInfo_BTNYeZiD.png" />
+              <Image Name="GameComPlayerInfo_BTNYeZiN.png" />
+              <Image Name="GameComPlayerInfo_BTNYeZiP.png" />
+              <Image Name="GameComPlayerInfo_BTNZhaDanD.png" />
+              <Image Name="GameComPlayerInfo_BTNZhaDanN.png" />
+              <Image Name="GameComPlayerInfo_BTNZhaDanP.png" />
+              <Project Name="GamePlayerInfo.csd" Type="Layer" />
+              <Image Name="IMG_EmojiBg.png" />
+              <Image Name="IMG_HeadPicBoard.png" />
+              <Image Name="IMG_HeadPicDef.png" />
+              <Image Name="IMG_PlayerInfo_1.png" />
+              <Image Name="IMG_PlayerInfo_4.png" />
+              <Image Name="IMG_PlayerInfo_5.png" />
+            </Folder>
+            <Folder Name="Setting">
+              <Project Name="GameSetting.csd" Type="Layer" />
+              <Image Name="IMG_LoadingBar.png" />
+              <Image Name="IMG_LoadingBg.png" />
+              <Image Name="IMG_MusicN.png" />
+              <Image Name="IMG_SetTitle.png" />
+              <Image Name="IMG_ShaiZi.png" />
+              <Image Name="IMG_SoundN.png" />
+              <Image Name="IMG_XieGang.png" />
+              <Image Name="TEXT_Music.png" />
+              <Image Name="TEXT_Sound.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

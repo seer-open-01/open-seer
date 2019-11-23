@@ -1,0 +1,126 @@
+{
+  "ID": "327e9af2-9441-4223-98b0-f68093559a81",
+  "Version": "2.3.4",
+  "Name": "HuTipWindow",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 16,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/HangupTasks_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 50,
+            "Scale9OriginY": 44,
+            "Scale9Width": 28,
+            "Scale9Height": 40,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 99.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -75.0,
+            "RightMargin": -75.0,
+            "TopMargin": -199.0,
+            "BottomMargin": -1.0,
+            "Tag": 17,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Mahjong/Images/IMG_Hu_Txt.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 102.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4667,
+                  "Y": 0.51
+                },
+                "PreSize": {
+                  "X": 0.56,
+                  "Y": 0.54
+                },
+                "LeftMargin": 28.0,
+                "RightMargin": 38.0,
+                "TopMargin": 44.0,
+                "BottomMargin": 48.0,
+                "Tag": 188,
+                "ActionTag": 953265502,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 108.0
+                },
+                "Name": "IMG_Hu",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1214255076,
+            "Size": {
+              "X": 150.0,
+              "Y": 200.0
+            },
+            "Name": "ND_Bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Images/HangupTasks_1.png",
+        "../Images/IMG_Hu_Txt.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

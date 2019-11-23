@@ -1,0 +1,282 @@
+{
+  "ID": "7848aa7e-a9af-4dd9-a5f1-13f5e909aead",
+  "Version": "2.3.4",
+  "Name": "Home",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 20,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 21,
+            "ActionTag": -1735857374,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Bg_Home",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Animations/EffHall/EffPangXie.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1360.0,
+              "Y": 60.0
+            },
+            "Scale": {
+              "ScaleX": 0.36,
+              "ScaleY": 0.36
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 1.0625,
+              "Y": 0.0833
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1360.0,
+            "RightMargin": -80.0,
+            "TopMargin": 660.0,
+            "BottomMargin": 60.0,
+            "Tag": 69,
+            "ActionTag": -1022318419,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Crab",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/MainUI/Bottom.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0003,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.1278
+            },
+            "LeftMargin": -0.0003,
+            "RightMargin": 0.0002,
+            "TopMargin": 628.0,
+            "Tag": 270,
+            "ActionTag": 880005855,
+            "Size": {
+              "X": 1280.0,
+              "Y": 92.0
+            },
+            "Name": "ND_Bottom",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/MainUI/Right.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 449.0,
+              "Y": 124.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.3508,
+              "Y": 0.1722
+            },
+            "PreSize": {
+              "X": 0.5719,
+              "Y": 0.6556
+            },
+            "LeftMargin": 449.0,
+            "RightMargin": 99.0,
+            "TopMargin": 124.0,
+            "BottomMargin": 124.0,
+            "Tag": 1008,
+            "ActionTag": 591119797,
+            "Size": {
+              "X": 732.0,
+              "Y": 472.0
+            },
+            "Name": "ND_Right",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/MainUI/Top.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 580.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.8056
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.1917
+            },
+            "TopMargin": 2.0,
+            "BottomMargin": 580.0,
+            "Tag": 403,
+            "ActionTag": 391637555,
+            "Size": {
+              "X": 1280.0,
+              "Y": 138.0
+            },
+            "Name": "ND_Top",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/MainUI/Left.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0007,
+              "Y": 162.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.225
+            },
+            "PreSize": {
+              "X": 0.3125,
+              "Y": 0.5917
+            },
+            "LeftMargin": 0.0007,
+            "RightMargin": 879.9993,
+            "TopMargin": 132.0,
+            "BottomMargin": 162.0,
+            "Tag": 849,
+            "ActionTag": 2084341944,
+            "Size": {
+              "X": 400.0,
+              "Y": 426.0
+            },
+            "Name": "ND_Left",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Animations/EffHall/EffPangXie.json",
+        "../Common/Images/Com_Bg.png",
+        "MainUI/Bottom.json",
+        "MainUI/Left.json",
+        "MainUI/Right.json",
+        "MainUI/Top.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,923 @@
+{
+  "ID": "19a63e7a-660f-464f-a7d6-1e490c28c5e0",
+  "Version": "2.3.4",
+  "Name": "CardPattern",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 62,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P0.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 65,
+            "ActionTag": -1130456928,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 66,
+            "ActionTag": 466150699,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 67,
+            "ActionTag": -1230789907,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 68,
+            "ActionTag": -499712197,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P4.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 69,
+            "ActionTag": -948522300,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P5.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 70,
+            "ActionTag": 484996476,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P6.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 71,
+            "ActionTag": -331669900,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P7.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 72,
+            "ActionTag": -850800800,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P8.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 73,
+            "ActionTag": 1481337263,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_8",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_P9.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 74,
+            "ActionTag": -509042081,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_9",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_PN.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 75,
+            "ActionTag": 140801984,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_WH.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 79,
+            "ActionTag": 215349741,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_11",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_SZ.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 76,
+            "ActionTag": -1127742117,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_TH.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 77,
+            "ActionTag": -855730736,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_13",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_HL.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 64,
+            "ActionTag": -782810443,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_14",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_ZD.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 81,
+            "ActionTag": 42067674,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_15",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_WX.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 80,
+            "ActionTag": -1429807391,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_16",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_THS.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.0,
+            "RightMargin": -159.0,
+            "TopMargin": -65.0,
+            "BottomMargin": -65.0,
+            "Tag": 78,
+            "ActionTag": -1927081080,
+            "Size": {
+              "X": 318.0,
+              "Y": 130.0
+            },
+            "Name": "ND_Pattern_17",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinShi/Image/IMG_Pattern_Finish.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -80.0,
+            "RightMargin": -80.0,
+            "TopMargin": -33.0,
+            "BottomMargin": -33.0,
+            "Tag": 63,
+            "ActionTag": -930589982,
+            "Size": {
+              "X": 160.0,
+              "Y": 66.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Pattern_18",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/IMG_Pattern_Finish.png",
+        "../Image/IMG_Pattern_HL.png",
+        "../Image/IMG_Pattern_P0.png",
+        "../Image/IMG_Pattern_P1.png",
+        "../Image/IMG_Pattern_P2.png",
+        "../Image/IMG_Pattern_P3.png",
+        "../Image/IMG_Pattern_P4.png",
+        "../Image/IMG_Pattern_P5.png",
+        "../Image/IMG_Pattern_P6.png",
+        "../Image/IMG_Pattern_P7.png",
+        "../Image/IMG_Pattern_P8.png",
+        "../Image/IMG_Pattern_P9.png",
+        "../Image/IMG_Pattern_PN.png",
+        "../Image/IMG_Pattern_SZ.png",
+        "../Image/IMG_Pattern_TH.png",
+        "../Image/IMG_Pattern_THS.png",
+        "../Image/IMG_Pattern_WH.png",
+        "../Image/IMG_Pattern_WX.png",
+        "../Image/IMG_Pattern_ZD.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,28 @@
+
+[
+  "src/games/pinSan/logic/GameLogicPinSan.js",
+  "src/games/pinSan/audio/GameAudioPinSan.js",
+  "src/games/pinSan/data/GameDataPinSanHelp.js",
+
+  "src/games/pinSan/ui/GameWindowPinSan.js",
+  "src/games/pinSan/ui/players/UserInfo.js",
+  "src/games/pinSan/ui/players/Player.js",
+  "src/games/pinSan/ui/players/PlayerSub.js",
+  "src/games/pinSan/ui/ctrl/PreBegin.js",
+  "src/games/pinSan/ui/HandCards/Card.js",
+  "src/games/pinSan/ui/HandCards/HandCards.js",
+  "src/games/pinSan/ui/HandCards/HandCardsSub.js",
+  "src/games/pinSan/ui/ctrl/PlayCardsAnimation.js",
+  "src/games/pinSan/ui/ctrl/PlayBtn.js",
+  "src/games/pinSan/ui/ctrl/FillPanel.js",
+  "src/games/pinSan/ui/ctrl/ChipsPanel.js",
+  "src/games/pinSan/ui/ctrl/ComparePanel.js",
+  "src/games/pinSan/ui/ctrl/ComparePanelSub.js",
+  "src/games/pinSan/ui/ctrl/CompareAnimation.js",
+  "src/games/pinSan/ui/ctrl/CompareAnimationSub.js",
+  "src/games/pinSan/ui/ctrl/CardsStatus.js",
+  "src/games/pinSan/ui/ctrl/CardsPattern.js",
+  "src/games/pinSan/ui/ctrl/RoomInfo.js",
+  "src/games/pinSan/ui/settlement/RoundSettlement.js",
+  "src/games/pinSan/ui/settlement/RoundSettlementPlayer.js"
+]

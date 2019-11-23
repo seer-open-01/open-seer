@@ -1,0 +1,121 @@
+{
+  "ID": "21084997-a512-4f70-aa5c-9b29985e374f",
+  "Version": "2.3.4",
+  "Name": "PublicCardsNumber",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 937,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/PIC_ShengYu.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 10,
+            "Scale9Width": 46,
+            "Scale9Height": 12,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -36.0,
+            "RightMargin": -36.0,
+            "TopMargin": -16.0,
+            "BottomMargin": -16.0,
+            "Tag": 938,
+            "ActionTag": -1400034315,
+            "Size": {
+              "X": 72.0,
+              "Y": 32.0
+            },
+            "Name": "IMG_Bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "LabelText": "123z",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Mahjong/Images/Fnt/Mahjong_PublicCardsNumberFnt.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 80.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 34.0,
+            "RightMargin": -126.0,
+            "TopMargin": -14.0,
+            "BottomMargin": -14.0,
+            "Tag": 939,
+            "ActionTag": 2045592434,
+            "Size": {
+              "X": 92.0,
+              "Y": 28.0
+            },
+            "Name": "FNT_Number",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Images/Fnt/Mahjong_PublicCardsNumberFnt.fnt",
+        "../Images/Fnt/Mahjong_PublicCardsNumberFnt_0.png",
+        "../Images/PIC_ShengYu.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

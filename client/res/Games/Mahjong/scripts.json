@@ -1,0 +1,49 @@
+[
+  "src/games/mahjong/logic/GameLogicMahjong.js",
+
+  "src/games/mahjong/data/GameDataMahjongHelper.js",
+
+  "src/games/mahjong/audio/GameAudioMahjong.js",
+
+  "src/games/mahjong/ui/GameWindowMahjong.js",
+  "src/games/mahjong/ui/GameWindowMahjongEr.js",
+
+  "src/games/mahjong/ui/players/Player.js",
+  "src/games/mahjong/ui/players/PlayerEr.js",
+
+  "src/games/mahjong/ui/cards/HandCard.js",
+  "src/games/mahjong/ui/cards/HandCardSub.js",
+  "src/games/mahjong/ui/cards/HandCards.js",
+  "src/games/mahjong/ui/cards/FlowerCard.js",
+  "src/games/mahjong/ui/cards/FlowerCards.js",
+  "src/games/mahjong/ui/cards/TableCard.js",
+  "src/games/mahjong/ui/cards/TableCards.js",
+  "src/games/mahjong/ui/cards/TableCardsEr.js",
+  "src/games/mahjong/ui/cards/SpecialCard.js",
+  "src/games/mahjong/ui/cards/SpecialCards.js",
+  "src/games/mahjong/ui/cards/UserCards.js",
+
+  "src/games/mahjong/ui/controller/PublicCards.js",
+  "src/games/mahjong/ui/controller/Direction.js",
+  "src/games/mahjong/ui/controller/HangupTasks.js",
+  "src/games/mahjong/ui/controller/HangupTasksSelectCards.js",
+  "src/games/mahjong/ui/controller/Multiple.js",
+  "src/games/mahjong/ui/controller/BaseScore.js",
+  "src/games/mahjong/ui/controller/MatchWindow.js",
+  "src/games/mahjong/ui/controller/TableCardIndicator.js",
+  "src/games/mahjong/ui/controller/DirectionOrder.js",
+  "src/games/mahjong/ui/controller/HuTipWindow.js",
+  "src/games/mahjong/ui/controller/PreBegin.js",
+  "src/games/mahjong/ui/controller/CheatWin.js",
+  "src/games/mahjong/ui/controller/ConfirmPanel.js",
+  "src/games/mahjong/ui/controller/DQSelect.js",
+  "src/games/mahjong/ui/controller/BillWin.js",
+
+  "src/games/mahjong/ui/settlement/RoundSettlement.js",
+  "src/games/mahjong/ui/settlement/RoundSettlementEr.js",
+  "src/games/mahjong/ui/settlement/RoundSettlementPlayer.js",
+  "src/games/mahjong/ui/settlement/total/SettlementPlayer.js",
+  "src/games/mahjong/ui/settlement/total/SettlementWin.js",
+  "src/games/mahjong/ui/waitQuit/WaitQuitWindow.js",
+  "src/games/mahjong/ui/waitQuit/PlayerInfoItem.js"
+]

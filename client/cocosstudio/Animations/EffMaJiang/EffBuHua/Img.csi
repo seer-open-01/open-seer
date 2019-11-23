@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Img" Type="Plist" ID="46b94889-9bdf-4d8e-b096-134a1fe20117" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_buhua1.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_buhua2.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_hua1.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_hua2.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_hua3.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_hua4.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_hua5.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_hua6.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_wenzi.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_wenziguang.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_ye1.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_ye2.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_ye3.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_ye4.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_ye5.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffBuHua/bh_ye6.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

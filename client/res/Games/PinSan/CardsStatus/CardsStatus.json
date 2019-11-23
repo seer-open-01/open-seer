@@ -1,0 +1,215 @@
+{
+  "ID": "793dc9a1-c31a-4639-ab9d-aab44ebe7c74",
+  "Version": "2.3.4",
+  "Name": "CardsStatus",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 26,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_CardStatus_NoSee.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 60,
+            "Scale9OriginY": 28,
+            "Scale9Width": 132,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.62,
+              "ScaleY": 0.62
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -126.0,
+            "RightMargin": -126.0,
+            "TopMargin": -43.0,
+            "BottomMargin": -43.0,
+            "Tag": 27,
+            "ActionTag": -603778854,
+            "Size": {
+              "X": 252.0,
+              "Y": 86.0
+            },
+            "Name": "CardsStatus_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_CardStatus_HaveSee.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 60,
+            "Scale9OriginY": 28,
+            "Scale9Width": 128,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0013,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.62,
+              "ScaleY": 0.62
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -124.0013,
+            "RightMargin": -123.9987,
+            "TopMargin": -43.0,
+            "BottomMargin": -43.0,
+            "Tag": 28,
+            "ActionTag": -1135829227,
+            "Size": {
+              "X": 248.0,
+              "Y": 86.0
+            },
+            "Name": "CardsStatus_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_CardStatus_Dis.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 60,
+            "Scale9OriginY": 28,
+            "Scale9Width": 64,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.62,
+              "ScaleY": 0.62
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -92.0,
+            "RightMargin": -92.0,
+            "TopMargin": -43.0,
+            "BottomMargin": -43.0,
+            "Tag": 29,
+            "ActionTag": 643709475,
+            "Size": {
+              "X": 184.0,
+              "Y": 86.0
+            },
+            "Name": "CardsStatus_3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_CardStatus_Lose.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 60,
+            "Scale9OriginY": 28,
+            "Scale9Width": 128,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.62,
+              "ScaleY": 0.62
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -124.0,
+            "RightMargin": -124.0,
+            "TopMargin": -43.0,
+            "BottomMargin": -43.0,
+            "Tag": 30,
+            "ActionTag": 809742952,
+            "Size": {
+              "X": 248.0,
+              "Y": 86.0
+            },
+            "Name": "CardsStatus_4",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/IMG_CardStatus_Dis.png",
+        "../Image/IMG_CardStatus_HaveSee.png",
+        "../Image/IMG_CardStatus_Lose.png",
+        "../Image/IMG_CardStatus_NoSee.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,154 @@
+{
+  "ID": "8ef59bd9-09cb-4d27-8187-70b65653eb56",
+  "Version": "2.3.4",
+  "Name": "BannerPage2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 363,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Banner/page2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 110,
+            "Scale9OriginY": 113,
+            "Scale9Width": 86,
+            "Scale9Height": 160,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 119.0,
+              "Y": 156.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4917,
+              "Y": 0.48
+            },
+            "PreSize": {
+              "X": 1.2645,
+              "Y": 1.1877
+            },
+            "LeftMargin": -34.0,
+            "RightMargin": -30.0,
+            "TopMargin": -24.0,
+            "BottomMargin": -37.0,
+            "Tag": 182,
+            "ActionTag": 1464550433,
+            "Size": {
+              "X": 306.0,
+              "Y": 386.0
+            },
+            "Name": "IMG_Banner",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Home/Banner/btn_copy_0.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Home/Banner/btn_copy_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Home/Banner/btn_copy_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 164,
+            "Scale9Height": 50,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 121.0,
+              "Y": 148.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4554
+            },
+            "PreSize": {
+              "X": 0.8017,
+              "Y": 0.2215
+            },
+            "LeftMargin": 24.0,
+            "RightMargin": 24.0,
+            "TopMargin": 141.0,
+            "BottomMargin": 112.0,
+            "Tag": 120,
+            "ActionTag": 1846372649,
+            "Size": {
+              "X": 194.0,
+              "Y": 72.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Btn_Copy",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 242.0,
+          "Y": 325.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "btn_copy_0.png",
+        "btn_copy_1.png",
+        "page2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

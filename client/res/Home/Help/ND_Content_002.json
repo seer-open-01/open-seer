@@ -1,0 +1,218 @@
+{
+  "ID": "4e675a40-62c6-4474-a240-2d7110f4bffe",
+  "Version": "2.3.4",
+  "Name": "ND_Content_002",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 277,
+        "Children": [
+          {
+            "IsBounceEnabled": true,
+            "InnerNodeSize": {
+              "Width": 700,
+              "Height": 6144
+            },
+            "ScrollDirectionType": "Vertical",
+            "ClipAble": true,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 278,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Help/image/IMG_201.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 6144.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.9971,
+                  "Y": 0.3333
+                },
+                "RightMargin": 2.0,
+                "BottomMargin": 4096.0,
+                "Tag": 53,
+                "ActionTag": -357844258,
+                "Size": {
+                  "X": 698.0,
+                  "Y": 2048.0
+                },
+                "Name": "IMG_Content_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Help/image/IMG_202.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0001,
+                  "Y": 4111.998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.6693
+                },
+                "PreSize": {
+                  "X": 0.9971,
+                  "Y": 0.3333
+                },
+                "LeftMargin": 0.0001,
+                "RightMargin": 1.9999,
+                "TopMargin": 2032.002,
+                "BottomMargin": 2063.998,
+                "Tag": 54,
+                "ActionTag": -1381881728,
+                "Size": {
+                  "X": 698.0,
+                  "Y": 2048.0
+                },
+                "Name": "IMG_Content_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Help/image/IMG_203.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 2088.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.3398
+                },
+                "PreSize": {
+                  "X": 0.9971,
+                  "Y": 0.3333
+                },
+                "RightMargin": 2.0,
+                "TopMargin": 4056.0,
+                "BottomMargin": 40.0,
+                "Tag": 55,
+                "ActionTag": -1706999744,
+                "Size": {
+                  "X": 698.0,
+                  "Y": 2048.0
+                },
+                "Name": "IMG_Content_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -185427710,
+            "Size": {
+              "X": 700.0,
+              "Y": 470.0
+            },
+            "Name": "SV_Content",
+            "ctype": "ScrollViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 700.0,
+          "Y": 470.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "image/IMG_201.png",
+        "image/IMG_202.png",
+        "image/IMG_203.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

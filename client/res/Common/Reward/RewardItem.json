@@ -1,0 +1,139 @@
+{
+  "ID": "4c7ee32f-ccf2-4373-bced-4c0b970b9639",
+  "Version": "2.3.4",
+  "Name": "RewardItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 87,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/reward_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -76.0,
+            "RightMargin": -76.0,
+            "TopMargin": -76.0,
+            "BottomMargin": -76.0,
+            "Tag": 92,
+            "ActionTag": 340859373,
+            "Size": {
+              "X": 152.0,
+              "Y": 152.0
+            },
+            "Name": "ND_Reward",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 28,
+            "LabelText": "x999999.99万",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineSize": 2,
+            "OutlineColor": {
+              "R": 215,
+              "G": 64,
+              "B": 4
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -96.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 254,
+              "B": 247
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -84.0,
+            "RightMargin": -84.0,
+            "TopMargin": 74.5,
+            "BottomMargin": -117.5,
+            "Tag": 244,
+            "ActionTag": 1131600124,
+            "Size": {
+              "X": 168.0,
+              "Y": 43.0
+            },
+            "Name": "Fnt_Num",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "../Images/reward_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

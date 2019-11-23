@@ -1,0 +1,32 @@
+
+[
+  "src/games/pinShi/logic/GameLogicPinShi.js",
+  "src/games/pinShi/audio/GameAudioPinShi.js",
+  "src/games/pinShi/data/DataHelperPinShi.js",
+
+
+  "src/games/pinShi/ui/GameWindowPinShi.js",
+  "src/games/pinShi/ui/players/UserInfo.js",
+  "src/games/pinShi/ui/players/Player.js",
+  "src/games/pinShi/ui/players/PlayerSub.js",
+  "src/games/pinShi/ui/card/HandCard.js",
+  "src/games/pinShi/ui/card/HandCards.js",
+  "src/games/pinShi/ui/card/OtherCard.js",
+  "src/games/pinShi/ui/card/OtherCards.js",
+  "src/games/pinShi/ui/card/ResultCards.js",
+  "src/games/pinShi/ui/ctrl/PreBegin.js",
+  "src/games/pinShi/ui/ctrl/RoomInfo.js",
+  "src/games/pinShi/ui/ctrl/RobDealer.js",
+  "src/games/pinShi/ui/ctrl/RobEffectPanel.js",
+  "src/games/pinShi/ui/ctrl/RobTip.js",
+  "src/games/pinShi/ui/ctrl/AddAnte.js",
+  "src/games/pinShi/ui/ctrl/TableTip.js",
+  "src/games/pinShi/ui/ctrl/Clock.js",
+  "src/games/pinShi/ui/ctrl/CardPattern.js",
+  "src/games/pinShi/ui/ctrl/PlayCardsAnimation.js",
+  "src/games/pinShi/ui/ctrl/PinShiAnimation.js",
+
+
+  "src/games/pinShi/ui/settlement/SettlementWin.js"
+
+]

@@ -1,0 +1,630 @@
+{
+  "ID": "a25d50ca-9709-4488-9397-2092a6bc4902",
+  "Version": "2.3.4",
+  "Name": "Banner",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 177,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Banner/IMG_BG.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 91,
+            "Scale9OriginY": 118,
+            "Scale9Width": 124,
+            "Scale9Height": 150,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 128.0,
+              "Y": 165.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4923,
+              "Y": 0.4853
+            },
+            "PreSize": {
+              "X": 1.1769,
+              "Y": 1.1353
+            },
+            "LeftMargin": -25.0,
+            "RightMargin": -21.0,
+            "TopMargin": -18.0,
+            "BottomMargin": -28.0,
+            "Tag": 100,
+            "ActionTag": 80695663,
+            "Size": {
+              "X": 306.0,
+              "Y": 386.0
+            },
+            "Name": "IMG_Bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ScrollDirectionType": 0,
+            "ClipAble": true,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -131,
+            "Scale9OriginY": -164,
+            "Scale9Width": 262,
+            "Scale9Height": 328,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 130.0,
+              "Y": 170.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9308,
+              "Y": 0.9559
+            },
+            "LeftMargin": 9.0,
+            "RightMargin": 9.0,
+            "TopMargin": 7.5,
+            "BottomMargin": 7.5,
+            "Tag": 413,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 1.0
+                },
+                "RightMargin": 484.0,
+                "Tag": 425,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Banner/BannerPage1.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0002,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 0.0002,
+                    "RightMargin": -0.0002,
+                    "Tag": 419,
+                    "ActionTag": -5385058,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 325.0
+                    },
+                    "Name": "FileNode",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1609340352,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 325.0
+                },
+                "Name": "Panel_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 242.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 1.0
+                },
+                "LeftMargin": 242.0,
+                "RightMargin": 242.0,
+                "Tag": 426,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Banner/BannerPage2.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 7330,
+                    "ActionTag": 2115630639,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 325.0
+                    },
+                    "Name": "FileNode",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 435711705,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 325.0
+                },
+                "Name": "Panel_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 484.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 1.0
+                },
+                "LeftMargin": 484.0,
+                "Tag": 309,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Banner/BannerPage3.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 310,
+                    "ActionTag": 1326819477,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 325.0
+                    },
+                    "Name": "FileNode",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -2136152284,
+                "ZOrder": 2,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 325.0
+                },
+                "Name": "Panel_3",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 962136113,
+            "Size": {
+              "X": 242.0,
+              "Y": 325.0
+            },
+            "Name": "ND_Pages",
+            "ctype": "PageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 260.0,
+            "TopMargin": 340.0,
+            "Tag": 361,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_2.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_2.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 72.0,
+                "RightMargin": -88.0,
+                "TopMargin": -38.0,
+                "BottomMargin": 22.0,
+                "Tag": 360,
+                "ActionTag": 959274720,
+                "Size": {
+                  "X": 16.0,
+                  "Y": 16.0
+                },
+                "Name": "ND_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_2.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_2.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 122.0,
+                "RightMargin": -138.0,
+                "TopMargin": -38.0,
+                "BottomMargin": 22.0,
+                "Tag": 362,
+                "ActionTag": -1091043235,
+                "Size": {
+                  "X": 16.0,
+                  "Y": 16.0
+                },
+                "Name": "ND_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_1.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_2.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Banner/IMG_Dot_2.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 180.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 172.0,
+                "RightMargin": -188.0,
+                "TopMargin": -38.0,
+                "BottomMargin": 22.0,
+                "Tag": 186,
+                "ActionTag": -578927499,
+                "Size": {
+                  "X": 16.0,
+                  "Y": 16.0
+                },
+                "Name": "ND_3",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 1259200886,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_PageIndices",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 260.0,
+          "Y": 340.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BannerPage1.json",
+        "BannerPage2.json",
+        "BannerPage3.json",
+        "IMG_BG.png",
+        "IMG_Dot_1.png",
+        "IMG_Dot_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

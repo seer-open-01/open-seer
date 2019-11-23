@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="384fb6c8-6ea4-4fe8-935f-79b3e745c7b8" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffPinSan/EffBiPai/PSDian1.png" />
+      <FilePathData Path="Animations/EffPinSan/EffBiPai/PSDian2.png" />
+      <FilePathData Path="Animations/EffPinSan/EffBiPai/PSDian3.png" />
+      <FilePathData Path="Animations/EffPinSan/EffBiPai/PSDian4.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

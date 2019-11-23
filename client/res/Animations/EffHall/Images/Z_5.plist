@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Animations/EffHall/Images/PS_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,131},{149,115}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,120}</string>
+			</dict>
+			<key>Animations/EffHall/Images/PS_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{166,131}}</string>
+				<key>offset</key>
+				<string>{2,3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,138}</string>
+			</dict>
+			<key>Animations/EffHall/Images/PS_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{149,152},{79,79}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>Animations/EffHall/Images/PS_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{166,0},{152,55}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{152,58}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Z_5.png</string>
+			<key>realTextureFileName</key>
+			<string>Z_5.png</string>
+			<key>size</key>
+			<string>{256,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,414 @@
+{
+  "ID": "7518ab36-f481-41a2-a2bf-672719752f43",
+  "Version": "2.3.4",
+  "Name": "Share",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 207,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Home/Share/image/PIC_Bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 654,
+            "Scale9Height": 410,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5625,
+              "Y": 0.6611
+            },
+            "LeftMargin": 280.0,
+            "RightMargin": 280.0,
+            "TopMargin": 122.0,
+            "BottomMargin": 122.0,
+            "Tag": 355,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/PIC_Tip.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0001,
+                  "Y": 408.71
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8586
+                },
+                "PreSize": {
+                  "X": 0.1722,
+                  "Y": 0.105
+                },
+                "LeftMargin": 298.0001,
+                "RightMargin": 297.9999,
+                "TopMargin": 42.29,
+                "BottomMargin": 383.71,
+                "Tag": 478,
+                "ActionTag": 1363300095,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 50.0
+                },
+                "Name": "PIC_Tip",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 701.6949,
+                  "Y": 436.0479
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9746,
+                  "Y": 0.9161
+                },
+                "PreSize": {
+                  "X": 0.0917,
+                  "Y": 0.1555
+                },
+                "LeftMargin": 668.6949,
+                "RightMargin": -14.6949,
+                "TopMargin": 2.9521,
+                "BottomMargin": 399.0479,
+                "Tag": 475,
+                "ActionTag": -1436403798,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_WeiXinN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_WeiXinP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_WeiXinN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 172,
+                "Scale9Height": 184,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 520.0004,
+                  "Y": 206.9991
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7222,
+                  "Y": 0.4349
+                },
+                "PreSize": {
+                  "X": 0.2806,
+                  "Y": 0.4328
+                },
+                "LeftMargin": 419.0004,
+                "RightMargin": 98.9996,
+                "TopMargin": 166.0009,
+                "BottomMargin": 103.9991,
+                "Tag": 476,
+                "ActionTag": 170393847,
+                "Size": {
+                  "X": 202.0,
+                  "Y": 206.0
+                },
+                "Name": "BTN_WeiXin",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_HaoYouN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_HaoYouP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Share/image/BTN_HaoYouN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 172,
+                "Scale9Height": 184,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0002,
+                  "Y": 206.9991
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2778,
+                  "Y": 0.4349
+                },
+                "PreSize": {
+                  "X": 0.2806,
+                  "Y": 0.4328
+                },
+                "LeftMargin": 99.0002,
+                "RightMargin": 418.9998,
+                "TopMargin": 166.0009,
+                "BottomMargin": 103.9991,
+                "Tag": 477,
+                "ActionTag": -219421255,
+                "Size": {
+                  "X": 202.0,
+                  "Y": 206.0
+                },
+                "Name": "BTN_HaoYou",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "分享游戏，邀请好友填写您的邀请码（888888），您将免费\n获得电子参赛卡。",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 105.0,
+                  "Y": 51.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 232,
+                  "G": 122,
+                  "B": 46
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1458,
+                  "Y": 0.1071
+                },
+                "PreSize": {
+                  "X": 0.7264,
+                  "Y": 0.1176
+                },
+                "LeftMargin": 105.0,
+                "RightMargin": 92.0,
+                "TopMargin": 396.9999,
+                "BottomMargin": 23.0001,
+                "Tag": 29,
+                "ActionTag": -2009864010,
+                "Size": {
+                  "X": 523.0,
+                  "Y": 56.0
+                },
+                "Name": "ND_Tip",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 96724086,
+            "Size": {
+              "X": 720.0,
+              "Y": 476.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "image/BTN_CloseN.png",
+        "image/BTN_CloseP.png",
+        "image/BTN_HaoYouN.png",
+        "image/BTN_HaoYouP.png",
+        "image/BTN_WeiXinN.png",
+        "image/BTN_WeiXinP.png",
+        "image/PIC_Bg.png",
+        "image/PIC_Tip.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

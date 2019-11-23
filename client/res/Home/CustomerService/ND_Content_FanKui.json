@@ -1,0 +1,288 @@
+{
+  "ID": "6030b0bd-578f-4287-a5dd-47ac0f507b58",
+  "Version": "2.3.4",
+  "Name": "ND_Content_FanKui",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 181,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 380.0,
+              "Y": 200.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 380.0,
+            "RightMargin": 380.0,
+            "TopMargin": 200.0,
+            "BottomMargin": 200.0,
+            "Tag": 182,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_TiJiaoJ.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_TiJiaoP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_TiJiaoN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 200,
+                "Scale9Height": 76,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -164.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -115.0,
+                "RightMargin": -115.0,
+                "TopMargin": 115.9996,
+                "BottomMargin": -213.9996,
+                "Tag": 208,
+                "ActionTag": -782392462,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 98.0
+                },
+                "Name": "BTN_TiJiao",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/Pic_FanKui_Bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 8.9984,
+                  "Y": 6.0026
+                },
+                "Scale": {
+                  "ScaleX": 0.9842,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -371.0016,
+                "RightMargin": -388.9984,
+                "TopMargin": -127.0026,
+                "BottomMargin": -114.9974,
+                "Tag": 185,
+                "ActionTag": 2069720259,
+                "Size": {
+                  "X": 760.0,
+                  "Y": 242.0
+                },
+                "Name": "ND_Bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/Pic_Tip.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -6.0007,
+                  "Y": 160.0021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -316.0007,
+                "RightMargin": -303.9993,
+                "TopMargin": -176.0021,
+                "BottomMargin": 144.0021,
+                "Tag": 186,
+                "ActionTag": 1796673891,
+                "Size": {
+                  "X": 620.0,
+                  "Y": 32.0
+                },
+                "Name": "PIC_Tip",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "请点击这里输入哦...最多150个字符。",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 152,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -66.01,
+                  "Y": 8.0023
+                },
+                "Scale": {
+                  "ScaleX": 0.96,
+                  "ScaleY": 0.96
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -357.51,
+                "RightMargin": -225.49,
+                "TopMargin": -123.0023,
+                "BottomMargin": -106.9977,
+                "Tag": 184,
+                "ActionTag": -1645418982,
+                "Size": {
+                  "X": 583.0,
+                  "Y": 230.0
+                },
+                "Name": "ND_Input",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": -2111207668,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Node",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 760.0,
+          "Y": 400.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "image/BTN_TiJiaoJ.png",
+        "image/BTN_TiJiaoN.png",
+        "image/BTN_TiJiaoP.png",
+        "image/Pic_FanKui_Bg.png",
+        "image/Pic_Tip.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

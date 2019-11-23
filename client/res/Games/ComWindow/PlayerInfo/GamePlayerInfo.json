@@ -1,0 +1,1276 @@
+{
+  "ID": "c53f946c-322c-4594-9964-35a4974ccd4f",
+  "Version": "2.3.4",
+  "Name": "GamePlayerInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2012,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2014,
+            "ActionTag": -50618337,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 0,
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing846x552.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 780,
+            "Scale9Height": 486,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6609,
+              "Y": 0.7667
+            },
+            "LeftMargin": 217.0,
+            "RightMargin": 217.0,
+            "TopMargin": 84.0,
+            "BottomMargin": 84.0,
+            "Tag": 2013,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 826.9991,
+                  "Y": 509.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9775,
+                  "Y": 0.9239
+                },
+                "PreSize": {
+                  "X": 0.078,
+                  "Y": 0.1341
+                },
+                "LeftMargin": 793.9991,
+                "RightMargin": -13.9991,
+                "TopMargin": 5.0001,
+                "BottomMargin": 472.9999,
+                "Tag": 2015,
+                "ActionTag": 1794323072,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/IMG_PlayerInfo_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 60,
+                "Scale9OriginY": 14,
+                "Scale9Width": 62,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 422.9998,
+                  "Y": 482.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.875
+                },
+                "PreSize": {
+                  "X": 0.2151,
+                  "Y": 0.0797
+                },
+                "LeftMargin": 331.9998,
+                "RightMargin": 332.0002,
+                "TopMargin": 47.0001,
+                "BottomMargin": 460.9999,
+                "Tag": 265,
+                "ActionTag": 835708555,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 44.0
+                },
+                "Name": "IMG_Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Com/Head/GameHead.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 130.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.1537,
+                  "Y": 0.5435
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 130.0,
+                "RightMargin": 716.0,
+                "TopMargin": 252.0,
+                "BottomMargin": 300.0,
+                "Tag": 46,
+                "ActionTag": -1535047356,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_HeadPic",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/IMG_Seer1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 56,
+                "Scale9OriginY": 11,
+                "Scale9Width": 154,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 394.9977,
+                  "Y": 253.9987
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4669,
+                  "Y": 0.4601
+                },
+                "PreSize": {
+                  "X": 0.3144,
+                  "Y": 0.1014
+                },
+                "LeftMargin": 261.9977,
+                "RightMargin": 318.0023,
+                "TopMargin": 270.0013,
+                "BottomMargin": 225.9987,
+                "Tag": 37,
+                "ActionTag": -1411111240,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 56.0
+                },
+                "Name": "IMG_Bean",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/IMG_PFC.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 248,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 396.9981,
+                  "Y": 219.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4693,
+                  "Y": 0.3986
+                },
+                "PreSize": {
+                  "X": 0.3286,
+                  "Y": 0.1014
+                },
+                "LeftMargin": 257.9981,
+                "RightMargin": 310.0019,
+                "TopMargin": 304.0001,
+                "BottomMargin": 191.9999,
+                "Tag": 267,
+                "ActionTag": 1531171037,
+                "Size": {
+                  "X": 278.0,
+                  "Y": 56.0
+                },
+                "VisibleForFrame": false,
+                "Name": "IMG_Cards",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/IMG_EmojiBg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 56,
+                "Scale9OriginY": 11,
+                "Scale9Width": 652,
+                "Scale9Height": 132,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1812
+                },
+                "PreSize": {
+                  "X": 0.9031,
+                  "Y": 0.279
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 375.0,
+                "BottomMargin": 23.0,
+                "Tag": 268,
+                "ActionTag": -1083745358,
+                "Size": {
+                  "X": 764.0,
+                  "Y": 154.0
+                },
+                "Name": "IMG_EmojiBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/IMG_PlayerInfo_5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3191,
+                  "Y": 0.6341
+                },
+                "PreSize": {
+                  "X": 0.0378,
+                  "Y": 0.058
+                },
+                "LeftMargin": 254.0,
+                "RightMargin": 560.0,
+                "TopMargin": 186.0,
+                "BottomMargin": 334.0,
+                "Tag": 2025,
+                "ActionTag": -60038006,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 32.0
+                },
+                "Name": "SP_Female",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/IMG_PlayerInfo_4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3191,
+                  "Y": 0.6341
+                },
+                "PreSize": {
+                  "X": 0.0378,
+                  "Y": 0.058
+                },
+                "LeftMargin": 254.0,
+                "RightMargin": 560.0,
+                "TopMargin": 186.0,
+                "BottomMargin": 334.0,
+                "Tag": 2024,
+                "ActionTag": -268164648,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 32.0
+                },
+                "Name": "SP_Male",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "昵称昵称昵称",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {},
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 300.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3546,
+                  "Y": 0.6341
+                },
+                "PreSize": {
+                  "X": 0.2163,
+                  "Y": 0.0761
+                },
+                "LeftMargin": 300.0,
+                "RightMargin": 363.0,
+                "TopMargin": 181.0,
+                "BottomMargin": 329.0,
+                "Tag": 2023,
+                "ActionTag": 1674005493,
+                "Size": {
+                  "X": 183.0,
+                  "Y": 42.0
+                },
+                "Name": "TXT_Name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "ID:12345689",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 560.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6619,
+                  "Y": 0.6341
+                },
+                "PreSize": {
+                  "X": 0.2128,
+                  "Y": 0.0598
+                },
+                "LeftMargin": 560.0,
+                "RightMargin": 106.0,
+                "TopMargin": 185.5,
+                "BottomMargin": 333.5,
+                "Tag": 261,
+                "ActionTag": -371588106,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 33.0
+                },
+                "Name": "TXT_ID",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "IP:127.127.127.127",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {},
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 300.0,
+                  "Y": 290.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 168,
+                  "G": 92,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3546,
+                  "Y": 0.5254
+                },
+                "PreSize": {
+                  "X": 0.331,
+                  "Y": 0.0543
+                },
+                "LeftMargin": 300.0,
+                "RightMargin": 266.0,
+                "TopMargin": 247.0,
+                "BottomMargin": 275.0,
+                "Tag": 2030,
+                "ActionTag": 1468299329,
+                "Size": {
+                  "X": 280.0,
+                  "Y": 30.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TXT_IP",
+                "ctype": "TextObjectData"
+              },
+              {
+                "LabelText": "999999.9999",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Fonts/hall_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 415.9968,
+                  "Y": 217.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4917,
+                  "Y": 0.3949
+                },
+                "PreSize": {
+                  "X": 0.2246,
+                  "Y": 0.058
+                },
+                "LeftMargin": 320.9968,
+                "RightMargin": 335.0032,
+                "TopMargin": 318.0004,
+                "BottomMargin": 201.9996,
+                "Tag": 44,
+                "ActionTag": 1125989774,
+                "Size": {
+                  "X": 190.0,
+                  "Y": 32.0
+                },
+                "VisibleForFrame": false,
+                "Name": "FNT_Cards",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "9999999999",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Fonts/hall_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 414.0008,
+                  "Y": 251.9989
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4894,
+                  "Y": 0.4565
+                },
+                "PreSize": {
+                  "X": 0.2128,
+                  "Y": 0.058
+                },
+                "LeftMargin": 324.0008,
+                "RightMargin": 341.9992,
+                "TopMargin": 284.0011,
+                "BottomMargin": 235.9989,
+                "Tag": 45,
+                "ActionTag": 1628288829,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 32.0
+                },
+                "Name": "FNT_Bean",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNQinZuiD.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNQinZuiP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNQinZuiN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 94,
+                "Scale9Height": 44,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 110.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.13,
+                  "Y": 0.1812
+                },
+                "PreSize": {
+                  "X": 0.1466,
+                  "Y": 0.1196
+                },
+                "LeftMargin": 48.0,
+                "RightMargin": 674.0,
+                "TopMargin": 419.0,
+                "BottomMargin": 67.0,
+                "Tag": 271,
+                "ActionTag": 1978145786,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 66.0
+                },
+                "Name": "BTN_QinZui",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNYeZiD.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNYeZiP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNYeZiN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 80,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3191,
+                  "Y": 0.1812
+                },
+                "PreSize": {
+                  "X": 0.1182,
+                  "Y": 0.1848
+                },
+                "LeftMargin": 220.0,
+                "RightMargin": 526.0,
+                "TopMargin": 401.0,
+                "BottomMargin": 49.0,
+                "Tag": 272,
+                "ActionTag": 663137380,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 102.0
+                },
+                "Name": "BTN_YeZi",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNHuaD.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNHuaP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNHuaN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 80,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1812
+                },
+                "PreSize": {
+                  "X": 0.13,
+                  "Y": 0.1449
+                },
+                "LeftMargin": 368.0,
+                "RightMargin": 368.0,
+                "TopMargin": 412.0,
+                "BottomMargin": 60.0,
+                "Tag": 273,
+                "ActionTag": -268740365,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 80.0
+                },
+                "Name": "BTN_Hua",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNZhaDanD.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNZhaDanP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNZhaDanN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 590.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6974,
+                  "Y": 0.1812
+                },
+                "PreSize": {
+                  "X": 0.1182,
+                  "Y": 0.1957
+                },
+                "LeftMargin": 540.0,
+                "RightMargin": 206.0,
+                "TopMargin": 398.0,
+                "BottomMargin": 46.0,
+                "Tag": 274,
+                "ActionTag": 367531377,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 108.0
+                },
+                "Name": "BTN_ZhaDan",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNDaoJiuD.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNDaoJiuP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/GameComPlayerInfo_BTNDaoJiuN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 122,
+                "Scale9Height": 261,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 740.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8747,
+                  "Y": 0.1812
+                },
+                "PreSize": {
+                  "X": 0.1182,
+                  "Y": 0.3261
+                },
+                "LeftMargin": 690.0,
+                "RightMargin": 56.0,
+                "TopMargin": 362.0,
+                "BottomMargin": 10.0,
+                "Tag": 275,
+                "ActionTag": -352522507,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 180.0
+                },
+                "Name": "BTN_DaoJiu",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/Btn_Kick_0.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/Btn_Kick_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Games/ComWindow/PlayerInfo/Btn_Kick_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 128,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 630.0,
+                  "Y": 252.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7447,
+                  "Y": 0.4565
+                },
+                "PreSize": {
+                  "X": 0.1868,
+                  "Y": 0.1232
+                },
+                "LeftMargin": 551.0,
+                "RightMargin": 137.0,
+                "TopMargin": 266.0,
+                "BottomMargin": 218.0,
+                "Tag": 26,
+                "ActionTag": 668120110,
+                "Size": {
+                  "X": 158.0,
+                  "Y": 68.0
+                },
+                "Name": "BTN_Kick",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -289299674,
+            "Size": {
+              "X": 846.0,
+              "Y": 552.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Common/Images/BTN_CloseN.png",
+        "../../../Common/Images/BTN_CloseP.png",
+        "../../../Common/Images/IMG_PFC.png",
+        "../../../Common/Images/IMG_Seer1.png",
+        "../../../Common/Images/PopupWing846x552.png",
+        "../../../Default/Button_Disable.png",
+        "../../../Default/Button_Normal.png",
+        "../../../Default/Button_Press.png",
+        "../../../Fonts/hall_num.fnt",
+        "../../../Fonts/hall_num_0.png",
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Head/GameHead.json",
+        "Btn_Kick_0.png",
+        "Btn_Kick_1.png",
+        "GameComPlayerInfo_BTNDaoJiuD.png",
+        "GameComPlayerInfo_BTNDaoJiuN.png",
+        "GameComPlayerInfo_BTNDaoJiuP.png",
+        "GameComPlayerInfo_BTNHuaD.png",
+        "GameComPlayerInfo_BTNHuaN.png",
+        "GameComPlayerInfo_BTNHuaP.png",
+        "GameComPlayerInfo_BTNQinZuiD.png",
+        "GameComPlayerInfo_BTNQinZuiN.png",
+        "GameComPlayerInfo_BTNQinZuiP.png",
+        "GameComPlayerInfo_BTNYeZiD.png",
+        "GameComPlayerInfo_BTNYeZiN.png",
+        "GameComPlayerInfo_BTNYeZiP.png",
+        "GameComPlayerInfo_BTNZhaDanD.png",
+        "GameComPlayerInfo_BTNZhaDanN.png",
+        "GameComPlayerInfo_BTNZhaDanP.png",
+        "IMG_EmojiBg.png",
+        "IMG_PlayerInfo_1.png",
+        "IMG_PlayerInfo_4.png",
+        "IMG_PlayerInfo_5.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

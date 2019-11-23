@@ -1,0 +1,765 @@
+{
+  "ID": "09b0b3f5-10e3-4f01-bb6e-3f06e40f5050",
+  "Version": "2.3.4",
+  "Name": "PlayBtn",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 38,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_CompareD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_CompareP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_CompareN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -200.0,
+              "Y": 140.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -264.0,
+            "RightMargin": 136.0,
+            "TopMargin": -204.0,
+            "BottomMargin": 76.0,
+            "Tag": 51,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 31,
+                "LabelText": "9999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 220,
+                  "G": 100,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 63.9997,
+                  "Y": 85.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6719
+                },
+                "PreSize": {
+                  "X": 0.9375,
+                  "Y": 0.3359
+                },
+                "LeftMargin": 3.9997,
+                "RightMargin": 4.0003,
+                "TopMargin": 20.5001,
+                "BottomMargin": 64.4999,
+                "Tag": 52,
+                "ActionTag": 361655871,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 43.0
+                },
+                "Name": "value",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1034163211,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Btn_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_AddD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_AddP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_AddN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 200.0,
+              "Y": 140.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 136.0,
+            "RightMargin": -264.0,
+            "TopMargin": -204.0,
+            "BottomMargin": 76.0,
+            "Tag": 55,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Animations/EffPinSan/EffBTN/BTNJiaZhu.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 64.0,
+                  "Y": 64.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 64.0,
+                "BottomMargin": 64.0,
+                "Tag": 79,
+                "ActionTag": 1967766660,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "light",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": -994838770,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Btn_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_DisCardD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_DisCardP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_DisCardN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -280.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -344.0,
+            "RightMargin": 216.0,
+            "TopMargin": -44.0,
+            "BottomMargin": -84.0,
+            "Tag": 54,
+            "ActionTag": -1050684598,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Btn_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_FollowD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_FollowP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_FollowN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 280.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 216.0,
+            "RightMargin": -344.0,
+            "TopMargin": -44.0,
+            "BottomMargin": -84.0,
+            "Tag": 61,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 31,
+                "LabelText": "9999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 3,
+                "OutlineColor": {
+                  "R": 144,
+                  "G": 70,
+                  "B": 235
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.0,
+                  "Y": 86.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6719
+                },
+                "PreSize": {
+                  "X": 0.9375,
+                  "Y": 0.3828
+                },
+                "LeftMargin": 4.0,
+                "RightMargin": 4.0,
+                "TopMargin": 17.5,
+                "BottomMargin": 61.5,
+                "Tag": 62,
+                "ActionTag": 2130687667,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 49.0
+                },
+                "Name": "value",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1106845526,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Btn_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_AutoFollowD.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_AutoFollowP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_AutoFollowN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 280.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 216.0,
+            "RightMargin": -344.0,
+            "TopMargin": -44.0,
+            "BottomMargin": -84.0,
+            "Tag": 63,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 31,
+                "LabelText": "9999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 3,
+                "OutlineColor": {
+                  "R": 144,
+                  "G": 70,
+                  "B": 235
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.0,
+                  "Y": 86.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6719
+                },
+                "PreSize": {
+                  "X": 0.9375,
+                  "Y": 0.3828
+                },
+                "LeftMargin": 4.0,
+                "RightMargin": 4.0,
+                "TopMargin": 17.5,
+                "BottomMargin": 61.5,
+                "Tag": 64,
+                "ActionTag": -120968517,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 49.0
+                },
+                "Name": "value",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Animations/EffPinSan/EffBTN/BTNGenZhu.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 64.0,
+                  "Y": 64.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 64.0,
+                "BottomMargin": 64.0,
+                "Tag": 75,
+                "ActionTag": 245365525,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "light",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 91972730,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Btn_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_ClickToSee.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_ClickToSee.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BTN_ClickToSee.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 306,
+            "Scale9Height": 64,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": -1.0861
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -168.0001,
+            "RightMargin": -167.9999,
+            "TopMargin": -41.9139,
+            "BottomMargin": -44.0861,
+            "Tag": 69,
+            "ActionTag": -1662475083,
+            "Size": {
+              "X": 336.0,
+              "Y": 86.0
+            },
+            "Name": "Btn_Look",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Animations/EffPinSan/EffBTN/BTNGenZhu.json",
+        "../../../Animations/EffPinSan/EffBTN/BTNJiaZhu.json",
+        "../../../Fonts/YaHei.ttf",
+        "../Image/BTN_AddD.png",
+        "../Image/BTN_AddN.png",
+        "../Image/BTN_AddP.png",
+        "../Image/BTN_AutoFollowD.png",
+        "../Image/BTN_AutoFollowN.png",
+        "../Image/BTN_AutoFollowP.png",
+        "../Image/BTN_ClickToSee.png",
+        "../Image/BTN_CompareD.png",
+        "../Image/BTN_CompareN.png",
+        "../Image/BTN_CompareP.png",
+        "../Image/BTN_DisCardD.png",
+        "../Image/BTN_DisCardN.png",
+        "../Image/BTN_DisCardP.png",
+        "../Image/BTN_FollowD.png",
+        "../Image/BTN_FollowN.png",
+        "../Image/BTN_FollowP.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

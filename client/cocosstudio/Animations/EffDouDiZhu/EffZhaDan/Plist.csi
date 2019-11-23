@@ -1,0 +1,43 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="03a7484c-8e0c-4508-b9be-149826f393bf" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZ2.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha01.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha02.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha03.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha04.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha05.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha06.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha07.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha08.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZBaoZha09.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZGlow.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZGlow02.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZHuo01.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZHuo02.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZHuo03.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZHuo04.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZHuo05.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZHuo06.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi01.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi02.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi03.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi04.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi05.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi06.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi07.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZSuiShi08.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZX.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZYanHua01.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZYanHua02.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZYanHua03.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZYanHua04.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZZhaDan.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZZhaDan1.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZZhaDan2.png" />
+      <FilePathData Path="Animations/EffDouDiZhu/EffZhaDan/DDZZhaDanGuang.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

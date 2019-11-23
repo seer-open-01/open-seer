@@ -1,0 +1,171 @@
+{
+  "ID": "69a2a92c-bcff-45b7-bc92-112af77158df",
+  "Version": "2.3.4",
+  "Name": "TableTip",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 173,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_TableTip_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -152.0,
+            "RightMargin": -152.0,
+            "TopMargin": -18.0,
+            "BottomMargin": -18.0,
+            "Tag": 174,
+            "ActionTag": 2104284134,
+            "Size": {
+              "X": 304.0,
+              "Y": 36.0
+            },
+            "Name": "ND_TableTip_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_TableTip_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -122.0,
+            "RightMargin": -122.0,
+            "TopMargin": -18.0,
+            "BottomMargin": -18.0,
+            "Tag": 175,
+            "ActionTag": -417454912,
+            "Size": {
+              "X": 244.0,
+              "Y": 36.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_TableTip_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_TableTip_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -152.0,
+            "RightMargin": -152.0,
+            "TopMargin": -18.0,
+            "BottomMargin": -18.0,
+            "Tag": 176,
+            "ActionTag": 314479787,
+            "Size": {
+              "X": 304.0,
+              "Y": 36.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_TableTip_3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/IMG_TableTip_1.png",
+        "../Image/IMG_TableTip_2.png",
+        "../Image/IMG_TableTip_3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

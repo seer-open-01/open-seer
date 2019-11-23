@@ -1,0 +1,571 @@
+{
+  "ID": "e0a36730-8bdf-4dab-866b-9e7700f272bf",
+  "Version": "2.3.4",
+  "Name": "RoomInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 149,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/BG_RoomInfo.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -25.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -335.0,
+            "RightMargin": -335.0,
+            "TopMargin": -1.0004,
+            "BottomMargin": -52.9996,
+            "Tag": 150,
+            "ActionTag": -316730947,
+            "Size": {
+              "X": 670.0,
+              "Y": 54.0
+            },
+            "Name": "BG_RoomInfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_RoomInfo_Round.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -250.3441,
+              "Y": -19.2261
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -287.3441,
+            "RightMargin": 213.3441,
+            "TopMargin": 2.2261,
+            "BottomMargin": -36.2261,
+            "Tag": 151,
+            "ActionTag": -1968414111,
+            "Size": {
+              "X": 74.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Round",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_RoomInfo_FD.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -54.5296,
+              "Y": -19.5894
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -121.5296,
+            "RightMargin": -12.4704,
+            "TopMargin": 2.5894,
+            "BottomMargin": -36.5894,
+            "Tag": 152,
+            "ActionTag": 407182288,
+            "Size": {
+              "X": 134.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Ante",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/IMG_RoomInfo_DF.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.4361,
+              "ScaleY": 0.543
+            },
+            "Position": {
+              "X": 157.652,
+              "Y": -18.1284
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 125.3806,
+            "RightMargin": -199.3806,
+            "TopMargin": 2.5904,
+            "BottomMargin": -36.5904,
+            "Tag": 153,
+            "ActionTag": -696342579,
+            "Size": {
+              "X": 74.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Max",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "20g20",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/top_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -207.0592,
+              "Y": -23.2257
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -207.0592,
+            "RightMargin": 131.0592,
+            "TopMargin": 7.2257,
+            "BottomMargin": -39.2257,
+            "Tag": 154,
+            "ActionTag": 557865385,
+            "Size": {
+              "X": 76.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Round",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "200000w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/top_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 16.6932,
+              "Y": -23.2257
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 16.6932,
+            "RightMargin": -136.6932,
+            "TopMargin": 7.2257,
+            "BottomMargin": -39.2257,
+            "Tag": 155,
+            "ActionTag": 1621564187,
+            "Size": {
+              "X": 120.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Max",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "200000w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/top_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 205.0281,
+              "Y": -23.2257
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 205.0281,
+            "RightMargin": -325.0281,
+            "TopMargin": 7.2257,
+            "BottomMargin": -39.2257,
+            "Tag": 156,
+            "ActionTag": 1049603579,
+            "Size": {
+              "X": 120.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Ante",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/RoomInfo_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -270.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -191.0,
+            "RightMargin": -191.0,
+            "TopMargin": 256.0,
+            "BottomMargin": -284.0,
+            "Tag": 35,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/RoomInfo_4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 134.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3508,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2618,
+                  "Y": 1.0
+                },
+                "LeftMargin": 84.0,
+                "RightMargin": 198.0,
+                "Tag": 68,
+                "ActionTag": -1935662474,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 28.0
+                },
+                "Name": "mod",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/RoomInfo_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 252.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6597,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2618,
+                  "Y": 1.0
+                },
+                "LeftMargin": 202.0,
+                "RightMargin": 80.0,
+                "Tag": 69,
+                "ActionTag": 1032731749,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 28.0
+                },
+                "Name": "non",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1352868600,
+            "Size": {
+              "X": 382.0,
+              "Y": 28.0
+            },
+            "Name": "Rule_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/RoomInfo_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -270.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -140.0,
+            "RightMargin": -140.0,
+            "TopMargin": 256.0,
+            "BottomMargin": -284.0,
+            "Tag": 34,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/RoomInfo_5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.0,
+                  "Y": 15.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5357
+                },
+                "PreSize": {
+                  "X": 0.3571,
+                  "Y": 1.0
+                },
+                "LeftMargin": 90.0,
+                "RightMargin": 90.0,
+                "TopMargin": -1.0,
+                "BottomMargin": 1.0,
+                "Tag": 67,
+                "ActionTag": 1259329725,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 28.0
+                },
+                "Name": "mod",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1131433819,
+            "Size": {
+              "X": 280.0,
+              "Y": 28.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Rule_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Com/Font/top_num.fnt",
+        "../../Com/Font/top_num_0.png",
+        "../Image/BG_RoomInfo.png",
+        "../Image/IMG_RoomInfo_DF.png",
+        "../Image/IMG_RoomInfo_FD.png",
+        "../Image/IMG_RoomInfo_Round.png",
+        "../Image/RoomInfo_1.png",
+        "../Image/RoomInfo_2.png",
+        "../Image/RoomInfo_3.png",
+        "../Image/RoomInfo_4.png",
+        "../Image/RoomInfo_5.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

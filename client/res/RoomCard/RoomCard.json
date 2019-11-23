@@ -1,0 +1,898 @@
+{
+  "ID": "55f588ee-b9ee-4618-99f2-5b445a2682a5",
+  "Version": "2.3.4",
+  "Name": "RoomCard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "RoomCard/Image/IMG_Home_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 16,
+            "ActionTag": 453209426,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Bg_Home",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 98,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Img_RoomCard__1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 44,
+                "Scale9Height": 44,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.1782,
+                  "Y": -41.1099
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -635.1782,
+                "RightMargin": -634.8218,
+                "TopMargin": -267.8901,
+                "BottomMargin": -350.1099,
+                "Tag": 2,
+                "ActionTag": 1490912327,
+                "Size": {
+                  "X": 1270.0,
+                  "Y": 618.0
+                },
+                "Name": "Bg_Room",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Img_RoomCard__2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.1782,
+                  "Y": 312.0688
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -640.1782,
+                "RightMargin": -639.8218,
+                "TopMargin": -359.0688,
+                "BottomMargin": 265.0688,
+                "Tag": 3,
+                "ActionTag": 1615777018,
+                "Size": {
+                  "X": 1280.0,
+                  "Y": 94.0
+                },
+                "Name": "Bg_Top",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/IMG_HelpBg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.1785,
+                  "Y": 306.0701
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -264.1785,
+                "RightMargin": -263.8215,
+                "TopMargin": -331.0701,
+                "BottomMargin": 281.0701,
+                "Tag": 12,
+                "ActionTag": 1551267516,
+                "Size": {
+                  "X": 528.0,
+                  "Y": 50.0
+                },
+                "Name": "Bg_Help",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/Img_RoomCard_3.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -400.174,
+                  "Y": 306.0688
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -468.174,
+                "RightMargin": 332.174,
+                "TopMargin": -344.0688,
+                "BottomMargin": 268.0688,
+                "Tag": 8,
+                "ActionTag": 1172556910,
+                "Size": {
+                  "X": 136.0,
+                  "Y": 76.0
+                },
+                "Name": "Img_Game",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/Btn_Horn_1.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/Btn_Horn_2.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/Btn_Horn_1.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 24,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -240.7168,
+                  "Y": 307.0706
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -263.7168,
+                "RightMargin": 217.7168,
+                "TopMargin": -330.0706,
+                "BottomMargin": 284.0706,
+                "Tag": 14,
+                "ActionTag": -693310779,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "Name": "Btn_Help",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 27,
+                "LabelText": "楚汉相争，经典国粹",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 114,
+                  "G": 88,
+                  "B": 71
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.1801,
+                  "Y": 304.8994
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -123.6801,
+                "RightMargin": -123.3199,
+                "TopMargin": -324.8994,
+                "BottomMargin": 284.8994,
+                "Tag": 15,
+                "ActionTag": 877529637,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 40.0
+                },
+                "Name": "Txt_Help",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/IMG_Seer1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 461.7114,
+                  "Y": 306.0684
+                },
+                "Scale": {
+                  "ScaleX": 1.15,
+                  "ScaleY": 1.15
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 322.7114,
+                "RightMargin": -600.7114,
+                "TopMargin": -334.0684,
+                "BottomMargin": 278.0684,
+                "Tag": 9,
+                "ActionTag": -172358271,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 56.0
+                },
+                "Name": "Bg_Bean",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/BTN_Add.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/BTN_Add.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "RoomCard/Image/BTN_Add.png",
+                  "Plist": "RoomCard/Image/Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 20,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 586.8178,
+                  "Y": 308.0698
+                },
+                "Scale": {
+                  "ScaleX": 0.94,
+                  "ScaleY": 0.94
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 561.8178,
+                "RightMargin": -611.8178,
+                "TopMargin": -333.0698,
+                "BottomMargin": 283.0698,
+                "Tag": 10,
+                "ActionTag": 1263228015,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "Btn_Mall",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "LabelText": "999999999",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "Fonts/hall_num.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 464.0,
+                  "Y": 305.6589
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 383.0,
+                "RightMargin": -545.0,
+                "TopMargin": -321.6589,
+                "BottomMargin": 289.6589,
+                "Tag": 11,
+                "ActionTag": 670037604,
+                "Size": {
+                  "X": 162.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Bean",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ExitGameN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ExitGameP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_ExitGameN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 42,
+                "Scale9Height": 50,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -576.1688,
+                  "Y": 306.0688
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -612.1688,
+                "RightMargin": 540.1688,
+                "TopMargin": -342.0688,
+                "BottomMargin": 270.0688,
+                "Tag": 7,
+                "ActionTag": 1595418292,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 72.0
+                },
+                "Name": "Btn_Back",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Rank_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Rank_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Rank_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 342,
+                "Scale9Height": 474,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -410.0,
+                  "Y": -50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -596.0,
+                "RightMargin": 224.0,
+                "TopMargin": -198.0,
+                "BottomMargin": -298.0,
+                "Tag": 4,
+                "ActionTag": 1534644466,
+                "Size": {
+                  "X": 372.0,
+                  "Y": 496.0
+                },
+                "Name": "Btn_Rank",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Join_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Join_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Join_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 342,
+                "Scale9Height": 474,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -186.0,
+                "RightMargin": -186.0,
+                "TopMargin": -198.0,
+                "BottomMargin": -298.0,
+                "Tag": 5,
+                "ActionTag": 64414283,
+                "Size": {
+                  "X": 372.0,
+                  "Y": 496.0
+                },
+                "Name": "Btn_Join",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Create_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Create_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "RoomCard/Image/Btn_Create_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 342,
+                "Scale9Height": 474,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 410.0,
+                  "Y": -50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 224.0,
+                "RightMargin": -596.0,
+                "TopMargin": -198.0,
+                "BottomMargin": -298.0,
+                "Tag": 6,
+                "ActionTag": -1466388317,
+                "Size": {
+                  "X": 372.0,
+                  "Y": 496.0
+                },
+                "Name": "Btn_Create",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 800033172,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Pop",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Common/Images/BTN_ExitGameN.png",
+        "../Common/Images/BTN_ExitGameP.png",
+        "../Common/Images/IMG_Seer1.png",
+        "../Fonts/hall_num.fnt",
+        "../Fonts/hall_num_0.png",
+        "../Fonts/YaHei.ttf",
+        "Image/Btn_Create_1.png",
+        "Image/Btn_Create_2.png",
+        "Image/Btn_Join_1.png",
+        "Image/Btn_Join_2.png",
+        "Image/Btn_Rank_1.png",
+        "Image/Btn_Rank_2.png",
+        "Image/IMG_HelpBg.png",
+        "Image/IMG_Home_Bg.png",
+        "Image/Img_RoomCard__1.png",
+        "Image/Img_RoomCard__2.png",
+        "Image/Plist.plist",
+        "Image/Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

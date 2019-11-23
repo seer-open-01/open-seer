@@ -1,0 +1,121 @@
+{
+  "ID": "11118533-3c93-42b8-980b-0d5277543bba",
+  "Version": "2.3.4",
+  "Name": "Clock",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1491,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/IMG_Clock.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 21,
+            "Scale9OriginY": 23,
+            "Scale9Width": 52,
+            "Scale9Height": 54,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -47.0,
+            "RightMargin": -47.0,
+            "TopMargin": -58.0,
+            "BottomMargin": -42.0,
+            "Tag": 1492,
+            "ActionTag": -1625697568,
+            "Size": {
+              "X": 94.0,
+              "Y": 100.0
+            },
+            "Name": "BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "LabelText": "60",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Run/Font/num_clock.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.0,
+              "Y": 2.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -20.0,
+            "RightMargin": -18.0,
+            "TopMargin": -18.0,
+            "BottomMargin": -14.0,
+            "Tag": 1493,
+            "ActionTag": -1354817133,
+            "Size": {
+              "X": 38.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Clock",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/num_clock.fnt",
+        "../Font/num_clock_0.png",
+        "../Image/IMG_Clock.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,113 @@
+<Solution>
+  <PropertyGroup Name="zqRoomCard" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="IMG_Gold.png" />
+            <Image Name="IMG_PFC.png" />
+            <Image Name="IMG_Seer1.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <Fnt Name="hall_num.fnt" />
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="RoomCard">
+          <Folder Name="Font">
+            <Fnt Name="num_report_add.fnt" />
+            <Fnt Name="num_report_minus.fnt" />
+          </Folder>
+          <Folder Name="Image">
+            <Image Name="BTN_0.png" />
+            <Image Name="BTN_0_x.png" />
+            <Image Name="BTN_1.png" />
+            <Image Name="BTN_1_x.png" />
+            <Image Name="BTN_2.png" />
+            <Image Name="BTN_2_x.png" />
+            <Image Name="BTN_3.png" />
+            <Image Name="BTN_3_x.png" />
+            <Image Name="BTN_4.png" />
+            <Image Name="BTN_4_x.png" />
+            <Image Name="BTN_5.png" />
+            <Image Name="BTN_5_x.png" />
+            <Image Name="BTN_6.png" />
+            <Image Name="BTN_6_x.png" />
+            <Image Name="BTN_7.png" />
+            <Image Name="BTN_7_x.png" />
+            <Image Name="BTN_8.png" />
+            <Image Name="BTN_8_x.png" />
+            <Image Name="BTN_9.png" />
+            <Image Name="BTN_9_x.png" />
+            <Image Name="BTN_Add.png" />
+            <Image Name="Btn_Create_1.png" />
+            <Image Name="Btn_Create_2.png" />
+            <Image Name="BTN_Del.png" />
+            <Image Name="BTN_Del_x.png" />
+            <Image Name="Btn_Horn_1.png" />
+            <Image Name="Btn_Horn_2.png" />
+            <Image Name="Btn_Join_1.png" />
+            <Image Name="Btn_Join_2.png" />
+            <Image Name="Btn_Rank_1.png" />
+            <Image Name="Btn_Rank_2.png" />
+            <Image Name="BTN_Reset.png" />
+            <Image Name="BTN_Reset_x.png" />
+            <Image Name="ChessReport_1.png" />
+            <Image Name="ChessReport_2.png" />
+            <Image Name="ChessReport_3.png" />
+            <Image Name="ChessReport_4.png" />
+            <Image Name="IMG_HelpBg.png" />
+            <Image Name="IMG_Home_Bg.png" />
+            <Image Name="Img_RoomCard__1.png" />
+            <Image Name="Img_RoomCard__2.png" />
+            <Image Name="Img_RoomCard__4.png" />
+            <Image Name="Img_RoomCard__5.png" />
+            <Image Name="Img_RoomCard__6.png" />
+            <Image Name="Img_RoomCard__8.png" />
+            <Image Name="Img_RoomCard_3.png" />
+            <Image Name="Loading_1.png" />
+            <Image Name="Loading_2.png" />
+            <Image Name="Num_0.png" />
+            <Image Name="Num_1.png" />
+            <Image Name="Num_2.png" />
+            <Image Name="Num_3.png" />
+            <Image Name="Num_4.png" />
+            <Image Name="Num_5.png" />
+            <Image Name="Num_6.png" />
+            <Image Name="Num_7.png" />
+            <Image Name="Num_8.png" />
+            <Image Name="Num_9.png" />
+            <PlistInfo Name="Plist.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="Join">
+            <Project Name="JoinWindow.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Report">
+            <Project Name="ReportItem.csd" Type="Node" />
+            <Project Name="ReportWin.csd" Type="Layer" />
+          </Folder>
+          <Project Name="RoomCard.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

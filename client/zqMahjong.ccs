@@ -1,0 +1,868 @@
+<Solution>
+  <PropertyGroup Name="zqMahjong" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Animations">
+          <Folder Name="EffGameCom">
+            <Folder Name="EffFZB">
+              <Image Name="BKLG_01.png" />
+              <Image Name="BKLG_02.png" />
+              <Image Name="BKLG_03.png" />
+              <Image Name="BKLG_04.png" />
+              <Image Name="BKLG_05.png" />
+              <Image Name="BKLG_06.png" />
+              <Image Name="BKLG_07.png" />
+              <Image Name="BKLG_08.png" />
+              <Image Name="BKLG_09.png" />
+              <Image Name="BKLG_10.png" />
+              <Image Name="BKLG_11.png" />
+              <Image Name="BKLG_12.png" />
+              <Image Name="BKLG_13.png" />
+              <Image Name="BKLG_14.png" />
+              <Project Name="EffFZB.csd" Type="Node" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+            </Folder>
+          </Folder>
+          <Folder Name="EffMaJiang">
+            <Folder Name="EffBTN">
+              <Project Name="BTNChi.csd" Type="Node" />
+              <Project Name="BTNGang.csd" Type="Node" />
+              <Project Name="BTNHu.csd" Type="Node" />
+              <Image Name="BTNHuan.png" />
+              <Project Name="BTNPeng.csd" Type="Node" />
+              <Image Name="BTNQuan.png" />
+            </Folder>
+            <Folder Name="EffHuPaiShanDian">
+              <Image Name="a01.png" />
+              <Image Name="a02.png" />
+              <Image Name="a03.png" />
+              <Image Name="a04.png" />
+              <Image Name="a05.png" />
+              <Image Name="a06.png" />
+              <Image Name="a07.png" />
+              <Image Name="a08.png" />
+              <Image Name="a09.png" />
+              <Image Name="a10.png" />
+              <Image Name="a11.png" />
+              <Image Name="a12.png" />
+              <Image Name="a13.png" />
+              <Image Name="a14.png" />
+              <Image Name="a15.png" />
+              <Image Name="b01.png" />
+              <Image Name="b02.png" />
+              <Image Name="b03.png" />
+              <Image Name="b04.png" />
+              <Image Name="b05.png" />
+              <Image Name="b06.png" />
+              <Image Name="b07.png" />
+              <Image Name="b08.png" />
+              <Image Name="b09.png" />
+              <Image Name="b10.png" />
+              <Image Name="b11.png" />
+              <Image Name="b12.png" />
+              <Image Name="b13.png" />
+              <Image Name="b14.png" />
+              <Image Name="b15.png" />
+              <Project Name="EffShanDianA.csd" Type="Node" />
+              <Project Name="EffShanDianB.csd" Type="Node" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+              <PlistInfo Name="Plist1.csi" Type="Plist" />
+            </Folder>
+            <Folder Name="EffLight">
+              <Image Name="Blue.png" />
+              <Image Name="Red.png" />
+              <Image Name="Ring0905.png" />
+              <Image Name="Round0905.png" />
+              <Project Name="Tiao.csd" Type="Node" />
+              <Project Name="Tong.csd" Type="Node" />
+              <Project Name="Wan.csd" Type="Node" />
+              <Image Name="Yellow.png" />
+            </Folder>
+            <Folder Name="EffRain">
+              <Image Name="01.png" />
+              <Image Name="02.png" />
+              <Image Name="03.png" />
+              <Image Name="04.png" />
+              <Image Name="05.png" />
+              <Image Name="06.png" />
+              <Image Name="07.png" />
+              <Image Name="08.png" />
+              <Image Name="09.png" />
+              <Image Name="10.png" />
+              <Image Name="11.png" />
+              <Image Name="12.png" />
+              <Image Name="13.png" />
+              <Image Name="14.png" />
+              <Image Name="15.png" />
+              <Image Name="16.png" />
+              <Image Name="glow_0007.png" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+              <Project Name="Rain.csd" Type="Node" />
+              <Image Name="smoke.png" />
+              <Image Name="yan_09.png" />
+              <Image Name="yan_18.png" />
+            </Folder>
+            <Folder Name="EffTurn">
+              <Image Name="C.png" />
+              <Project Name="Dui.csd" Type="Node" />
+              <Image Name="E.png" />
+              <Project Name="Ni.csd" Type="Node" />
+              <Image Name="Q.png" />
+              <Image Name="S.png" />
+              <Project Name="Shun.csd" Type="Node" />
+              <Image Name="W.png" />
+              <Image Name="Z.png" />
+            </Folder>
+            <Folder Name="EffWind">
+              <Project Name="Eff_LJF.csd" Type="Node" />
+              <Image Name="Glow_01.png" />
+              <Image Name="LJF_01.png" />
+              <Image Name="LJF_02.png" />
+              <Image Name="LJF_03.png" />
+              <Image Name="LJF_04.png" />
+              <Image Name="LJF_05.png" />
+              <Image Name="LJF_06.png" />
+              <Image Name="LJF_07.png" />
+              <Image Name="LJF_08.png" />
+              <Image Name="LJF_09.png" />
+              <Image Name="LJF_10.png" />
+              <Image Name="LJF_11.png" />
+              <Image Name="LJF_12.png" />
+              <Image Name="LJF_13.png" />
+              <Image Name="LJF_14.png" />
+              <Image Name="LJF_15.png" />
+              <Image Name="LJF_16.png" />
+              <Image Name="LJF_17.png" />
+              <Image Name="LJF_18.png" />
+              <Image Name="LJF_19.png" />
+              <Image Name="LJF_20.png" />
+              <Image Name="LJF_21.png" />
+              <Image Name="LJF_22.png" />
+              <Image Name="LJF_23.png" />
+              <Image Name="LJF_24.png" />
+              <Image Name="LJF_25.png" />
+              <Image Name="LJF_26.png" />
+              <Image Name="LJF_27.png" />
+              <Image Name="LJF_28.png" />
+              <Image Name="LJF_29.png" />
+              <Image Name="LJF_30.png" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+            </Folder>
+            <Folder Name="EffZiMo">
+              <Project Name="EffZiMo.csd" Type="Node" />
+              <Image Name="MJZiMo.png" />
+              <Image Name="MJZiMoGuang.png" />
+            </Folder>
+            <PlistParticleFile Name="Fx_star.plist" />
+            <Image Name="glow.png" />
+            <Image Name="ksyx_xing1.png" />
+            <Image Name="ksyx_xing2.png" />
+            <Image Name="ksyx_xing3.png" />
+            <Image Name="ksyx_xing4.png" />
+            <Image Name="ksyx_xing5.png" />
+            <Image Name="star.png" />
+          </Folder>
+          <Image Name="effLine.png" />
+        </Folder>
+        <Folder Name="Common">
+          <Folder Name="Images">
+            <Image Name="BTN_BackN.png" />
+            <Image Name="BTN_BackP.png" />
+            <Image Name="BTN_CancelN.png" />
+            <Image Name="BTN_CancelP.png" />
+            <Image Name="BTN_CloseN.png" />
+            <Image Name="BTN_CloseP.png" />
+            <Image Name="BTN_ConfirmN.png" />
+            <Image Name="BTN_ConfirmP.png" />
+            <Image Name="BTN_ExitGameN.png" />
+            <Image Name="BTN_ExitGameP.png" />
+            <Image Name="Com_Coin.png" />
+            <Image Name="Com_FZ .png" />
+            <Image Name="Com_GameCoin.png" />
+            <Image Name="Com_HeadpicDef.png" />
+            <Image Name="Com_Mask.png" />
+            <Image Name="Com_Opacity.png" />
+            <Image Name="ComHeadPicMask.png" />
+            <Image Name="HintBg.png" />
+            <Image Name="homeHeadPicBG.png" />
+            <Image Name="PopupWing1000x652.png" />
+            <Image Name="PopupWing668x438.png" />
+            <Image Name="PopupWing846x552.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Fonts">
+          <TTF Name="YaHei.ttf" />
+        </Folder>
+        <Folder Name="Games">
+          <Folder Name="Com">
+            <Folder Name="Box">
+              <Project Name="Box.csd" Type="Node" />
+              <Image Name="PIC_BoxClose.png" />
+              <Image Name="PIC_BoxOpen.png" />
+              <Image Name="PIC_RewardTitel.png" />
+            </Folder>
+            <Folder Name="Clock">
+              <Project Name="Clock.csd" Type="Node" />
+              <Image Name="IMG_Clock_Bg.png" />
+              <Image Name="IMG_Clock_Effect.png" />
+              <Fnt Name="num_game_clock.fnt" />
+            </Folder>
+            <Folder Name="Font">
+              <Fnt Name="coin_num.fnt" />
+              <Fnt Name="jiaf_num.fnt" />
+              <Fnt Name="jianf_num.fnt" />
+              <Fnt Name="top_num.fnt" />
+            </Folder>
+            <Folder Name="Head">
+              <Project Name="GameHead.csd" Type="Node" />
+              <Image Name="HeadBG.png" />
+              <Image Name="HeadDefaultImg.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="Mahjong">
+            <Folder Name="BaseScore">
+              <Project Name="BaseScore.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Bill">
+              <Project Name="Bill.csd" Type="Layer" />
+              <Project Name="Item.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Cards">
+              <Project Name="FlowerCardsEast.csd" Type="Node" />
+              <Project Name="FlowerCardsNorth.csd" Type="Node" />
+              <Project Name="FlowerCardsSouth.csd" Type="Node" />
+              <Project Name="FlowerCardsWest.csd" Type="Node" />
+              <Project Name="HandCardsEast.csd" Type="Node" />
+              <Project Name="HandCardsNorth.csd" Type="Node" />
+              <Project Name="HandCardsSouth.csd" Type="Node" />
+              <Project Name="HandCardsWest.csd" Type="Node" />
+              <Project Name="SpecialCardEast.csd" Type="Node" />
+              <Project Name="SpecialCardNorth.csd" Type="Node" />
+              <Project Name="SpecialCardsEast.csd" Type="Node" />
+              <Project Name="SpecialCardsNorth.csd" Type="Node" />
+              <Project Name="SpecialCardSouth.csd" Type="Node" />
+              <Project Name="SpecialCardsSouth.csd" Type="Node" />
+              <Project Name="SpecialCardsWest.csd" Type="Node" />
+              <Project Name="SpecialCardWest.csd" Type="Node" />
+              <Project Name="TableCardEast.csd" Type="Node" />
+              <Project Name="TableCardNorth.csd" Type="Node" />
+              <Project Name="TableCardsEast.csd" Type="Node" />
+              <Project Name="TableCardsNorth.csd" Type="Node" />
+              <Project Name="TableCardsNorthEr.csd" Type="Node" />
+              <Project Name="TableCardSouth.csd" Type="Node" />
+              <Project Name="TableCardsSouth.csd" Type="Node" />
+              <Project Name="TableCardsSouthEr.csd" Type="Node" />
+              <Project Name="TableCardsWest.csd" Type="Node" />
+              <Project Name="TableCardWest.csd" Type="Node" />
+              <Project Name="UserCardsEast.csd" Type="Node" />
+              <Project Name="UserCardsNorth.csd" Type="Node" />
+              <Project Name="UserCardsSouth.csd" Type="Node" />
+              <Project Name="UserCardsWest.csd" Type="Node" />
+            </Folder>
+            <Folder Name="CardsImages">
+              <Folder Name="HandCards">
+                <Folder Name="East">
+                  <Image Name="100.png" />
+                </Folder>
+                <Folder Name="North">
+                  <Image Name="100.png" />
+                </Folder>
+                <Folder Name="South">
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                  <Image Name="61.png" />
+                  <Image Name="62.png" />
+                  <Image Name="63.png" />
+                  <Image Name="64.png" />
+                  <Image Name="65.png" />
+                  <Image Name="66.png" />
+                  <Image Name="67.png" />
+                  <Image Name="68.png" />
+                </Folder>
+                <Folder Name="West">
+                  <Image Name="100.png" />
+                </Folder>
+              </Folder>
+              <Folder Name="SpecialCards">
+                <Folder Name="East">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                </Folder>
+                <Folder Name="North">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                </Folder>
+                <Folder Name="South">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                </Folder>
+                <Folder Name="West">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                </Folder>
+              </Folder>
+              <Folder Name="TableCards">
+                <Folder Name="East">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                  <Image Name="61.png" />
+                  <Image Name="62.png" />
+                  <Image Name="63.png" />
+                  <Image Name="64.png" />
+                  <Image Name="65.png" />
+                  <Image Name="66.png" />
+                  <Image Name="67.png" />
+                  <Image Name="68.png" />
+                </Folder>
+                <Folder Name="North">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                  <Image Name="61.png" />
+                  <Image Name="62.png" />
+                  <Image Name="63.png" />
+                  <Image Name="64.png" />
+                  <Image Name="65.png" />
+                  <Image Name="66.png" />
+                  <Image Name="67.png" />
+                  <Image Name="68.png" />
+                </Folder>
+                <Folder Name="South">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                  <Image Name="61.png" />
+                  <Image Name="62.png" />
+                  <Image Name="63.png" />
+                  <Image Name="64.png" />
+                  <Image Name="65.png" />
+                  <Image Name="66.png" />
+                  <Image Name="67.png" />
+                  <Image Name="68.png" />
+                </Folder>
+                <Folder Name="West">
+                  <Image Name="100.png" />
+                  <Image Name="11.png" />
+                  <Image Name="12.png" />
+                  <Image Name="13.png" />
+                  <Image Name="14.png" />
+                  <Image Name="15.png" />
+                  <Image Name="16.png" />
+                  <Image Name="17.png" />
+                  <Image Name="18.png" />
+                  <Image Name="19.png" />
+                  <Image Name="21.png" />
+                  <Image Name="22.png" />
+                  <Image Name="23.png" />
+                  <Image Name="24.png" />
+                  <Image Name="25.png" />
+                  <Image Name="26.png" />
+                  <Image Name="27.png" />
+                  <Image Name="28.png" />
+                  <Image Name="29.png" />
+                  <Image Name="31.png" />
+                  <Image Name="32.png" />
+                  <Image Name="33.png" />
+                  <Image Name="34.png" />
+                  <Image Name="35.png" />
+                  <Image Name="36.png" />
+                  <Image Name="37.png" />
+                  <Image Name="38.png" />
+                  <Image Name="39.png" />
+                  <Image Name="41.png" />
+                  <Image Name="42.png" />
+                  <Image Name="43.png" />
+                  <Image Name="44.png" />
+                  <Image Name="51.png" />
+                  <Image Name="52.png" />
+                  <Image Name="53.png" />
+                  <Image Name="61.png" />
+                  <Image Name="62.png" />
+                  <Image Name="63.png" />
+                  <Image Name="64.png" />
+                  <Image Name="65.png" />
+                  <Image Name="66.png" />
+                  <Image Name="67.png" />
+                  <Image Name="68.png" />
+                </Folder>
+              </Folder>
+              <Image Name="Arrow_Down.png" />
+              <Image Name="Arrow_Left.png" />
+              <Image Name="Arrow_Right.png" />
+              <Image Name="Arrow_Up.png" />
+              <Image Name="Light_Table_Left.png" />
+              <Image Name="Light_Table_Up.png" />
+              <Image Name="Light_User_Down.png" />
+              <Image Name="Light_User_Left.png" />
+              <Image Name="Light_User_Up.png" />
+            </Folder>
+            <Folder Name="Change">
+              <Project Name="Change.csd" Type="Node" />
+              <Project Name="Huan.csd" Type="Layer" />
+              <Project Name="Info.csd" Type="Node" />
+            </Folder>
+            <Folder Name="CheatWin">
+              <Project Name="CheatWin.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="Ding">
+              <Project Name="DQSelect.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Direction">
+              <Project Name="Direction.csd" Type="Node" />
+            </Folder>
+            <Folder Name="DirectionOrder">
+              <Project Name="DirectionOrder.csd" Type="Node" />
+            </Folder>
+            <Folder Name="HangupTasks">
+              <Project Name="HangupTasks.csd" Type="Node" />
+              <Project Name="SelectCards.csd" Type="Node" />
+            </Folder>
+            <Folder Name="HuTipWindow">
+              <Project Name="HuTipItem.csd" Type="Node" />
+              <Project Name="HuTipWindow.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Images">
+              <Folder Name="Fnt">
+                <Fnt Name="Mahjong_CountDownFnt.fnt" />
+                <Fnt Name="Mahjong_PlayerShangGa_Fnt_0.fnt" />
+                <Fnt Name="Mahjong_PublicCardsNumberFnt.fnt" />
+                <Fnt Name="num_add.fnt" />
+                <Fnt Name="num_base.fnt" />
+                <Fnt Name="num_bill.fnt" />
+                <Fnt Name="num_h.fnt" />
+                <Fnt Name="num_minus.fnt" />
+              </Folder>
+              <Image Name="BaseScore_1.png" />
+              <Image Name="BaseScore_2.png" />
+              <Image Name="Bill_1.png" />
+              <Image Name="Bill_2.png" />
+              <Image Name="Bill_3.png" />
+              <Image Name="Btn_Begin_0.png" />
+              <Image Name="Btn_Begin_1.png" />
+              <Image Name="Btn_Begin_2.png" />
+              <Image Name="Btn_Bill_0.png" />
+              <Image Name="Btn_Bill_1.png" />
+              <Image Name="Btn_End_0.png" />
+              <Image Name="Btn_End_1.png" />
+              <Image Name="Btn_Invite_0.png" />
+              <Image Name="Btn_Invite_1.png" />
+              <Image Name="Btn_Leave_1.png" />
+              <Image Name="Btn_Leave_2.png" />
+              <Image Name="BTN_MsgD.png" />
+              <Image Name="BTN_MsgN.png" />
+              <Image Name="BTN_MsgP.png" />
+              <Image Name="Btn_Next_1.png" />
+              <Image Name="Btn_Next_2.png" />
+              <Image Name="Btn_Ready_0.png" />
+              <Image Name="Btn_Ready_1.png" />
+              <Image Name="Btn_Tip_0.png" />
+              <Image Name="Btn_Tip_1.png" />
+              <Image Name="BTN_VoiceD.png" />
+              <Image Name="BTN_VoiceN.png" />
+              <Image Name="BTN_VoiceP.png" />
+              <Image Name="Change_1.png" />
+              <Image Name="Change_2.png" />
+              <Image Name="Change_Type_0.png" />
+              <Image Name="Change_Type_1.png" />
+              <Image Name="Change_Type_2.png" />
+              <Image Name="ChangeInfo_1.png" />
+              <Image Name="ChangeInfo_2.png" />
+              <Image Name="ChangeInfo_3.png" />
+              <Image Name="Direction_1.png" />
+              <Image Name="Direction_2.png" />
+              <Image Name="Direction_3.png" />
+              <Image Name="Direction_4.png" />
+              <Image Name="Direction_5.png" />
+              <Image Name="DirectionOrder1.png" />
+              <Image Name="DirectionOrder2.png" />
+              <Image Name="DirectionOrder3.png" />
+              <Image Name="DirectionOrder4.png" />
+              <Image Name="DQ_Tag_1.png" />
+              <Image Name="DQ_Tag_2.png" />
+              <Image Name="DQ_Tag_3.png" />
+              <Image Name="DQ_Tiao_0.png" />
+              <Image Name="DQ_Tiao_1.png" />
+              <Image Name="DQ_Tong_0.png" />
+              <Image Name="DQ_Tong_1.png" />
+              <Image Name="DQ_Wan_0.png" />
+              <Image Name="DQ_Wan_1.png" />
+              <Image Name="HangupTasks_1.png" />
+              <Image Name="HangupTasks_2.png" />
+              <Image Name="HangupTasks_BTNChiN.png" />
+              <Image Name="HangupTasks_BTNChiP.png" />
+              <Image Name="HangupTasks_BTNGangN.png" />
+              <Image Name="HangupTasks_BTNGangP.png" />
+              <Image Name="HangupTasks_BTNHuN.png" />
+              <Image Name="HangupTasks_BTNHuP.png" />
+              <Image Name="HangupTasks_BTNPassN.png" />
+              <Image Name="HangupTasks_BTNPassP.png" />
+              <Image Name="HangupTasks_BTNPengN.png" />
+              <Image Name="HangupTasks_BTNPengP.png" />
+              <Image Name="Hu_1.png" />
+              <Image Name="IMG_AddScore.png" />
+              <Image Name="IMG_Clock_Effect.png" />
+              <Image Name="IMG_End_1.png" />
+              <Image Name="IMG_End_2.png" />
+              <Image Name="IMG_Hu_Txt.png" />
+              <Image Name="IMG_MinusScore.png" />
+              <Image Name="Indicator_1.png" />
+              <Image Name="MatchWindow_1.png" />
+              <Image Name="MatchWindow_2.png" />
+              <Image Name="MatchWindow_3.png" />
+              <Image Name="MatchWindow_4.png" />
+              <Image Name="MatchWindow_5.png" />
+              <Image Name="MatchWindow_6.png" />
+              <Image Name="Multiple_1.png" />
+              <Image Name="Multiple_2.png" />
+              <Image Name="Multiple_BtnGa0N.png" />
+              <Image Name="Multiple_BtnGa0P.png" />
+              <Image Name="Multiple_BtnGa1N.png" />
+              <Image Name="Multiple_BtnGa1P.png" />
+              <Image Name="Multiple_BtnGa2N.png" />
+              <Image Name="Multiple_BtnGa2P.png" />
+              <Image Name="Multiple_BtnGa3N.png" />
+              <Image Name="Multiple_BtnGa3P.png" />
+              <Image Name="Multiple_BtnGa4N.png" />
+              <Image Name="Multiple_BtnGa4P.png" />
+              <Image Name="Multiple_BtnGa5N.png" />
+              <Image Name="Multiple_BtnGa5P.png" />
+              <Image Name="PIC_ShengYu.png" />
+              <Image Name="Player_1.png" />
+              <Image Name="Player_2.png" />
+              <Image Name="Player_3.png" />
+              <Image Name="Player_4.png" />
+              <Image Name="Player_5.png" />
+              <Image Name="Player_6.png" />
+              <Image Name="Player_7.png" />
+              <Image Name="Player_BtnRechargeD.png" />
+              <Image Name="Player_BtnRechargeN.png" />
+              <Image Name="Player_BtnRechargeP.png" />
+              <Image Name="Player_Out.png" />
+              <Image Name="PublicCards_1.png" />
+              <Image Name="Room_1.png" />
+              <Image Name="Settlement_1.png" />
+              <Image Name="Settlement_3.png" />
+              <Image Name="Settlement_4.png" />
+              <Image Name="Settlement_5.png" />
+              <Image Name="Settlement_6.png" />
+              <Image Name="Settlement_7.png" />
+              <Image Name="Settlement_8.png" />
+              <Image Name="Settlement_BTNShareN.png" />
+              <Image Name="Settlement_BTNShareP.png" />
+              <Image Name="Settlement_CardWho2.png" />
+              <Image Name="Settlement_CardWho3.png" />
+              <Image Name="Settlement_CardWho4.png" />
+              <Image Name="Settlement_Dir1.png" />
+              <Image Name="Settlement_Dir2.png" />
+              <Image Name="Settlement_Dir3.png" />
+              <Image Name="Settlement_Dir4.png" />
+              <Image Name="Settlement_Who1.png" />
+              <Image Name="Settlement_Who2.png" />
+              <Image Name="Settlement_Who3.png" />
+              <Image Name="Settlement_Who4.png" />
+              <Image Name="Status_1.png" />
+              <Image Name="Status_2.png" />
+              <Image Name="Status_3.png" />
+              <Image Name="Status_4.png" />
+              <Image Name="Status_5.png" />
+              <Image Name="TrusteeshipCancel_1.png" />
+              <Image Name="TrusteeshipCancel_2.png" />
+            </Folder>
+            <Folder Name="MatchWindow">
+              <Project Name="MatchWindow.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="Multiple">
+              <Project Name="Multiple.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Players">
+              <Project Name="Player_1.csd" Type="Node" />
+              <Project Name="Player_2.csd" Type="Node" />
+              <Project Name="Player_3.csd" Type="Node" />
+              <Project Name="Player_4.csd" Type="Node" />
+            </Folder>
+            <Folder Name="PreBegin">
+              <Project Name="PreBegin.csd" Type="Node" />
+            </Folder>
+            <Folder Name="PublicCardsNumber">
+              <Project Name="PublicCardsNumber.csd" Type="Node" />
+            </Folder>
+            <Folder Name="Settlement">
+              <Project Name="HandCards.csd" Type="Node" />
+              <Project Name="RoundSettlementPlayerInfo.csd" Type="Node" />
+              <Project Name="RoundSettlementPlayerInfoEr.csd" Type="Node" />
+              <Project Name="RoundSettlementWindow.csd" Type="Layer" />
+              <Project Name="RoundSettlementWindowEr.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="TableCardIndicator">
+              <Project Name="Indicator.csd" Type="Node" />
+            </Folder>
+            <Project Name="MahjongWindow.csd" Type="Layer" />
+            <Project Name="MahjongWindowEr.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

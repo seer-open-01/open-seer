@@ -1,0 +1,14 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="1ba90be7-7ba8-4e47-80d0-5dea4f802f1b" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffChess/EffLight/XQGuang01.png" />
+      <FilePathData Path="Animations/EffChess/EffLight/XQGuang02.png" />
+      <FilePathData Path="Animations/EffChess/EffLight/XQGuang03.png" />
+      <FilePathData Path="Animations/EffChess/EffLight/XQGuang04.png" />
+      <FilePathData Path="Animations/EffChess/EffLight/XQGuang05.png" />
+      <FilePathData Path="Animations/EffChess/EffLight/XQGuang06.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Z_8" Type="Plist" ID="7f625cd7-e041-4d55-b26c-8d54ec063212" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffHall/Images/R_4.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_8.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_0.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_5.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_1.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_2.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_7.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_6.png" />
+      <FilePathData Path="Animations/EffHall/Images/R_3.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

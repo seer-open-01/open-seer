@@ -1,0 +1,414 @@
+{
+  "ID": "8efb7bc2-6964-44c8-8333-39cb4d36d2ed",
+  "Version": "2.3.4",
+  "Name": "CustomerService",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 281,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing846x552.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 780,
+            "Scale9Height": 486,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 361.4637
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.502
+            },
+            "PreSize": {
+              "X": 0.6609,
+              "Y": 0.7667
+            },
+            "LeftMargin": 217.0,
+            "RightMargin": 217.0,
+            "TopMargin": 82.5363,
+            "BottomMargin": 85.4637,
+            "Tag": 299,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/Pic_Up_Bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.3655,
+                  "Y": 474.3821
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5028,
+                  "Y": 0.8594
+                },
+                "PreSize": {
+                  "X": 0.4421,
+                  "Y": 0.1051
+                },
+                "LeftMargin": 238.3655,
+                "RightMargin": 233.6345,
+                "TopMargin": 48.6179,
+                "BottomMargin": 445.3821,
+                "Tag": 24,
+                "ActionTag": 1615061745,
+                "Size": {
+                  "X": 374.0,
+                  "Y": 58.0
+                },
+                "Name": "PIC_Bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Images/BTN_CloseN.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 36,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 834.1082,
+                  "Y": 511.7785
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9859,
+                  "Y": 0.9271
+                },
+                "PreSize": {
+                  "X": 0.078,
+                  "Y": 0.1341
+                },
+                "LeftMargin": 801.1082,
+                "RightMargin": -21.1082,
+                "TopMargin": 3.2215,
+                "BottomMargin": 474.7785,
+                "Tag": 300,
+                "ActionTag": -1359598561,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 74.0
+                },
+                "Name": "BTN_Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_KeFuP.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_KeFuP.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_KeFuP.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_KeFuN.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_KeFuN.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 336.0005,
+                  "Y": 475.9975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3972,
+                  "Y": 0.8623
+                },
+                "PreSize": {
+                  "X": 0.2246,
+                  "Y": 0.0942
+                },
+                "LeftMargin": 241.0005,
+                "RightMargin": 414.9995,
+                "TopMargin": 50.0025,
+                "BottomMargin": 449.9975,
+                "Tag": 111,
+                "ActionTag": -1639751366,
+                "Size": {
+                  "X": 190.0,
+                  "Y": 52.0
+                },
+                "Name": "CK_KeFu",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_FanKuiP.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_FanKuiP.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_FanKuiP.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_FanKuiN.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/image/BTN_FanKuiN.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 514.0002,
+                  "Y": 476.0011
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6076,
+                  "Y": 0.8623
+                },
+                "PreSize": {
+                  "X": 0.2246,
+                  "Y": 0.0942
+                },
+                "LeftMargin": 419.0002,
+                "RightMargin": 236.9998,
+                "TopMargin": 49.9989,
+                "BottomMargin": 450.0011,
+                "Tag": 136,
+                "ActionTag": -1523804757,
+                "Size": {
+                  "X": 190.0,
+                  "Y": 52.0
+                },
+                "Name": "CK_FanKui",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/ND_Content_KeFu.csd.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 79.8591,
+                  "Y": 40.2996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0944,
+                  "Y": 0.073
+                },
+                "PreSize": {
+                  "X": 0.8156,
+                  "Y": 0.7246
+                },
+                "LeftMargin": 79.8591,
+                "RightMargin": 76.1409,
+                "TopMargin": 111.7004,
+                "BottomMargin": 40.2996,
+                "Tag": 170,
+                "ActionTag": -1159010395,
+                "Size": {
+                  "X": 690.0,
+                  "Y": 400.0
+                },
+                "Name": "ND_Page1",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/CustomerService/ND_Content_FanKui.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 45.37,
+                  "Y": 35.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0536,
+                  "Y": 0.0649
+                },
+                "PreSize": {
+                  "X": 0.8983,
+                  "Y": 0.7246
+                },
+                "LeftMargin": 45.37,
+                "RightMargin": 40.63,
+                "TopMargin": 116.15,
+                "BottomMargin": 35.85,
+                "Tag": 1151,
+                "ActionTag": -1190843803,
+                "Size": {
+                  "X": 760.0,
+                  "Y": 400.0
+                },
+                "Name": "ND_Page2",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 1276330731,
+            "Size": {
+              "X": 846.0,
+              "Y": 552.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/BTN_CloseN.png",
+        "../../Common/Images/PopupWing846x552.png",
+        "image/BTN_FanKuiN.png",
+        "image/BTN_FanKuiP.png",
+        "image/BTN_KeFuN.png",
+        "image/BTN_KeFuP.png",
+        "image/Pic_Up_Bg.png",
+        "ND_Content_FanKui.json",
+        "ND_Content_KeFu.csd.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,770 @@
+{
+  "ID": "485fec02-419f-4e14-ad12-5b2780db212f",
+  "Version": "2.3.4",
+  "Name": "InvitationWindow",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 157,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing846x552.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6609,
+              "Y": 0.7667
+            },
+            "LeftMargin": 217.0,
+            "RightMargin": 217.0,
+            "TopMargin": 84.0,
+            "BottomMargin": 84.0,
+            "Tag": 169,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/Tittle_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 423.0,
+                  "Y": 480.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8696
+                },
+                "PreSize": {
+                  "X": 0.2648,
+                  "Y": 0.0797
+                },
+                "LeftMargin": 311.0,
+                "RightMargin": 311.0,
+                "TopMargin": 50.0,
+                "BottomMargin": 458.0,
+                "Tag": 193,
+                "ActionTag": -48875608,
+                "Size": {
+                  "X": 224.0,
+                  "Y": 44.0
+                },
+                "Name": "ND_Tittle",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/Des_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 390.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1537,
+                  "Y": 0.7065
+                },
+                "PreSize": {
+                  "X": 0.74,
+                  "Y": 0.0725
+                },
+                "LeftMargin": 130.0,
+                "RightMargin": 90.0,
+                "TopMargin": 142.0,
+                "BottomMargin": 370.0,
+                "Tag": 177,
+                "ActionTag": 227726251,
+                "Size": {
+                  "X": 626.0,
+                  "Y": 40.0
+                },
+                "Name": "ND_Txt",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 423.0,
+                  "Y": 276.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 423.0,
+                "RightMargin": 423.0,
+                "TopMargin": 276.0,
+                "BottomMargin": 276.0,
+                "Tag": 59,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Invitation/Images/Label_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -280.0001,
+                      "Y": 46.6665
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -280.0001,
+                    "RightMargin": 202.0001,
+                    "TopMargin": -63.6665,
+                    "BottomMargin": 29.6665,
+                    "Tag": 182,
+                    "ActionTag": 1658580878,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Label_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "不洗牌模式       64倍封顶",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -179.9999,
+                      "Y": 44.4444
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 190,
+                      "G": 92,
+                      "B": 30
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -179.9999,
+                    "RightMargin": -156.0001,
+                    "TopMargin": -65.4444,
+                    "BottomMargin": 23.4444,
+                    "Tag": 186,
+                    "ActionTag": 369955435,
+                    "Size": {
+                      "X": 336.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Fnt_Rule",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Invitation/Images/Label_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -280.0001,
+                      "Y": -33.3334
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -280.0001,
+                    "RightMargin": 202.0001,
+                    "TopMargin": 16.3334,
+                    "BottomMargin": -50.3334,
+                    "Tag": 183,
+                    "ActionTag": 1252034636,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Label_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "平民匹配场",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -179.9999,
+                      "Y": -36.5557
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 190,
+                      "G": 92,
+                      "B": 30
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -179.9999,
+                    "RightMargin": 27.9999,
+                    "TopMargin": 15.5557,
+                    "BottomMargin": -57.5557,
+                    "Tag": 187,
+                    "ActionTag": 1737494968,
+                    "Size": {
+                      "X": 152.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Fnt_Name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Invitation/Images/Label_3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -280.0001,
+                      "Y": -113.3334
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -280.0001,
+                    "RightMargin": 202.0001,
+                    "TopMargin": 96.3334,
+                    "BottomMargin": -130.3334,
+                    "Tag": 184,
+                    "ActionTag": 791670992,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Label_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "9999999999",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -179.9999,
+                      "Y": -115.5555
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 190,
+                      "G": 92,
+                      "B": 30
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -179.9999,
+                    "RightMargin": 26.9999,
+                    "TopMargin": 94.5555,
+                    "BottomMargin": -136.5555,
+                    "Tag": 188,
+                    "ActionTag": 669567997,
+                    "Size": {
+                      "X": 153.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Fnt_DZ",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Home/Invitation/Images/Label_4.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.9998,
+                      "Y": -113.3334
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 39.9998,
+                    "RightMargin": -117.9998,
+                    "TopMargin": 96.3334,
+                    "BottomMargin": -130.3334,
+                    "Tag": 185,
+                    "ActionTag": 66971498,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Label_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "9999999999",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 139.9999,
+                      "Y": -115.5555
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 190,
+                      "G": 92,
+                      "B": 30
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 139.9999,
+                    "RightMargin": -292.9999,
+                    "TopMargin": 94.5555,
+                    "BottomMargin": -136.5555,
+                    "Tag": 189,
+                    "ActionTag": -1419801997,
+                    "Size": {
+                      "X": 153.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Fnt_ZR",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 844321917,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Opts",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/BTN_RefuseN.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/BTN_RefuseP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/BTN_RefuseN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 240.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2837,
+                  "Y": 0.1087
+                },
+                "PreSize": {
+                  "X": 0.2884,
+                  "Y": 0.1884
+                },
+                "LeftMargin": 118.0,
+                "RightMargin": 484.0,
+                "TopMargin": 440.0,
+                "BottomMargin": 8.0,
+                "Tag": 194,
+                "ActionTag": -1578097779,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_Refuse",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/BTN_AcceptP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/Invitation/Images/BTN_AcceptN.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 214,
+                "Scale9Height": 82,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 600.0004,
+                  "Y": 60.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7092,
+                  "Y": 0.1087
+                },
+                "PreSize": {
+                  "X": 0.2884,
+                  "Y": 0.1884
+                },
+                "LeftMargin": 478.0004,
+                "RightMargin": 123.9996,
+                "TopMargin": 439.9999,
+                "BottomMargin": 8.0001,
+                "Tag": 195,
+                "ActionTag": -1744589968,
+                "Size": {
+                  "X": 244.0,
+                  "Y": 104.0
+                },
+                "Name": "BTN_Accept",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 982461753,
+            "Size": {
+              "X": 846.0,
+              "Y": 552.0
+            },
+            "Name": "ND_PopWin",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/PopupWing846x552.png",
+        "../../Default/Button_Disable.png",
+        "../../Fonts/YaHei.ttf",
+        "Images/BTN_AcceptN.png",
+        "Images/BTN_AcceptP.png",
+        "Images/BTN_RefuseN.png",
+        "Images/BTN_RefuseP.png",
+        "Images/Des_2.png",
+        "Images/Label_1.png",
+        "Images/Label_2.png",
+        "Images/Label_3.png",
+        "Images/Label_4.png",
+        "Images/Tittle_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

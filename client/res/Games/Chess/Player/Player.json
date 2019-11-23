@@ -1,0 +1,881 @@
+{
+  "ID": "2f8f8e5b-7c5a-48d0-a877-ba137e05f33c",
+  "Version": "2.3.4",
+  "Name": "Player",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Img_Player_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0016,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -132.9984,
+            "RightMargin": -133.0016,
+            "TopMargin": -58.0,
+            "BottomMargin": -58.0,
+            "Tag": 13,
+            "ActionTag": -1455348947,
+            "Size": {
+              "X": 266.0,
+              "Y": 116.0
+            },
+            "Name": "BG_Player",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Img_Player_4.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -90.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -134.0,
+            "RightMargin": -134.0,
+            "TopMargin": 63.0,
+            "BottomMargin": -117.0,
+            "Tag": 59,
+            "ActionTag": -709641077,
+            "Size": {
+              "X": 268.0,
+              "Y": 54.0
+            },
+            "Name": "BG_Clock",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_GameCoin.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 46.0,
+              "Y": -35.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -15.0,
+            "RightMargin": -107.0,
+            "TopMargin": 20.0,
+            "BottomMargin": -50.0,
+            "Tag": 41,
+            "ActionTag": -881657586,
+            "Size": {
+              "X": 122.0,
+              "Y": 30.0
+            },
+            "Name": "BG_Gold",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "9999.99w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/coin_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 52.5195,
+              "Y": -41.4022
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 4.5195,
+            "RightMargin": -100.5195,
+            "TopMargin": 25.4022,
+            "BottomMargin": -57.4022,
+            "Tag": 98,
+            "ActionTag": -120152934,
+            "Size": {
+              "X": 96.0,
+              "Y": 32.0
+            },
+            "Name": "ND_Bean",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Head/GameHead.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -76.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -76.0,
+            "RightMargin": 76.0,
+            "Tag": 14,
+            "ActionTag": 1735993983,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_HeadPic",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Animations/EffChess/EffLight/EffLight.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -77.0,
+              "Y": 2.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -77.0,
+            "RightMargin": 77.0,
+            "TopMargin": -2.0,
+            "BottomMargin": 2.0,
+            "Tag": 286,
+            "ActionTag": 1595031125,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Light",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_BlackPlayer.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -43.4541,
+              "Y": 18.64
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -68.4541,
+            "RightMargin": 18.4541,
+            "TopMargin": -43.64,
+            "BottomMargin": -6.36,
+            "Tag": 191,
+            "ActionTag": -1782220136,
+            "Size": {
+              "X": 50.0,
+              "Y": 50.0
+            },
+            "Name": "ND_Black",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_RedPlayer.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -43.4541,
+              "Y": 18.64
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -68.4541,
+            "RightMargin": 18.4541,
+            "TopMargin": -43.64,
+            "BottomMargin": -6.36,
+            "Tag": 192,
+            "ActionTag": 777354319,
+            "Size": {
+              "X": 50.0,
+              "Y": 50.0
+            },
+            "Name": "ND_Red",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_Offline.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -76.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -111.0,
+            "RightMargin": 41.0,
+            "TopMargin": -35.0,
+            "BottomMargin": -35.0,
+            "Tag": 119,
+            "ActionTag": -563811100,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "ND_Offline",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/Img_Player_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -100.0,
+              "Y": 34.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -125.0,
+            "RightMargin": 75.0,
+            "TopMargin": -52.0,
+            "BottomMargin": 16.0,
+            "Tag": 120,
+            "ActionTag": -899433386,
+            "Size": {
+              "X": 50.0,
+              "Y": 36.0
+            },
+            "Name": "ND_Dealer",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_HaveReady.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 66.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -55.0,
+            "RightMargin": -55.0,
+            "TopMargin": -87.0,
+            "BottomMargin": 45.0,
+            "Tag": 42,
+            "ActionTag": -922175317,
+            "Size": {
+              "X": 110.0,
+              "Y": 42.0
+            },
+            "Name": "ND_Ready",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "ID：10086",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineSize": 2,
+            "OutlineColor": {
+              "R": 130,
+              "G": 50,
+              "B": 10
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 42.0,
+              "Y": -6.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 246,
+              "G": 246,
+              "B": 246
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -19.5,
+            "RightMargin": -103.5,
+            "TopMargin": -14.0,
+            "BottomMargin": -26.0,
+            "Tag": 44,
+            "ActionTag": -532629242,
+            "Size": {
+              "X": 123.0,
+              "Y": 40.0
+            },
+            "Name": "ND_ID",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "紫琼好玩呦",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineSize": 2,
+            "OutlineColor": {
+              "R": 130,
+              "G": 50,
+              "B": 10
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 42.0,
+              "Y": 24.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 246,
+              "G": 246,
+              "B": 246
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -25.0,
+            "RightMargin": -109.0,
+            "TopMargin": -44.0,
+            "BottomMargin": 4.0,
+            "Tag": 43,
+            "ActionTag": -1087447738,
+            "Size": {
+              "X": 134.0,
+              "Y": 40.0
+            },
+            "Name": "ND_Name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "LabelText": "99:99",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Font/num_chess_clock.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 53.0397,
+              "Y": -97.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 18.0397,
+            "RightMargin": -88.0397,
+            "TopMargin": 79.5,
+            "BottomMargin": -114.5,
+            "Tag": 61,
+            "ActionTag": 1792187884,
+            "Size": {
+              "X": 70.0,
+              "Y": 35.0
+            },
+            "Name": "ND_Time",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -76.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -76.0,
+            "RightMargin": 76.0,
+            "Tag": 79,
+            "ActionTag": 132707389,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Gift",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Chess/Image/IMG_ChatBg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 18,
+            "Scale9OriginY": 22,
+            "Scale9Width": 222,
+            "Scale9Height": 24,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 75.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -129.0,
+            "RightMargin": -129.0,
+            "TopMargin": -109.0,
+            "BottomMargin": 41.0,
+            "Tag": 103,
+            "Children": [
+              {
+                "FlipX": true,
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Chess/Image/IMG_ChatArrow.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 51.0133,
+                  "Y": 8.0532
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1977,
+                  "Y": 0.1184
+                },
+                "PreSize": {
+                  "X": 0.1163,
+                  "Y": 0.3235
+                },
+                "LeftMargin": 36.0133,
+                "RightMargin": 191.9867,
+                "TopMargin": 48.9468,
+                "BottomMargin": -2.9468,
+                "Tag": 104,
+                "ActionTag": -680240028,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 22.0
+                },
+                "Name": "IMG_ChatArrow",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -715555901,
+            "Size": {
+              "X": 258.0,
+              "Y": 68.0
+            },
+            "Name": "IMG_ChatBG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "不要吵了不要吵了，专心玩游戏吧",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 39,
+              "G": 67,
+              "B": 157
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 8.0,
+              "Y": 75.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -112.0,
+            "RightMargin": -128.0,
+            "TopMargin": -102.0,
+            "BottomMargin": 48.0,
+            "Tag": 102,
+            "ActionTag": 1238957142,
+            "Size": {
+              "X": 240.0,
+              "Y": 54.0
+            },
+            "Name": "TXT_ChatMsg",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Animations/EffChess/EffLight/EffLight.json",
+        "../../../Common/Images/Com_GameCoin.png",
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Font/coin_num.fnt",
+        "../../Com/Font/coin_num_0.png",
+        "../../Com/Head/GameHead.json",
+        "../Font/num_chess_clock.fnt",
+        "../Font/num_chess_clock_0.png",
+        "../Image/IMG_BlackPlayer.png",
+        "../Image/IMG_ChatArrow.png",
+        "../Image/IMG_ChatBg.png",
+        "../Image/IMG_HaveReady.png",
+        "../Image/IMG_Offline.png",
+        "../Image/Img_Player_1.png",
+        "../Image/Img_Player_3.png",
+        "../Image/Img_Player_4.png",
+        "../Image/IMG_RedPlayer.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

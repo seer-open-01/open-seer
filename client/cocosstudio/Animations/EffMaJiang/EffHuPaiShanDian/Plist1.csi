@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist1" Type="Plist" ID="e8afc4d3-ce2d-4b8d-9b41-89ebe6879ee2" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b01.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b02.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b03.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b04.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b05.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b06.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b07.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b08.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b09.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b10.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b11.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b12.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b13.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b14.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffHuPaiShanDian/b15.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

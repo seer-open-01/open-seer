@@ -1,0 +1,39 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="d3f03b27-3a01-4d09-a038-0094ca36e3b7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffMaJiang/EffWind/Glow_01.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_01.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_02.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_03.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_04.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_05.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_06.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_07.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_08.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_09.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_10.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_11.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_12.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_13.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_14.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_15.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_16.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_17.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_18.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_19.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_20.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_21.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_22.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_23.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_24.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_25.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_26.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_27.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_28.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_29.png" />
+      <FilePathData Path="Animations/EffMaJiang/EffWind/LJF_30.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

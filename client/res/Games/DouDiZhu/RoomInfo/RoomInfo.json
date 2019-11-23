@@ -1,0 +1,490 @@
+{
+  "ID": "e0a36730-8bdf-4dab-866b-9e7700f272bf",
+  "Version": "2.3.4",
+  "Name": "RoomInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 149,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/BG_RoomInfo.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -25.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -335.0,
+            "RightMargin": -335.0,
+            "TopMargin": -1.0004,
+            "BottomMargin": -52.9996,
+            "Tag": 150,
+            "ActionTag": -316730947,
+            "Size": {
+              "X": 670.0,
+              "Y": 54.0
+            },
+            "Name": "BG_RoomInfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_RoomInfo_DF.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -220.3406,
+              "Y": -19.2261
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -257.3406,
+            "RightMargin": 183.3406,
+            "TopMargin": 2.2261,
+            "BottomMargin": -36.2261,
+            "Tag": 151,
+            "ActionTag": -1968414111,
+            "Size": {
+              "X": 74.0,
+              "Y": 34.0
+            },
+            "Name": "ND_DiFen",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_Mode_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -19.5894
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -62.0,
+            "RightMargin": -62.0,
+            "TopMargin": 2.5894,
+            "BottomMargin": -36.5894,
+            "Tag": 152,
+            "ActionTag": 407182288,
+            "Size": {
+              "X": 124.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Mode_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_Mode_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -19.5894
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -76.0,
+            "RightMargin": -76.0,
+            "TopMargin": 2.5894,
+            "BottomMargin": -36.5894,
+            "Tag": 4927,
+            "ActionTag": -364612951,
+            "Size": {
+              "X": 152.0,
+              "Y": 34.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Mode_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_32.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.4361,
+              "ScaleY": 0.543
+            },
+            "Position": {
+              "X": 188.0,
+              "Y": -18.1284
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 132.1792,
+            "RightMargin": -260.1792,
+            "TopMargin": 2.5904,
+            "BottomMargin": -36.5904,
+            "Tag": 153,
+            "ActionTag": -696342579,
+            "Size": {
+              "X": 128.0,
+              "Y": 34.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ND_Max_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_64.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.4361,
+              "ScaleY": 0.543
+            },
+            "Position": {
+              "X": 188.0,
+              "Y": -18.1284
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 132.1792,
+            "RightMargin": -260.1792,
+            "TopMargin": 2.5904,
+            "BottomMargin": -36.5904,
+            "Tag": 4878,
+            "ActionTag": 1458526364,
+            "Size": {
+              "X": 128.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Max_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "20.2w",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Games/Com/Font/top_num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -174.0,
+              "Y": -23.2257
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -174.0,
+            "RightMargin": 96.0,
+            "TopMargin": 7.2257,
+            "BottomMargin": -39.2257,
+            "Tag": 154,
+            "ActionTag": 557865385,
+            "Size": {
+              "X": 78.0,
+              "Y": 32.0
+            },
+            "Name": "Fnt_Ante",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_16.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.44,
+              "ScaleY": 0.54
+            },
+            "Position": {
+              "X": 188.0,
+              "Y": -18.13
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 131.68,
+            "RightMargin": -259.68,
+            "TopMargin": 2.49,
+            "BottomMargin": -36.49,
+            "Tag": 27,
+            "ActionTag": 584733244,
+            "Size": {
+              "X": 128.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Max_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_8.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.44,
+              "ScaleY": 0.54
+            },
+            "Position": {
+              "X": 188.0,
+              "Y": -18.13
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 131.68,
+            "RightMargin": -259.68,
+            "TopMargin": 2.49,
+            "BottomMargin": -36.49,
+            "Tag": 28,
+            "ActionTag": -84480255,
+            "Size": {
+              "X": 128.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Max_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/DouDiZhu/Image/IMG_BuFeng.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.44,
+              "ScaleY": 0.54
+            },
+            "Position": {
+              "X": 188.0,
+              "Y": -18.13
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 142.24,
+            "RightMargin": -246.24,
+            "TopMargin": 2.49,
+            "BottomMargin": -36.49,
+            "Tag": 29,
+            "ActionTag": 1803006390,
+            "Size": {
+              "X": 104.0,
+              "Y": 34.0
+            },
+            "Name": "ND_Max_5",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Com/Font/top_num.fnt",
+        "../../Com/Font/top_num_0.png",
+        "../Image/BG_RoomInfo.png",
+        "../Image/IMG_16.png",
+        "../Image/IMG_32.png",
+        "../Image/IMG_64.png",
+        "../Image/IMG_8.png",
+        "../Image/IMG_BuFeng.png",
+        "../Image/IMG_Mode_1.png",
+        "../Image/IMG_Mode_2.png",
+        "../Image/IMG_RoomInfo_DF.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

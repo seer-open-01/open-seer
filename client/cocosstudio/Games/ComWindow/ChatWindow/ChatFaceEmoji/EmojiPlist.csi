@@ -1,0 +1,75 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="EmojiPlist" Type="Plist" ID="247ef42f-2b93-4bd6-9c9c-c7029b9a0e1f" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/1/1-1-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/1/1-1-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/1/1-1-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/1/1-1-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/1/1-1-5.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/1/1-1-6.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/2/1-2-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/2/1-2-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/2/1-2-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/2/1-2-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/2/1-2-5.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/2/1-2-6.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-5.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-6.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/3/1-3-7.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-5.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-6.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/4/2-1-7.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/5/2-2-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/5/2-2-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/5/2-2-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/5/2-2-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-5.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-6.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/6/2-3-7.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/7/3-1-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/7/3-1-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/7/3-1-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/7/3-1-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/8/3-2-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/8/3-2-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/8/3-2-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/8/3-2-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/8/3-2-5.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/8/3-2-6.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/9/3-3-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/9/3-3-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/9/3-3-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/9/3-3-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/10/4-1-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/10/4-1-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/10/4-1-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/10/4-1-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/11/4-2-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/11/4-2-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/12/4-3-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/12/4-3-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/13/5-1-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/13/5-1-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/14/5-2-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/14/5-2-2.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/14/5-2-3.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/14/5-2-4.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/15/5-3-1.png" />
+      <FilePathData Path="Games/ComWindow/ChatWindow/ChatFaceEmoji/15/5-3-2.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

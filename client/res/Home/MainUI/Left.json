@@ -1,0 +1,505 @@
+{
+  "ID": "aaed0e12-13d9-42ed-89a1-54b306228b0f",
+  "Version": "2.3.4",
+  "Name": "Left",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1022,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_RankList.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_RankList.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 52,
+            "Scale9Height": 262,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 41.3224,
+              "Y": 209.9629
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1033,
+              "Y": 0.4929
+            },
+            "PreSize": {
+              "X": 0.205,
+              "Y": 0.6667
+            },
+            "LeftMargin": 0.3224,
+            "RightMargin": 317.6776,
+            "TopMargin": 74.0371,
+            "BottomMargin": 67.9629,
+            "Tag": 1023,
+            "ActionTag": -246418545,
+            "Size": {
+              "X": 82.0,
+              "Y": 284.0
+            },
+            "Name": "BTN_RankList",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/Btn_Chess_0.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/Btn_Chess_1.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/Btn_Chess_0.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 90,
+            "Scale9Height": 58,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 424.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6,
+              "Y": 0.9953
+            },
+            "PreSize": {
+              "X": 0.3,
+              "Y": 0.1878
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 100.0,
+            "TopMargin": -38.0,
+            "BottomMargin": 384.0,
+            "Tag": 519,
+            "ActionTag": -827777931,
+            "Size": {
+              "X": 120.0,
+              "Y": 80.0
+            },
+            "Name": "BTN_LB",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_Horn.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "PressedFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_Horn.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Home/Image/BTN_Horn.png",
+              "Plist": "Home/Image/Plist.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 344,
+            "Scale9Height": 120,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 222.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.555,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.935,
+              "Y": 0.3333
+            },
+            "LeftMargin": 35.0,
+            "RightMargin": -9.0,
+            "TopMargin": 355.0,
+            "BottomMargin": -71.0,
+            "Tag": 265,
+            "Children": [
+              {
+                "ClipAble": true,
+                "BackColorAlpha": 1,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 44.0,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1176,
+                  "Y": 0.1268
+                },
+                "PreSize": {
+                  "X": 0.8717,
+                  "Y": 0.5211
+                },
+                "LeftMargin": 44.0,
+                "RightMargin": 4.0,
+                "TopMargin": 50.0,
+                "BottomMargin": 18.0,
+                "Tag": 1055,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "昵称昵称昵称：我在斗地主匹配场等你，大家快来玩呀",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -1.4999,
+                      "Y": 59.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0046,
+                      "Y": 0.8108
+                    },
+                    "PreSize": {
+                      "X": 1.4816,
+                      "Y": 0.3784
+                    },
+                    "LeftMargin": -1.4999,
+                    "RightMargin": -155.5001,
+                    "TopMargin": 0.0001,
+                    "BottomMargin": 45.9999,
+                    "Tag": 1054,
+                    "ActionTag": 257265062,
+                    "Size": {
+                      "X": 483.0,
+                      "Y": 28.0
+                    },
+                    "Name": "txt_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "昵称昵称昵称：我在斗地主匹配场等你，大家快来玩呀",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -1.4999,
+                      "Y": 35.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0046,
+                      "Y": 0.4865
+                    },
+                    "PreSize": {
+                      "X": 1.4816,
+                      "Y": 0.3784
+                    },
+                    "LeftMargin": -1.4999,
+                    "RightMargin": -155.5001,
+                    "TopMargin": 24.0001,
+                    "BottomMargin": 21.9999,
+                    "Tag": 1056,
+                    "ActionTag": 1651620268,
+                    "Size": {
+                      "X": 483.0,
+                      "Y": 28.0
+                    },
+                    "Name": "txt_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "昵称昵称昵称：我在斗地主匹配场等你，大家快来玩呀",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -1.4996,
+                      "Y": 11.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0046,
+                      "Y": 0.1486
+                    },
+                    "PreSize": {
+                      "X": 1.4816,
+                      "Y": 0.3784
+                    },
+                    "LeftMargin": -1.4996,
+                    "RightMargin": -155.5004,
+                    "TopMargin": 49.0,
+                    "BottomMargin": -3.0,
+                    "Tag": 1057,
+                    "ActionTag": 1078678058,
+                    "Size": {
+                      "X": 483.0,
+                      "Y": 28.0
+                    },
+                    "Name": "txt_3",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1680865241,
+                "Size": {
+                  "X": 326.0,
+                  "Y": 74.0
+                },
+                "Name": "Panel_1",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -586743754,
+            "Size": {
+              "X": 374.0,
+              "Y": 142.0
+            },
+            "Name": "Btn_Horn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 110.0,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.275,
+              "Y": 0.1174
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 110.0,
+            "RightMargin": 290.0,
+            "TopMargin": 376.0,
+            "BottomMargin": 50.0,
+            "Tag": 4449,
+            "ActionTag": -1312142116,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Banner",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 400.0,
+          "Y": 426.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Fonts/YaHei.ttf",
+        "../Image/Plist.plist",
+        "../Image/Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

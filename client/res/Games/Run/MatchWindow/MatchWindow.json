@@ -1,0 +1,811 @@
+{
+  "ID": "4f18ff17-0232-469b-8bee-d048d0a91f97",
+  "Version": "2.3.4",
+  "Name": "MatchWindow",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 174,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Mask.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 175,
+            "ActionTag": 215111884,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/PopupWing668x438.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 220,
+            "Scale9OriginY": 144,
+            "Scale9Width": 228,
+            "Scale9Height": 150,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5219,
+              "Y": 0.6083
+            },
+            "LeftMargin": 306.0,
+            "RightMargin": 306.0,
+            "TopMargin": 141.0,
+            "BottomMargin": 141.0,
+            "Tag": 181,
+            "ActionTag": 1022405012,
+            "Size": {
+              "X": 668.0,
+              "Y": 438.0
+            },
+            "Name": "IMG_Bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_CloseP.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/BTN_CloseN.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 36,
+            "Scale9Height": 52,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 970.0,
+              "Y": 540.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7578,
+              "Y": 0.75
+            },
+            "PreSize": {
+              "X": 0.0516,
+              "Y": 0.1028
+            },
+            "LeftMargin": 937.0,
+            "RightMargin": 277.0,
+            "TopMargin": 143.0,
+            "BottomMargin": 503.0,
+            "Tag": 190,
+            "ActionTag": -759754771,
+            "Size": {
+              "X": 66.0,
+              "Y": 74.0
+            },
+            "Name": "BTN_Close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/MatchWindow_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 109,
+            "Scale9OriginY": 14,
+            "Scale9Width": 114,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 520.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7222
+            },
+            "PreSize": {
+              "X": 0.2594,
+              "Y": 0.0611
+            },
+            "LeftMargin": 474.0,
+            "RightMargin": 474.0,
+            "TopMargin": 178.0,
+            "BottomMargin": 498.0,
+            "Tag": 182,
+            "ActionTag": 65114960,
+            "Size": {
+              "X": 332.0,
+              "Y": 44.0
+            },
+            "Name": "IMG_Title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/MatchWindow_2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 109,
+            "Scale9OriginY": 14,
+            "Scale9Width": 114,
+            "Scale9Height": 6,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 200.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2778
+            },
+            "PreSize": {
+              "X": 0.2594,
+              "Y": 0.0472
+            },
+            "LeftMargin": 474.0,
+            "RightMargin": 474.0,
+            "TopMargin": 503.0,
+            "BottomMargin": 183.0,
+            "Tag": 183,
+            "ActionTag": 1267498623,
+            "Size": {
+              "X": 332.0,
+              "Y": 34.0
+            },
+            "Name": "IMG_Hint",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Run/Image/MatchWindow_6.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 109,
+            "Scale9OriginY": 14,
+            "Scale9Width": 146,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 100.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1389
+            },
+            "PreSize": {
+              "X": 0.2844,
+              "Y": 0.0417
+            },
+            "LeftMargin": 458.0,
+            "RightMargin": 458.0,
+            "TopMargin": 605.0,
+            "BottomMargin": 85.0,
+            "Tag": 189,
+            "ActionTag": -387474505,
+            "Size": {
+              "X": 364.0,
+              "Y": 30.0
+            },
+            "Name": "IMG_Status",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -66.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": -0.0516,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -66.0,
+            "RightMargin": 1346.0,
+            "TopMargin": 720.0,
+            "Tag": 1338,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Run/Image/MatchWindow_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 33,
+                "Scale9Width": 34,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 450.0,
+                "RightMargin": -550.0,
+                "TopMargin": -350.0,
+                "BottomMargin": 250.0,
+                "Tag": 191,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffGameCom/EffFZB/EffFZB.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 50.0,
+                    "RightMargin": 50.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 42,
+                    "ActionTag": -254881031,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1271417726,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "IMG_Head1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Run/Image/MatchWindow_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 33,
+                "Scale9Width": 34,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 590.0,
+                "RightMargin": -690.0,
+                "TopMargin": -350.0,
+                "BottomMargin": 250.0,
+                "Tag": 192,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffGameCom/EffFZB/EffFZB.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 50.0,
+                    "RightMargin": 50.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 46,
+                    "ActionTag": 768047235,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1392239373,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "IMG_Head2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Run/Image/MatchWindow_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 33,
+                "Scale9Width": 34,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 780.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 730.0,
+                "RightMargin": -830.0,
+                "TopMargin": -350.0,
+                "BottomMargin": 250.0,
+                "Tag": 193,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffGameCom/EffFZB/EffFZB.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 50.0,
+                    "RightMargin": 50.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 50,
+                    "ActionTag": -1892542800,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1831180930,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "IMG_Head3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/Run/Image/MatchWindow_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 33,
+                "Scale9Width": 34,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 920.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 870.0,
+                "RightMargin": -970.0,
+                "TopMargin": -350.0,
+                "BottomMargin": 250.0,
+                "Tag": 1339,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Animations/EffGameCom/EffFZB/EffFZB.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 50.0,
+                    "RightMargin": 50.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 1340,
+                    "ActionTag": -2105041476,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "eff",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1379162612,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "IMG_Head4",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1158693752,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_Players",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 32,
+            "LabelText": "普通模式  虾兵场",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 232,
+              "G": 122,
+              "B": 46
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 232,
+              "G": 122,
+              "B": 46
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.0625
+            },
+            "LeftMargin": 340.0,
+            "RightMargin": 340.0,
+            "TopMargin": 297.5,
+            "BottomMargin": 377.5,
+            "Tag": 195,
+            "ActionTag": 1379424091,
+            "Size": {
+              "X": 600.0,
+              "Y": 45.0
+            },
+            "Name": "TXT_MatchExplain",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Animations/EffGameCom/EffFZB/EffFZB.json",
+        "../../../Common/Images/BTN_CloseN.png",
+        "../../../Common/Images/BTN_CloseP.png",
+        "../../../Common/Images/Com_Mask.png",
+        "../../../Common/Images/PopupWing668x438.png",
+        "../../../Fonts/YaHei.ttf",
+        "../Image/MatchWindow_1.png",
+        "../Image/MatchWindow_2.png",
+        "../Image/MatchWindow_3.png",
+        "../Image/MatchWindow_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

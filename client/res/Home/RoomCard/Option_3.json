@@ -1,0 +1,823 @@
+{
+  "ID": "a19d574e-3c0d-4b5c-9bc4-e16d12a3dc10",
+  "Version": "2.3.4",
+  "Name": "Option_3",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 138,
+        "Children": [
+          {
+            "FontSize": 34,
+            "LabelText": "玩法：",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 223,
+              "G": 193,
+              "B": 139
+            },
+            "ShadowColor": {
+              "R": 199,
+              "G": 155,
+              "B": 74
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -1.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -260.0,
+              "Y": 164.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 168,
+              "G": 92,
+              "B": 40
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -260.0,
+            "RightMargin": 169.0,
+            "TopMargin": -187.5,
+            "BottomMargin": 140.5,
+            "Tag": 140,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.0,
+                  "Y": 28.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.4615,
+                  "Y": 0.5957
+                },
+                "PreSize": {
+                  "X": 0.4615,
+                  "Y": 0.8936
+                },
+                "LeftMargin": 112.0,
+                "RightMargin": -63.0,
+                "TopMargin": -2.0,
+                "BottomMargin": 7.0,
+                "Tag": 143,
+                "Children": [
+                  {
+                    "FontSize": 31,
+                    "LabelText": "普通模式",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 53.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 168,
+                      "G": 92,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.2619,
+                      "Y": 0.4762
+                    },
+                    "PreSize": {
+                      "X": 3.0238,
+                      "Y": 1.0238
+                    },
+                    "LeftMargin": 53.0,
+                    "RightMargin": -138.0,
+                    "TopMargin": 0.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 141,
+                    "ActionTag": 1982116471,
+                    "Size": {
+                      "X": 127.0,
+                      "Y": 43.0
+                    },
+                    "Name": "label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 541210570,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "CheckBox_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.0,
+                  "Y": 28.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.011,
+                  "Y": 0.5957
+                },
+                "PreSize": {
+                  "X": 0.4615,
+                  "Y": 0.8936
+                },
+                "LeftMargin": 344.0,
+                "RightMargin": -295.0,
+                "TopMargin": -2.0,
+                "BottomMargin": 7.0,
+                "Tag": 202,
+                "Children": [
+                  {
+                    "FontSize": 31,
+                    "LabelText": "激情模式",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 53.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 168,
+                      "G": 92,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.2619,
+                      "Y": 0.4762
+                    },
+                    "PreSize": {
+                      "X": 3.0238,
+                      "Y": 1.0238
+                    },
+                    "LeftMargin": 53.0,
+                    "RightMargin": -138.0,
+                    "TopMargin": 0.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 203,
+                    "ActionTag": 741628249,
+                    "Size": {
+                      "X": 127.0,
+                      "Y": 43.0
+                    },
+                    "Name": "label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1725036754,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "CheckBox_2",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 2070408130,
+            "Size": {
+              "X": 91.0,
+              "Y": 47.0
+            },
+            "Name": "ND_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 34,
+            "LabelText": "轮数：",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 223,
+              "G": 193,
+              "B": 139
+            },
+            "ShadowColor": {
+              "R": 199,
+              "G": 155,
+              "B": 74
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -1.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -260.0,
+              "Y": 104.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 168,
+              "G": 92,
+              "B": 40
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -260.0,
+            "RightMargin": 169.0,
+            "TopMargin": -127.5,
+            "BottomMargin": 80.5,
+            "Tag": 159,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.0,
+                  "Y": 28.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.4615,
+                  "Y": 0.5957
+                },
+                "PreSize": {
+                  "X": 0.4615,
+                  "Y": 0.8936
+                },
+                "LeftMargin": 112.0,
+                "RightMargin": -63.0,
+                "TopMargin": -2.0,
+                "BottomMargin": 7.0,
+                "Tag": 160,
+                "Children": [
+                  {
+                    "FontSize": 31,
+                    "LabelText": "20轮",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 53.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 168,
+                      "G": 92,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.2619,
+                      "Y": 0.4762
+                    },
+                    "PreSize": {
+                      "X": 1.5714,
+                      "Y": 1.0238
+                    },
+                    "LeftMargin": 53.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": 0.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 161,
+                    "ActionTag": -1623062779,
+                    "Size": {
+                      "X": 66.0,
+                      "Y": 43.0
+                    },
+                    "Name": "label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -569951121,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "CheckBox_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_0.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel2_1.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.0,
+                  "Y": 28.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.011,
+                  "Y": 0.5957
+                },
+                "PreSize": {
+                  "X": 0.4615,
+                  "Y": 0.8936
+                },
+                "LeftMargin": 344.0,
+                "RightMargin": -295.0,
+                "TopMargin": -2.0,
+                "BottomMargin": 7.0,
+                "Tag": 162,
+                "Children": [
+                  {
+                    "FontSize": 31,
+                    "LabelText": "10轮",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 53.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 168,
+                      "G": 92,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.2619,
+                      "Y": 0.4762
+                    },
+                    "PreSize": {
+                      "X": 1.5714,
+                      "Y": 1.0238
+                    },
+                    "LeftMargin": 53.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": 0.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 163,
+                    "ActionTag": -1768741527,
+                    "Size": {
+                      "X": 66.0,
+                      "Y": 43.0
+                    },
+                    "Name": "label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1566804221,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "CheckBox_2",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -2080022634,
+            "Size": {
+              "X": 91.0,
+              "Y": 47.0
+            },
+            "Name": "ND_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 34,
+            "LabelText": "可选：",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 223,
+              "G": 193,
+              "B": 139
+            },
+            "ShadowColor": {
+              "R": 199,
+              "G": 155,
+              "B": 74
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -1.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -260.0,
+              "Y": 44.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 168,
+              "G": 92,
+              "B": 40
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -260.0,
+            "RightMargin": 169.0,
+            "TopMargin": -67.5,
+            "BottomMargin": 20.5,
+            "Tag": 158,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel1_0.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel1_0.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel1_0.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel1_1.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Home/RoomCard/Image/Sel1_1.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.0,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.4615,
+                  "Y": 0.4468
+                },
+                "PreSize": {
+                  "X": 0.4615,
+                  "Y": 0.8936
+                },
+                "LeftMargin": 112.0,
+                "RightMargin": -63.0,
+                "TopMargin": 5.0,
+                "Tag": 167,
+                "Children": [
+                  {
+                    "FontSize": 31,
+                    "LabelText": "必闷三轮",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Fonts/YaHei.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 53.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 168,
+                      "G": 92,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.2619,
+                      "Y": 0.4762
+                    },
+                    "PreSize": {
+                      "X": 3.0238,
+                      "Y": 1.0238
+                    },
+                    "LeftMargin": 53.0,
+                    "RightMargin": -138.0,
+                    "TopMargin": 0.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 159,
+                    "ActionTag": 1874842144,
+                    "Size": {
+                      "X": 127.0,
+                      "Y": 43.0
+                    },
+                    "Name": "label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2029175409,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "CheckBox_1",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 823357994,
+            "Size": {
+              "X": 91.0,
+              "Y": 47.0
+            },
+            "Name": "ND_3",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "Image/Sel1_0.png",
+        "Image/Sel1_1.png",
+        "Image/Sel2_0.png",
+        "Image/Sel2_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

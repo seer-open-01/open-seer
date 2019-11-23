@@ -1,0 +1,124 @@
+{
+  "ID": "bb69fc1e-e136-4fcf-9ffa-5b1b7e1d11ab",
+  "Version": "2.3.4",
+  "Name": "Emoji_12",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 20,
+        "Speed": 1.0,
+        "ActivedAnimationName": "animation0",
+        "Timelines": [
+          {
+            "ActionTag": -671533252,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Games/ComWindow/ChatWindow/ChatFaceEmoji/12/4-3-1.png",
+                  "Plist": "Games/ComWindow/ChatWindow/ChatFaceEmoji/EmojiPlist.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Games/ComWindow/ChatWindow/ChatFaceEmoji/12/4-3-2.png",
+                  "Plist": "Games/ComWindow/ChatWindow/ChatFaceEmoji/EmojiPlist.plist"
+                },
+                "FrameIndex": 10,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Games/ComWindow/ChatWindow/ChatFaceEmoji/12/4-3-1.png",
+                  "Plist": "Games/ComWindow/ChatWindow/ChatFaceEmoji/EmojiPlist.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 20,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 70,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Games/ComWindow/ChatWindow/ChatFaceEmoji/12/4-3-2.png",
+              "Plist": "Games/ComWindow/ChatWindow/ChatFaceEmoji/EmojiPlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -23.0,
+            "RightMargin": -23.0,
+            "TopMargin": -23.0,
+            "BottomMargin": -23.0,
+            "Tag": 71,
+            "ActionTag": -671533252,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "SP_Animation",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "EmojiPlist.plist",
+        "EmojiPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{670,0},{135,190}}</string>
+				<key>offset</key>
+				<string>{12,-30}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{159,249}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{131,266}}</string>
+				<key>offset</key>
+				<string>{10,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,266}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,266},{131,266}}</string>
+				<key>offset</key>
+				<string>{11,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{154,266}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{131,0},{131,266}}</string>
+				<key>offset</key>
+				<string>{10,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,266}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{262,0},{129,266}}</string>
+				<key>offset</key>
+				<string>{9,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{148,266}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei051.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{266,266},{127,266}}</string>
+				<key>offset</key>
+				<string>{16,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{160,296}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{391,0},{131,257}}</string>
+				<key>offset</key>
+				<string>{10,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,257}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{333,393},{118,200}}</string>
+				<key>offset</key>
+				<string>{17,-36}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{152,295}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei071.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{522,0},{148,203}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{149,204}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei072.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{532,203},{140,203}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{140,204}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuBei08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{533,343},{121,209}}</string>
+				<key>offset</key>
+				<string>{15,-29}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{152,283}</string>
+			</dict>
+			<key>Games/ComWindow/PlayerInfo/Emoji/DaoJiu/JiuPing.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,397},{104,333}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{104,334}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

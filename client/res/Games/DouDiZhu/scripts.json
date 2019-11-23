@@ -1,0 +1,41 @@
+
+[
+  "src/games/douDiZhu/logic/GameLogicDouDiZhu.js",
+  "src/games/douDiZhu/audio/GameAudioDouDiZhu.js",
+  "src/games/douDiZhu/ui/GameWindowDouDiZhu.js",
+
+  "src/games/douDiZhu/utils/DouDiZhuHelper.js",
+  "src/games/douDiZhu/utils/Utils.js",
+
+  "src/games/douDiZhu/ui/cards/Card.js",
+  "src/games/douDiZhu/ui/cards/HandButtonCard.js",
+  "src/games/douDiZhu/ui/cards/HandCards.js",
+  "src/games/douDiZhu/ui/cards/HandCardsExt.js",
+  "src/games/douDiZhu/ui/cards/HandButtonCards.js",
+  "src/games/douDiZhu/ui/cards/DiZhuCards.js",
+  "src/games/douDiZhu/ui/cards/HandButtonCards.js",
+  "src/games/douDiZhu/ui/cards/PlayerLeftCards.js",
+
+  "src/games/douDiZhu/ui/control/PreBegin.js",
+  "src/games/douDiZhu/ui/control/MatchWindow.js",
+  "src/games/douDiZhu/ui/control/RoomInfo.js",
+  "src/games/douDiZhu/ui/control/AddMultiple.js",
+  "src/games/douDiZhu/ui/control/CallDiZhu.js",
+  "src/games/douDiZhu/ui/control/Double.js",
+  "src/games/douDiZhu/ui/control/Clock.js",
+  "src/games/douDiZhu/ui/control/PlayCardsBtns.js",
+  "src/games/douDiZhu/ui/control/TableTip.js",
+  "src/games/douDiZhu/ui/control/DealCardsAnimation.js",
+
+  "src/games/douDiZhu/ui/players/GamePlayerDouDiZhu.js",
+  "src/games/douDiZhu/ui/players/DouDiZhuUserInfo.js",
+  
+  "src/games/douDiZhu/ui/disband/DisbandWindow.js",
+  "src/games/douDiZhu/ui/disband/PlayerInfoItem.js",
+  
+  "src/games/douDiZhu/ui/settlement/total/SettlementPlayer.js",
+  "src/games/douDiZhu/ui/settlement/total/SettlementWin.js",
+
+  "src/games/douDiZhu/ui/settlement/SettlementRound.js",
+  "src/games/douDiZhu/ui/settlement/SettlementRoundPlayerInfo.js"
+]

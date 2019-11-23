@@ -1,0 +1,613 @@
+{
+  "ID": "8bd2b8a6-cea9-4f0d-be64-aa28af897614",
+  "Version": "2.3.4",
+  "Name": "TaskItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 16,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Task/Images/PIC_Item_Bg.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Task/Images/PIC_Item_Bg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Task/Images/PIC_Item_Bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 918,
+            "Scale9Height": 88,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -948.0,
+            "TopMargin": -110.0,
+            "Tag": 41,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/PIC_Item_Bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 10,
+                "Scale9Width": 928,
+                "Scale9Height": 90,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 105,
+                "ActionTag": -2098815810,
+                "Size": {
+                  "X": 948.0,
+                  "Y": 110.0
+                },
+                "Name": "Item_Bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/PIC_Reward_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.2813,
+                  "Y": 56.1556
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0562,
+                  "Y": 0.5105
+                },
+                "PreSize": {
+                  "X": 0.1055,
+                  "Y": 0.9091
+                },
+                "LeftMargin": 3.2813,
+                "RightMargin": 844.7187,
+                "TopMargin": 3.8444,
+                "BottomMargin": 6.1556,
+                "Tag": 153,
+                "ActionTag": 916379561,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "ND_Reward",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "x1.8万",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 201,
+                  "G": 89,
+                  "B": 19
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 51.0,
+                  "Y": 17.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 254,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0538,
+                  "Y": 0.1545
+                },
+                "PreSize": {
+                  "X": 0.0654,
+                  "Y": 0.2909
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 866.0,
+                "TopMargin": 77.0,
+                "BottomMargin": 1.0,
+                "Tag": 192,
+                "ActionTag": -17676937,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Num",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 22,
+                "LabelText": "海南麻将任意场次任意模式一天内累计连胜12次",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 92,
+                  "G": 70,
+                  "B": 31
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 402.0271,
+                  "Y": 76.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 130,
+                  "G": 95,
+                  "B": 75
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4241,
+                  "Y": 0.6909
+                },
+                "PreSize": {
+                  "X": 0.5063,
+                  "Y": 0.3182
+                },
+                "LeftMargin": 162.0271,
+                "RightMargin": 305.9729,
+                "TopMargin": 16.5,
+                "BottomMargin": 58.5,
+                "Tag": 21,
+                "ActionTag": -1292694533,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 35.0
+                },
+                "Name": "Label_Title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/Btn_Get_D.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/Btn_Get_P.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/Btn_Get_N.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 130,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 840.0,
+                  "Y": 40.0008
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8861,
+                  "Y": 0.3636
+                },
+                "PreSize": {
+                  "X": 0.1688,
+                  "Y": 0.5091
+                },
+                "LeftMargin": 760.0,
+                "RightMargin": 28.0,
+                "TopMargin": 41.9992,
+                "BottomMargin": 12.0008,
+                "Tag": 20,
+                "ActionTag": -1704715945,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 56.0
+                },
+                "Name": "Btn_Get",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 22,
+                "LabelText": "4/100",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 130,
+                  "G": 95,
+                  "B": 75
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 846.0004,
+                  "Y": 84.9988
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8924,
+                  "Y": 0.7727
+                },
+                "PreSize": {
+                  "X": 0.096,
+                  "Y": 0.2818
+                },
+                "LeftMargin": 800.5004,
+                "RightMargin": 56.4996,
+                "TopMargin": 9.5012,
+                "BottomMargin": 69.4988,
+                "Tag": 107,
+                "ActionTag": 1951464314,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 31.0
+                },
+                "Name": "ND_Round",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/BTN_Go.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/BTN_GoP.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/BTN_Go.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 22,
+                "Scale9Height": 6,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 670.2894,
+                  "Y": 80.2621
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7071,
+                  "Y": 0.7297
+                },
+                "PreSize": {
+                  "X": 0.0549,
+                  "Y": 0.2545
+                },
+                "LeftMargin": 644.2894,
+                "RightMargin": 251.7106,
+                "TopMargin": 15.7379,
+                "BottomMargin": 66.2621,
+                "Tag": 203,
+                "ActionTag": 1014258804,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 28.0
+                },
+                "Name": "Btn_Go",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/Bar_Bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 439.0,
+                  "Y": 32.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4631,
+                  "Y": 0.2909
+                },
+                "PreSize": {
+                  "X": 0.6055,
+                  "Y": 0.3818
+                },
+                "LeftMargin": 152.0,
+                "RightMargin": 222.0,
+                "TopMargin": 57.0,
+                "BottomMargin": 11.0,
+                "Tag": 205,
+                "ActionTag": 1511165676,
+                "Size": {
+                  "X": 574.0,
+                  "Y": 42.0
+                },
+                "Name": "Bar_Bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ProgressInfo": 54,
+                "ImageFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Task/Images/Bar.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 437.0002,
+                  "Y": 32.0003
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.88
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.461,
+                  "Y": 0.2909
+                },
+                "PreSize": {
+                  "X": 0.6055,
+                  "Y": 0.3818
+                },
+                "LeftMargin": 150.0002,
+                "RightMargin": 223.9998,
+                "TopMargin": 56.9997,
+                "BottomMargin": 11.0003,
+                "Tag": 204,
+                "ActionTag": -615252460,
+                "Size": {
+                  "X": 574.0,
+                  "Y": 42.0
+                },
+                "Name": "ND_Bar",
+                "ctype": "LoadingBarObjectData"
+              }
+            ],
+            "ActionTag": 1343963395,
+            "Size": {
+              "X": 948.0,
+              "Y": 110.0
+            },
+            "Name": "Btn_Item",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Fonts/YaHei.ttf",
+        "Images/Bar.png",
+        "Images/Bar_Bg.png",
+        "Images/Btn_Get_D.png",
+        "Images/Btn_Get_N.png",
+        "Images/Btn_Get_P.png",
+        "Images/BTN_Go.png",
+        "Images/BTN_GoP.png",
+        "Images/PIC_Item_Bg.png",
+        "Images/PIC_Reward_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,22 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="020f4935-0445-4cd8-afa8-cebcd69fc654" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_01.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_02.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_03.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_04.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_05.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_06.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_07.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_08.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_09.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_10.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_11.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_12.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_13.png" />
+      <FilePathData Path="Animations/EffGameCom/EffFZB/BKLG_14.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

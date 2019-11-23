@@ -1,0 +1,176 @@
+{
+  "ID": "1a27a21e-2d10-4bf6-8659-317aed1b9496",
+  "Version": "2.3.4",
+  "Name": "GameSystem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 74,
+        "Children": [
+          {
+            "IsCustomSize": true,
+            "FontSize": 28,
+            "LabelText": "24:60",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Fonts/YaHei.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 191,
+              "G": 191,
+              "B": 191
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 191,
+              "G": 191,
+              "B": 191
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -70.0,
+            "TopMargin": 20.0,
+            "BottomMargin": -50.0,
+            "Tag": 87,
+            "ActionTag": -1293922643,
+            "Size": {
+              "X": 70.0,
+              "Y": 30.0
+            },
+            "Name": "ND_SystemTime",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/System/ComSystemInfo_BatterBG.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 10.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -58.0,
+            "BottomMargin": -22.0,
+            "Tag": 86,
+            "ActionTag": -151785725,
+            "Size": {
+              "X": 48.0,
+              "Y": 22.0
+            },
+            "Name": "BatterBG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ProgressInfo": 100,
+            "ImageFileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/System/ComSystemInfo_Batter.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 10.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -58.0,
+            "BottomMargin": -22.0,
+            "Tag": 85,
+            "ActionTag": 277536162,
+            "Size": {
+              "X": 48.0,
+              "Y": 22.0
+            },
+            "Name": "ND_Battery",
+            "ctype": "LoadingBarObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Fonts/YaHei.ttf",
+        "ComSystemInfo_Batter.png",
+        "ComSystemInfo_BatterBG.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

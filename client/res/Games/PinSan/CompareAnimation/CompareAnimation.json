@@ -1,0 +1,854 @@
+{
+  "ID": "a90a51c4-73de-4144-ab37-994007926c9d",
+  "Version": "2.3.4",
+  "Name": "CompareAnimation",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 141,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_Opacity.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -640.0,
+            "RightMargin": -640.0,
+            "TopMargin": -360.0,
+            "BottomMargin": -360.0,
+            "Tag": 142,
+            "ActionTag": 1835542307,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "BTN_Cut",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 143,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/CompareAnimation_2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 225,
+                "Scale9OriginY": 60,
+                "Scale9Width": 234,
+                "Scale9Height": 62,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -260.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -602.0,
+                "RightMargin": -82.0,
+                "TopMargin": -91.0,
+                "BottomMargin": -91.0,
+                "Tag": 152,
+                "ActionTag": 691213126,
+                "Size": {
+                  "X": 684.0,
+                  "Y": 182.0
+                },
+                "Name": "IMG_VS",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/CompareAnimation_4.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 60,
+                "Scale9Width": 46,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -200.0,
+                  "Y": 0.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -266.0,
+                "RightMargin": 134.0,
+                "TopMargin": -63.0001,
+                "BottomMargin": -62.9999,
+                "Tag": 153,
+                "ActionTag": -192117170,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 126.0
+                },
+                "Name": "IMG_BG",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "海南棋牌乐",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -200.0,
+                  "Y": -40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -251.5,
+                "RightMargin": 148.5,
+                "TopMargin": 26.0,
+                "BottomMargin": -54.0,
+                "Tag": 154,
+                "ActionTag": 1442953973,
+                "Size": {
+                  "X": 103.0,
+                  "Y": 28.0
+                },
+                "Name": "TXT_Name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/HandCards/HandCardsOther.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -400.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.62,
+                  "ScaleY": 0.62
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -400.0,
+                "RightMargin": 400.0,
+                "Tag": 155,
+                "ActionTag": 435200966,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Cards",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 1476245739,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_V",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 160,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/CompareAnimation_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 225,
+                "Scale9OriginY": 60,
+                "Scale9Width": 234,
+                "Scale9Height": 62,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -82.0,
+                "RightMargin": -602.0,
+                "TopMargin": -91.0,
+                "BottomMargin": -91.0,
+                "Tag": 161,
+                "ActionTag": 1100660368,
+                "Size": {
+                  "X": 684.0,
+                  "Y": 182.0
+                },
+                "Name": "IMG_VS",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/Image/CompareAnimation_4.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 60,
+                "Scale9Width": 46,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 134.0,
+                "RightMargin": -266.0,
+                "TopMargin": -63.0,
+                "BottomMargin": -63.0,
+                "Tag": 162,
+                "ActionTag": -591973408,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 126.0
+                },
+                "Name": "IMG_BG",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "海南棋牌乐",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": -40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 148.5,
+                "RightMargin": -251.5,
+                "TopMargin": 26.0,
+                "BottomMargin": -54.0,
+                "Tag": 163,
+                "ActionTag": -1388330239,
+                "Size": {
+                  "X": 103.0,
+                  "Y": 28.0
+                },
+                "Name": "TXT_Name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Games/PinSan/HandCards/HandCardsOther.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 400.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.62,
+                  "ScaleY": 0.62
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 400.0,
+                "RightMargin": -400.0,
+                "Tag": 164,
+                "ActionTag": -768352087,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ND_Cards",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 1073268386,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ND_S",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/CompareAnimation_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 119,
+            "Scale9OriginY": 110,
+            "Scale9Width": 124,
+            "Scale9Height": 116,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 20.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -161.0,
+            "RightMargin": -201.0,
+            "TopMargin": -168.0,
+            "BottomMargin": -168.0,
+            "Tag": 145,
+            "ActionTag": 1547564935,
+            "Size": {
+              "X": 362.0,
+              "Y": 336.0
+            },
+            "Name": "IMG_Fire",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Head/HeadDefaultImg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -200.0,
+              "Y": 15.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -238.5,
+            "RightMargin": 161.5,
+            "TopMargin": -54.0,
+            "BottomMargin": -24.0,
+            "Tag": 146,
+            "ActionTag": 2147000357,
+            "Size": {
+              "X": 77.0,
+              "Y": 78.0
+            },
+            "Name": "SP_V_HeadPic",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/Com/Head/HeadDefaultImg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 200.0,
+              "Y": 15.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 161.5,
+            "RightMargin": -238.5,
+            "TopMargin": -54.0,
+            "BottomMargin": -24.0,
+            "Tag": 147,
+            "ActionTag": -1827355577,
+            "Size": {
+              "X": 77.0,
+              "Y": 78.0
+            },
+            "Name": "SP_S_HeadPic",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Animations/EffPinSan/EffBiPai/EffHuaHen.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 0.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -400.0,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -400.0,
+            "RightMargin": 400.0,
+            "TopMargin": -8.0,
+            "BottomMargin": 8.0,
+            "Tag": 128,
+            "ActionTag": 1999812280,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Effect_V_Lose",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Animations/EffPinSan/EffBiPai/EffHuaHen.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 0.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 400.0,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 400.0,
+            "RightMargin": -400.0,
+            "TopMargin": -8.0,
+            "BottomMargin": 8.0,
+            "Tag": 136,
+            "ActionTag": -1643767748,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Effect_S_Lose",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/CompareAnimation_6.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 25,
+            "Scale9OriginY": 25,
+            "Scale9Width": 26,
+            "Scale9Height": 26,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -400.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -438.0,
+            "RightMargin": 362.0,
+            "TopMargin": -38.0,
+            "BottomMargin": -38.0,
+            "Tag": 150,
+            "ActionTag": 1661551204,
+            "Size": {
+              "X": 76.0,
+              "Y": 76.0
+            },
+            "Name": "IMG_V_Win",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Games/PinSan/Image/CompareAnimation_6.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 25,
+            "Scale9OriginY": 25,
+            "Scale9Width": 26,
+            "Scale9Height": 26,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 362.0,
+            "RightMargin": -438.0,
+            "TopMargin": -38.0,
+            "BottomMargin": -38.0,
+            "Tag": 151,
+            "ActionTag": -1187755852,
+            "Size": {
+              "X": 76.0,
+              "Y": 76.0
+            },
+            "Name": "IMG_S_Win",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Animations/EffPinSan/EffBiPai/EffHuaHen.json",
+        "../../../Common/Images/Com_Opacity.png",
+        "../../../Fonts/YaHei.ttf",
+        "../../Com/Head/HeadDefaultImg.png",
+        "../HandCards/HandCardsOther.json",
+        "../Image/CompareAnimation_1.png",
+        "../Image/CompareAnimation_2.png",
+        "../Image/CompareAnimation_3.png",
+        "../Image/CompareAnimation_4.png",
+        "../Image/CompareAnimation_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

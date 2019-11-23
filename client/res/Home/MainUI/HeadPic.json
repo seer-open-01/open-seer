@@ -1,0 +1,198 @@
+{
+  "ID": "cae9d09c-65a2-4ae8-89e0-61ada001e896",
+  "Version": "2.3.4",
+  "Name": "HeadPic",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 100,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/Com_HeadpicDef.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.0,
+              "Y": 37.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5217,
+              "Y": 0.5211
+            },
+            "PreSize": {
+              "X": 1.2754,
+              "Y": 1.2394
+            },
+            "LeftMargin": -8.0,
+            "RightMargin": -11.0,
+            "TopMargin": -10.0,
+            "BottomMargin": -7.0,
+            "Tag": 242,
+            "ActionTag": -164935975,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "ND_Image",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/homeHeadPicBG.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.0,
+              "Y": 37.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5217,
+              "Y": 0.5211
+            },
+            "PreSize": {
+              "X": 1.2754,
+              "Y": 1.2394
+            },
+            "LeftMargin": -8.0,
+            "RightMargin": -11.0,
+            "TopMargin": -10.0,
+            "BottomMargin": -7.0,
+            "Tag": 79,
+            "ActionTag": 628452726,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "ND_Cover",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/homeHeadPicBG.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/Images/homeHeadPicBG.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 58,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.0,
+              "Y": 38.1796
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5217,
+              "Y": 0.5377
+            },
+            "PreSize": {
+              "X": 1.2754,
+              "Y": 1.2394
+            },
+            "LeftMargin": -8.0,
+            "RightMargin": -11.0,
+            "TopMargin": -11.1796,
+            "BottomMargin": -5.8204,
+            "Tag": 185,
+            "ActionTag": 1650963466,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "ND_Btn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 69.0,
+          "Y": 71.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Common/Images/Com_HeadpicDef.png",
+        "../../Common/Images/homeHeadPicBG.png",
+        "../../Default/Button_Disable.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

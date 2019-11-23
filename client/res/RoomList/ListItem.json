@@ -1,0 +1,348 @@
+{
+  "ID": "553e4ba2-865f-422b-8af8-b341be80ad39",
+  "Version": "2.3.4",
+  "Name": "ListItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 33,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "RoomList/Image/Item_Bg1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "RoomList/Image/Item_Bg1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "RoomList/Image/Item_Bg1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 312,
+            "Scale9Height": 146,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -171.0,
+            "RightMargin": -171.0,
+            "TopMargin": -84.0,
+            "BottomMargin": -84.0,
+            "Tag": 34,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Image/Item_Match2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 171.0,
+                  "Y": 140.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8333
+                },
+                "PreSize": {
+                  "X": 0.3626,
+                  "Y": 0.2024
+                },
+                "LeftMargin": 109.0,
+                "RightMargin": 109.0,
+                "TopMargin": 11.0,
+                "BottomMargin": 123.0,
+                "Tag": 132,
+                "ActionTag": 316664276,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 34.0
+                },
+                "Name": "ND_Name",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Image/Item_Status1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 8,
+                "Scale9OriginY": 7,
+                "Scale9Width": 54,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.0,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.193,
+                  "Y": 0.2381
+                },
+                "PreSize": {
+                  "X": 0.2047,
+                  "Y": 0.1786
+                },
+                "LeftMargin": 66.0,
+                "RightMargin": 206.0,
+                "TopMargin": 113.0,
+                "BottomMargin": 25.0,
+                "Tag": 48,
+                "ActionTag": -223751501,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 30.0
+                },
+                "Name": "ND_Status",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "看牌抢庄（同花 葫芦 顺子）",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Fonts/YaHei.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 171.0,
+                  "Y": 74.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 208,
+                  "G": 101,
+                  "B": 33
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4405
+                },
+                "PreSize": {
+                  "X": 0.8772,
+                  "Y": 0.131
+                },
+                "LeftMargin": 21.0,
+                "RightMargin": 21.0,
+                "TopMargin": 83.0,
+                "BottomMargin": 63.0,
+                "Tag": 233,
+                "ActionTag": 605281853,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 22.0
+                },
+                "Name": "ND_Rule",
+                "ctype": "TextObjectData"
+              },
+              {
+                "LabelText": "d100w",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Font/num_base.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 171.0,
+                  "Y": 106.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.631
+                },
+                "PreSize": {
+                  "X": 0.538,
+                  "Y": 0.1905
+                },
+                "LeftMargin": 79.0,
+                "RightMargin": 79.0,
+                "TopMargin": 46.0,
+                "BottomMargin": 90.0,
+                "Tag": 40,
+                "ActionTag": -1287942978,
+                "Size": {
+                  "X": 184.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Base",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "c9.9wz",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "RoomList/Font/num_enter.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 326.0,
+                  "Y": 39.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9532,
+                  "Y": 0.2381
+                },
+                "PreSize": {
+                  "X": 0.4152,
+                  "Y": 0.1905
+                },
+                "LeftMargin": 184.0,
+                "RightMargin": 16.0,
+                "TopMargin": 112.0001,
+                "BottomMargin": 23.9999,
+                "Tag": 49,
+                "ActionTag": -1621155185,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 32.0
+                },
+                "Name": "Fnt_Enter",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -692117953,
+            "Size": {
+              "X": 342.0,
+              "Y": 168.0
+            },
+            "Name": "BTN_Enter",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Fonts/YaHei.ttf",
+        "Font/num_base.fnt",
+        "Font/num_base_0.png",
+        "Font/num_enter.fnt",
+        "Font/num_enter_0.png",
+        "Image/Item_Bg1.png",
+        "Image/Item_Match2.png",
+        "Image/Item_Status1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}
