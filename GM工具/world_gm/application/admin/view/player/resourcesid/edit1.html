@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setTime</title>
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/layer/layer.js"></script>
+    <script src="__PUBLIC__/layer/extend/layer.ext.js"></script>
+
+</head>
+<body>
+<h6 style="text-align:center;color:red;font-size:20px">
+    注意:【关闭时间请与活动时间错开,推荐时间为凌晨2点到早上10点】!!!
+</h6><br>
+<div class="jewarp">
+    <div class="content">
+        <div class="jeitem" style="margin-left:25%;">
+            <label class="jelabel">设置过期时间</label>
+            <div class="jeinpbox" style="width: auto;"><input type="text" class="jeinput moredate" id="closetime" placeholder="请选择" value="1" readonly></div>
+
+        </div>
+    </div>
+</div>
+
+<input type="button" class="btn btn-default" onclick="updateAward()" value="保存" style="margin-left:5%;">
+<input type="button" class="btn btn-default dels" value="取消" style="margin-left:40%;">
+
+
+<input type="button" id="addBtn" value="addBtn" style="display:none;" />
+<input type="button" value="开始显示时间" id="go" onclick="start()" style="display:none;" />
+<p style="display:none;"><font color="red"><span id="showtime"></span></font></p>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="utf8">
+    <style type="text/css">
+        .mytable {
+            table-layout: fixed;
+            width: 100% ;
+            margin: 0px;
+        }
+        th,td{
+            -width:1000px;
+            height:40px;
+            border :1px solid black;
+            font-size:12px;
+            text-align :center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow:hidden;
+        }
+    </style>
+    <script src="__PUBLIC__/layer/layer.js"></script>
+    <script src="__PUBLIC__/layer/extend/layer.ext.js"></script>
+</head>
+<body>
+<table class="mytable">
+    <thead>
+    <tr>
+        <th style="width: 10%;">牌局号</th>
+        <th style="width: 20%;">时间</th>
+        <th style="width: 10%;">Match ID</th>
+        <th style="width: 15%;">昵称</th>
+        <th style="width: 10%;">玩家ID</th>
+        <th style="width: 25%;">牌型</th>
+        <th style="width: 10%;">输赢分</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!--第一条数据-->
+
+
+    {foreach name="list" id="vol"}
+    <tr>
+        <td rowspan="{$vol['frequency']}" style="width: 10%;">{$vol['round_id']}</td>
+        <td rowspan="{$vol['frequency']}" style="width: 20%;">{$vol['end_time']}</td>
+        <td rowspan="{$vol['frequency']}" style="width: 10%;">{$vol['match_id']}</td>
+        <td style="width: 15%;">{$vol['uid'][0]}</td>
+        <td style="width: 10%;">{$vol['uids'][0]}</td>
+        <td style="width: 25%;cursor:pointer;" title="{$vol['playerList'][0]}" class="moduser" modurlb="{$vol['playerList'][0]}" onclick=getData2(this)>
+            {$vol['playerList'][0]}
+        </td>
+        <td style="width: 10%;">{$vol['uidss'][0]}</td>
+    </tr>
+    {for start="1" end="$vol['frequency']"}
+    <tr>
+        <td style="width: 15%;">{$vol['uid'][$i]}</td>
+        <td style="width: 10%;">{$vol['uids'][$i]}</td>
+        <td style="width: 25%;cursor:pointer;" title="{$vol['playerList'][$i]}" class="moduser" modurlb1="{$vol['playerList'][$i]}" onclick=getData21(this)>
+            {$vol['playerList'][$i]}
+        </td>
+        <td style="width: 10%;">{$vol['uidss'][$i]}</td>
+    </tr>
+    {/for}
+    {/foreach}
+
+    <!--<tr>
+        <td></td>
+        <td>3</td>
+        <td>33</td>
+    </tr>-->
+    <!--第二条数据-->
+    <!--<tr>
+        <td>数学</td>
+        <td>7:00-7:40</td>
+        <td>7:50-8:30</td>
+    </tr>-->
+    <!--第三条数据-->
+    <!--<tr>
+        <td>英文</td>
+        <td>7:00-7:40</td>
+        <td>7:50-8:30</td>
+    </tr>-->
+    </tbody>
+</table>
+</body>
+</html>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css('display','none');
+    })
+</script>
+<!--牌型弹窗详情-->
+<script type="text/javascript">
+    function getData2(element){
+        var ids = $(element).attr("modurlb");
+        parent.layer.open({
+            type: 1,
+            title: '内容',
+            maxmin: true,
+            shadeClose: true,
+            area: ['800px', '500px'],
+            content: ids
+        })
+    }
+    function getData21(element){
+        var ids = $(element).attr("modurlb1");
+        parent.layer.open({
+            type: 1,
+            title: '内容',
+            maxmin: true,
+            shadeClose: true,
+            area: ['800px', '500px'],
+            content: ids
+        })
+    }
+</script>
+

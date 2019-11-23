@@ -1,0 +1,79 @@
+1<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2">说明:</label>
+
+        <span style="color: red;font-weight: 900;font-size: 20px;">+</span>表示增加
+        <span style="color: red;font-weight: 900;font-size: 20px;">-</span>表示扣减
+
+    </div>
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2">游戏ID:</label>
+        <div class="col-xs-12 col-sm-4">
+            <!--<input type="text" class="form-control" placeholder="请输入游戏ID" value="{$uids}" disabled/>-->
+            <textarea rows="5" cols="50" disabled>{$uids}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2">钻石数量:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input type="text" class="form-control" placeholder="请输入钻石数量">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2">房卡数量:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input type="text" class="form-control" placeholder="请输入房卡数量">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2">金豆数量:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input type="text" class="form-control" placeholder="请输入金豆数量">
+        </div>
+    </div>
+    <div class="form-group" style="text-align: center;">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2" style="width: 37%;">(单次最多增加1000钻石或10000金豆)</label>
+    </div>
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2"><span style="color: red;font-weight: 900;">*</span>操作日志:</label>
+        <div class="col-xs-12 col-sm-4">
+            <textarea rows="5" cols="50" placeholder="请必须输入为什么要操作该功能的原因"></textarea>
+        </div>
+    </div>
+
+    <!--<div class="form-group">
+        <div class="col-xs-12 col-sm-8" style="text-align: center;">
+            <button type="submit" class="btn btn-success btn-embossed disabled">保存</button>
+            <button type="reset" class="btn btn-default btn-embossed" id="cancel">取消</button>
+        </div>
+    </div>-->
+
+    <!--<div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>-->
+</form>
+
+<!--去掉控制台这几个字-->
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css('display','none');
+        //$(".layui-layer-btn").css('margin-left','-100px');
+        //css("margin", "0 auto");
+        $(".layui-layer-btn0").css('color','red');
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $(".layui-layer-btn0").click(function () {
+            //layer.closeAll();
+            console.log("确定");
+        })
+    })
+</script>

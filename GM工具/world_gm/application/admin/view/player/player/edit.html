@@ -1,0 +1,90 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="uid" class="control-label col-xs-12 col-sm-2">游戏 &nbsp ID:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input id="uid" data-rule="required" class="form-control" name="row[uid]" type="text" value="{$row.uid}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="wx_name" class="control-label col-xs-12 col-sm-2">微信昵称:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input id="wx_name" data-rule="required" class="form-control" name="row[wx_name]" type="text" value="{$row.wx_name}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="phone" class="control-label col-xs-12 col-sm-2">手机号码:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input id="phone" data-rule="required" class="form-control" name="row[phone_number]" type="text" value="{$row.phone_number}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="log" class="control-label col-xs-12 col-sm-2"><span style="color: red;font-weight: 900;">*</span>操作日志:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea rows="5" cols="50" placeholder="请必须输入为什么要操作该功能的原因" class="form-control" id="log"></textarea>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+
+</form>
+
+
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<script type="text/javascript">
+    $("#sure").click(function () {
+        var url = "{:url('editSave')}";
+        var uid = $("#uid").val();
+        var phone = $("#phone").val();
+        var log = $("#log").val();
+        if(phone==""){
+            layer.msg('<span style="margin-left: 30px;">手机号不能为空,请必须输入手机号!</span>', {icon: 2,time: 2500});
+        }
+        else if(log==""){
+            layer.msg('<span style="margin-left: 30px;">日志不能为空,请必须输入日志!</span>', {icon: 2,time: 2500});
+        }
+        else {
+            //layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+            var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;
+            if(!myreg.test(phone)){
+                layer.msg('<span style="margin-left: 30px;">手机号格式不正确,请输入正确的手机号码!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:{uid:uid,phone:phone,log:log},
+                    dataType:'json',
+                    success:function (data) {
+                        console.log("success");
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                    },
+                    error:function () {
+                        console.log("fail");
+                    }
+                })
+            }
+        }
+    })
+</script>

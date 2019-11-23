@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery bootstrap-select可搜索多选下拉列表插件-www.daimajiayuan.com</title>
+    <script type="text/javascript" src="http://www.daimajiayuan.com/download/jquery/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/js/bootstrap-select.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/css/bootstrap-select.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            $('.selectpicker').selectpicker({
+                'selectedText': 'cat'
+            });
+            $('.selectpicker').click(function () {
+                //console.log("点击");
+                var a = $("#bs3Select").val();console.log(a);
+                $("#a").val(a);
+                $("#ad").val(a);
+            });
+        });
+    </script>
+    <!--<script src="__PUBLIC__/layer/layer.js"></script>
+    <script src="__PUBLIC__/layer/extend/layer.ext.js"></script>-->
+</head>
+<body>
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="{:url('judge')}">
+    <div class="form-group">
+        <label for="bs3Select" class="col-lg-2 control-label">请选择您需要的玩家加入到监控列表</label>
+        <div class="col-lg-10">
+            <select id="bs3Select" class="selectpicker show-tick form-control" multiple data-live-search="true" name="uids">
+                {volist name="list" id="data"}
+                <option value="{$data.uid}({$data.wx_name})">{$data.uid}+{$data.wx_name}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="bs3Select" class="col-lg-2 control-label">选择的结果</label>
+        <div class="col-lg-10">
+            <textarea rows="10" cols="100%" disabled id="a" name="name1"></textarea>
+        </div>
+    </div>
+    <!--<div class="form-group">
+        <label for="bs3Select" class="col-lg-2 control-label">假数据</label>
+        <div class="col-lg-10">
+            <input type="text" name="ad" id="ad" value="">
+        </div>
+    </div>-->
+    <div class="form-group">
+        <div class="col-lg-10">
+            <input type="button" value="保存" id="save" class="form-control">
+        </div>
+    </div>
+</form>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css('display','none');
+        $("#save").click(function () {
+            var uids = $("#a").val();
+            var url = "{:url('judge')}";
+            var msg1 = "是否确定把该系列用户加入到监控列表中去?";
+            var msg2 = "请再次确定是否将该系列用户加入到监控列表中去?";
+            layer.alert(msg1,{
+                skin: 'layui-layer-molv',
+                closeBtn: 1,
+                anim: 1,
+                btn: ['确定','取消'],
+                icon: 6,
+                yes:function(){
+                    layer.alert(msg2,{
+                        skin: 'layui-layer-molv',
+                        closeBtn: 1,
+                        anim: 1,
+                        btn: ['确定','取消'],
+                        icon: 6,
+                        yes:function(){
+                            $.ajax({
+                                type:'post',
+                                url:url,
+                                data:{uids:uids},
+                                dataType:'json',
+                                success:function (data) {
+                                    console.log("success");
+                                    layer.closeAll();
+                                    top.location.href="{:url('index')}?ref=addtabs";
+                                },
+                                error:function () {
+                                    console.log("fail");
+                                }
+                            })
+                        },
+                        btn2:function(){
+                            layer.closeAll();
+                        }
+                    })
+                },
+                btn2:function(){
+                    layer.closeAll();
+                }
+            })
+        })
+    })
+</script>
+
+<!--得到一个假的数据-->
+
+<!--<a href="{:url('tiaotiao')}">条</a>-->
+<!--模拟一个假数据-->
+<!--<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css('display','none');
+        $("#save").click(function () {
+            var s = $("#a").val();
+            var arr = s.split(",");
+            var count = arr.length;console.log(count);
+            var zu = "";
+            for(var i=0;i<count;i++){
+                //zu += arr[i] + "-";//console.log(zu);
+                var ids = arr[i];
+                var start = ids.indexOf( "(" );
+                var end = ids.lastIndexOf( ")" );
+                var len = end-start;
+                var lens = ids.length;
+                var lenn = lens-len;
+                var idd = ids.substring(-1,lenn-1);
+                zu += idd + ",";
+            }
+            /*var slen = zu.length;console.log(slen);
+            zu.substr(0,1);*/
+            //s.Substring(0,s.Length-1)
+            //zu.substring(0,zu.length-1);
+            //zu.substring(0,1);
+            var end1 = zu.lastIndexOf( "," );
+            var ssr = zu.substr(0,end1);//得到最终的游戏玩家uid的结果
+            //$("#b").val(ssr);
+            var uids = ssr;console.log(uids);
+            var url = "{:url('judge')}";
+            $.ajax({
+                type:'post',
+                url:url,
+                data:{uids:uids},
+                dataType:'json',
+                success:function (data) {
+                    /*console.log("success");
+                    console.log(data);*/
+                    //location.href="{}";
+                    layer.closeAll();
+              },
+                error:function () {
+                    //console.log("fail");
+                }
+            })
+        })
+    })
+</script>-->
+
+<!--<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css('display','none');
+        $("#save").click(function () {
+            var s = $("#a").val();
+            var arr = s.split(",");
+            var count = arr.length;console.log(count);
+            var zu = "";
+            for(var i=0;i<count;i++){
+                var ids = arr[i];
+                var start = ids.indexOf( "(" );
+                var end = ids.lastIndexOf( ")" );
+                var len = end-start;
+                var lens = ids.length;
+                var lenn = lens-len;
+                var idd = ids.substring(-1,lenn-1);
+                zu += idd + ",";
+            }
+            var end1 = zu.lastIndexOf( "," );
+            var ssr = zu.substr(0,end1);//得到最终的游戏玩家uid的结果
+            var uids = ssr;console.log(uids);
+            var url = "{:url('judge')}";
+            var msg1 = "是否确定把该系列用户加入到监控列表中去?";
+            var msg2 = "请再次确定是否将该系列用户加入到监控列表中去?";
+            layer.alert(msg1,{
+                skin: 'layui-layer-molv',
+                closeBtn: 1,
+                anim: 1,
+                btn: ['确定','取消'],
+                icon: 6,
+                yes:function(){
+                    layer.alert(msg2,{
+                        skin: 'layui-layer-molv',
+                        closeBtn: 1,
+                        anim: 1,
+                        btn: ['确定','取消'],
+                        icon: 6,
+                        yes:function(){
+                            /*var modurl =
+                            location.href=modurl;*/
+                            $.ajax({
+                                type:'post',
+                                url:url,
+                                data:{uids:uids},
+                                dataType:'json',
+                                success:function (data) {
+                                    console.log("success");
+                                    //var urld = "{:url('index')}";
+                                    layer.closeAll();
+                                    top.location.href="http://wwww.baidu.com";
+                                },
+                                error:function () {
+                                    console.log("fail");
+                                }
+                            })
+                        },
+                        btn2:function(){
+                            layer.closeAll();
+                        }
+                    })
+                },
+                btn2:function(){
+                    layer.closeAll();
+                }
+            })
+            /*$.ajax({
+                type:'post',
+                url:url,
+                data:{uids:uids},
+                dataType:'json',
+                success:function (data) {
+                    console.log("success");
+                },
+                error:function () {
+                    console.log("fail");
+                }
+            })*/
+        })
+    })
+</script>-->
+

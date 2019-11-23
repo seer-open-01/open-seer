@@ -1,0 +1,174 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label for="order_id" class="control-label col-xs-12 col-sm-2">交易结束时间:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" disabled value="{$list['order_id']}" id="order_id">
+            <input type="hidden" value="{$list['id']}" name="id" id="id">
+            <input type="hidden" value="{$list['good_id']}" name="good_id" id="good_id">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="status" class="control-label col-xs-12 col-sm-2">是否成功:</label>
+        <div class="col-xs-12 col-sm-8">
+            {if condition="($list.status == 0) "}
+            <select class="form-control" name="result" id="result">
+                <option value="0" selected>未审核</option>
+                <option value="1">成功</option>
+                <option value="2">失败</option>
+            </select>
+            {elseif condition="$list.status eq 1"/}
+            <select class="form-control" name="result2" id="result2" disabled>
+                <option value="0">未审核</option>
+                <option value="1" selected>成功</option>
+                <option value="2">失败</option>
+            </select>
+            {else /}
+            <select class="form-control" name="result2" id="result3" disabled>
+                <option value="0">未审核</option>
+                <option value="1">成功</option>
+                <option value="2" selected>失败</option>
+            </select>
+            {/if}
+        </div>
+    </div>
+    <div class="form-group" style="display: none;" id="shibai">
+        <label for="reason" class="control-label col-xs-12 col-sm-2">失败原因:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea rows="5" cols="50" placeholder="请必须输入20字以内的失败理由" class="form-control" name="reason" id="reason">{$list['faile_reason']}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            {if condition="$list['status'] eq 0"}
+                <button type="button" class="btn btn-success btn-embossed" id="sure">保存</button>
+            {else /}
+                <button type="button" class="btn btn-success btn-embossed" id="see">查看</button>
+            {/if}
+
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels,#see").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--点击确定保存信息-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").click(function () {
+            var url = "{:url('editSave')}";//保存成功的数据
+            var url1 = "{:url('editSave1')}";//保存失败的数据
+            var id = $("#id").val();
+            var status = $("#result").val();//alert(status);
+            var reason = $("#reason").val();
+            var good_id = $("#good_id").val();
+            var order_id = $("#order_id").val();
+            if(status==0){
+                layer.msg('<span style="margin-left: 30px;">提交时状态必须是成功或失败!</span>', {icon: 2,time: 2500});
+            }
+            else if(status==1){ //成功
+                layer.msg('<span style="margin-left: 30px;">提示成功!</span>', {icon: 1,time: 2500});
+                $.ajax({
+                    type:"post",
+                    url:url,
+                    data:{id:id,status:status,good_id:good_id,order_id:order_id},
+                    dataType:"json",
+                    success:function (data) {
+
+                    }
+                })
+            }
+            else { //失败
+                if(reason==""){
+                    layer.msg('<span style="margin-left: 30px;">失败理由不能为空!</span>', {icon: 2,time: 2500});
+                }
+                else {
+                    layer.msg('<span style="margin-left: 30px;">提示失败!</span>', {icon: 1,time: 2500});
+                    $.ajax({
+                        type:"post",
+                        url:url1,
+                        data:{id:id,status:status,reason:reason,good_id:good_id,order_id:order_id},
+                        dataType:"json",
+                        success:function (data) {
+
+                        }
+                    })
+                }
+
+            }
+        })
+    })
+</script>
+<!--点击result-->
+<script type="text/javascript">
+    $("#result").click(function () {
+        var result = $("#result").val();
+        if(result==2){
+            $("#shibai").css({
+                "display":"block"
+            });
+        }
+        else {
+            $("#shibai").css({
+                "display":"none"
+            });
+        }
+    })
+</script>
+<!--一进页面就是否显示失败原因-->
+<script type="text/javascript">
+    $(function () {
+        var result = $("#result").val();
+        if(result==2){
+            $("#shibai").css({
+                "display":"block"
+            });
+            $("#reason").attr("disabled",true);
+        }
+        else {
+            $("#shibai").css({
+                "display":"none"
+            });
+            $("#reason").attr("disabled",false);
+        }
+        var result2 = $("#result2").val();
+        if(result2==2){
+            $("#shibai").css({
+                "display":"block"
+            });
+            $("#reason").attr("disabled",true);
+        }
+        else {
+            $("#shibai").css({
+                "display":"none"
+            });
+            $("#reason").attr("disabled",false);
+        }
+        var result3 = $("#result3").val();
+        if(result3==2){
+            $("#shibai").css({
+                "display":"block"
+            });
+            $("#reason").attr("disabled",true);
+        }
+        else {
+            $("#shibai").css({
+                "display":"none"
+            });
+            $("#reason").attr("disabled",false);
+        }
+    })
+</script>

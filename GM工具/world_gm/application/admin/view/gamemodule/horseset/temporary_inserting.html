@@ -1,0 +1,122 @@
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/newrili2/test/jeDate-test.css">
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/newrili2/skin/jedate.css">
+<script type="text/javascript" src="__PUBLIC__/newrili2/src/jedate.js"></script>
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label for="contents" class="control-label col-xs-12 col-sm-2">文本内容:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea class="form-control" rows="5" cols="50" placeholder="请输入文本内容" id="contents"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="playback_sequence" class="control-label col-xs-12 col-sm-2">播放顺序:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="number" class="form-control" id="playback_sequence" placeholder="请输入播放顺序">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="playback_interval" class="control-label col-xs-12 col-sm-2">播放间隔:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="number" class="form-control" id="playback_interval" placeholder="请输入播放间隔">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="playback_number" class="control-label col-xs-12 col-sm-2">播放次数:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="number" class="form-control" id="playback_number" placeholder="请输入播放次数">
+        </div>
+    </div>
+    <!--<div class="form-group">
+        <label for="start_time" class="control-label col-xs-12 col-sm-2">开始时间:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control jeinput moredate" id="start_time" placeholder="请选择开始时间" readonly value="{$start_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="end_time" class="control-label col-xs-12 col-sm-2">结束时间:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control jeinput moredate" id="end_time" placeholder="请选择结束时间" readonly value="{$end_time}">
+        </div>
+    </div>-->
+    <div class="form-group">
+        <label for="test11B" class="control-label col-xs-12 col-sm-2">时间范围:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="jeitem">
+                <div class="jeinpbox"><input type="text" class="jeinput time" id="test11B" placeholder="请选择时间" readonly value="{$time}" disabled></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="__PUBLIC__/newrili2/test/demo.js"></script>
+    <div class="form-group">
+        <label for="log" class="control-label col-xs-12 col-sm-2">操作日志:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea class="form-control" rows="5" cols="50" placeholder="请输入操作日志内容" id="log"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">新增</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--点击确定保存信息-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").click(function () {
+            var url = "{:url('temporaryInsertingSave1')}";
+            var contents = $("#contents").val();//文本内容
+            var playback_number = $("#playback_number").val(); //播放次数
+            var log = $("#log").val(); //日志
+            var playback_sequence = $("#playback_sequence").val();
+            var playback_interval = $("#playback_interval").val();
+            /*var start_time = $("#start_time").val();
+            var end_time = $("#end_time").val();*/
+            var time = $(".time").val();
+            if(contents==""){
+                layer.msg('<span style="margin-left: 30px;">文本内容不能为空,请必须输入文本内容!</span>', {icon: 2,time: 2500});
+            }
+            else if(playback_number==""){
+                layer.msg('<span style="margin-left: 30px;">连续播放次数不能为空,请必须输入连续播放次数!</span>', {icon: 2,time: 2500});
+            }
+            else if(log==""){
+                layer.msg('<span style="margin-left: 30px;">操作日志不能为空,请必须输入操作日志!</span>', {icon: 2,time: 2500});
+            }
+            else if(time==""){
+                layer.msg('<span style="margin-left: 30px;">日期范围不能为空!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                $.ajax({
+                    type:'get',
+                    url:url,
+                    data:{contents:contents,playback_number:playback_number,log:log,playback_sequence:playback_sequence,playback_interval:playback_interval,time:time},
+                    dataType:'json',
+                    success:function (data) {
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                        console.log("success");
+                    },
+                    error:function () {
+                        console.log("fail");
+                    }
+                })
+            }
+        })
+    })
+</script>

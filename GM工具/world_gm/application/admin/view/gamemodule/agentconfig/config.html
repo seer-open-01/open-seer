@@ -1,0 +1,259 @@
+<link rel="stylesheet" href="__PUBLIC__/combo/combo.select.css">
+<script src="__PUBLIC__/combo/jquery-1.11.3.min.js"></script>
+<script src="__PUBLIC__/combo/jquery.combo.select.js"></script>
+<style type="text/css">
+    .inputnull{
+        border: none;
+        background-color: white;
+        color: red;
+        font-weight: 900;
+    }
+</style>
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <textarea id="data" style="display: none;">{$data}</textarea>
+    <div class="form-group">
+        <label for="bs3Select" class="control-label col-xs-12 col-sm-2">
+
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="day_val" class="form-control" style="display: none;"></textarea>
+            <div class="addel wai">
+                <!--<div>
+                    <span style="color: red;font-weight: 900;font-size: 18px;">节点设置表示方法【推广玩家:该接点需要给公司产生多少收益:该节点达到了条件 最大分红比例: 该节点的名称:分红类型(1:节点分红,2:公司分红):基础玩家每日最大提币限制】</span>
+                </div>-->
+                <div style="height: 25px;"></div>
+                <div class='neizhan' style='-margin-left:-41%;'><table><tbody>  <tr><td colspan="2"><hr style="background-color:red;"/></td></tr>     <tr><td colspan="2"><div class="form-group target dfsdfasas23wds">
+
+                <tr><td colspan="2"><div class="form-group target sads"><div class="dsad" style="margin-top: 5px;"><table style="position:relative;"><tbody><tr><td> 节点设置表示方法【 <span style="color: red;font-weight: 900;font-size: 18px;">推广玩家--该接点需要给公司产生多少收益--该节点达到了条件 最大分红比例--该节点的名称--分红类型--基础玩家每日最大提币限制</span> 】  </td></tr></tbody></table></div>
+
+                </div><div style="float: right;"></div></td></tr>
+
+                {for start="1" end="count($configType)+1"}
+                <tr id="tablecontent{$i}"><td colspan="2">  <span style="color: red;font-weight: 900;">{$configType[$i-1]}:</span>  <div class="form-group target wn"></div><div style="float: right;"><button type="button" class="form-control adc" style="width:auto;float:left;" id="zanding{$i}">+</button></div></td></tr>
+                {/for}
+
+                <tr><td colspan="2"><hr style="background-color:blue;"/></td></tr></tbody></table></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">保存</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+
+<!--代理配置设置-->
+<script type="text/javascript">
+    $(function () {
+        var columName = $("#data").val();
+        var columName = JSON.parse(columName);
+        var djonlyss = "";
+        var s = 0;
+        //添加节点
+
+        for (var k=1; k<=columName.length; k++){
+            $("#zanding"+k).bind("click", {index: k}, clickHandler);
+        }
+        function clickHandler(event) {
+            var k= event.data.index;
+            //alert("第"+k);
+            var str = $(".shull").last().attr("id");
+            var strs = String(str);
+            var cd = strs.length;
+            var arr = strs.substring(5,cd);
+            var arrs = Number(arr)+1;
+            if(strs=="undefined"){ //alert("未定义");
+                var num = $("#tablecontent"+k+" .nei").length+1;console.log("数量:"+num);
+                var mails = $("#tablecontent"+k+" .wn"),
+                    divs = "search_input_div" + num,
+                    sesa = "select" + num,
+                    ses = "input" + num,
+                    ses1 = "input1" + num,
+                    ses2 = "input2" + num,
+                    ses3 = "input3" + num,
+                    ses4 = "input4" + num,
+                    ses5 = "input5" + num,
+                    divnum = "充值档次"+num+":",
+                    ids = "jia"+num,
+                    jia = "加"+num,
+                    jiadj = "jias"+num,
+                    djonly = num+"档位",
+                    dds = num,
+                    djonlyss = "",
+                    divs = "search_input_div" + num;
+                var s_strs = "<div class='nei' style='margin-top: 5px;'>"+'<table style="position:relative;"><tbody><tr style="-margin-top: 10px;">'+'<td>'+djonlyss+"<input type='number' name='numP[]' style='width:80px;' placeholder='推广玩家数量' value='1' class='form-control shull'/>"+'</td>'+'<td>'+djonlyss+"<input type='number' name='needProfit[]' style='width:80px;' placeholder='收益量' value='1' class='form-control' id='"+ses2+"'/>"+'</td>'+'<td>'+djonlyss+"<input type='number' name='maxProp[]' style='width:80px;' placeholder='最大分红比例' value='1' class='form-control' id='"+ses3+"'/>"+'</td>'+'<td>'+djonlyss+"<input type='text' name='name[]' style='width:80px;' placeholder='节点名称' value='1' class='form-control' id='"+ses4+"'/>"+'</td>'+'<td>'+'</td>'+'<td>'+djonlyss+'<select class="form-control" name="redType[]"><option value="1">节点分红</option><option value="2">公司分红</option></select>'+'</td>'+'<td>'+djonlyss+"<input type='number' name='maxWithDraw[]' style='width:80px;' placeholder='基础玩家每日最大提币限制' value='1' class='form-control' id='"+ses5+"'/>"+'</td>'+'<td>'+'</td>'+'<td><button type="button" class="btn btn-danger delss" style="margin-top:-35%;">-</button></td>'+"<td class='asd' style='position:absolute;margin-top:2.5%;width:70%;'></td>"+'<tr><tbody><table>'+"</div>";
+                var storeNum = $("#tablecontent"+k+" .nei").length+1;
+                $("#zksdnrNum").html(storeNum);
+                mails.append(s_strs);
+            }
+            else { //alert("大于1");
+                var num = Number(arrs);//alert(num);
+                var mails = $("#tablecontent"+k+" .wn"),
+                    divs = "search_input_div" + num,
+                    sesa = "select" + num,
+                    ses = "input" + num,
+                    ses1 = "input1" + num,
+                    ses2 = "input2" + num,
+                    ses3 = "input3" + num,
+                    ses4 = "input4" + num,
+                    ses5 = "input5" + num,
+                    divnum = "充值档次"+num+":",
+                    ids = "jia"+num,
+                    jia = "加"+num,
+                    jiadj = "jias"+num,
+                    djonly = num+"档位",
+                    dds = num,
+                    djonlyss = "",
+                    divs = "search_input_div" + num;
+                var s_strs = "<div class='nei' style='margin-top: 5px;'>"+'<table style="position:relative;"><tbody><tr style="-margin-top: 10px;">'+'<td>'+djonlyss+"<input type='number' name='numP[]' style='width:80px;' placeholder='推广玩家数量' value='1' class='form-control shull'/>"+'</td>'+'<td>'+djonlyss+"<input type='number' name='needProfit[]' style='width:80px;' placeholder='收益量' value='1' class='form-control' id='"+ses2+"'/>"+'</td>'+'<td>'+djonlyss+"<input type='number' name='maxProp[]' style='width:80px;' placeholder='最大分红比例' value='1' class='form-control' id='"+ses3+"'/>"+'</td>'+'<td>'+djonlyss+"<input type='text' name='name[]' style='width:80px;' placeholder='节点名称' value='1' class='form-control' id='"+ses4+"'/>"+'</td>'+'<td>'+'</td>'+'<td>'+djonlyss+'<select class="form-control" name="redType[]"><option value="1">节点分红</option><option value="2">公司分红</option></select>'+'</td>'+'<td>'+djonlyss+"<input type='number' name='maxWithDraw[]' style='width:80px;' placeholder='基础玩家每日最大提币限制' value='1' class='form-control' id='"+ses5+"'/>"+'</td>'+'<td>'+'</td>'+'<td><button type="button" class="btn btn-danger delss" style="margin-top:-35%;">-</button></td>'+"<td class='asd' style='position:absolute;margin-top:2.5%;width:70%;'></td>"+'<tr><tbody><table>'+"</div>";
+                var storeNum = $("#tablecontent"+k+" .nei").length+1;
+                $("#zksdnrNum").html(storeNum);
+                mails.append(s_strs);
+            }
+        }
+
+        //删除 dels、delss
+        $(document).on('click', '.delss', function() {
+            var _this = $(this);
+            if(_this.parent().parent().parent().parent().parent().index() == $(".jdjgdj").length - 1){
+            }
+            _this.parent().parent().parent().parent().parent().remove();
+        })
+    })
+</script>
+<!--点击保存数据按钮-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").on('click',function () {
+            //首先得到长度
+            var columName = $("#data").val();
+            var columName = JSON.parse(columName);
+            var len = columName.length;
+            var url = "{:url('addSave')}";
+            var result=[];
+            var numP = "";
+            //1
+            for(var i=1;i<=len;i++){
+                jQuery("#tablecontent"+i+" input[name^='numP']").each(function(i){
+                    result[i]=jQuery(this).val();
+                    numP += jQuery(this).val()+",";
+                });
+                numP=numP.substring(0,numP.length-1);
+                numP += "-";
+            }
+            numP=numP.substring(0,numP.length-1);//得到推广玩家数量值
+            //5,15,100,200-5,15,100,200-5,15,100,200
+            //5,15,100,200,1-5,15,100,200,2,3-5,15,100,200,4,5,6
+            //alert(numP);
+            //2
+            var needProfit = "";
+            for(var i=1;i<=len;i++){
+                jQuery("#tablecontent"+i+" input[name^='needProfit']").each(function(i){
+                    result[i]=jQuery(this).val();
+                    needProfit += jQuery(this).val()+",";
+                });
+                needProfit=needProfit.substring(0,needProfit.length-1);
+                needProfit += "-";
+            }
+            needProfit=needProfit.substring(0,needProfit.length-1);//得到收益值
+            //4,5,30,40-4,5,30,40-4,5,30,40
+            //4,5,30,40,1-4,5,30,40,1,1-4,5,30,40,1,1,1
+            //alert(needProfit);
+            //3
+            var maxProp = "";
+            for(var i=1;i<=len;i++){
+                jQuery("#tablecontent"+i+" input[name^='maxProp']").each(function(i){
+                    result[i]=jQuery(this).val();
+                    maxProp += jQuery(this).val()+",";
+                });
+                maxProp=maxProp.substring(0,maxProp.length-1);
+                maxProp += "-";
+            }
+            maxProp=maxProp.substring(0,maxProp.length-1);//得到最大分红比例
+            //0.01,0.02,0.03,0.05-0.01,0.02,0.03,0.05-0.01,0.02,0.03,0.05
+            //0.01,0.02,0.03,0.05,1-0.01,0.02,0.03,0.05,1,1-0.01,0.02,0.03,0.05,1,1,1
+            //alert(maxProp);
+            //4
+            var name = "";
+            for(var i=1;i<=len;i++){
+                jQuery("#tablecontent"+i+" input[name^='name']").each(function(i){
+                    result[i]=jQuery(this).val();
+                    name += jQuery(this).val()+",";
+                });
+                name=name.substring(0,name.length-1);
+                name += "-";
+            }
+            name=name.substring(0,name.length-1);//得到节点名称
+            //alert(name);
+            //青铜段位,白银段位,黄金段位,教皇段位-青铜段位,白银段位,黄金段位,教皇段位-青铜段位,白银段位,黄金段位,教皇段位
+            //青铜段位,白银段位,黄金段位,教皇段位,1-青铜段位,白银段位,黄金段位,教皇段位,1,1-青铜段位,白银段位,黄金段位,教皇段位,1,1,1
+            //5
+            var redType = "";
+            for(var i=1;i<=len;i++){
+                jQuery("#tablecontent"+i+" select[name^='redType']").each(function(i){
+                    result[i]=jQuery(this).val();
+                    redType += jQuery(this).val()+",";
+                });
+                redType=redType.substring(0,redType.length-1);
+                redType += "-";
+            }
+            redType=redType.substring(0,redType.length-1);//得到分红类型
+            //alert(redType);
+            //1,1,1,1-1,1,1,1-1,1,1,1
+            //1,1,1,1,1-1,1,1,1,1,1-1,1,1,1,1,1,1
+            //6
+            var maxWithDraw = "";
+            for(var i=1;i<=len;i++){
+                jQuery("#tablecontent"+i+" input[name^='maxWithDraw']").each(function(i){
+                    result[i]=jQuery(this).val();
+                    maxWithDraw += jQuery(this).val()+",";
+                });
+                maxWithDraw=maxWithDraw.substring(0,maxWithDraw.length-1);
+                maxWithDraw += "-";
+            }
+            maxWithDraw=maxWithDraw.substring(0,maxWithDraw.length-1);//得到每日最大提币限制
+            //alert(maxWithDraw);
+            //20000,30000,40000,50000-20000,30000,40000,50000-20000,30000,40000,50000
+            //20000,30000,40000,50000,50000-20000,30000,40000,50000,40000,50000-20000,30000,40000,50000,30000,40000,50000
+            $.ajax({
+                type:"post",
+                url:url,
+                data:{numP:numP,needProfit:needProfit,maxProp:maxProp,name:name,redType:redType,maxWithDraw:maxWithDraw},
+                dataType:"json",
+                success:function (data) {
+                    var data = data;
+                    //console.log("成功");
+                    if(data=="0"){
+                        alert("请至少添加一个节点");
+                    }
+                    else {
+                        alert("设置成功");
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                    }
+                },
+                error:function () {alert("失败");
+                    console.log("失败");
+                }
+            });
+        })
+    })
+</script>

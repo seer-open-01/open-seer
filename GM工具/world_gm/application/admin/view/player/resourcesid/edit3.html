@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setTime</title>
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/layer/layer.js"></script>
+    <script src="__PUBLIC__/layer/extend/layer.ext.js"></script>
+
+</head>
+<body>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">说明:</label>
+    <div class="col-xs-12 col-sm-8">
+        <span style="color: red;font-weight: 900;font-size: 20px;">+</span>表示增加
+        nbsp;nbsp;nbsp;
+        <span style="color: red;font-weight: 900;font-size: 20px;">-</span>表示扣减
+    </div>
+</div>
+<br><br>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">游戏ID:</label>
+    <div class="col-xs-12 col-sm-8">
+        <textarea rows="10" cols="30" class="form-control" disabled>{$uids}</textarea>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">钻石数量:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input type="text" class="form-control" value="" placeholder="请输入钻石数量"/>
+    </div>
+</div>
+<br><br>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">房卡数量:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input type="text" class="form-control" value="" placeholder="请输入房卡数量"/>
+    </div>
+</div>
+<br><br>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">金豆数量:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input type="text" class="form-control" value="" placeholder="请输入金豆数量"/>
+    </div>
+</div>
+<br><br>
+<div class="form-group">
+    <div class="col-xs-12 col-sm-8">
+        (单次最多增加1000钻石或10000金豆)
+    </div>
+</div>
+<br><br>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2"><span style="color: red;font-weight: 900;">*</span>操作日志:</label>
+    <div class="col-xs-12 col-sm-4">
+        <textarea rows="5" cols="50" placeholder="请必须输入为什么要操作该功能的原因"></textarea>
+    </div>
+</div>
+
+<br><br>
+<div class="form-group" style="text-align: center;">
+    <div class="col-xs-12 col-sm-8" style="text-align: center;">
+        <input type="button" class="btn btn-default sure" id="sure" value="保存">
+        <input type="button" class="btn btn-default dels" id="dels" value="取消">
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--保存信息-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").click(function () {
+
+        })
+    })
+</script>
+
+

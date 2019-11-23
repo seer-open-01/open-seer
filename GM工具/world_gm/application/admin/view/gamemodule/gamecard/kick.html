@@ -1,0 +1,163 @@
+<html>
+<head>
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <title>导出游戏卡Excel进度</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap/bootstrap.min.css">
+    <script src="__PUBLIC__/js/jquery/jquery.js"></script>
+    <script src="__PUBLIC__/js/bootstrap/bootstrap.min.js"></script>
+
+    <!--进度条-->
+    <link rel="stylesheet" href="__PUBLIC__/css/ProgressBar/ui.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/ProgressBar/ui.progress-bar.css">
+    <script src="__PUBLIC__/js/ProgressBar/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="__PUBLIC__/js/ProgressBar/progress.js" type="text/javascript" charset="utf-8"></script>
+
+    <style>
+        *{margin: auto;padding: 0px;font-size: 14px;font-family: "微软雅黑";}
+        input[name="num"],input[name="nPlayerId"],input[name="emItemIdType"],input[name="paths"]{width:50%;}
+    </style>
+</head>
+
+<body>
+
+    <!--gm命令数据信息-->
+
+    <div class="main" -style="margin-left:15%;" style="display:none;">
+        <table class="table table-bordered" style="width:75%;">
+            <tbody>
+                <tr>
+                    <td>角色id</td>
+                    <td>
+                        <input type="text" disabled class="form-control" name="nPlayerId" value="{$playerid}">
+                        <input type="text" name="worldids" value="{$worldid}">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="__PUBLIC__/js/jquery/jquery.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                var nplayerid = $("input[name='nPlayerId']").val();
+                var worldidss = $("input[name='worldids']").val();
+                var urls = "{:U('RoleKickEdit/gmCmdAdd')}";
+                $.ajax({
+                    type:'get',
+                    url:urls,
+                    data:{nplayerid:nplayerid,worldidss:worldidss},
+                    datatype:'json',
+                    success:function(data){ console.log('success');},
+                    error:function(){console.log('fail');}
+                })
+            })
+        </script>
+    </div>
+
+    <!--进度条-->
+    <div -style="display:none;">
+    <h3 style="text-align:center;">请勿在完成此窗口进度条前关闭此窗口</h3>
+    <input type="hidden" name="bIsOk" value="{$bIsOk}">
+
+    <link rel="stylesheet" href="__PUBLIC__/css/ProgressBar/jquery-ui.min.css">
+    <script src="__PUBLIC__/js/ProgressBar/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/ProgressBar/jquery-ui.min.js"></script>
+    <style>
+    .ui-progressbar {
+      position: relative;
+    }
+    .progress-label {
+      position: absolute;
+      left: 50%;
+      top: 4px;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #fff;
+    }
+  </style>
+  <div class="aa" id="aa"></div>
+  <input type="hidden" name="worldid" value="{$worldid}">
+  <script>
+  $(function() {
+    var progressbar = $( "#progressbar" ),
+      progressLabel = $( ".progress-label" );
+ 
+    progressbar.progressbar({
+      value: false,
+      change: function() {
+        progressLabel.text( progressbar.progressbar( "value" ) + "%" );
+      },
+      complete: function() {
+        progressLabel.text( "完成！" );
+        //加载完成的时候再到gm_cmd表中查询数据
+
+        var worldidss = $("input[name='worldid']").val();
+        var urls = "{:U('RoleKickEdit/aad')}";
+        $.ajax({
+            url : urls,
+            type: 'get',
+            data:{worldidss:worldidss},
+            datatype:"json", 
+            success:function(data){
+                $("#dels").html(data);
+                var x = document.getElementById('dels').innerHTML;
+                /*if(x==1){$("#x").html('<h3 style="text-align:center;">踢线成功</h3>');}
+                else if(x==0){$("#x").html('<h3 style="text-align:center;">踢线失败!!!</h3>');}*/
+                if(x==1){
+                    parent.layer.alert('踢线成功',function(){
+                        parent.layer.closeAll();
+                    })
+                }
+                else if(x==0){
+                    parent.layer.alert('踢线失败',function(){
+                        parent.layer.closeAll();
+                    })
+                }
+            },
+            error:function(){console.log("fail");}
+        });
+
+      }
+    });
+ 
+    function progress() {
+      var val = progressbar.progressbar( "value" ) || 0;
+ 
+      progressbar.progressbar( "value", val + 1 );
+ 
+      if ( val < 99 ) {
+        //setTimeout( progress, 100 );//500是半分钟,1000是1秒
+
+        var worldidss = $("input[name='worldid']").val();
+        var urls = "{:U('RoleKickEdit/aad')}";
+        $.ajax({
+            url : urls,
+            type: 'get',
+            data:{worldidss:worldidss},
+            datatype:"json", 
+            success:function(data){
+                $("#dels").html(data);
+                var x = document.getElementById('dels').innerHTML;
+                if(x==0){
+                    setTimeout( progress, 1000 );
+                }
+                else if(x==1){
+                    setTimeout( progress, 0 );
+                }
+            },
+            error:function(){console.log("fail");}
+        });
+
+      }
+    }
+ 
+    setTimeout( progress, 100 );
+  });
+  </script>
+  <div id="progressbar"><div class="progress-label">加载...</div></div>
+  <div id="dels" style="display:none;"></div>
+  <div id='x'></div>
+  </div>
+
+</body>
+ 
+</body>
+</html>
