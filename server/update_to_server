@@ -1,0 +1,28 @@
+#!/bin/bash
+
+SHELL_PATH=$(cd `dirname $0`; pwd)
+NAME=""
+IP=""
+TARGET=""
+echo "================= 当前执行脚本路径:$SHELL_PATH ================="
+if [ "$1" = "test1" ]; then
+	echo "更新测试1服"
+	IP="127.0.0.1"
+	NAME="测试1服"
+	TARGET="/home/wl/server_hn"
+else
+	svn up .
+	echo "============= 完成本地服务器的更新!!!!!! ============="
+	exit 0
+fi
+
+scp -C $SHELL_PATH/config/CSBaseConfig.js root@$IP:$TARGET/config/
+scp -C $SHELL_PATH/config/ServerConfig.js root@$IP:$TARGET/config/
+scp -rC $SHELL_PATH/db/ root@$IP:$TARGET
+scp -rC $SHELL_PATH/game/ root@$IP:$TARGET
+scp -rC $SHELL_PATH/middle/ root@$IP:$TARGET
+scp -rC $SHELL_PATH/net/ root@$IP:$TARGET
+scp -rC $SHELL_PATH/node_modules/ root@$IP:$TARGET
+scp -rC $SHELL_PATH/sys/ root@$IP:$TARGET
+scp -rC $SHELL_PATH/util/ root@$IP:$TARGET
+scp -C $SHELL_PATH/HttpRequest.js root@$IP:$TARGET

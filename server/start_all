@@ -1,0 +1,44 @@
+# see how we were called.
+case "$1" in
+  start)
+        ./start_middle start
+		./start_mj_01  start
+	    ./start_ps_01  start
+		./start_psz_01 start
+		./start_ddz_01 start
+		./start_xq_01  start
+		./start_pdk_01 start
+		./start_xzmj_01 start
+        ;;
+  stop)
+        ./start_mj_01  stop
+	    ./start_ps_01  stop
+		./start_psz_01 stop
+		./start_ddz_01 stop
+		./start_xq_01  stop
+		./start_pdk_01 stop
+		./start_xzmj_01 stop
+        ./start_middle stop
+        ;;
+  status)
+        ./start_psz_01 status
+		./start_mj_01  status
+	    ./start_ps_01  status
+		./start_ddz_01 status
+		./start_xq_01  status
+		./start_pdk_01 status
+		./start_xzmj_01 status
+        ./start_middle status
+        ;;
+  restart)
+        stop
+        sleep 3
+        start
+        ;;
+  reload)
+        reload
+        ;;
+  *)
+        echo $"Usage: manage {start|stop|restart|status}"
+        exit 1
+esac
