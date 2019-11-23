@@ -1,0 +1,46 @@
+<style type="text/css">
+    #saiya_account_id,#amount,#sig,#asset_name,#address_type,#seq,#tx_from,#tx_to,#tx_hash{width: 50%;}
+</style>
+<input class="form-control" type="text" id="saiya_account_id" placeholder="请输入充值账号"/>
+<input class="form-control" type="text" id="amount" placeholder="请输入充值数量"/>
+<input class="form-control" type="text" id="sig" placeholder="请输入签名验证"/>
+<input class="form-control" type="text" id="asset_name" placeholder="请输入资产名称"/>
+<input class="form-control" type="text" id="address_type" placeholder="请输入地址类型"/>
+<input class="form-control" type="text" id="tx_from" placeholder="请输入本次充值来自哪个钱包地址"/>
+<input class="form-control" type="text" id="tx_to" placeholder="请输入本次充值到哪个钱包去"/>
+<input class="form-control" type="text" id="tx_hash" placeholder="请输入本次充值的hash表"/>
+<input type="button" class="btn" value="提交" id="tijiao">
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<script type="text/javascript">
+    $(function () {
+       $("#tijiao").click(function () {
+           var url = "{:url('setSave')}";
+           var saiya_account_id = $("#saiya_account_id").val();
+           var amount = $("#amount").val();
+           var sig = $("#sig").val();
+           var asset_name = $("#asset_name").val();
+           var address_type = $("#address_type").val();
+           var tx_from = $("#tx_from").val();
+           var tx_to = $("#tx_to").val();
+           var tx_hash = $("#tx_hash").val();
+           $.ajax({
+               type:"post",
+               url:url,
+               data:{saiya_account_id:saiya_account_id,amount:amount,sig:sig,asset_name:asset_name,address_type:address_type,tx_from:tx_from,tx_to:tx_to,tx_hash:tx_hash},
+               dataType:"",
+               success:function (data) {
+                   console.log("success");
+                   alert("充值成功")
+               },
+               error:function () {
+                   alert("请求失败");
+               }
+           })
+       })
+    })
+</script>

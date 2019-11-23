@@ -1,0 +1,2503 @@
+---------------------------------------------------------------
+[ 2019-07-24T10:42:20+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/
+[ info ] 192.168.1.35/fastadmin_revision1/public/ [运行时间：0.360020s][吞吐率：2.78req/s] [内存消耗：2,189.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563416278,1563501526,1563766473,1563849486',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:42:22+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/index/login.html
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/index/login.html [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：2,388.58kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:42:32+08:00 ] 192.168.1.35 POST /fastadmin_revision1/public/admin/index/login.html
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/index/login.html [运行时间：0.916052s][吞吐率：1.09req/s] [内存消耗：3,019.70kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://192.168.1.35',
+  'cache-control' => 'max-age=0',
+  'content-length' => '75',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '230ffd7edcde6f5abf80178fa4e23443',
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.267015s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097005s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.170010s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1563936152,`token`='59cfb776-410d-4b14-adde-2b52c3cfa021',`updatetime`=1563936152  WHERE  `id` = 1 [ RunTime:0.075005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.220013s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"230ffd7edcde6f5abf80178fa4e23443\",\"username\":\"admin\"}' , '/fastadmin_revision1/public/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36' , '192.168.1.35' , 1563936152) [ RunTime:0.043002s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:42:35+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/index/index
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/index/index [运行时间：1.089062s][吞吐率：0.92req/s] [内存消耗：3,433.84kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.129007s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.126008s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:42:35+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/dashboard?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1 [运行时间：0.282017s][吞吐率：3.55req/s] [内存消耗：3,157.95kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:42:36+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936154
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936154 [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,343.59kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1563936154',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:42:36+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936155
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936155 [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,342.05kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1563936155',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:42:59+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1 [运行时间：0.366021s][吞吐率：2.73req/s] [内存消耗：3,230.76kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013000s ]
+[ error ] [8]未定义数组索引: baseMaxWithDraw[E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php:76]
+---------------------------------------------------------------
+[ 2019-07-24T10:44:15+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs [运行时间：0.225013s][吞吐率：4.44req/s] [内存消耗：2,832.31kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.019001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:44:15+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/index/index
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/index/index [运行时间：0.336019s][吞吐率：2.98req/s] [内存消耗：3,435.54kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:44:15+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/dashboard?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1 [运行时间：0.202012s][吞吐率：4.95req/s] [内存消耗：3,158.09kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.043003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:44:17+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1 [运行时间：1.562090s][吞吐率：0.64req/s] [内存消耗：3,210.61kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:44:17+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936255
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936255 [运行时间：1.206069s][吞吐率：0.83req/s] [内存消耗：2,343.67kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1563936255',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:44:17+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936255
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936255 [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,342.13kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1563936255',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:45:27+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs [运行时间：0.249014s][吞吐率：4.02req/s] [内存消耗：2,832.31kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.045002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.040003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:45:28+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/index/index
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/index/index [运行时间：0.327019s][吞吐率：3.06req/s] [内存消耗：3,435.54kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.043003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.015000s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:45:28+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/dashboard?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1 [运行时间：0.220013s][吞吐率：4.55req/s] [内存消耗：3,158.09kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:45:28+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1 [运行时间：0.423024s][吞吐率：2.36req/s] [内存消耗：3,236.82kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\gamemodule\agentconfig\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'list',
+  6 => 'brokerage',
+  7 => 'baseMaxWithDraw',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.044003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:45:29+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936327
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936327 [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,343.67kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1563936327',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:45:29+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936328
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936328 [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,342.13kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1563936328',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:45:33+08:00 ] 192.168.1.35 POST /fastadmin_revision1/public/admin/gamemodule.agentconfig/judge
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/judge [运行时间：0.320019s][吞吐率：3.12req/s] [内存消耗：3,001.73kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'judge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://192.168.1.35',
+  'accept' => 'application/json, text/javascript, */*',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'val' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->judge[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.106006s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.055004s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"val\":\"1\"}' , '/fastadmin_revision1/public/admin/gamemodule.agentconfig/judge' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36' , '192.168.1.35' , 1563936333) [ RunTime:0.049002s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:45:33+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563936328
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563936328 [运行时间：0.230013s][吞吐率：4.35req/s] [内存消耗：2,339.42kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'gamemodule.agentconfig',
+  'v' => '1563936328',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:45:33+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563936328
+[ info ] 192.168.1.35/fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563936328 [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：1,418.69kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1563936328',
+  'gamemodule' => 'agentconfig.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:48:11+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?ref=addtabs [运行时间：0.321018s][吞吐率：3.12req/s] [内存消耗：2,832.31kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.105006s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.015001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:48:12+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/index/index
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/index/index [运行时间：0.369021s][吞吐率：2.71req/s] [内存消耗：3,435.54kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.058003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:48:12+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/dashboard?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1 [运行时间：0.219013s][吞吐率：4.57req/s] [内存消耗：3,158.09kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:48:13+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1 [运行时间：0.263015s][吞吐率：3.80req/s] [内存消耗：3,236.82kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\gamemodule\agentconfig\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'list',
+  6 => 'brokerage',
+  7 => 'baseMaxWithDraw',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.021001s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:48:14+08:00 ] 192.168.1.35 POST /fastadmin_revision1/public/admin/gamemodule.agentconfig/judge
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/judge [运行时间：0.338019s][吞吐率：2.96req/s] [内存消耗：3,001.73kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'judge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://192.168.1.35',
+  'accept' => 'application/json, text/javascript, */*',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'val' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->judge[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.096005s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.064004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"val\":\"1\"}' , '/fastadmin_revision1/public/admin/gamemodule.agentconfig/judge' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36' , '192.168.1.35' , 1563936494) [ RunTime:0.040002s ]
+---------------------------------------------------------------
+[ 2019-07-24T10:48:15+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936491
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=index&v=1563936491 [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,343.67kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1563936491',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:48:16+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936492
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1563936492 [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,342.13kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1563936492',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:48:17+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563936493
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563936493 [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,339.42kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'gamemodule.agentconfig',
+  'v' => '1563936493',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T10:48:18+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563936493
+[ info ] 192.168.1.35/fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563936493 [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,418.69kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1563936493',
+  'gamemodule' => 'agentconfig.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:05:50+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/auth/rule?addtabs=1
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/auth/rule?addtabs=1 [运行时间：0.463026s][吞吐率：2.16req/s] [内存消耗：3,357.50kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/auth/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\auth\Rule.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\auth\rule\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.108006s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.041003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:05:51+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1563937549
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1563937549 [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,340.70kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/auth/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1563937549',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:05:53+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/auth/rule/index?sort=weigh&order=desc&_=1563937550579
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/auth/rule/index?sort=weigh&order=desc&_=1563937550579 [运行时间：0.241013s][吞吐率：4.15req/s] [内存消耗：3,405.21kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1563937550579',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.045002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.044002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.019001s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:11:08+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule.agentconfig/configs
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs [运行时间：0.518030s][吞吐率：1.93req/s] [内存消耗：3,355.93kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'configs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule/agentconfig?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->configs[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\gamemodule\agentconfig\configs.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'brokerage',
+  6 => 'baseMaxWithDraw',
+  7 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129008s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:11:09+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public//combo/combo.select.css
+[ info ] 192.168.1.35/fastadmin_revision1/public//combo/combo.select.css [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,418.09kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'combo',
+    1 => 'combo.select.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:10+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public//combo/jquery-1.11.3.min.js
+[ info ] 192.168.1.35/fastadmin_revision1/public//combo/jquery-1.11.3.min.js [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,418.09kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'combo',
+    1 => 'jquery-1.11.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:10+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public//combo/jquery.combo.select.js
+[ info ] 192.168.1.35/fastadmin_revision1/public//combo/jquery.combo.select.js [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,418.09kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'combo',
+    1 => 'jquery.combo.select.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:10+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563937868
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563937868 [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,339.42kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'gamemodule.agentconfig',
+  'v' => '1563937868',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:11+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563937868
+[ info ] 192.168.1.35/fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563937868 [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,418.69kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1563937868',
+  'gamemodule' => 'agentconfig.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:12+08:00 ] 192.168.1.35 POST /fastadmin_revision1/public/admin/gamemodule.agentconfig/addsave
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/addsave [运行时间：0.458026s][吞吐率：2.18req/s] [内存消耗：3,007.09kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'addsave',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://192.168.1.35',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '344',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'brokerage' => '0.01',
+  'baseMaxWithDraw' => '10000',
+  'numP' => '5,15,100,200',
+  'needProfit' => '4,5,30,40',
+  'maxProp' => '0.01,0.02,0.03,0.05',
+  'name' => '青铜段位,白银段位,黄金段位,教皇段位',
+  'redType' => '1,1,1,2',
+  'maxWithDraw' => '20000,30000,40000,50000',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->addSave[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.125007s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.095005s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.042003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.077004s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"brokerage\":\"0.01\",\"baseMaxWithDraw\":\"10000\",\"numP\":\"5,15,100,200\",\"needProfit\":\"4,5,30,40\",\"maxProp\":\"0.01,0.02,0.03,0.05\",\"name\":\"\\u9752\\u94dc\\u6bb5\\u4f4d,\\u767d\\u94f6\\u6bb5\\u4f4d,\\u9ec4\\u91d1\\u6bb5\\u4f4d,\\u6559\\u7687\\u6bb5\\u4f4d\",\"redType\":\"1,1,1,2\",\"maxWithDraw\":\"20000,30000,40000,50000\"}' , '/fastadmin_revision1/public/admin/gamemodule.agentconfig/addsave' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36' , '192.168.1.35' , 1563937871) [ RunTime:0.046003s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:11:13+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule.agentconfig/index
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/index [运行时间：0.231013s][吞吐率：4.33req/s] [内存消耗：3,236.62kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->index[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\gamemodule\agentconfig\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'list',
+  6 => 'brokerage',
+  7 => 'baseMaxWithDraw',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.017001s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:11:13+08:00 ] 192.168.1.35 POST /fastadmin_revision1/public/admin/gamemodule.agentconfig/judge
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/judge [运行时间：0.306017s][吞吐率：3.27req/s] [内存消耗：3,001.73kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'judge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/index',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://192.168.1.35',
+  'accept' => 'application/json, text/javascript, */*',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'val' => '1',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->judge[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.095005s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"val\":\"1\"}' , '/fastadmin_revision1/public/admin/gamemodule.agentconfig/judge' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36' , '192.168.1.35' , 1563937873) [ RunTime:0.042002s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:11:13+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563937873
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563937873 [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,339.42kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'gamemodule.agentconfig',
+  'v' => '1563937873',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:14+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563937873
+[ info ] 192.168.1.35/fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563937873 [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：1,418.69kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1563937873',
+  'gamemodule' => 'agentconfig.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:34+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/gamemodule.agentconfig/configs
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs [运行时间：0.236014s][吞吐率：4.24req/s] [内存消耗：3,137.42kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'gamemodule.agentconfig',
+    2 => 'configs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\gamemodule\Agentconfig->configs[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\gamemodule\Agentconfig.php ]
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\view\gamemodule\agentconfig\configs.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'brokerage',
+  6 => 'baseMaxWithDraw',
+  7 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;dbname=nyqp_gm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2019-07-24T11:11:34+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public//combo/combo.select.css
+[ info ] 192.168.1.35/fastadmin_revision1/public//combo/combo.select.css [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,418.09kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'combo',
+    1 => 'combo.select.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:35+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public//combo/jquery-1.11.3.min.js
+[ info ] 192.168.1.35/fastadmin_revision1/public//combo/jquery-1.11.3.min.js [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,418.09kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'combo',
+    1 => 'jquery-1.11.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:35+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public//combo/jquery.combo.select.js
+[ info ] 192.168.1.35/fastadmin_revision1/public//combo/jquery.combo.select.js [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,418.09kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'combo',
+    1 => 'jquery.combo.select.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:35+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563937894
+[ info ] 192.168.1.35/fastadmin_revision1/public/admin/ajax/lang?callback=define&controllername=gamemodule.agentconfig&v=1563937894 [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,339.42kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'gamemodule.agentconfig',
+  'v' => '1563937894',
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\PHPTutorial\WWW\fastadmin_revision1\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-24T11:11:36+08:00 ] 192.168.1.35 GET /fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563937894
+[ info ] 192.168.1.35/fastadmin_revision1/public/assets/js/backend/gamemodule/agentconfig.js?v=1563937894 [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,418.69kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\fastadmin_revision1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; ECS[visit_times]=1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1563501526,1563766473,1563849486,1563936141; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1563936141; PHPSESSID=e08r8a1vgja8mn7gmop5ltofq2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.35/fastadmin_revision1/public/admin/gamemodule.agentconfig/configs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'connection' => 'close',
+  'host' => '192.168.1.35',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1563937894',
+  'gamemodule' => 'agentconfig.js',
+)
+[ info ] [ LOG ] INIT File

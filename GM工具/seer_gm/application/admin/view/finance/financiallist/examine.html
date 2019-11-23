@@ -1,0 +1,148 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group" style="display: none;">
+        <label for="uid" class="control-label col-xs-12 col-sm-2">游戏ID:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="uid" id="uid" placeholder="游戏ID" class="form-control" value="{$list['uid']}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="bank_username" class="control-label col-xs-12 col-sm-2">开户人姓名:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="bank_username" id="bank_username" placeholder="请输入开户人姓名" class="form-control" value="{$list['bank_username']}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="wx_name" class="control-label col-xs-12 col-sm-2">银行名称:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="wx_name" id="wx_name" placeholder="请输入银行名称" class="form-control" value="{$list['bank_username']}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="presentation_mode" class="control-label col-xs-12 col-sm-2">银行卡号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="presentation_mode" id="presentation_mode" placeholder="请输入银行卡号" class="form-control" value="{$list['bank_card']}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cash_withdraw" class="control-label col-xs-12 col-sm-2">订单金额:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="cash_withdraw" id="cash_withdraw" placeholder="请输入订单金额" class="form-control" value="{$list['order_money']}" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cash_withdraw1" class="control-label col-xs-12 col-sm-2">交易银行:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="cash_withdraw1" id="cash_withdraw1" placeholder="请输入交易银行" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cash_withdraw2" class="control-label col-xs-12 col-sm-2">交易单号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="cash_withdraw2" id="cash_withdraw2" placeholder="请输入交易单号" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="log" class="control-label col-xs-12 col-sm-2"><span style="color: red;font-weight: 900;">*</span>操作日志:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea rows="5" cols="50" placeholder="请必须输入为什么要操作该功能的原因" class="form-control" id="log"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">提交</button>
+            <button type="button" class="btn btn-success btn-embossed" id="refuse">拒绝</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--点击提交按钮-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").click(function () {
+            var url = "{:url('sure')}";
+            var uid = $("#uid").val();
+            var cash_withdraw1 = $("#cash_withdraw1").val();
+            var cash_withdraw2 = $("#cash_withdraw2").val();
+            var log = $("#log").val();
+            if(cash_withdraw1==""){
+                layer.msg('<span style="margin-left: 30px;">交易银行不能为空,请必须输入交易银行!</span>', {icon: 2,time: 2500});
+            }
+            else if(cash_withdraw2==""){
+                layer.msg('<span style="margin-left: 30px;">交易单号不能为空,请必须输交易单号志!</span>', {icon: 2,time: 2500});
+            }
+            else if(log==""){
+                layer.msg('<span style="margin-left: 30px;">日志不能为空,请必须输入日志!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:{uid:uid,cash_withdraw1:cash_withdraw1,cash_withdraw2:cash_withdraw2,log:log},
+                    dataType:'json',
+                    success:function (data) {
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                        console.log("success");
+                    },
+                    error:function () {
+                        console.log("fail");
+                    }
+                })
+            }
+        })
+    })
+</script>
+<!--点击拒绝按钮-->
+<script type="text/javascript">
+    $(function () {
+        $("#refuse").click(function () {
+            var url = "{:url('refuse')}";
+            var uid = $("#uid").val();
+            var cash_withdraw1 = $("#cash_withdraw1").val();
+            var cash_withdraw2 = $("#cash_withdraw2").val();
+            var log = $("#log").val();
+            if(cash_withdraw1==""){
+                layer.msg('<span style="margin-left: 30px;">交易银行不能为空,请必须输入交易银行!</span>', {icon: 2,time: 2500});
+            }
+            else if(cash_withdraw2==""){
+                layer.msg('<span style="margin-left: 30px;">交易单号不能为空,请必须输交易单号志!</span>', {icon: 2,time: 2500});
+            }
+            else if(log==""){
+                layer.msg('<span style="margin-left: 30px;">日志不能为空,请必须输入日志!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:{uid:uid,cash_withdraw1:cash_withdraw1,cash_withdraw2:cash_withdraw2,log:log},
+                    dataType:'json',
+                    success:function (data) {
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                        console.log("success");
+                    },
+                    error:function () {
+                        console.log("fail");
+                    }
+                })
+            }
+        })
+    })
+</script>

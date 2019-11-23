@@ -1,0 +1,84 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group" -style="display: none;">
+        <label for="itemId" class="control-label col-xs-12 col-sm-2">商品价格:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="itemId" value="{$list['itemId']}" class="form-control" id="itemId" disabled/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="rmbPrice" class="control-label col-xs-12 col-sm-2">商品价格:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="rmbPrice" value="{$list['rmbPrice']}" class="form-control" id="rmbPrice" placeholder="请输入商品价格"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cards" class="control-label col-xs-12 col-sm-2">房卡数量:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="cards" value="{$list['cards']}" class="form-control" id="cards" placeholder="请输入房卡数量"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="giveDiamond" class="control-label col-xs-12 col-sm-2">赠送钻石数量:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" name="giveDiamond" value="{$list['giveDiamond']}" class="form-control" id="giveDiamond" placeholder="请输入赠送钻石数量"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">保存</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--保存-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").click(function () {
+            var url = "{:url('editSave')}";
+            var itemId = $("#itemId").val();
+            var rmbPrice = $("#rmbPrice").val();
+            var cards = $("#cards").val();
+            var giveDiamond = $("#giveDiamond").val();
+            if(rmbPrice==""){
+                layer.msg('<span style="margin-left: 30px;">商品价格不能为空,请必须输入商品价格!</span>', {icon: 2,time: 2500});
+            }
+            else if(cards==""){
+                layer.msg('<span style="margin-left: 30px;">房卡数量不能为空,请必须输入房卡数量!</span>', {icon: 2,time: 2500});
+            }
+            else if(giveDiamond==""){
+                layer.msg('<span style="margin-left: 30px;">赠送钻石数量不能为空,请必须输入赠送钻石数量!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:{itemId:itemId,rmbPrice:rmbPrice,cards:cards,giveDiamond:giveDiamond},
+                    dataType:'json',
+                    success:function (data) {
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                    },
+                    error:function () {
+                        console.log("fail");
+                    }
+                })
+            }
+        })
+    })
+</script>

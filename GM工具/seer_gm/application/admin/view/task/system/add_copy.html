@@ -1,0 +1,567 @@
+<link type="text/css" rel="stylesheet" href="__PUBLIC__newrili2/test/jeDate-test.css">
+<link type="text/css" rel="stylesheet" href="__PUBLIC__newrili2/skin/jedate.css">
+<script type="text/javascript" src="__PUBLIC__newrili2/src/jedate.js"></script>
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group" style="width: 100%;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">任务类型:</label>
+        <!--任务类型【repeatType】-->
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <input type="radio" name="repeatType" id="repeatType" checked value="1"> 一次性任务
+            <input type="radio" name="repeatType" value="2"> 重复任务
+        </div>
+    </div>
+    <div class="form-group" style="width: 100%;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">任务顺序:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <!--任务顺序【order】-->
+            <div style="width: 60%;float: left;">
+                <input onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" name="order" placeholder="请输入播放顺序数字大于0的正整数" class="form-control" id="order">
+            </div>
+            <div style="width: 40%;float: left;">
+                <span style="color: darkgray;"> (设置为0时，任务为隐藏任务) </span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group" style="width: 100%;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">任务奖励:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <!--奖励类型【rewardType】-->
+            <div style="width: 30%;float: left;">
+                <select class="form-control" id="rewardType">
+                    <option value="1">金豆</option>
+                    <option value="2">彩票积分</option>
+                </select>
+            </div>
+            <!--奖励数量【rewardNum】-->
+            <div class="form-control" style="border: 1px solid darkgray;width: 30%;float: left;">
+                <div style="width: 70%;float: left;">
+                    <input type="number" -class="form-control" style="border: none;width: 100%;" id="rewardNum">
+                </div>
+                <div style="width: 30%;float: left;">
+                    <span style="color: darkgray;"> (金豆) </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group" style="width: 100%;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">任务游戏:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <!--游戏类型限制【gameTypeLimit】-->
+            <div style="width: 30%;float: left;">
+                <select class="form-control" id="gameTypeLimit">
+                    <option value="0">任意游戏</option>
+                    <option value="1">麻将</option>
+                    <option value="2">斗地主</option>
+                    <!--<option value="3">象棋</option>-->
+                    <option value="4">拼三</option>
+                    <option value="5">拼十</option>
+                </select>
+            </div>
+            <!--游戏模式【gameSubType】-->
+            <div style="width: 30%;float: left;">
+                <select class="form-control" id="gameSubType" style="display: block;">
+                    <option value="0">任意模式</option>
+                </select>
+                <select class="form-control" id="gameSubType1" style="display: none;">
+                    <option value="0">任意模式</option>
+                    <option value="1">二人麻将</option>
+                    <option value="2">四人麻将</option>
+                </select>
+                <select class="form-control" id="gameSubType2" style="display: none;">
+                    <option value="0">任意模式</option>
+                    <option value="1">普通模式</option>
+                    <option value="2">不洗牌模式</option>
+                </select>
+                <!--<select class="form-control" id="gameSubType3" style="display: none;">
+                    <option value="0">任意模式</option>
+                    <option value="1">卡牌抢庄</option>
+                    <option value="2">自由抢庄</option>
+                </select>-->
+                <select class="form-control" id="gameSubType4" style="display: none;">
+                    <option value="0">任意模式</option>
+                    <option value="1">普通模式</option>
+                    <option value="2">激情模式</option>
+                </select>
+                <select class="form-control" id="gameSubType5" style="display: none;">
+                    <option value="0">任意模式</option>
+                    <option value="1">卡牌抢庄</option>
+                    <option value="2">自由抢庄</option>
+                </select>
+            </div>
+            <!--游戏规模限制【matchNameLimit】-->
+            <div style="width: 30%;float: left;">
+                <select class="form-control" id="matchNameLimit">
+                    <option value="0">无规模限制</option>
+                    <option value="1">虾兵场</option>
+                    <option value="2">蟹将场</option>
+                    <option value="3">夜叉场</option>
+                    <option value="4">龟丞相场</option>
+                    <option value="5">龙太子场</option>
+                    <option value="6">龙王场</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group" style="width: 100%;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">任务内容:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <!--条件类型【conditionType】-->
+            <div style="width: 30%;float: left;">
+                <select class="form-control" id="conditionType">
+                    <option value="1">对战多少局</option>
+                    <option value="2">单局达到多少分</option>
+                </select>
+            </div>
+            
+            <!--对应条件对应的数量【conditionNum】-->
+            <div class="form-control" style="width: 30%;border: 1px solid darkgray;float: left;">
+                <div style="width: 90%;float: left;">
+                    <input type="number" -class="form-control" style="border: none;width: 100%;" id="conditionNum">
+                </div>
+                <div style="width: 10%;float: left;">
+                    <span style="color: darkgray;"> (局) </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group" style="width: 100%;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">时间范围:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <div class="jeitem" style="width: 100%;">
+                <!--重复任务-->
+                <div class="jeinpbox" id="shijian" style="display: none;"><input type="text" class="jeinput time" id="test11B" placeholder="请选择时间" readonly value=""></div>
+                <!--一次性任务-->
+                <div class="jeinpbox" id="shijian1" style="width: 60%;display: block;"><input type="text" class="jeinput time1" id="test11A" placeholder="请选择时间" readonly value=""></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="__PUBLIC__newrili2/test/demo.js"></script>
+    <div class="form-group" style="width: 100%;display: none;">
+        <label for="repeatType" class="control-label col-xs-12 col-sm-2" style="width: 20%;">任务状态:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 80%;">
+            <input type="radio" name="task_status" id="task_status" checked value="2"> 启用
+            <input type="radio" name="task_status" value="1"> 禁用
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="repeatType col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">保存</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<!--游戏模式【加一个模式】-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--点击游戏类型限制与游戏规模限制判断确定是否出现后面的gameSubType类型-->
+<script type="text/javascript">
+    $(function () {
+        $("#gameTypeLimit").click(function () {
+            var val = $(this).val();
+            if(val=="0"){
+                $("#gameSubType").css("display","block");
+                $("#gameSubType1").css("display","none");
+                $("#gameSubType2").css("display","none");
+                $("#gameSubType3").css("display","none");
+                $("#gameSubType4").css("display","none");
+                $("#gameSubType5").css("display","none");
+            }
+            else if(val=="1"){
+                $("#gameSubType1").css("display","block");
+                $("#gameSubType").css("display","none");
+                $("#gameSubType2").css("display","none");
+                $("#gameSubType3").css("display","none");
+                $("#gameSubType4").css("display","none");
+                $("#gameSubType5").css("display","none");
+            }
+            else if(val=="2"){
+                $("#gameSubType2").css("display","block");
+                $("#gameSubType").css("display","none");
+                $("#gameSubType1").css("display","none");
+                $("#gameSubType3").css("display","none");
+                $("#gameSubType4").css("display","none");
+                $("#gameSubType5").css("display","none");
+            }
+            else if(val=="3"){
+                $("#gameSubType3").css("display","block");
+                $("#gameSubType").css("display","none");
+                $("#gameSubType1").css("display","none");
+                $("#gameSubType2").css("display","none");
+                $("#gameSubType4").css("display","none");
+                $("#gameSubType5").css("display","none");
+            }
+            else if(val=="4"){
+                $("#gameSubType4").css("display","block");
+                $("#gameSubType").css("display","none");
+                $("#gameSubType1").css("display","none");
+                $("#gameSubType2").css("display","none");
+                $("#gameSubType3").css("display","none");
+                $("#gameSubType5").css("display","none");
+            }
+            else if(val=="5"){
+                $("#gameSubType5").css("display","block");
+                $("#gameSubType4").css("display","none");
+                $("#gameSubType").css("display","none");
+                $("#gameSubType1").css("display","none");
+                $("#gameSubType2").css("display","none");
+                $("#gameSubType3").css("display","none");
+            }
+        })
+    })
+</script>
+<!--点击时间的选择-->
+<script type="text/javascript">
+    $(function () {
+        $("input[name='repeatType']").click(function () {
+            var val = $(this).val();
+            if(val=="2"){
+                $("#shijian").css("display","block");
+                $("#shijian1").css("display","none");
+            }
+            else if(val=="1"){
+                $("#shijian1").css("display","block");
+                $("#shijian").css("display","none");
+            }
+        })
+    })
+</script>
+<!--点击确定保存信息-->
+<script type="text/javascript">
+    $(function () {
+        //$repeatType,$rewardType,$rewardNum,$order,$gameTypeLimit,$matchNameLimit,$conditionType,$conditionNum,$gameSubType
+        $("#sure").click(function () {
+            var url = "{:url('addSave')}";
+            var repeatType = $("input[name='repeatType']:checked").val();//alert(repeatType);
+            var rewardType = $("#rewardType").val();
+            var rewardNum = $("#rewardNum").val();
+            var order = $("#order").val();
+            var gameTypeLimit = $("#gameTypeLimit").val();
+            var matchNameLimit = $("#matchNameLimit").val();
+            var conditionType = $("#conditionType").val();
+            var conditionNum = $("#conditionNum").val();
+            var time = $(".time").val();//为一次性任务
+            var time1 = $(".time1").val();//为重复任务
+            var gameSubType = $("#gameSubType").val();
+            var gameSubType1 = $("#gameSubType1").val();
+            var gameSubType2 = $("#gameSubType2").val();
+            var gameSubType3 = $("#gameSubType3").val();
+            var gameSubType4 = $("#gameSubType4").val();
+            var gameSubType5 = $("#gameSubType5").val();
+            //判断任务字段
+            var type = $("input[name='repeatType']").val();
+            if(order==""){
+                layer.msg('<span style="margin-left: 30px;">任务顺序不能为空,请必须输入任务顺序!</span>', {icon: 2,time: 2500});
+            }
+            else if(rewardNum==""){
+                layer.msg('<span style="margin-left: 30px;">奖励数量不能为空,请必须输入奖励数量!</span>', {icon: 2,time: 2500});
+            }
+            else if(conditionNum==""){
+                layer.msg('<span style="margin-left: 30px;">对局数量不能为空,请必须输入对局数量!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                if(gameTypeLimit=="0"){
+                    if(repeatType=="2"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                    else if(repeatType=="1"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time1,gameSubType:gameSubType},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                }
+                else if(gameTypeLimit=="1"){
+                    if(repeatType=="2"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType1},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                    else if(repeatType=="1"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time1,gameSubType:gameSubType1},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                }
+                else if(gameTypeLimit=="2"){
+                    if(repeatType=="2"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType2},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                    else if(repeatType=="1"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time1,gameSubType:gameSubType2},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                }
+                else if(gameTypeLimit=="3"){
+                    if(repeatType=="2"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType3},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                    else if(repeatType=="1"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time1,gameSubType:gameSubType3},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                }
+                else if(gameTypeLimit=="4"){
+                    if(repeatType=="2"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType4},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                    else if(repeatType=="1"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time1,gameSubType:gameSubType4},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                }
+                else if(gameTypeLimit=="5"){
+                    if(repeatType=="2"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType5},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                    else if(repeatType=="1"){
+                        $.ajax({
+                            type:'post',
+                            url:url,
+                            data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time1,gameSubType:gameSubType5},
+                            dataType:'json',
+                            success:function (data) {
+                                layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                                console.log(data);
+                                console.log("success");
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            },
+                            error:function () {
+                                layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                                console.log("fail");
+                            }
+                        })
+                    }
+                }
+            }
+        })
+    })
+</script>
+<script type="text/javascript">
+    $(function () {
+        //$repeatType,$rewardType,$rewardNum,$order,$gameTypeLimit,$matchNameLimit,$conditionType,$conditionNum,$gameSubType
+        $("#sure1").click(function () {
+            var url = "{:url('addSave')}";
+            var repeatType = $("input[name='repeatType']:checked").val();//alert(repeatType);
+            var rewardType = $("#rewardType").val();
+            var rewardNum = $("#rewardNum").val();
+            var order = $("#order").val();
+            var gameTypeLimit = $("#gameTypeLimit").val();
+            var matchNameLimit = $("#matchNameLimit").val();
+            var conditionType = $("#conditionType").val();
+            var conditionNum = $("#conditionNum").val();
+            var time = $(".time").val();
+            var gameSubType = $("#gameSubType").val();
+            if(order==""){
+                layer.msg('<span style="margin-left: 30px;">任务顺序不能为空,请必须输入任务顺序!</span>', {icon: 2,time: 2500});
+            }
+            else if(rewardNum==""){
+                layer.msg('<span style="margin-left: 30px;">奖励数量不能为空,请必须输入奖励数量!</span>', {icon: 2,time: 2500});
+            }
+            else if(conditionNum==""){
+                layer.msg('<span style="margin-left: 30px;">对局数量不能为空,请必须输入对局数量!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                $.ajax({
+                    type:'post',
+                    url:url,
+                    data:{repeatType:repeatType,rewardType:rewardType,rewardNum:rewardNum,order:order,gameTypeLimit:gameTypeLimit,matchNameLimit:matchNameLimit,conditionType:conditionType,conditionNum:conditionNum,time:time,gameSubType:gameSubType},
+                    dataType:'json',
+                    success:function (data) {
+                        layer.msg('<span style="margin-left: 30px;">成功!</span>', {icon: 1,time: 10000});
+                        console.log(data);
+                        console.log("success");
+                        parent.layer.closeAll();
+                        parent.location.href="{:url('index')}";
+                    },
+                    error:function () {
+                        layer.msg('<span style="margin-left: 30px;">失败!</span>', {icon: 2,time: 10000});
+                        console.log("fail");
+                    }
+                })
+            }
+        })
+    })
+</script>

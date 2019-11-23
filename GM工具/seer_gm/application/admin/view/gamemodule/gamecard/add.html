@@ -1,0 +1,84 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label for="number" class="control-label col-xs-12 col-sm-2">游戏卡张数:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" name="playback_sequence" placeholder="请输入数字大于0且小于2万的正整数" class="form-control" id="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="number" class="control-label col-xs-12 col-sm-2">批次号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" name="playback_sequence" placeholder="请输正整数的批次号" class="form-control" id="batch">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="button" class="btn btn-success btn-embossed" id="sure">生成</button>
+            <button type="button" class="btn btn-default btn-embossed" id="dels">取消</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/assets/libs/jcrop/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#ribbon").css("display","none");
+    })
+</script>
+<!--点击弹窗中的取消-->
+<script type="text/javascript">
+    $(function () {
+        $("#dels").click(function () {
+            parent.layer.closeAll();
+        })
+    })
+</script>
+<!--点击确定保存信息-->
+<script type="text/javascript">
+    $(function () {
+        $("#sure").click(function () {
+            var url = "{:url('addSave')}";
+            var number = $("#number").val();
+            var batch = $("#batch").val();
+            if(number==""){
+                layer.msg('<span style="margin-left: 30px;">游戏卡张数不能为空,请必须输入游戏卡张数!</span>', {icon: 2,time: 2500});
+            }
+            else if(batch==""){
+                layer.msg('<span style="margin-left: 30px;">批次号不能为空,请必须输入批次号!</span>', {icon: 2,time: 2500});
+            }
+            else {
+                if(parseInt(number)>parseInt(20000) || parseInt(number)<=parseInt(0)){
+                    layer.msg('<span style="margin-left: 30px;">游戏卡张数必须是大于0且不大于20000的正整数!</span>', {icon: 2,time: 2500});
+                }
+                else if(parseInt(batch)<=parseInt(0)){
+                    layer.msg('<span style="margin-left: 30px;">游戏卡批次号必须大于0!</span>', {icon: 2,time: 2500});
+                }
+                else {
+                    //layer.msg('<span style="margin-left: 30px;">输入正确!</span>', {icon: 1,time: 2500});
+                    $.ajax({
+                        type:'post',
+                        url:url,
+                        data:{number:number,batch:batch},
+                        dataType:'json',
+                        success:function (data) {
+
+                            var status = data.status;
+                            if(status=="1"){
+                                layer.msg('<span style="margin-left: 30px;">生成游戏卡成功!</span>', {icon: 1,time: 2500});
+                                parent.layer.closeAll();
+                                parent.location.href="{:url('index')}";
+                            }
+                            else if(status=="-1"){
+                                layer.msg('<span style="margin-left: 30px;">生成游戏卡失败,原因是生成了含有相同的游戏卡号,请重新点击生成按钮!</span>', {icon: 2,time: 2500});
+                            }
+                            console.log(data);
+                        },
+                        error:function () {
+                            //console.log("fail");
+                        }
+                    })
+                }
+            }
+        })
+    })
+</script>
